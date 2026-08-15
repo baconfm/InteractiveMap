@@ -262,9 +262,9 @@ markerDetailsClose.addEventListener("click", () => {
   markerDetails.hidden = true;
 });
 
-hideDeekToggle.addEventListener("click", () => setHideDeekPanel(hideDeekPanel.hidden));
-hideDeekClose.addEventListener("click", () => setHideDeekPanel(false));
-hideDeekStart.addEventListener("click", startHideDeekRound);
+hideDeekToggle?.addEventListener("click", () => setHideDeekPanel(hideDeekPanel.hidden));
+hideDeekClose?.addEventListener("click", () => setHideDeekPanel(false));
+hideDeekStart?.addEventListener("click", startHideDeekRound);
 
 clusterSettingsToggle.addEventListener("click", () => {
   const willOpen = clusterSettings.hidden;
@@ -311,11 +311,27 @@ engine.onCameraChange = ({ zoom }) => {
 
 async function loadPublishedMarkers() {
   try {
-    const publishedMapUrl = PUBLISHED_MAP_DATA_URL || assetUrl("assets/games/days-gone/published-map.json");
-    const response = await fetch(publishedMapUrl, { cache: "no-store" });
-    if (!response.ok) throw new Error("No published snapshot found.");
-    const snapshot = await response.json();
-    const publishedLootMarkers = snapshot.publishedLootMarkers;
+    let publishedLootMarkers;
+    if (PUBLISHED_MAP_DATA_URL) {
+      const response = await fetch(PUBLISHED_MAP_DATA_URL, { cache: "no-store" });
+      if (!response.ok) throw new Error("No published snapshot found.");
+      publishedLootMarkers = (await response.json()).publishedLootMarkers;
+    } else {
+      const manifestResponse = await fetch(assetUrl("assets/games/days-gone/regions/manifest.json"), { cache: "no-store" });
+      if (manifestResponse.ok) {
+        const manifest = await manifestResponse.json();
+        const regionSnapshots = await Promise.all(manifest.regions.map(async (region) => {
+          const response = await fetch(assetUrl(region.path), { cache: "no-store" });
+          if (!response.ok) throw new Error(`Could not load ${region.label}.`);
+          return response.json();
+        }));
+        publishedLootMarkers = regionSnapshots.flatMap((snapshot) => snapshot.markers ?? []);
+      } else {
+        const response = await fetch(assetUrl("assets/games/days-gone/published-map.json"), { cache: "no-store" });
+        if (!response.ok) throw new Error("No published snapshot found.");
+        publishedLootMarkers = (await response.json()).publishedLootMarkers;
+      }
+    }
     if (!Array.isArray(publishedLootMarkers)) throw new Error("This snapshot predates the cleaned public export. Save a new backup from the editor.");
     routeLayer.render([]);
     window.queueMicrotask(() => {

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111714" />
+    <meta name="description" content="Hide and Deek: a Days Gone map location challenge." />
+    <title>Hide &amp; Deek | Days Gone</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="hide-deek-page">
+    <main class="map-app">
+      <header class="top-bar">
+        <div class="brand"><span class="brand__eyebrow">Map Challenge</span><span class="brand__title">Hide &amp; Deek</span></div>
+        <a class="editor-toggle" href="../readonly/">Back to loot map</a>
+      </header>
+      <section id="hide-deek-intro" class="hide-deek-intro" aria-live="polite">
+        <div class="hide-deek-intro__card">
+          <span class="map-hud__label">Round starts now</span>
+          <h1>Where is this?</h1>
+          <img id="hide-deek-photo" alt="Mystery Days Gone loot location" />
+          <p id="hide-deek-thinking">Think time: 0:30</p>
+          <p>When the timer ends, find the location on the map. Go early whenever you are ready.</p>
+          <button id="hide-deek-go" type="button">Go to map</button>
+        </div>
+      </section>
+      <section id="map-shell" class="map-shell" aria-label="Hide and Deek map" hidden>
+        <div id="map-viewport" class="map-viewport" tabindex="0" aria-label="Click the map to make your guess"><div id="map-canvas" class="map-canvas"></div></div>
+        <aside class="map-hud hide-deek-hud"><div class="map-hud__section"><span class="map-hud__label">Guess timer</span><strong id="hide-deek-round-timer">5:00</strong></div></aside>
+        <aside class="hide-deek-game-panel"><span class="map-hud__label">Hide &amp; Deek</span><strong id="hide-deek-game-title">Find the photo location</strong><p id="hide-deek-game-message">Click the map to lock in your guess.</p><button id="hide-deek-next" type="button" hidden>Next round</button></aside>
+        <nav class="map-controls" aria-label="Map navigation"><button id="zoom-in" class="map-control" type="button" aria-label="Zoom in">+</button><button id="zoom-out" class="map-control" type="button" aria-label="Zoom out">−</button><button id="reset-view" class="map-control map-control--reset" type="button" aria-label="Reset map view">⌖</button></nav>
+      </section>
+    </main>
+    <script type="module" src="../src/hide-deek.js"></script>
+  </body>
+</html>
