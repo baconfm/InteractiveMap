@@ -9,7 +9,7 @@ const tileTemplateUrl = (template) => assetUrl(template.replace("{x}", "tile-col
   .replace("tile-column-placeholder", "{x}").replace("tile-row-placeholder", "{y}");
 const map = { ...daysGoneMap, background: { ...daysGoneMap.background, image: assetUrl(daysGoneMap.background.image) }, tiles: { ...daysGoneMap.tiles, template: tileTemplateUrl(daysGoneMap.tiles.template) } };
 const intro = document.querySelector("#hide-deek-intro");
-const photo = document.querySelector("#hide-deek-photo");
+const media = document.querySelector("#hide-deek-media");
 const thinking = document.querySelector("#hide-deek-thinking");
 const goButton = document.querySelector("#hide-deek-go");
 const mapShell = document.querySelector("#map-shell");
@@ -30,6 +30,39 @@ function formatTime(seconds) {
   return `${Math.floor(value / 60)}:${String(value % 60).padStart(2, "0")}`;
 }
 
+function youtubeEmbedUrl(value) {
+  try {
+    const url = new URL(value);
+    const isYouTube = /(^|\.)youtube\.com$/.test(url.hostname) || url.hostname === "youtu.be";
+    if (!isYouTube) return null;
+    const videoId = url.hostname === "youtu.be"
+      ? url.pathname.slice(1)
+      : url.pathname.split("/").filter(Boolean).at(-1) || url.searchParams.get("v");
+    return videoId ? `https://www.youtube-nocookie.com/embed/${videoId}?playsinline=1&rel=0&modestbranding=1` : null;
+  } catch {
+    return null;
+  }
+}
+
+function renderRoundMedia(value) {
+  const embedUrl = youtubeEmbedUrl(value);
+  if (embedUrl) {
+    const player = document.createElement("iframe");
+    player.src = embedUrl;
+    player.title = "Mystery Days Gone location video";
+    player.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    player.allowFullscreen = true;
+    media.replaceChildren(player);
+    return;
+  }
+
+  const image = document.createElement("img");
+  image.src = value;
+  image.alt = "Mystery Days Gone loot location";
+  image.onerror = () => { thinking.textContent = "This round media could not be loaded. Start another round."; };
+  media.replaceChildren(image);
+}
+
 async function loadCandidates() {
   const manifestResponse = await fetch(assetUrl("assets/games/days-gone/regions/manifest.json"), { cache: "no-store" });
   if (!manifestResponse.ok) throw new Error("No map regions have been published yet.");
@@ -44,8 +77,7 @@ function beginThinking() {
   clearInterval(roundInterval);
   resultLayer.render([]);
   round = { ...candidates[Math.floor(Math.random() * candidates.length)], phase: "thinking", thinkingEndsAt: Date.now() + 30_000 };
-  photo.src = round.image;
-  photo.onerror = () => { gameMessage.textContent = "This photo could not be loaded. Start another round."; };
+  renderRoundMedia(round.image);
   intro.hidden = false;
   mapShell.hidden = true;
   nextButton.hidden = true;
