@@ -25,8 +25,15 @@ const aliases = new Map([
   ["highway 97", "Highway 97"],
 ]);
 
+const regionForPosition = (position) => {
+  if (position && position.x <= 2320 && position.y <= 1940) return "Belknap";
+  return null;
+};
+
 const normalizeMarker = (marker) => {
-  const region = aliases.get(String(marker.region ?? "").trim().toLowerCase()) ?? "Cascades";
+  const region = regionForPosition(marker.position)
+    ?? aliases.get(String(marker.region ?? "").trim().toLowerCase())
+    ?? "Cascades";
   return { ...marker, region };
 };
 const dedupeMarkers = (markers) => {
