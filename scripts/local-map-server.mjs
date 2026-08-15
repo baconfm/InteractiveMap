@@ -5,6 +5,14 @@ import { dirname, extname, join, normalize, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const dedupeMarkers = (markers) => {
+  const markerIds = new Set();
+  return markers.filter((marker) => {
+    if (!marker?.id || markerIds.has(marker.id)) return false;
+    markerIds.add(marker.id);
+    return true;
+  });
+};
 const port = 8173;
 const contentTypes = {
   ".css": "text/css; charset=utf-8", ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
@@ -32,9 +40,16 @@ async function publish(request, response) {
     if (!Array.isArray(snapshot.publishedLootMarkers) || !Array.isArray(snapshot.allLootMarkers)) {
       throw new Error("The editor did not provide valid loot marker data.");
     }
+    const publishedLootMarkers = dedupeMarkers(snapshot.publishedLootMarkers);
+    const cleanedSnapshot = {
+      ...snapshot,
+      publishedLootMarkers,
+      allLootMarkers: publishedLootMarkers,
+      lootMarkers: publishedLootMarkers,
+    };
     const dataPath = join(projectRoot, "assets/games/days-gone/published-map.json");
     await mkdir(dirname(dataPath), { recursive: true });
-    await writeFile(dataPath, `${JSON.stringify(snapshot, null, 2)}\n`);
+    await writeFile(dataPath, `${JSON.stringify(cleanedSnapshot, null, 2)}\n`);
     run(process.execPath, ["scripts/sync-cloudflare-published-map.mjs"]);
     run("git", ["add", "assets/games/days-gone/published-map.json", "assets/games/days-gone/regions", "cloudflare-upload/assets/games/days-gone/published-map.json", "cloudflare-upload/assets/games/days-gone/regions"]);
     try {
@@ -44,7 +59,7 @@ async function publish(request, response) {
       run("git", ["commit", "-m", "Update Days Gone regional map data"]);
       run("git", ["push", "origin", "main"]);
     }
-    send(response, 200, JSON.stringify({ markerCount: snapshot.publishedLootMarkers.length }));
+    send(response, 200, JSON.stringify({ markerCount: publishedLootMarkers.length }));
   } catch (error) {
     send(response, 500, JSON.stringify({ error: error.stderr?.trim() || error.message || "Could not publish map data." }));
   }

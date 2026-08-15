@@ -29,9 +29,19 @@ const normalizeMarker = (marker) => {
   const region = aliases.get(String(marker.region ?? "").trim().toLowerCase()) ?? "Cascades";
   return { ...marker, region };
 };
+const dedupeMarkers = (markers) => {
+  const markerIds = new Set();
+  return markers.filter((marker) => {
+    if (!marker?.id || markerIds.has(marker.id)) return false;
+    markerIds.add(marker.id);
+    return true;
+  });
+};
 const snapshot = JSON.parse(await readFile(sourcePath, "utf8"));
-const allMarkers = (Array.isArray(snapshot.allLootMarkers) ? snapshot.allLootMarkers : snapshot.publishedLootMarkers ?? [])
-  .map(normalizeMarker);
+const allMarkers = dedupeMarkers(
+  (Array.isArray(snapshot.allLootMarkers) ? snapshot.allLootMarkers : snapshot.publishedLootMarkers ?? [])
+    .map(normalizeMarker),
+);
 const nextSnapshot = {
   ...snapshot,
   publishedLootMarkers: allMarkers,

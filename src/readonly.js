@@ -53,6 +53,15 @@ let visibleLegendItems = new Set();
 let spawnFilter = "all";
 let hideDeekRound;
 
+function dedupeMarkers(markers) {
+  const markerIds = new Set();
+  return markers.filter((marker) => {
+    if (!marker?.id || markerIds.has(marker.id)) return false;
+    markerIds.add(marker.id);
+    return true;
+  });
+}
+
 const LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
   { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Beer Bottle", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
@@ -332,6 +341,7 @@ async function loadPublishedMarkers() {
       }
     }
     if (!Array.isArray(publishedLootMarkers)) throw new Error("This snapshot predates the cleaned public export. Save a new backup from the editor.");
+    publishedLootMarkers = dedupeMarkers(publishedLootMarkers);
     routeLayer.render([]);
     window.queueMicrotask(() => {
       activePublishedLootMarkers = publishedLootMarkers;
