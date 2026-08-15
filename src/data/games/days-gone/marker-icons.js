@@ -42,6 +42,11 @@ export function renderDaysGoneMarkerIcon(marker) {
   if (marker.type === "loot_cluster") {
     return `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#f0be5d" stroke="#182018" stroke-width="2.5"/><path d="m9 12 7-4 7 4-7 4-7-4Zm0 5 7 4 7-4m-14 5 7 4 7-4" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><text x="16" y="20" fill="#182018" font-family="Arial,sans-serif" font-size="9" font-weight="800" text-anchor="middle">${marker.clusterCount}</text></svg>`;
   }
+  if (marker.type === "loot_stack") {
+    const hasBuiltInCount = marker.title === "Bottle" || marker.title === "Beer Bottle";
+    const countBadge = hasBuiltInCount ? "" : `<b class="loot-stack-icon__count">${marker.stackCount}</b>`;
+    return `<span class="loot-stack-icon">${renderLootItemIcon(marker.title, marker.stackCount)}${countBadge}</span>`;
+  }
   if (marker.icon === "mushroom") return mushroomIcon();
   if (marker.icon === "plant") return plantIcon();
   if (!marker.icon && marker.type === "collectible_mushroom") return mushroomIcon();

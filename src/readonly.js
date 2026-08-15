@@ -143,6 +143,8 @@ const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), publicMap
   renderIcon: renderDaysGoneMarkerIcon,
   clusterBelowZoom: APP_CONFIG.camera.maxZoom * clusterSplitPercent,
   clusterRadius: 54,
+  combineMatchingBelowZoom: APP_CONFIG.camera.maxZoom,
+  combineMatchingRadius: 34,
 });
 clusterZoomInput.value = String(Math.round(clusterSplitPercent * 100));
 clusterZoomValue.textContent = `${clusterZoomInput.value}%`;
