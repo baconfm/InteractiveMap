@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T10:34:35.188Z",
+  "savedAt": "2026-08-15T10:44:28.046Z",
   "routeMarkers": [
     {
       "id": "route-route-goal-ipca-tech-01-little-bear-lake-nero-checkpoint-1786719875200",
@@ -7062,8 +7062,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2538,
-        "y": 1641
+        "x": 2543.8328793939827,
+        "y": 1642.342695369929
       }
     },
     {
@@ -13896,8 +13896,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2538,
-        "y": 1641
+        "x": 2543.8328793939827,
+        "y": 1642.342695369929
       }
     },
     {
@@ -41685,8 +41685,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2538,
-        "y": 1641
+        "x": 2543.8328793939827,
+        "y": 1642.342695369929
       }
     },
     {
