@@ -151,12 +151,12 @@ button, output { font: inherit; }
 .save-state { color: #a8caa4; font-size: 0.68rem; white-space: nowrap; }
 .editor-toggle { padding: 9px 12px; font-size: 0.75rem; font-weight: 700; }
 .editor-toggle:hover, .editor-toggle.is-active { border-color: #d4a83e; background: #334235; }
-.map-marker { position: absolute; z-index: 4; display: grid; place-items: center; width: 26px; height: 26px; transform: translate(calc(-50% + var(--map-marker-offset-x, 0px)), calc(-50% + var(--map-marker-offset-y, 0px))) scale(var(--map-marker-scale, 1)); transform-origin: center; filter: drop-shadow(0 1px 3px rgb(0 0 0 / 90%)); pointer-events: none; }
+.map-marker { position: absolute; z-index: 4; display: grid; place-items: center; width: 34px; height: 34px; transform: translate(calc(-50% + var(--map-marker-offset-x, 0px)), calc(-50% + var(--map-marker-offset-y, 0px))) scale(var(--map-marker-scale, 1)); transform-origin: center; filter: drop-shadow(0 1px 3px rgb(0 0 0 / 90%)); pointer-events: none; }
 .map-marker--editable { cursor: grab; pointer-events: auto; }
 .map-marker--editable:active { cursor: grabbing; }
 .map-marker--interactive { cursor: pointer; pointer-events: auto; }
 .map-marker--interactive:focus-visible { outline: 2px solid #f0be5d; outline-offset: 3px; border-radius: 50%; }
-.map-marker--cluster { width: 32px; height: 32px; }
+.map-marker--cluster { width: 40px; height: 40px; }
 .loot-stack-icon { position: relative; display: grid; width: 100%; height: 100%; place-items: center; }
 .loot-stack-icon__count { position: absolute; right: -5px; bottom: -5px; min-width: 14px; padding: 1px 3px; color: #182018; background: #f0be5d; border: 1px solid #182018; border-radius: 9px; font: 800 9px/1 Arial, sans-serif; text-align: center; }
 .one-time-spawn-icon { position: relative; display: grid; width: 100%; height: 100%; place-items: center; }
@@ -178,7 +178,7 @@ button, output { font: inherit; }
 .add-hotbar__slot span { overflow: hidden; color: inherit; font-size: 0.57rem; line-height: 1.15; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
 .loot-editor-panel { top: 104px; right: 400px; }
 .map-marker svg { width: 100%; height: 100%; overflow: visible; }
-.map-marker img { width: 24px; height: 24px; object-fit: contain; }
+.map-marker img { width: 32px; height: 32px; object-fit: contain; }
 .map-tile { position: absolute; display: block; object-fit: fill; }
 
 .editor-panel { position: absolute; z-index: 5; top: 104px; right: 32px; width: min(350px, calc(100vw - 48px)); padding: 18px; background: rgb(10 15 12 / 94%); border: 1px solid rgb(237 240 222 / 18%); border-radius: 3px; box-shadow: 0 18px 48px rgb(0 0 0 / 45%); backdrop-filter: blur(10px); }

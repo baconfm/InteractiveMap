@@ -7,7 +7,7 @@ export const daysGoneMap = {
     alt: "Days Gone world map",
   },
   tiles: {
-    template: "assets/games/days-gone/map/tiles/{x}-{y}.webp",
+    template: "assets/games/days-gone/map/tiles-retina/{x}-{y}.webp",
     logicalTileSize: 512,
     columns: 9,
     rows: 13,

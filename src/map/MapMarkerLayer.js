@@ -163,7 +163,7 @@ export class MapMarkerLayer {
   }
 
   layoutMarkers(markers) {
-    const minimumSpacing = 27;
+    const minimumSpacing = 35;
     const placed = [];
 
     return [...markers].sort((first, second) => first.id.localeCompare(second.id)).map((marker) => {
