@@ -44,7 +44,6 @@ const hideDeekPhoto = document.querySelector("#hide-deek-photo");
 const hideDeekResult = document.querySelector("#hide-deek-result");
 const hideDeekStart = document.querySelector("#hide-deek-start");
 const DEFAULT_CLUSTER_SPLIT_PERCENT = 0.95;
-const DEFAULT_PUBLIC_ZOOM_PERCENT = 0.8;
 const savedClusterSplitPercent = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v2"));
 const clusterSplitPercent = Number.isFinite(savedClusterSplitPercent) && savedClusterSplitPercent >= 0.15 && savedClusterSplitPercent <= 1
   ? savedClusterSplitPercent
@@ -350,5 +349,4 @@ async function loadPublishedMarkers() {
 
 bindControls(engine);
 engine.mount();
-engine.zoomBy((APP_CONFIG.camera.maxZoom * DEFAULT_PUBLIC_ZOOM_PERCENT) / engine.camera.zoom);
 loadPublishedMarkers();
