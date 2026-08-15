@@ -3109,21 +3109,6 @@
       }
     },
     {
-      "id": "manual-loot-1786738353634",
-      "type": "loot_item",
-      "title": "Kerosene",
-      "location": "Manual placement",
-      "region": "Cascades",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "position": {
-        "x": 4269,
-        "y": 1744.258140068298
-      }
-    },
-    {
       "id": "manual-loot-1786738356796",
       "type": "loot_item",
       "title": "Scrap",
@@ -26841,9 +26826,44 @@
       }
     },
     {
-      "id": "manual-loot-1786823654455",
-      "type": "collectible_cairn",
-      "title": "Cairn",
+      "id": "manual-loot-1786826075192",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1421.1198678350775,
+        "y": 1580.5960481463878
+      }
+    },
+    {
+      "id": "manual-loot-1786826166218",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1262,
+        "y": 1462
+      },
+      "photos": [
+        "/assets/photos/05.jpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786826256272",
+      "type": "loot_item",
+      "title": "Can",
       "location": "Manual placement",
       "region": "Cascades",
       "grid": "Manual",
@@ -26852,8 +26872,25 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1214,
-        "y": 1534
+        "x": 1113,
+        "y": 1525
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786826259781",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1103,
+        "y": 1513
       },
       "photos": []
     }
