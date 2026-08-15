@@ -1,0 +1,8 @@
+/assets/games/days-gone/map/tiles/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/games/days-gone/map/*.webp
+  Cache-Control: public, max-age=86400
+
+/assets/games/days-gone/published-map.json
+  Cache-Control: public, max-age=60
