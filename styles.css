@@ -159,6 +159,7 @@ button, output { font: inherit; }
 .hide-deek-pin--guess { background: #e3b746; }
 .hide-deek-pin--answer { background: #78ba73; }
 .hide-deek-intro { min-height: 100vh; padding: 110px 24px 32px; display: grid; place-items: center; background: radial-gradient(circle at 50% 15%, #28362a 0, #111714 52%); }
+.hide-deek-intro[hidden], .map-shell[hidden] { display: none; }
 .hide-deek-intro__card { display: grid; gap: 12px; width: min(460px, 100%); padding: 18px; color: #edf0de; background: rgb(10 15 12 / 96%); border: 1px solid rgb(227 183 70 / 45%); border-radius: 4px; box-shadow: 0 20px 50px rgb(0 0 0 / 50%); }
 .hide-deek-intro__card h1 { margin: 0; font-size: 1.35rem; }
 .hide-deek-intro__card p { margin: 0; color: #cfd7c5; line-height: 1.45; }
