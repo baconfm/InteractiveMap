@@ -35,6 +35,7 @@ const ITEM_BADGES = {
   "Prox Mine": ["PM", "#a38d59"],
   "Prox Bomb": ["PX", "#ba6658"],
   Rag: ["RA", "#ded4ac"],
+  Random: ["?", "#8b78b8"],
   SAF: ["SAF", "#6f8fa8"],
   "Saw Blade": ["SB", "#afb5ba"],
   "Sawed Off": ["SO", "#7f695b"],
@@ -105,6 +106,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "SAF") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#6f8fa8" stroke="#182018" stroke-width="2"/><path d="M7 16h11l4-3 1 2-4 4H7v-3Zm4-3h6v3h-6z" fill="#edf3f0" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/></svg>';
+  }
+  if (itemName === "Random") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#8b78b8" stroke="#182018" stroke-width="2"/><path d="M10.5 11.5a3.5 3.5 0 1 1 5.2 3l-1.7 1v1.5m0 4h.01" fill="none" stroke="#f5f0dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
   if (itemName === "Mushroom") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#c98e66" stroke="#182018" stroke-width="2"/><path d="M8 14a6 6 0 0 1 12 0H8Zm4 0h4l1 7h-6l1-7Z" fill="#f4e8cf" stroke="#182018" stroke-linejoin="round" stroke-width="1.5"/></svg>';

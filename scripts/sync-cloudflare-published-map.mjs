@@ -1,4 +1,4 @@
-import { copyFile, readFile } from "node:fs/promises";
+import { copyFile, cp, readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -6,6 +6,8 @@ const scriptDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(scriptDirectory, "..");
 const source = resolve(projectRoot, "assets/games/days-gone/published-map.json");
 const destination = resolve(projectRoot, "cloudflare-upload/assets/games/days-gone/published-map.json");
+const photosSource = resolve(projectRoot, "assets/photos");
+const photosDestination = resolve(projectRoot, "cloudflare-upload/assets/photos");
 
 const snapshot = JSON.parse(await readFile(source, "utf8"));
 const markers = snapshot.publishedLootMarkers;
@@ -15,4 +17,5 @@ if (!Array.isArray(markers)) {
 }
 
 await copyFile(source, destination);
-console.log(`Synced ${markers.length} published markers into the Cloudflare upload bundle.`);
+await cp(photosSource, photosDestination, { recursive: true, force: true });
+console.log(`Synced ${markers.length} published markers and photo assets into the Cloudflare upload bundle.`);

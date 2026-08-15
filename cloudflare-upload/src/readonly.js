@@ -35,6 +35,14 @@ const markerDetailsIcon = document.querySelector("#marker-details-icon");
 const markerDetailsType = document.querySelector("#marker-details-type");
 const markerDetailsTitle = document.querySelector("#marker-details-title");
 const markerDetailsDescription = document.querySelector("#marker-details-description");
+const markerDetailsPhotos = document.querySelector("#marker-details-photos");
+const hideDeekToggle = document.querySelector("#hide-deek-toggle");
+const hideDeekPanel = document.querySelector("#hide-deek-panel");
+const hideDeekClose = document.querySelector("#hide-deek-close");
+const hideDeekMessage = document.querySelector("#hide-deek-message");
+const hideDeekPhoto = document.querySelector("#hide-deek-photo");
+const hideDeekResult = document.querySelector("#hide-deek-result");
+const hideDeekStart = document.querySelector("#hide-deek-start");
 const DEFAULT_CLUSTER_SPLIT_PERCENT = 0.95;
 const DEFAULT_PUBLIC_ZOOM_PERCENT = 0.8;
 const savedClusterSplitPercent = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v2"));
@@ -44,6 +52,7 @@ const clusterSplitPercent = Number.isFinite(savedClusterSplitPercent) && savedCl
 let activePublishedLootMarkers = [];
 let visibleLegendItems = new Set();
 let spawnFilter = "all";
+let hideDeekRound;
 
 const LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
@@ -51,6 +60,7 @@ const LEGEND_GROUPS = [
   { id: "throwables", label: "Throwables", items: ["Attractor", "Attractor Bomb", "Car Alarm", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Bomb", "Prox Mine", "Smoke Bomb"] },
   { id: "weapons", label: "Melee weapons", items: ["Baseball Bat", "Fire Axe", "Hatchet", "Machete", "Pickaxe", "Pipe", "Sledgehammer", "Superior Axe"] },
   { id: "firearms", label: "Firearms", items: ["SAF", "Sawed Off"] },
+  { id: "misc", label: "Miscellaneous", items: ["Random"] },
   { id: "plants", label: "Plants & mushrooms", items: ["Cedar Sapling", "Collectible Plant", "Mushroom"] },
   { id: "collectibles", label: "Collectibles", items: ["Cairn"] },
 ];
@@ -153,8 +163,79 @@ function showMarkerDetails(marker) {
   markerDetailsType.textContent = group ? `${group.label} · ${spawnLabel}` : spawnLabel;
   markerDetailsTitle.textContent = marker.title;
   markerDetailsDescription.textContent = marker.note || marker.grid || "No additional location notes yet.";
+  const photos = Array.isArray(marker.photos) ? marker.photos : [];
+  markerDetailsPhotos.replaceChildren(...photos.map((url, index) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.title = `Open photo ${index + 1}`;
+    const image = document.createElement("img");
+    image.src = url;
+    image.alt = `${marker.title} location photo ${index + 1}`;
+    image.loading = "lazy";
+    link.append(image);
+    return link;
+  }));
+  markerDetailsPhotos.hidden = photos.length === 0;
   markerDetails.hidden = false;
   lootLayer.select(marker.id);
+}
+
+function renderHideDeekPins() {
+  if (!hideDeekRound?.guess) {
+    hideDeekLayer.render([]);
+    return;
+  }
+  hideDeekLayer.render([
+    { id: "hide-deek-guess", title: "Your guess", position: hideDeekRound.guess, kind: "guess" },
+    { id: "hide-deek-answer", title: "Correct location", position: hideDeekRound.marker.position, kind: "answer" },
+  ]);
+}
+
+function setHideDeekPanel(open) {
+  hideDeekPanel.hidden = !open;
+  hideDeekToggle.setAttribute("aria-expanded", String(open));
+  hideDeekToggle.classList.toggle("is-active", open);
+}
+
+function photoCandidates() {
+  return activePublishedLootMarkers.flatMap((marker) => (Array.isArray(marker.photos) ? marker.photos : [])
+    .filter((photo) => typeof photo === "string" && photo.length)
+    .map((photo) => ({ marker, photo })));
+}
+
+function startHideDeekRound() {
+  const candidates = photoCandidates();
+  if (!candidates.length) {
+    hideDeekMessage.textContent = "No marker photos have been published yet.";
+    hideDeekPhoto.hidden = true;
+    hideDeekStart.disabled = true;
+    return;
+  }
+  const round = candidates[Math.floor(Math.random() * candidates.length)];
+  hideDeekRound = { ...round, status: "guessing" };
+  hideDeekPhoto.src = round.photo;
+  hideDeekPhoto.hidden = false;
+  hideDeekResult.hidden = true;
+  hideDeekMessage.textContent = "Where is this? Click your best guess on the map.";
+  hideDeekStart.textContent = "New round";
+  hideDeekStart.disabled = false;
+  markerDetails.hidden = true;
+  renderHideDeekPins();
+}
+
+function resolveHideDeekGuess(position) {
+  if (hideDeekRound?.status !== "guessing") return;
+  hideDeekRound = { ...hideDeekRound, guess: position, status: "answered" };
+  const distance = Math.round(Math.hypot(
+    position.x - hideDeekRound.marker.position.x,
+    position.y - hideDeekRound.marker.position.y,
+  ));
+  hideDeekMessage.textContent = "Answer revealed.";
+  hideDeekResult.textContent = `You were ${distance} map units away. Green is the location; gold is your guess.`;
+  hideDeekResult.hidden = false;
+  renderHideDeekPins();
 }
 
 legendToggle.addEventListener("click", () => {
@@ -181,6 +262,10 @@ markerDetailsClose.addEventListener("click", () => {
   markerDetails.hidden = true;
 });
 
+hideDeekToggle.addEventListener("click", () => setHideDeekPanel(hideDeekPanel.hidden));
+hideDeekClose.addEventListener("click", () => setHideDeekPanel(false));
+hideDeekStart.addEventListener("click", startHideDeekRound);
+
 clusterSettingsToggle.addEventListener("click", () => {
   const willOpen = clusterSettings.hidden;
   clusterSettings.hidden = !willOpen;
@@ -194,10 +279,14 @@ const engine = new MapEngine({
   onPointerMove: ({ x, y }) => {
     coordinateReadout.value = `X ${Math.round(x)} · Y ${Math.round(y)}`;
   },
+  onMapClick: resolveHideDeekGuess,
   onBackgroundLoad: () => emptyState.classList.add("is-hidden"),
 });
 if (window.matchMedia("(max-width: 640px)").matches) engine.onPointerMove = undefined;
 const routeLayer = new MapMarkerLayer(engine.layers.get("entities"), publicMap.size, { renderIcon: renderDaysGoneMarkerIcon });
+const hideDeekLayer = new MapMarkerLayer(engine.layers.get("regions"), publicMap.size, {
+  renderIcon: (marker) => `<span class="hide-deek-pin hide-deek-pin--${marker.kind}">${marker.kind === "guess" ? "●" : "✓"}</span>`,
+});
 const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), publicMap.size, {
   renderIcon: renderDaysGoneMarkerIcon,
   onMarkerClick: showMarkerDetails,
@@ -234,6 +323,7 @@ async function loadPublishedMarkers() {
       visibleLegendItems = new Set(publishedLootMarkers.map((marker) => marker.title));
       renderLegend();
       renderVisibleMarkers();
+      hideDeekStart.disabled = photoCandidates().length === 0;
     });
     lootLayer.render(publishedLootMarkers);
     status.textContent = `Published map · ${publishedLootMarkers.length} reviewed loot markers`;
