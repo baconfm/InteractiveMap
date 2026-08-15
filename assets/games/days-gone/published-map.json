@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T08:37:15.747Z",
+  "savedAt": "2026-08-15T09:40:07.977Z",
   "routeMarkers": [
     {
       "id": "route-route-goal-ipca-tech-01-little-bear-lake-nero-checkpoint-1786719875200",
@@ -4407,9 +4407,10 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3254.34954233826,
-        "y": 1589.8053231843244
-      }
+        "x": 3254,
+        "y": 1590
+      },
+      "oneTimeSpawn": true
     },
     {
       "id": "manual-loot-1786778426519",
@@ -6494,6 +6495,127 @@
       "position": {
         "x": 2966.6491969756835,
         "y": 1591.3304347848498
+      }
+    },
+    {
+      "id": "manual-loot-1786785645314",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.8673889471015,
+        "y": 2130.6331821833314
+      }
+    },
+    {
+      "id": "manual-loot-1786785651009",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2851,
+        "y": 2137
+      }
+    },
+    {
+      "id": "manual-loot-1786786029101",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2980.099321979151,
+        "y": 2152.5277400983678
+      }
+    },
+    {
+      "id": "manual-loot-1786786046006",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977.7430597722946,
+        "y": 2148.7438660853686
+      }
+    },
+    {
+      "id": "manual-loot-1786786050168",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977,
+        "y": 2146
+      },
+      "oneTimeSpawn": true
+    },
+    {
+      "id": "manual-loot-1786786140793",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.975190760481,
+        "y": 2051.75780248249
+      }
+    },
+    {
+      "id": "manual-loot-1786786144475",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3164,
+        "y": 2039
+      }
+    },
+    {
+      "id": "manual-loot-1786786158479",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3161.6251846569653,
+        "y": 2033.557805534248
       }
     }
   ],
@@ -10575,9 +10697,10 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3254.34954233826,
-        "y": 1589.8053231843244
-      }
+        "x": 3254,
+        "y": 1590
+      },
+      "oneTimeSpawn": true
     },
     {
       "id": "manual-loot-1786778426519",
@@ -12662,6 +12785,127 @@
       "position": {
         "x": 2966.6491969756835,
         "y": 1591.3304347848498
+      }
+    },
+    {
+      "id": "manual-loot-1786785645314",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.8673889471015,
+        "y": 2130.6331821833314
+      }
+    },
+    {
+      "id": "manual-loot-1786785651009",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2851,
+        "y": 2137
+      }
+    },
+    {
+      "id": "manual-loot-1786786029101",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2980.099321979151,
+        "y": 2152.5277400983678
+      }
+    },
+    {
+      "id": "manual-loot-1786786046006",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977.7430597722946,
+        "y": 2148.7438660853686
+      }
+    },
+    {
+      "id": "manual-loot-1786786050168",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977,
+        "y": 2146
+      },
+      "oneTimeSpawn": true
+    },
+    {
+      "id": "manual-loot-1786786140793",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.975190760481,
+        "y": 2051.75780248249
+      }
+    },
+    {
+      "id": "manual-loot-1786786144475",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3164,
+        "y": 2039
+      }
+    },
+    {
+      "id": "manual-loot-1786786158479",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3161.6251846569653,
+        "y": 2033.557805534248
       }
     }
   ],
@@ -37698,9 +37942,10 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3254.34954233826,
-        "y": 1589.8053231843244
-      }
+        "x": 3254,
+        "y": 1590
+      },
+      "oneTimeSpawn": true
     },
     {
       "id": "manual-loot-1786778426519",
@@ -39785,6 +40030,127 @@
       "position": {
         "x": 2966.6491969756835,
         "y": 1591.3304347848498
+      }
+    },
+    {
+      "id": "manual-loot-1786785645314",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.8673889471015,
+        "y": 2130.6331821833314
+      }
+    },
+    {
+      "id": "manual-loot-1786785651009",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2851,
+        "y": 2137
+      }
+    },
+    {
+      "id": "manual-loot-1786786029101",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2980.099321979151,
+        "y": 2152.5277400983678
+      }
+    },
+    {
+      "id": "manual-loot-1786786046006",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977.7430597722946,
+        "y": 2148.7438660853686
+      }
+    },
+    {
+      "id": "manual-loot-1786786050168",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2977,
+        "y": 2146
+      },
+      "oneTimeSpawn": true
+    },
+    {
+      "id": "manual-loot-1786786140793",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.975190760481,
+        "y": 2051.75780248249
+      }
+    },
+    {
+      "id": "manual-loot-1786786144475",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3164,
+        "y": 2039
+      }
+    },
+    {
+      "id": "manual-loot-1786786158479",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "position": {
+        "x": 3161.6251846569653,
+        "y": 2033.557805534248
       }
     }
   ]
