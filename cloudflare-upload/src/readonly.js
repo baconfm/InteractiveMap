@@ -323,7 +323,6 @@ async function loadPublishedMarkers() {
       visibleLegendItems = new Set(publishedLootMarkers.map((marker) => marker.title));
       renderLegend();
       renderVisibleMarkers();
-      hideDeekStart.disabled = photoCandidates().length === 0;
     });
     lootLayer.render(publishedLootMarkers);
     status.textContent = `Published map · ${publishedLootMarkers.length} reviewed loot markers`;
