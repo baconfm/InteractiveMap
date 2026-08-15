@@ -66,7 +66,6 @@ function revealMap() {
   mapShell.hidden = false;
   window.requestAnimationFrame(() => {
     engine.mount();
-    engine.zoomBy((APP_CONFIG.camera.maxZoom * 0.8) / engine.camera.zoom);
   });
   const tick = () => {
     const elapsed = Math.max(0, (Date.now() - (round.guessEndsAt - 300_000)) / 1000);
