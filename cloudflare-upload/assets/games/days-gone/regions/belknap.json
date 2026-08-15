@@ -1,5 +1,42 @@
 {
   "version": 1,
   "region": "Belknap",
-  "markers": []
+  "markers": [
+    {
+      "id": "manual-loot-1786826256272",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1113,
+        "y": 1526
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786826259781",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1103,
+        "y": 1513
+      },
+      "photos": [
+        "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
+    }
+  ]
 }

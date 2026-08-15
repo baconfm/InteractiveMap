@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T20:45:54.834Z",
+  "savedAt": "2026-08-15T22:03:51.151Z",
   "routeMarkers": [],
   "publishedLootMarkers": [
     {
@@ -11564,7 +11564,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -11572,7 +11572,7 @@
       "oneTimeSpawn": true,
       "position": {
         "x": 1113,
-        "y": 1525
+        "y": 1526
       },
       "photos": []
     },
@@ -11581,7 +11581,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -11591,7 +11591,9 @@
         "x": 1103,
         "y": 1513
       },
-      "photos": []
+      "photos": [
+        "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
     }
   ],
   "lootMarkers": [
@@ -23156,7 +23158,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -23164,7 +23166,7 @@
       "oneTimeSpawn": true,
       "position": {
         "x": 1113,
-        "y": 1525
+        "y": 1526
       },
       "photos": []
     },
@@ -23173,7 +23175,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -23183,7 +23185,9 @@
         "x": 1103,
         "y": 1513
       },
-      "photos": []
+      "photos": [
+        "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
     }
   ],
   "allLootMarkers": [
@@ -34748,7 +34752,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -34756,7 +34760,7 @@
       "oneTimeSpawn": true,
       "position": {
         "x": 1113,
-        "y": 1525
+        "y": 1526
       },
       "photos": []
     },
@@ -34765,7 +34769,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Belknap",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -34775,8 +34779,10 @@
         "x": 1103,
         "y": 1513
       },
-      "photos": []
+      "photos": [
+        "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
     }
   ],
-  "generatedAt": "2026-08-15T21:33:21.277Z"
+  "generatedAt": "2026-08-15T22:03:51.246Z"
 }
