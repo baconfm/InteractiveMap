@@ -27,8 +27,7 @@ export class MapMarkerOverrides {
   }
 
   getReviewed() {
-    const manualIds = new Set(this.manualMarkers.map((marker) => marker.id));
-    return this.getAll().filter((marker) => manualIds.has(marker.id) || Boolean(this.overrides[marker.id]));
+    return this.getAll();
   }
 
   add(marker) {

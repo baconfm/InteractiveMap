@@ -35,8 +35,11 @@ const ITEM_BADGES = {
   "Prox Mine": ["PM", "#a38d59"],
   "Prox Bomb": ["PX", "#ba6658"],
   Rag: ["RA", "#ded4ac"],
+  SAF: ["SAF", "#6f8fa8"],
   "Saw Blade": ["SB", "#afb5ba"],
+  "Sawed Off": ["SO", "#7f695b"],
   Scrap: ["SC", "#c69058"],
+  Pickaxe: ["PA", "#8a7960"],
   Sledgehammer: ["SH", "#787f78"],
   "Smoke Bomb": ["SM", "#9e9ca8"],
   "Spark Igniter": ["SI", "#e7d15d"],
@@ -93,6 +96,15 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "Fire Axe") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#c95c45" stroke="#182018" stroke-width="2"/><path d="m8 21 8-8m-1-5 6 2-2 6-3-3-8 8m8-13 3 3" fill="none" stroke="#fff0d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+  }
+  if (itemName === "Pickaxe") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#8a7960" stroke="#182018" stroke-width="2"/><path d="m8 21 10-10m-4-2 7 1-1 4m-6-5 3 3" fill="none" stroke="#f0e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+  }
+  if (itemName === "Sawed Off") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7f695b" stroke="#182018" stroke-width="2"/><path d="M7 17h12l2-3 2 2-3 4H7v-3Zm4-3h6v3h-6z" fill="#f0e3ca" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/></svg>';
+  }
+  if (itemName === "SAF") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#6f8fa8" stroke="#182018" stroke-width="2"/><path d="M7 16h11l4-3 1 2-4 4H7v-3Zm4-3h6v3h-6z" fill="#edf3f0" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/></svg>';
   }
   if (itemName === "Mushroom") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#c98e66" stroke="#182018" stroke-width="2"/><path d="M8 14a6 6 0 0 1 12 0H8Zm4 0h4l1 7h-6l1-7Z" fill="#f4e8cf" stroke="#182018" stroke-linejoin="round" stroke-width="1.5"/></svg>';
