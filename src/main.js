@@ -93,7 +93,7 @@ document.querySelector("#marker-icon").replaceChildren(...[
 ].map(([value, label]) => new Option(label, value)));
 const TOOLBOX_GROUPS = ["All", "Loot", "Explosives", "Collectibles", "Melee"];
 const COLLECTIBLE_TOOLS = new Set(["Collectible Plant", "Cedar Sapling", "Mushroom", "Cairn"]);
-const MELEE_TOOLS = new Set(["2x4", "Hatchet", "Machete", "Pipe", "Baseball Bat", "Superior Axe", "Sledgehammer"]);
+const MELEE_TOOLS = new Set(["2x4", "Hatchet", "Machete", "Pipe", "Baseball Bat", "Fire Axe", "Superior Axe", "Sledgehammer"]);
 const EXPLOSIVE_TOOLS = new Set(["Attractor", "Attractor Bomb", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Mine", "Prox Bomb", "Smoke Bomb"]);
 let toolboxGroup = "All";
 let toolboxQuery = "";

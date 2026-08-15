@@ -29,6 +29,12 @@ const clusterSettingsToggle = document.querySelector("#cluster-settings-toggle")
 const clusterSettings = document.querySelector("#cluster-settings");
 const clusterZoomInput = document.querySelector("#cluster-zoom");
 const clusterZoomValue = document.querySelector("#cluster-zoom-value");
+const markerDetails = document.querySelector("#marker-details");
+const markerDetailsClose = document.querySelector("#marker-details-close");
+const markerDetailsIcon = document.querySelector("#marker-details-icon");
+const markerDetailsType = document.querySelector("#marker-details-type");
+const markerDetailsTitle = document.querySelector("#marker-details-title");
+const markerDetailsDescription = document.querySelector("#marker-details-description");
 const DEFAULT_CLUSTER_SPLIT_PERCENT = 0.95;
 const DEFAULT_PUBLIC_ZOOM_PERCENT = 0.8;
 const savedClusterSplitPercent = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v2"));
@@ -43,7 +49,7 @@ const LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
   { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Beer Bottle", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
   { id: "throwables", label: "Throwables", items: ["Attractor", "Attractor Bomb", "Car Alarm", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Bomb", "Prox Mine", "Smoke Bomb"] },
-  { id: "weapons", label: "Melee weapons", items: ["Baseball Bat", "Hatchet", "Machete", "Pipe", "Sledgehammer", "Superior Axe"] },
+  { id: "weapons", label: "Melee weapons", items: ["Baseball Bat", "Fire Axe", "Hatchet", "Machete", "Pipe", "Sledgehammer", "Superior Axe"] },
   { id: "plants", label: "Plants & mushrooms", items: ["Cedar Sapling", "Collectible Plant", "Mushroom"] },
   { id: "collectibles", label: "Collectibles", items: ["Cairn"] },
 ];
@@ -98,7 +104,8 @@ function renderLegend() {
     });
     spawnControls.append(button);
   });
-  legendItems.replaceChildren(spawnControls, ...LEGEND_GROUPS.flatMap((group) => {
+  const alphabeticalGroups = [...LEGEND_GROUPS].sort((first, second) => first.label.localeCompare(second.label));
+  legendItems.replaceChildren(spawnControls, ...alphabeticalGroups.flatMap((group) => {
     const items = [...groupedItems.get(group.id).entries()].sort(([first], [second]) => first.localeCompare(second));
     if (!items.length) return [];
     const section = document.createElement("section");
@@ -132,6 +139,23 @@ function renderLegend() {
   }));
 }
 
+function showMarkerDetails(marker) {
+  const group = LEGEND_GROUPS.find((entry) => entry.items.includes(marker.title));
+  const spawnLabel = marker.type === "loot_cluster"
+    ? "Area summary"
+    : marker.type === "loot_stack"
+      ? "Nearby matching pickups"
+      : isOneTimeSpawn(marker)
+        ? "One-time spawn"
+        : "Respawnable item";
+  markerDetailsIcon.innerHTML = renderDaysGoneMarkerIcon(marker);
+  markerDetailsType.textContent = group ? `${group.label} · ${spawnLabel}` : spawnLabel;
+  markerDetailsTitle.textContent = marker.title;
+  markerDetailsDescription.textContent = marker.note || marker.grid || "No additional location notes yet.";
+  markerDetails.hidden = false;
+  lootLayer.select(marker.id);
+}
+
 legendToggle.addEventListener("click", () => {
   const isCollapsed = !legendItems.hidden;
   legendItems.hidden = isCollapsed;
@@ -150,6 +174,10 @@ legendHideAll.addEventListener("click", () => {
   visibleLegendItems.clear();
   renderLegend();
   renderVisibleMarkers();
+});
+
+markerDetailsClose.addEventListener("click", () => {
+  markerDetails.hidden = true;
 });
 
 clusterSettingsToggle.addEventListener("click", () => {
@@ -171,6 +199,7 @@ if (window.matchMedia("(max-width: 640px)").matches) engine.onPointerMove = unde
 const routeLayer = new MapMarkerLayer(engine.layers.get("entities"), publicMap.size, { renderIcon: renderDaysGoneMarkerIcon });
 const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), publicMap.size, {
   renderIcon: renderDaysGoneMarkerIcon,
+  onMarkerClick: showMarkerDetails,
   clusterBelowZoom: APP_CONFIG.camera.maxZoom * clusterSplitPercent,
   clusterRadius: 54,
   combineMatchingBelowZoom: APP_CONFIG.camera.maxZoom,

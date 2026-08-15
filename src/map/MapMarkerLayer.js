@@ -1,9 +1,10 @@
 export class MapMarkerLayer {
-  constructor(element, mapSize, { renderIcon, onMarkerPointerDown, clusterBelowZoom, clusterRadius = 52, combineMatchingBelowZoom, combineMatchingRadius = 34 } = {}) {
+  constructor(element, mapSize, { renderIcon, onMarkerPointerDown, onMarkerClick, clusterBelowZoom, clusterRadius = 52, combineMatchingBelowZoom, combineMatchingRadius = 34 } = {}) {
     this.element = element;
     this.mapSize = mapSize;
     this.renderIcon = renderIcon;
     this.onMarkerPointerDown = onMarkerPointerDown;
+    this.onMarkerClick = onMarkerClick;
     this.clusterBelowZoom = clusterBelowZoom;
     this.clusterRadius = clusterRadius;
     this.combineMatchingBelowZoom = combineMatchingBelowZoom;
@@ -213,6 +214,20 @@ export class MapMarkerLayer {
     if (this.onMarkerPointerDown) {
       element.classList.add("map-marker--editable");
       element.addEventListener("pointerdown", (event) => this.onMarkerPointerDown(marker, event));
+    }
+    if (this.onMarkerClick) {
+      element.classList.add("map-marker--interactive");
+      element.tabIndex = 0;
+      element.addEventListener("pointerdown", (event) => event.stopPropagation());
+      element.addEventListener("click", (event) => {
+        event.stopPropagation();
+        this.onMarkerClick(marker, event);
+      });
+      element.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        this.onMarkerClick(marker, event);
+      });
     }
     return element;
   }
