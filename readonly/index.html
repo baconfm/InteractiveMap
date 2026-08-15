@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111714" />
+    <meta name="description" content="Read-only Days Gone interactive map." />
+    <title>Days Gone | Map</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="map-app">
+      <header class="top-bar">
+        <div class="brand">
+          <span class="brand__eyebrow">Interactive Map</span>
+          <span class="brand__title">Days Gone</span>
+        </div>
+        <div class="top-bar__status" aria-live="polite">
+          <span class="status-dot"></span>
+          <span id="map-status">Loading published map</span>
+        </div>
+        <span class="save-state">Read only</span>
+      </header>
+
+      <section id="map-shell" class="map-shell" aria-label="Days Gone world map">
+        <div id="map-viewport" class="map-viewport" tabindex="0" aria-label="Pan and zoom the map">
+          <div id="map-canvas" class="map-canvas"></div>
+          <div id="map-empty-state" class="map-empty-state" role="status">
+            <span class="map-empty-state__eyebrow">Published snapshot required</span>
+            <strong>Days Gone map</strong>
+            <p>Export a map backup and publish it as <code>published-map.json</code>.</p>
+          </div>
+        </div>
+
+        <aside class="map-hud" aria-label="Map information">
+          <div class="map-hud__section map-hud__section--title">
+            <span class="map-hud__label">Oregon, U.S.A.</span>
+            <strong>World Map</strong>
+          </div>
+          <div class="map-hud__section map-hud__section--coordinates">
+            <span class="map-hud__label">Cursor coordinates</span>
+            <output id="coordinate-readout">X 0 · Y 0</output>
+          </div>
+        </aside>
+
+        <aside class="map-legend" aria-label="Map legend">
+          <div class="map-legend__heading">
+            <div>
+              <span class="map-hud__label">Find loot</span>
+              <strong>Legend</strong>
+            </div>
+            <div class="map-legend__buttons">
+              <button id="cluster-settings-toggle" class="map-legend__collapse" type="button" aria-expanded="false" aria-controls="cluster-settings" aria-label="Cluster settings">⚙</button>
+              <button id="legend-toggle" class="map-legend__collapse" type="button" aria-expanded="true" aria-controls="map-legend-items">Hide</button>
+            </div>
+          </div>
+          <div id="cluster-settings" class="cluster-settings" hidden>
+            <label for="cluster-zoom">Split item pins at <output id="cluster-zoom-value">95%</output> of maximum zoom</label>
+            <input id="cluster-zoom" type="range" min="15" max="100" step="1" value="95" />
+          </div>
+          <div id="map-legend-items" class="map-legend__items"></div>
+          <div class="map-legend__actions">
+            <button id="legend-show-all" type="button">Show all</button>
+            <button id="legend-hide-all" type="button">Hide all</button>
+          </div>
+        </aside>
+
+        <nav class="map-controls" aria-label="Map navigation">
+          <button id="zoom-in" class="map-control" type="button" aria-label="Zoom in">+</button>
+          <button id="zoom-out" class="map-control" type="button" aria-label="Zoom out">−</button>
+          <button id="reset-view" class="map-control map-control--reset" type="button" aria-label="Reset map view">⌖</button>
+        </nav>
+
+        <p class="map-hint">Scroll to zoom · Drag to pan</p>
+      </section>
+    </main>
+
+    <script type="module" src="../src/readonly.js"></script>
+  </body>
+</html>
