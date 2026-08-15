@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T07:46:56.303Z",
+  "savedAt": "2026-08-15T08:04:47.741Z",
   "routeMarkers": [
     {
       "id": "route-route-goal-ipca-tech-01-little-bear-lake-nero-checkpoint-1786719875200",
@@ -1202,21 +1202,6 @@
       }
     },
     {
-      "id": "manual-loot-1786734140666",
-      "type": "loot_item",
-      "title": "Rag",
-      "location": "Manual placement",
-      "region": "Manual",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "position": {
-        "x": 3376.186898230503,
-        "y": 1672.9420171891998
-      }
-    },
-    {
       "id": "manual-loot-1786734223549",
       "type": "loot_item",
       "title": "Gas Can",
@@ -4799,6 +4784,366 @@
       "position": {
         "x": 3395.149530131229,
         "y": 1547.005327761961
+      }
+    },
+    {
+      "id": "manual-loot-1786780843241",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3371.8807568577367,
+        "y": 1669.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780864449",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.6807751682836,
+        "y": 1717.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780876020",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3461.6807751682836,
+        "y": 1691.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780881792",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3457.6807751682836,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780891359",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.4807782200414,
+        "y": 1684.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780897927",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3447.6807751682836,
+        "y": 1675.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780904902",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.6807751682836,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780924484",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3426.880772116526,
+        "y": 1686.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780927330",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3422.9307751682836,
+        "y": 1693.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780953615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.327418194894,
+        "y": 1693.1847825849586
+      }
+    },
+    {
+      "id": "manual-loot-1786780962231",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.4807782200414,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780967636",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3427.2807812717992,
+        "y": 1680.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780972648",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.330784323557,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780983854",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3411.080784323557,
+        "y": 1654.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780993527",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3412.6807751682836,
+        "y": 1670.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780999435",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.4807782200414,
+        "y": 1661.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781006668",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3406.6807751682836,
+        "y": 1650.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786781021598",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.6807751682836,
+        "y": 1683.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786781029503",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.6807751682836,
+        "y": 1681.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786781033257",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3392.858194955218,
+        "y": 1683.448700342983
+      }
+    },
+    {
+      "id": "manual-loot-1786781041943",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3387.080784323557,
+        "y": 1676.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781047896",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.290169237099,
+        "y": 1680.9322001283765
+      }
+    },
+    {
+      "id": "manual-loot-1786781062401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3395.880787375315,
+        "y": 1693.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781069765",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3403.6807904270727,
+        "y": 1695.4080859669768
       }
     }
   ],
@@ -5675,21 +6020,6 @@
       }
     },
     {
-      "id": "manual-loot-1786734140666",
-      "type": "loot_item",
-      "title": "Rag",
-      "location": "Manual placement",
-      "region": "Manual",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "position": {
-        "x": 3376.186898230503,
-        "y": 1672.9420171891998
-      }
-    },
-    {
       "id": "manual-loot-1786734223549",
       "type": "loot_item",
       "title": "Gas Can",
@@ -9272,6 +9602,366 @@
       "position": {
         "x": 3395.149530131229,
         "y": 1547.005327761961
+      }
+    },
+    {
+      "id": "manual-loot-1786780843241",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3371.8807568577367,
+        "y": 1669.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780864449",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.6807751682836,
+        "y": 1717.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780876020",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3461.6807751682836,
+        "y": 1691.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780881792",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3457.6807751682836,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780891359",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.4807782200414,
+        "y": 1684.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780897927",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3447.6807751682836,
+        "y": 1675.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780904902",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.6807751682836,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780924484",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3426.880772116526,
+        "y": 1686.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780927330",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3422.9307751682836,
+        "y": 1693.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780953615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.327418194894,
+        "y": 1693.1847825849586
+      }
+    },
+    {
+      "id": "manual-loot-1786780962231",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.4807782200414,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780967636",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3427.2807812717992,
+        "y": 1680.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780972648",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.330784323557,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780983854",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3411.080784323557,
+        "y": 1654.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780993527",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3412.6807751682836,
+        "y": 1670.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780999435",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.4807782200414,
+        "y": 1661.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781006668",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3406.6807751682836,
+        "y": 1650.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786781021598",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.6807751682836,
+        "y": 1683.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786781029503",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.6807751682836,
+        "y": 1681.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786781033257",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3392.858194955218,
+        "y": 1683.448700342983
+      }
+    },
+    {
+      "id": "manual-loot-1786781041943",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3387.080784323557,
+        "y": 1676.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781047896",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.290169237099,
+        "y": 1680.9322001283765
+      }
+    },
+    {
+      "id": "manual-loot-1786781062401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3395.880787375315,
+        "y": 1693.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781069765",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3403.6807904270727,
+        "y": 1695.4080859669768
       }
     }
   ],
@@ -31103,21 +31793,6 @@
       }
     },
     {
-      "id": "manual-loot-1786734140666",
-      "type": "loot_item",
-      "title": "Rag",
-      "location": "Manual placement",
-      "region": "Manual",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "position": {
-        "x": 3376.186898230503,
-        "y": 1672.9420171891998
-      }
-    },
-    {
       "id": "manual-loot-1786734223549",
       "type": "loot_item",
       "title": "Gas Can",
@@ -34700,6 +35375,366 @@
       "position": {
         "x": 3395.149530131229,
         "y": 1547.005327761961
+      }
+    },
+    {
+      "id": "manual-loot-1786780843241",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3371.8807568577367,
+        "y": 1669.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780864449",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.6807751682836,
+        "y": 1717.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780876020",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3461.6807751682836,
+        "y": 1691.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780881792",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3457.6807751682836,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780891359",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.4807782200414,
+        "y": 1684.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780897927",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3447.6807751682836,
+        "y": 1675.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780904902",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3446.6807751682836,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780924484",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3426.880772116526,
+        "y": 1686.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780927330",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3422.9307751682836,
+        "y": 1693.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780953615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.327418194894,
+        "y": 1693.1847825849586
+      }
+    },
+    {
+      "id": "manual-loot-1786780962231",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3417.4807782200414,
+        "y": 1680.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786780967636",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3427.2807812717992,
+        "y": 1680.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786780972648",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3423.330784323557,
+        "y": 1680.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786780983854",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3411.080784323557,
+        "y": 1654.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786780993527",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3412.6807751682836,
+        "y": 1670.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786780999435",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.4807782200414,
+        "y": 1661.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781006668",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3406.6807751682836,
+        "y": 1650.8080798634612
+      }
+    },
+    {
+      "id": "manual-loot-1786781021598",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3401.6807751682836,
+        "y": 1683.2080737599456
+      }
+    },
+    {
+      "id": "manual-loot-1786781029503",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.6807751682836,
+        "y": 1681.0080768117034
+      }
+    },
+    {
+      "id": "manual-loot-1786781033257",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3392.858194955218,
+        "y": 1683.448700342983
+      }
+    },
+    {
+      "id": "manual-loot-1786781041943",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3387.080784323557,
+        "y": 1676.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781047896",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3390.290169237099,
+        "y": 1680.9322001283765
+      }
+    },
+    {
+      "id": "manual-loot-1786781062401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3395.880787375315,
+        "y": 1693.608082915219
+      }
+    },
+    {
+      "id": "manual-loot-1786781069765",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3403.6807904270727,
+        "y": 1695.4080859669768
       }
     }
   ]
