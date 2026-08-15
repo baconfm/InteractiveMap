@@ -64,7 +64,10 @@ function revealMap() {
   round = { ...round, phase: "guessing", guessEndsAt: Date.now() + 300_000 };
   intro.hidden = true;
   mapShell.hidden = false;
-  engine.mount();
+  window.requestAnimationFrame(() => {
+    engine.mount();
+    engine.zoomBy((APP_CONFIG.camera.maxZoom * 0.8) / engine.camera.zoom);
+  });
   const tick = () => {
     const elapsed = Math.max(0, (Date.now() - (round.guessEndsAt - 300_000)) / 1000);
     roundTimer.textContent = elapsed < 300 ? formatTime(300 - elapsed) : "5:00+";
