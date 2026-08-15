@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T08:04:47.741Z",
+  "savedAt": "2026-08-15T08:37:15.747Z",
   "routeMarkers": [
     {
       "id": "route-route-goal-ipca-tech-01-little-bear-lake-nero-checkpoint-1786719875200",
@@ -5145,6 +5145,1356 @@
         "x": 3403.6807904270727,
         "y": 1695.4080859669768
       }
+    },
+    {
+      "id": "manual-loot-1786781231105",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3250.6322844701567,
+        "y": 1756.0492782230676
+      }
+    },
+    {
+      "id": "manual-loot-1786781234133",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3246.832281418399,
+        "y": 1761.6492843265833
+      }
+    },
+    {
+      "id": "manual-loot-1786781244615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3243.809688998302,
+        "y": 1754.2899048061051
+      }
+    },
+    {
+      "id": "manual-loot-1786781449443",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3185.2322905736723,
+        "y": 1790.8492812748254
+      }
+    },
+    {
+      "id": "manual-loot-1786781452270",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3189.032278366641,
+        "y": 1797.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781453715",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3180.832281418399,
+        "y": 1798.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781485737",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3196.6322844701567,
+        "y": 1812.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781515167",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3113.6322844701567,
+        "y": 1858.4492950077356
+      }
+    },
+    {
+      "id": "manual-loot-1786781536497",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3082.03229362543,
+        "y": 1876.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781552288",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3066.2322905736723,
+        "y": 1870.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781554407",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3069.6322920995513,
+        "y": 1891.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781558907",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3057.841677013093,
+        "y": 1878.773396962104
+      }
+    },
+    {
+      "id": "manual-loot-1786781592359",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.43227989252,
+        "y": 1868.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781598313",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.2822859960356,
+        "y": 1864.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781616985",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.0322859960356,
+        "y": 1878.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781624495",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.0322859960356,
+        "y": 1872.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781646513",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.232282944278,
+        "y": 1896.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781649990",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3025.8322890477934,
+        "y": 1897.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781661721",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3032.8322890477934,
+        "y": 1894.6492766971887
+      }
+    },
+    {
+      "id": "manual-loot-1786781678304",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.432295151309,
+        "y": 1920.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781680470",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.232298203067,
+        "y": 1928.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781725550",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3002.432295151309,
+        "y": 1931.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781745760",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.832296677188,
+        "y": 1922.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781759045",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.03229362543,
+        "y": 1945.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781770340",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.832296677188,
+        "y": 1960.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781777467",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6822875219145,
+        "y": 1963.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781781459",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.4096951018178,
+        "y": 1963.2899124354997
+      }
+    },
+    {
+      "id": "manual-loot-1786781872491",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3161.1509446313617,
+        "y": 1976.6494456722005
+      }
+    },
+    {
+      "id": "manual-loot-1786781890796",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3169.464259609986,
+        "y": 1977.5094411338496
+      }
+    },
+    {
+      "id": "manual-loot-1786781908369",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3170.897567153675,
+        "y": 1996.716057476045
+      }
+    },
+    {
+      "id": "manual-loot-1786781942555",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.75757355076,
+        "y": 1988.4027424974208
+      }
+    },
+    {
+      "id": "manual-loot-1786781963557",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.870913683789,
+        "y": 1992.9893922498397
+      }
+    },
+    {
+      "id": "manual-loot-1786781971001",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.010929157575,
+        "y": 1987.2560745915985
+      }
+    },
+    {
+      "id": "manual-loot-1786782070306",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3241.417359040434,
+        "y": 1964.0361096435884
+      }
+    },
+    {
+      "id": "manual-loot-1786782098669",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3251.7373264510943,
+        "y": 1959.4494598911695
+      }
+    },
+    {
+      "id": "manual-loot-1786782102091",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3256.1089855396776,
+        "y": 1961.1694508144676
+      }
+    },
+    {
+      "id": "manual-loot-1786782121257",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3257.828976462976,
+        "y": 1970.9160952076522
+      }
+    },
+    {
+      "id": "manual-loot-1786782131786",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.2640168317043,
+        "y": 1974.9294219425954
+      }
+    },
+    {
+      "id": "manual-loot-1786782139295",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3261.9048286438333,
+        "y": 1964.957370542088
+      }
+    },
+    {
+      "id": "manual-loot-1786782188823",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3239.124023228789,
+        "y": 1989.5493775969367
+      }
+    },
+    {
+      "id": "manual-loot-1786782190774",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.804979339781,
+        "y": 1988.7476068505068
+      }
+    },
+    {
+      "id": "manual-loot-1786782202509",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3245.4306639045058,
+        "y": 2000.1560174517704
+      }
+    },
+    {
+      "id": "manual-loot-1786782205974",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3235.110696493846,
+        "y": 2001.5893468663307
+      }
+    },
+    {
+      "id": "manual-loot-1786782209956",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3254.890668659824,
+        "y": 1994.136038284791
+      }
+    },
+    {
+      "id": "manual-loot-1786782296957",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3227.9440712919154,
+        "y": 1975.5027558955067
+      }
+    },
+    {
+      "id": "manual-loot-1786782305180",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3229.9641797707573,
+        "y": 1975.107316233806
+      }
+    },
+    {
+      "id": "manual-loot-1786782382051",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3024.411316295218,
+        "y": 1792.0365798963476
+      }
+    },
+    {
+      "id": "manual-loot-1786782413975",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3037.884604043737,
+        "y": 1791.463256878872
+      }
+    },
+    {
+      "id": "manual-loot-1786782428760",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.0046403505444,
+        "y": 1780.8566170240383
+      }
+    },
+    {
+      "id": "manual-loot-1786782443570",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.964660145715,
+        "y": 1782.5766079473365
+      }
+    },
+    {
+      "id": "manual-loot-1786782446094",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.212286842146,
+        "y": 1788.6548227649705
+      }
+    },
+    {
+      "id": "manual-loot-1786782457299",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3008.6446927350544,
+        "y": 1784.869932823546
+      }
+    },
+    {
+      "id": "manual-loot-1786782481594",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3003.1656542052806,
+        "y": 1782.348171153818
+      }
+    },
+    {
+      "id": "manual-loot-1786782486296",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3000.0447162476926,
+        "y": 1798.6299039516737
+      }
+    },
+    {
+      "id": "manual-loot-1786782499844",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.998083610827,
+        "y": 1798.9165654604114
+      }
+    },
+    {
+      "id": "manual-loot-1786782510828",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2994.052183508672,
+        "y": 1796.8843242626726
+      }
+    },
+    {
+      "id": "manual-loot-1786782518931",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2992.591385795282,
+        "y": 1807.803214391947
+      }
+    },
+    {
+      "id": "manual-loot-1786782535317",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3020.684651069013,
+        "y": 1801.7832242895322
+      }
+    },
+    {
+      "id": "manual-loot-1786782550936",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3011.2963390294685,
+        "y": 1809.809866823983
+      }
+    },
+    {
+      "id": "manual-loot-1786782620340",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2913.427419050976,
+        "y": 1690.0422219135246
+      }
+    },
+    {
+      "id": "manual-loot-1786782631725",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2905.4100796472617,
+        "y": 1701.7037711146934
+      }
+    },
+    {
+      "id": "manual-loot-1786782662179",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2885.366772842966,
+        "y": 1707.534573518604
+      }
+    },
+    {
+      "id": "manual-loot-1786782665702",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2893.019666243941,
+        "y": 1718.1028403182079
+      }
+    },
+    {
+      "id": "manual-loot-1786782676945",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1726.1201797219219
+      }
+    },
+    {
+      "id": "manual-loot-1786782681752",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.332121838864,
+        "y": 1715.9163033184045
+      }
+    },
+    {
+      "id": "manual-loot-1786782684980",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1712.6364839170362
+      }
+    },
+    {
+      "id": "manual-loot-1786782695174",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2878.0954036294734,
+        "y": 1719.7867027873972
+      }
+    },
+    {
+      "id": "manual-loot-1786782705497",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.052709457141,
+        "y": 1712.2296264297963
+      }
+    },
+    {
+      "id": "manual-loot-1786782710697",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2883.5446540425755,
+        "y": 1694.7797419158705
+      }
+    },
+    {
+      "id": "manual-loot-1786782715615",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2876.620597040426,
+        "y": 1691.864340713915
+      }
+    },
+    {
+      "id": "manual-loot-1786782726185",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.1803617635073,
+        "y": 1717.0835899380565
+      }
+    },
+    {
+      "id": "manual-loot-1786782732401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2846.009023436527,
+        "y": 1721.0182415201632
+      }
+    },
+    {
+      "id": "manual-loot-1786782744258",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2856.5943962242004,
+        "y": 1698.6501135815367
+      }
+    },
+    {
+      "id": "manual-loot-1786782753101",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2847.8311422369175,
+        "y": 1710.449946917233
+      }
+    },
+    {
+      "id": "manual-loot-1786782783721",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2894.477366844919,
+        "y": 1693.3220413148929
+      }
+    },
+    {
+      "id": "manual-loot-1786782788614",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2889.756952830642,
+        "y": 1701.929932982905
+      }
+    },
+    {
+      "id": "manual-loot-1786782797884",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2879.361060045714,
+        "y": 1690.4464736214666
+      }
+    },
+    {
+      "id": "manual-loot-1786782831323",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2965.540027863475,
+        "y": 1640.1161501008287
+      }
+    },
+    {
+      "id": "manual-loot-1786782890229",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.474727673038,
+        "y": 1573.7910229862816
+      }
+    },
+    {
+      "id": "manual-loot-1786782892949",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.340307001395,
+        "y": 1572.4073544067173
+      }
+    },
+    {
+      "id": "manual-loot-1786782921574",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2940.049206130957,
+        "y": 1572.7304210519396
+      }
+    },
+    {
+      "id": "manual-loot-1786782930225",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.249203079199,
+        "y": 1575.9304256295763
+      }
+    },
+    {
+      "id": "manual-loot-1786782937880",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2944.049190872168,
+        "y": 1577.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782955207",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2939.049190872168,
+        "y": 1597.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782964096",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.6491969756835,
+        "y": 1590.3304271554553
+      }
+    },
+    {
+      "id": "manual-loot-1786782968001",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2947.4492000274413,
+        "y": 1593.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782978201",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2959.24918782041,
+        "y": 1595.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782980617",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2945.24918782041,
+        "y": 1601.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782997343",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2955.49918782041,
+        "y": 1594.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786783015147",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6491969756835,
+        "y": 1591.3304347848498
+      }
     }
   ],
   "lootMarkers": [
@@ -9962,6 +11312,1356 @@
       "position": {
         "x": 3403.6807904270727,
         "y": 1695.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786781231105",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3250.6322844701567,
+        "y": 1756.0492782230676
+      }
+    },
+    {
+      "id": "manual-loot-1786781234133",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3246.832281418399,
+        "y": 1761.6492843265833
+      }
+    },
+    {
+      "id": "manual-loot-1786781244615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3243.809688998302,
+        "y": 1754.2899048061051
+      }
+    },
+    {
+      "id": "manual-loot-1786781449443",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3185.2322905736723,
+        "y": 1790.8492812748254
+      }
+    },
+    {
+      "id": "manual-loot-1786781452270",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3189.032278366641,
+        "y": 1797.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781453715",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3180.832281418399,
+        "y": 1798.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781485737",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3196.6322844701567,
+        "y": 1812.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781515167",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3113.6322844701567,
+        "y": 1858.4492950077356
+      }
+    },
+    {
+      "id": "manual-loot-1786781536497",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3082.03229362543,
+        "y": 1876.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781552288",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3066.2322905736723,
+        "y": 1870.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781554407",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3069.6322920995513,
+        "y": 1891.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781558907",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3057.841677013093,
+        "y": 1878.773396962104
+      }
+    },
+    {
+      "id": "manual-loot-1786781592359",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.43227989252,
+        "y": 1868.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781598313",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.2822859960356,
+        "y": 1864.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781616985",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.0322859960356,
+        "y": 1878.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781624495",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.0322859960356,
+        "y": 1872.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781646513",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.232282944278,
+        "y": 1896.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781649990",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3025.8322890477934,
+        "y": 1897.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781661721",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3032.8322890477934,
+        "y": 1894.6492766971887
+      }
+    },
+    {
+      "id": "manual-loot-1786781678304",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.432295151309,
+        "y": 1920.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781680470",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.232298203067,
+        "y": 1928.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781725550",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3002.432295151309,
+        "y": 1931.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781745760",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.832296677188,
+        "y": 1922.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781759045",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.03229362543,
+        "y": 1945.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781770340",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.832296677188,
+        "y": 1960.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781777467",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6822875219145,
+        "y": 1963.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781781459",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.4096951018178,
+        "y": 1963.2899124354997
+      }
+    },
+    {
+      "id": "manual-loot-1786781872491",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3161.1509446313617,
+        "y": 1976.6494456722005
+      }
+    },
+    {
+      "id": "manual-loot-1786781890796",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3169.464259609986,
+        "y": 1977.5094411338496
+      }
+    },
+    {
+      "id": "manual-loot-1786781908369",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3170.897567153675,
+        "y": 1996.716057476045
+      }
+    },
+    {
+      "id": "manual-loot-1786781942555",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.75757355076,
+        "y": 1988.4027424974208
+      }
+    },
+    {
+      "id": "manual-loot-1786781963557",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.870913683789,
+        "y": 1992.9893922498397
+      }
+    },
+    {
+      "id": "manual-loot-1786781971001",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.010929157575,
+        "y": 1987.2560745915985
+      }
+    },
+    {
+      "id": "manual-loot-1786782070306",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3241.417359040434,
+        "y": 1964.0361096435884
+      }
+    },
+    {
+      "id": "manual-loot-1786782098669",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3251.7373264510943,
+        "y": 1959.4494598911695
+      }
+    },
+    {
+      "id": "manual-loot-1786782102091",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3256.1089855396776,
+        "y": 1961.1694508144676
+      }
+    },
+    {
+      "id": "manual-loot-1786782121257",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3257.828976462976,
+        "y": 1970.9160952076522
+      }
+    },
+    {
+      "id": "manual-loot-1786782131786",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.2640168317043,
+        "y": 1974.9294219425954
+      }
+    },
+    {
+      "id": "manual-loot-1786782139295",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3261.9048286438333,
+        "y": 1964.957370542088
+      }
+    },
+    {
+      "id": "manual-loot-1786782188823",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3239.124023228789,
+        "y": 1989.5493775969367
+      }
+    },
+    {
+      "id": "manual-loot-1786782190774",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.804979339781,
+        "y": 1988.7476068505068
+      }
+    },
+    {
+      "id": "manual-loot-1786782202509",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3245.4306639045058,
+        "y": 2000.1560174517704
+      }
+    },
+    {
+      "id": "manual-loot-1786782205974",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3235.110696493846,
+        "y": 2001.5893468663307
+      }
+    },
+    {
+      "id": "manual-loot-1786782209956",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3254.890668659824,
+        "y": 1994.136038284791
+      }
+    },
+    {
+      "id": "manual-loot-1786782296957",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3227.9440712919154,
+        "y": 1975.5027558955067
+      }
+    },
+    {
+      "id": "manual-loot-1786782305180",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3229.9641797707573,
+        "y": 1975.107316233806
+      }
+    },
+    {
+      "id": "manual-loot-1786782382051",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3024.411316295218,
+        "y": 1792.0365798963476
+      }
+    },
+    {
+      "id": "manual-loot-1786782413975",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3037.884604043737,
+        "y": 1791.463256878872
+      }
+    },
+    {
+      "id": "manual-loot-1786782428760",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.0046403505444,
+        "y": 1780.8566170240383
+      }
+    },
+    {
+      "id": "manual-loot-1786782443570",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.964660145715,
+        "y": 1782.5766079473365
+      }
+    },
+    {
+      "id": "manual-loot-1786782446094",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.212286842146,
+        "y": 1788.6548227649705
+      }
+    },
+    {
+      "id": "manual-loot-1786782457299",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3008.6446927350544,
+        "y": 1784.869932823546
+      }
+    },
+    {
+      "id": "manual-loot-1786782481594",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3003.1656542052806,
+        "y": 1782.348171153818
+      }
+    },
+    {
+      "id": "manual-loot-1786782486296",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3000.0447162476926,
+        "y": 1798.6299039516737
+      }
+    },
+    {
+      "id": "manual-loot-1786782499844",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.998083610827,
+        "y": 1798.9165654604114
+      }
+    },
+    {
+      "id": "manual-loot-1786782510828",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2994.052183508672,
+        "y": 1796.8843242626726
+      }
+    },
+    {
+      "id": "manual-loot-1786782518931",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2992.591385795282,
+        "y": 1807.803214391947
+      }
+    },
+    {
+      "id": "manual-loot-1786782535317",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3020.684651069013,
+        "y": 1801.7832242895322
+      }
+    },
+    {
+      "id": "manual-loot-1786782550936",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3011.2963390294685,
+        "y": 1809.809866823983
+      }
+    },
+    {
+      "id": "manual-loot-1786782620340",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2913.427419050976,
+        "y": 1690.0422219135246
+      }
+    },
+    {
+      "id": "manual-loot-1786782631725",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2905.4100796472617,
+        "y": 1701.7037711146934
+      }
+    },
+    {
+      "id": "manual-loot-1786782662179",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2885.366772842966,
+        "y": 1707.534573518604
+      }
+    },
+    {
+      "id": "manual-loot-1786782665702",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2893.019666243941,
+        "y": 1718.1028403182079
+      }
+    },
+    {
+      "id": "manual-loot-1786782676945",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1726.1201797219219
+      }
+    },
+    {
+      "id": "manual-loot-1786782681752",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.332121838864,
+        "y": 1715.9163033184045
+      }
+    },
+    {
+      "id": "manual-loot-1786782684980",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1712.6364839170362
+      }
+    },
+    {
+      "id": "manual-loot-1786782695174",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2878.0954036294734,
+        "y": 1719.7867027873972
+      }
+    },
+    {
+      "id": "manual-loot-1786782705497",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.052709457141,
+        "y": 1712.2296264297963
+      }
+    },
+    {
+      "id": "manual-loot-1786782710697",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2883.5446540425755,
+        "y": 1694.7797419158705
+      }
+    },
+    {
+      "id": "manual-loot-1786782715615",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2876.620597040426,
+        "y": 1691.864340713915
+      }
+    },
+    {
+      "id": "manual-loot-1786782726185",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.1803617635073,
+        "y": 1717.0835899380565
+      }
+    },
+    {
+      "id": "manual-loot-1786782732401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2846.009023436527,
+        "y": 1721.0182415201632
+      }
+    },
+    {
+      "id": "manual-loot-1786782744258",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2856.5943962242004,
+        "y": 1698.6501135815367
+      }
+    },
+    {
+      "id": "manual-loot-1786782753101",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2847.8311422369175,
+        "y": 1710.449946917233
+      }
+    },
+    {
+      "id": "manual-loot-1786782783721",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2894.477366844919,
+        "y": 1693.3220413148929
+      }
+    },
+    {
+      "id": "manual-loot-1786782788614",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2889.756952830642,
+        "y": 1701.929932982905
+      }
+    },
+    {
+      "id": "manual-loot-1786782797884",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2879.361060045714,
+        "y": 1690.4464736214666
+      }
+    },
+    {
+      "id": "manual-loot-1786782831323",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2965.540027863475,
+        "y": 1640.1161501008287
+      }
+    },
+    {
+      "id": "manual-loot-1786782890229",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.474727673038,
+        "y": 1573.7910229862816
+      }
+    },
+    {
+      "id": "manual-loot-1786782892949",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.340307001395,
+        "y": 1572.4073544067173
+      }
+    },
+    {
+      "id": "manual-loot-1786782921574",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2940.049206130957,
+        "y": 1572.7304210519396
+      }
+    },
+    {
+      "id": "manual-loot-1786782930225",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.249203079199,
+        "y": 1575.9304256295763
+      }
+    },
+    {
+      "id": "manual-loot-1786782937880",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2944.049190872168,
+        "y": 1577.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782955207",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2939.049190872168,
+        "y": 1597.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782964096",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.6491969756835,
+        "y": 1590.3304271554553
+      }
+    },
+    {
+      "id": "manual-loot-1786782968001",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2947.4492000274413,
+        "y": 1593.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782978201",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2959.24918782041,
+        "y": 1595.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782980617",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2945.24918782041,
+        "y": 1601.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782997343",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2955.49918782041,
+        "y": 1594.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786783015147",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6491969756835,
+        "y": 1591.3304347848498
       }
     }
   ],
@@ -35735,6 +38435,1356 @@
       "position": {
         "x": 3403.6807904270727,
         "y": 1695.4080859669768
+      }
+    },
+    {
+      "id": "manual-loot-1786781231105",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3250.6322844701567,
+        "y": 1756.0492782230676
+      }
+    },
+    {
+      "id": "manual-loot-1786781234133",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3246.832281418399,
+        "y": 1761.6492843265833
+      }
+    },
+    {
+      "id": "manual-loot-1786781244615",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3243.809688998302,
+        "y": 1754.2899048061051
+      }
+    },
+    {
+      "id": "manual-loot-1786781449443",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3185.2322905736723,
+        "y": 1790.8492812748254
+      }
+    },
+    {
+      "id": "manual-loot-1786781452270",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3189.032278366641,
+        "y": 1797.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781453715",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3180.832281418399,
+        "y": 1798.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781485737",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3196.6322844701567,
+        "y": 1812.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781515167",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3113.6322844701567,
+        "y": 1858.4492950077356
+      }
+    },
+    {
+      "id": "manual-loot-1786781536497",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3082.03229362543,
+        "y": 1876.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781552288",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3066.2322905736723,
+        "y": 1870.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781554407",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3069.6322920995513,
+        "y": 1891.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781558907",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3057.841677013093,
+        "y": 1878.773396962104
+      }
+    },
+    {
+      "id": "manual-loot-1786781592359",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.43227989252,
+        "y": 1868.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781598313",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.2822859960356,
+        "y": 1864.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781616985",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3026.0322859960356,
+        "y": 1878.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781624495",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.0322859960356,
+        "y": 1872.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781646513",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.232282944278,
+        "y": 1896.6492919559778
+      }
+    },
+    {
+      "id": "manual-loot-1786781649990",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3025.8322890477934,
+        "y": 1897.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781661721",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3032.8322890477934,
+        "y": 1894.6492766971887
+      }
+    },
+    {
+      "id": "manual-loot-1786781678304",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3022.432295151309,
+        "y": 1920.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781680470",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.232298203067,
+        "y": 1928.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781725550",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3002.432295151309,
+        "y": 1931.4492797489465
+      }
+    },
+    {
+      "id": "manual-loot-1786781745760",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.832296677188,
+        "y": 1922.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781759045",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.03229362543,
+        "y": 1945.0492858524622
+      }
+    },
+    {
+      "id": "manual-loot-1786781770340",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.832296677188,
+        "y": 1960.84928890422
+      }
+    },
+    {
+      "id": "manual-loot-1786781777467",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6822875219145,
+        "y": 1963.2492828007043
+      }
+    },
+    {
+      "id": "manual-loot-1786781781459",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2970.4096951018178,
+        "y": 1963.2899124354997
+      }
+    },
+    {
+      "id": "manual-loot-1786781872491",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3161.1509446313617,
+        "y": 1976.6494456722005
+      }
+    },
+    {
+      "id": "manual-loot-1786781890796",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3169.464259609986,
+        "y": 1977.5094411338496
+      }
+    },
+    {
+      "id": "manual-loot-1786781908369",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3170.897567153675,
+        "y": 1996.716057476045
+      }
+    },
+    {
+      "id": "manual-loot-1786781942555",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3171.75757355076,
+        "y": 1988.4027424974208
+      }
+    },
+    {
+      "id": "manual-loot-1786781963557",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.870913683789,
+        "y": 1992.9893922498397
+      }
+    },
+    {
+      "id": "manual-loot-1786781971001",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3162.010929157575,
+        "y": 1987.2560745915985
+      }
+    },
+    {
+      "id": "manual-loot-1786782070306",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3241.417359040434,
+        "y": 1964.0361096435884
+      }
+    },
+    {
+      "id": "manual-loot-1786782098669",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3251.7373264510943,
+        "y": 1959.4494598911695
+      }
+    },
+    {
+      "id": "manual-loot-1786782102091",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3256.1089855396776,
+        "y": 1961.1694508144676
+      }
+    },
+    {
+      "id": "manual-loot-1786782121257",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3257.828976462976,
+        "y": 1970.9160952076522
+      }
+    },
+    {
+      "id": "manual-loot-1786782131786",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.2640168317043,
+        "y": 1974.9294219425954
+      }
+    },
+    {
+      "id": "manual-loot-1786782139295",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3261.9048286438333,
+        "y": 1964.957370542088
+      }
+    },
+    {
+      "id": "manual-loot-1786782188823",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3239.124023228789,
+        "y": 1989.5493775969367
+      }
+    },
+    {
+      "id": "manual-loot-1786782190774",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3238.804979339781,
+        "y": 1988.7476068505068
+      }
+    },
+    {
+      "id": "manual-loot-1786782202509",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3245.4306639045058,
+        "y": 2000.1560174517704
+      }
+    },
+    {
+      "id": "manual-loot-1786782205974",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3235.110696493846,
+        "y": 2001.5893468663307
+      }
+    },
+    {
+      "id": "manual-loot-1786782209956",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3254.890668659824,
+        "y": 1994.136038284791
+      }
+    },
+    {
+      "id": "manual-loot-1786782296957",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3227.9440712919154,
+        "y": 1975.5027558955067
+      }
+    },
+    {
+      "id": "manual-loot-1786782305180",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3229.9641797707573,
+        "y": 1975.107316233806
+      }
+    },
+    {
+      "id": "manual-loot-1786782382051",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3024.411316295218,
+        "y": 1792.0365798963476
+      }
+    },
+    {
+      "id": "manual-loot-1786782413975",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3037.884604043737,
+        "y": 1791.463256878872
+      }
+    },
+    {
+      "id": "manual-loot-1786782428760",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3031.0046403505444,
+        "y": 1780.8566170240383
+      }
+    },
+    {
+      "id": "manual-loot-1786782443570",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.964660145715,
+        "y": 1782.5766079473365
+      }
+    },
+    {
+      "id": "manual-loot-1786782446094",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3017.212286842146,
+        "y": 1788.6548227649705
+      }
+    },
+    {
+      "id": "manual-loot-1786782457299",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3008.6446927350544,
+        "y": 1784.869932823546
+      }
+    },
+    {
+      "id": "manual-loot-1786782481594",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3003.1656542052806,
+        "y": 1782.348171153818
+      }
+    },
+    {
+      "id": "manual-loot-1786782486296",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3000.0447162476926,
+        "y": 1798.6299039516737
+      }
+    },
+    {
+      "id": "manual-loot-1786782499844",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2985.998083610827,
+        "y": 1798.9165654604114
+      }
+    },
+    {
+      "id": "manual-loot-1786782510828",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2994.052183508672,
+        "y": 1796.8843242626726
+      }
+    },
+    {
+      "id": "manual-loot-1786782518931",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2992.591385795282,
+        "y": 1807.803214391947
+      }
+    },
+    {
+      "id": "manual-loot-1786782535317",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3020.684651069013,
+        "y": 1801.7832242895322
+      }
+    },
+    {
+      "id": "manual-loot-1786782550936",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3011.2963390294685,
+        "y": 1809.809866823983
+      }
+    },
+    {
+      "id": "manual-loot-1786782620340",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2913.427419050976,
+        "y": 1690.0422219135246
+      }
+    },
+    {
+      "id": "manual-loot-1786782631725",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2905.4100796472617,
+        "y": 1701.7037711146934
+      }
+    },
+    {
+      "id": "manual-loot-1786782662179",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2885.366772842966,
+        "y": 1707.534573518604
+      }
+    },
+    {
+      "id": "manual-loot-1786782665702",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2893.019666243941,
+        "y": 1718.1028403182079
+      }
+    },
+    {
+      "id": "manual-loot-1786782676945",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1726.1201797219219
+      }
+    },
+    {
+      "id": "manual-loot-1786782681752",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.332121838864,
+        "y": 1715.9163033184045
+      }
+    },
+    {
+      "id": "manual-loot-1786782684980",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2874.0696418412103,
+        "y": 1712.6364839170362
+      }
+    },
+    {
+      "id": "manual-loot-1786782695174",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2878.0954036294734,
+        "y": 1719.7867027873972
+      }
+    },
+    {
+      "id": "manual-loot-1786782705497",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2869.052709457141,
+        "y": 1712.2296264297963
+      }
+    },
+    {
+      "id": "manual-loot-1786782710697",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2883.5446540425755,
+        "y": 1694.7797419158705
+      }
+    },
+    {
+      "id": "manual-loot-1786782715615",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2876.620597040426,
+        "y": 1691.864340713915
+      }
+    },
+    {
+      "id": "manual-loot-1786782726185",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2860.1803617635073,
+        "y": 1717.0835899380565
+      }
+    },
+    {
+      "id": "manual-loot-1786782732401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2846.009023436527,
+        "y": 1721.0182415201632
+      }
+    },
+    {
+      "id": "manual-loot-1786782744258",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2856.5943962242004,
+        "y": 1698.6501135815367
+      }
+    },
+    {
+      "id": "manual-loot-1786782753101",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2847.8311422369175,
+        "y": 1710.449946917233
+      }
+    },
+    {
+      "id": "manual-loot-1786782783721",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2894.477366844919,
+        "y": 1693.3220413148929
+      }
+    },
+    {
+      "id": "manual-loot-1786782788614",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2889.756952830642,
+        "y": 1701.929932982905
+      }
+    },
+    {
+      "id": "manual-loot-1786782797884",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2879.361060045714,
+        "y": 1690.4464736214666
+      }
+    },
+    {
+      "id": "manual-loot-1786782831323",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2965.540027863475,
+        "y": 1640.1161501008287
+      }
+    },
+    {
+      "id": "manual-loot-1786782890229",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3019.474727673038,
+        "y": 1573.7910229862816
+      }
+    },
+    {
+      "id": "manual-loot-1786782892949",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 3018.340307001395,
+        "y": 1572.4073544067173
+      }
+    },
+    {
+      "id": "manual-loot-1786782921574",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2940.049206130957,
+        "y": 1572.7304210519396
+      }
+    },
+    {
+      "id": "manual-loot-1786782930225",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.249203079199,
+        "y": 1575.9304256295763
+      }
+    },
+    {
+      "id": "manual-loot-1786782937880",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2944.049190872168,
+        "y": 1577.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782955207",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2939.049190872168,
+        "y": 1597.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782964096",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2948.6491969756835,
+        "y": 1590.3304271554553
+      }
+    },
+    {
+      "id": "manual-loot-1786782968001",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2947.4492000274413,
+        "y": 1593.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782978201",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2959.24918782041,
+        "y": 1595.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786782980617",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2945.24918782041,
+        "y": 1601.5304241036974
+      }
+    },
+    {
+      "id": "manual-loot-1786782997343",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2955.49918782041,
+        "y": 1594.7304286813342
+      }
+    },
+    {
+      "id": "manual-loot-1786783015147",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "position": {
+        "x": 2966.6491969756835,
+        "y": 1591.3304347848498
       }
     }
   ]
