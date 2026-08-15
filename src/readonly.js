@@ -2,6 +2,7 @@ import { APP_CONFIG } from "./core/config.js";
 import { daysGoneMap } from "./data/games/days-gone/map.js";
 import { renderDaysGoneMarkerIcon } from "./data/games/days-gone/marker-icons.js";
 import { PUBLISHED_MAP_DATA_URL } from "./data/games/days-gone/published-map-source.js";
+import { isOneTimeSpawn } from "./data/games/days-gone/loot-rules.js";
 import { MapEngine } from "./map/MapEngine.js";
 import { MapMarkerLayer } from "./map/MapMarkerLayer.js";
 import { bindControls } from "./ui/Controls.js";
@@ -36,6 +37,7 @@ const clusterSplitPercent = Number.isFinite(savedClusterSplitPercent) && savedCl
   : DEFAULT_CLUSTER_SPLIT_PERCENT;
 let activePublishedLootMarkers = [];
 let visibleLegendItems = new Set();
+let spawnFilter = "all";
 
 const LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
@@ -54,9 +56,15 @@ function legendGroupFor(marker) {
 }
 
 function renderVisibleMarkers() {
-  const markers = activePublishedLootMarkers.filter((marker) => visibleLegendItems.has(marker.title));
+  const markers = activePublishedLootMarkers.filter((marker) => {
+    if (!visibleLegendItems.has(marker.title)) return false;
+    if (spawnFilter === "respawnable") return !isOneTimeSpawn(marker);
+    if (spawnFilter === "one-time") return isOneTimeSpawn(marker);
+    return true;
+  });
   lootLayer.render(markers);
-  status.textContent = `Published map - ${markers.length} of ${activePublishedLootMarkers.length} loot markers shown`;
+  const filterLabel = spawnFilter === "all" ? "all spawn types" : spawnFilter;
+  status.textContent = `Published map - ${markers.length} of ${activePublishedLootMarkers.length} ${filterLabel} markers shown`;
 }
 
 function renderLegend() {
@@ -68,7 +76,29 @@ function renderLegend() {
     item.count += 1;
     items.set(marker.title, item);
   });
-  legendItems.replaceChildren(...LEGEND_GROUPS.flatMap((group) => {
+  const spawnControls = document.createElement("section");
+  spawnControls.className = "map-legend__spawn-filter";
+  const spawnHeading = document.createElement("h2");
+  spawnHeading.textContent = "Spawn type";
+  spawnControls.append(spawnHeading);
+  [
+    ["all", "All items"],
+    ["respawnable", "Respawnable"],
+    ["one-time", "One-time only"],
+  ].forEach(([value, label]) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "map-legend__spawn-button";
+    button.textContent = label;
+    button.setAttribute("aria-pressed", String(spawnFilter === value));
+    button.addEventListener("click", () => {
+      spawnFilter = value;
+      renderLegend();
+      renderVisibleMarkers();
+    });
+    spawnControls.append(button);
+  });
+  legendItems.replaceChildren(spawnControls, ...LEGEND_GROUPS.flatMap((group) => {
     const items = [...groupedItems.get(group.id).entries()].sort(([first], [second]) => first.localeCompare(second));
     if (!items.length) return [];
     const section = document.createElement("section");

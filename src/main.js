@@ -2,6 +2,7 @@ import { APP_CONFIG } from "./core/config.js";
 import { daysGoneMap } from "./data/games/days-gone/map.js";
 import { loadLootItemMarkers } from "./data/games/days-gone/loot-spreadsheet.js";
 import { LOOT_ITEM_NAMES, renderLootItemIcon } from "./data/games/days-gone/loot-item-icons.js";
+import { isOneTimeSpawn } from "./data/games/days-gone/loot-rules.js";
 import { renderDaysGoneMarkerIcon } from "./data/games/days-gone/marker-icons.js";
 import { loadRouteQueue } from "./data/games/days-gone/route-objectives.js";
 import { MapEngine } from "./map/MapEngine.js";
@@ -28,6 +29,7 @@ const lootEditor = {
   y: document.querySelector("#loot-editor-y"),
   quantity: document.querySelector("#loot-editor-quantity"),
   quantityValue: document.querySelector("#loot-editor-quantity-value"),
+  oneTime: document.querySelector("#loot-editor-one-time"),
   save: document.querySelector("#save-loot-position"),
   reset: document.querySelector("#reset-loot-position"),
   export: document.querySelector("#export-loot-markers"),
@@ -144,6 +146,7 @@ function renderToolbox(focusSearch = false) {
     button.innerHTML = `${renderLootItemIcon(item)}<span>${item}</span>`;
     button.addEventListener("click", () => {
       lootEditor.type.value = item;
+      lootEditor.oneTime.checked = isOneTimeSpawn({ title: item });
       setManualPlacement(true);
     });
     grid.append(button);
@@ -282,6 +285,8 @@ function refreshLootEditor() {
   lootEditor.y.value = Math.round(marker.position.y);
   lootEditor.quantity.value = marker.quantity ?? 1;
   lootEditor.quantityValue.value = lootEditor.quantity.value;
+  lootEditor.oneTime.checked = isOneTimeSpawn(marker);
+  lootEditor.oneTime.disabled = false;
   lootEditor.x.disabled = false;
   lootEditor.y.disabled = false;
   lootEditor.save.disabled = false;
@@ -297,6 +302,8 @@ function clearLootEditor() {
   lootEditor.y.value = "";
   lootEditor.quantity.value = 1;
   lootEditor.quantityValue.value = 1;
+  lootEditor.oneTime.checked = false;
+  lootEditor.oneTime.disabled = true;
   lootEditor.x.disabled = true;
   lootEditor.y.disabled = true;
   lootEditor.save.disabled = true;
@@ -315,6 +322,7 @@ function setManualPlacement(active) {
   placingManualLoot = active;
   lootEditor.place.disabled = active;
   lootEditor.cancel.disabled = !active;
+  lootEditor.oneTime.disabled = !active && !selectedLootId;
   addHotbar.querySelectorAll(".add-hotbar__slot").forEach((button) => {
     button.classList.toggle("is-active", active && button.dataset.item === lootEditor.type.value);
   });
@@ -342,6 +350,7 @@ function placeManualLoot(position) {
     category: "Manual placement",
     note: "Added manually",
     quantity: Number(lootEditor.quantity.value),
+    oneTimeSpawn: lootEditor.oneTime.checked,
     position,
   };
   lootStore.add(marker);
@@ -358,6 +367,7 @@ lootEditor.save.addEventListener("click", () => {
   lootStore.update(selectedLootId, {
     position: engine.coordinates.clamp({ x: Number(lootEditor.x.value), y: Number(lootEditor.y.value) }),
     quantity: Number(lootEditor.quantity.value),
+    oneTimeSpawn: lootEditor.oneTime.checked,
   });
 });
 
@@ -367,9 +377,10 @@ function markAutoSaved() {
 
 function saveMapBackup() {
   const backup = {
-    version: 1,
+    version: 2,
     savedAt: new Date().toISOString(),
     routeMarkers: markerStore.getAll(),
+    publishedLootMarkers: lootStore?.getReviewed() ?? [],
     lootMarkers: lootStore?.getReviewed() ?? [],
     allLootMarkers: lootStore?.getAll() ?? [],
   };
@@ -390,6 +401,9 @@ lootOnlyToggle.addEventListener("click", () => {
 });
 lootEditor.quantity.addEventListener("input", () => {
   lootEditor.quantityValue.value = lootEditor.quantity.value;
+});
+lootEditor.type.addEventListener("change", () => {
+  if (!selectedLootId) lootEditor.oneTime.checked = isOneTimeSpawn({ title: lootEditor.type.value });
 });
 lootEditor.reset.addEventListener("click", () => lootStore?.reset(selectedLootId));
 lootEditor.delete.addEventListener("click", () => {
