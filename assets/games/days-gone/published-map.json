@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T10:06:30.526Z",
+  "savedAt": "2026-08-15T10:28:19.281Z",
   "routeMarkers": [
     {
       "id": "route-route-goal-ipca-tech-01-little-bear-lake-nero-checkpoint-1786719875200",
@@ -6820,10 +6820,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": true,
+      "oneTimeSpawn": false,
       "position": {
-        "x": 2473.544218541086,
-        "y": 1659.4265671762535
+        "x": 2474,
+        "y": 1659
       }
     },
     {
@@ -6868,10 +6868,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": false,
+      "oneTimeSpawn": true,
       "position": {
-        "x": 2454.344236851633,
-        "y": 1687.026573279769
+        "x": 2456,
+        "y": 1686
       }
     },
     {
@@ -6886,8 +6886,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2446.544218541086,
-        "y": 1688.4265671762535
+        "x": 2447.308395484559,
+        "y": 1684.1580055021757
       }
     },
     {
@@ -7032,6 +7032,134 @@
       "position": {
         "x": 2496.1716549072275,
         "y": 1626.0631682977194
+      }
+    },
+    {
+      "id": "manual-loot-1786788918374",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2555,
+        "y": 1655
+      }
+    },
+    {
+      "id": "manual-loot-1786788945183",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2538,
+        "y": 1641
+      }
+    },
+    {
+      "id": "manual-loot-1786788974390",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2522,
+        "y": 1636
+      }
+    },
+    {
+      "id": "manual-loot-1786788990810",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2507.7416527044447,
+        "y": 1636.8653194371998
+      }
+    },
+    {
+      "id": "manual-loot-1786788993462",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.7228351206063,
+        "y": 1640.363828371055
+      }
+    },
+    {
+      "id": "manual-loot-1786789026490",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.0880384466154,
+        "y": 1622.3040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789029856",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2497.754705113282,
+        "y": 1617.8040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789691670",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2456.8402654772344,
+        "y": 1677.7648740553907
       }
     }
   ],
@@ -13526,10 +13654,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": true,
+      "oneTimeSpawn": false,
       "position": {
-        "x": 2473.544218541086,
-        "y": 1659.4265671762535
+        "x": 2474,
+        "y": 1659
       }
     },
     {
@@ -13574,10 +13702,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": false,
+      "oneTimeSpawn": true,
       "position": {
-        "x": 2454.344236851633,
-        "y": 1687.026573279769
+        "x": 2456,
+        "y": 1686
       }
     },
     {
@@ -13592,8 +13720,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2446.544218541086,
-        "y": 1688.4265671762535
+        "x": 2447.308395484559,
+        "y": 1684.1580055021757
       }
     },
     {
@@ -13738,6 +13866,134 @@
       "position": {
         "x": 2496.1716549072275,
         "y": 1626.0631682977194
+      }
+    },
+    {
+      "id": "manual-loot-1786788918374",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2555,
+        "y": 1655
+      }
+    },
+    {
+      "id": "manual-loot-1786788945183",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2538,
+        "y": 1641
+      }
+    },
+    {
+      "id": "manual-loot-1786788974390",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2522,
+        "y": 1636
+      }
+    },
+    {
+      "id": "manual-loot-1786788990810",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2507.7416527044447,
+        "y": 1636.8653194371998
+      }
+    },
+    {
+      "id": "manual-loot-1786788993462",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.7228351206063,
+        "y": 1640.363828371055
+      }
+    },
+    {
+      "id": "manual-loot-1786789026490",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.0880384466154,
+        "y": 1622.3040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789029856",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2497.754705113282,
+        "y": 1617.8040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789691670",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2456.8402654772344,
+        "y": 1677.7648740553907
       }
     }
   ],
@@ -41187,10 +41443,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": true,
+      "oneTimeSpawn": false,
       "position": {
-        "x": 2473.544218541086,
-        "y": 1659.4265671762535
+        "x": 2474,
+        "y": 1659
       }
     },
     {
@@ -41235,10 +41491,10 @@
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
-      "oneTimeSpawn": false,
+      "oneTimeSpawn": true,
       "position": {
-        "x": 2454.344236851633,
-        "y": 1687.026573279769
+        "x": 2456,
+        "y": 1686
       }
     },
     {
@@ -41253,8 +41509,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2446.544218541086,
-        "y": 1688.4265671762535
+        "x": 2447.308395484559,
+        "y": 1684.1580055021757
       }
     },
     {
@@ -41399,6 +41655,134 @@
       "position": {
         "x": 2496.1716549072275,
         "y": 1626.0631682977194
+      }
+    },
+    {
+      "id": "manual-loot-1786788918374",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2555,
+        "y": 1655
+      }
+    },
+    {
+      "id": "manual-loot-1786788945183",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2538,
+        "y": 1641
+      }
+    },
+    {
+      "id": "manual-loot-1786788974390",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2522,
+        "y": 1636
+      }
+    },
+    {
+      "id": "manual-loot-1786788990810",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2507.7416527044447,
+        "y": 1636.8653194371998
+      }
+    },
+    {
+      "id": "manual-loot-1786788993462",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.7228351206063,
+        "y": 1640.363828371055
+      }
+    },
+    {
+      "id": "manual-loot-1786789026490",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.0880384466154,
+        "y": 1622.3040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789029856",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2497.754705113282,
+        "y": 1617.8040302576035
+      }
+    },
+    {
+      "id": "manual-loot-1786789691670",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Manual",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2456.8402654772344,
+        "y": 1677.7648740553907
       }
     }
   ]
