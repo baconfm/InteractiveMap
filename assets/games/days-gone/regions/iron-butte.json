@@ -1,5 +1,312 @@
 {
   "version": 1,
   "region": "Iron Butte",
-  "markers": []
+  "markers": [
+    {
+      "id": "manual-loot-1786878527738",
+      "type": "loot_item",
+      "title": "Fire Axe",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1775,
+        "y": 2527
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878557780",
+      "type": "loot_item",
+      "title": "Prox Mine",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1758,
+        "y": 2533
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878563574",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1763,
+        "y": 2531
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878577678",
+      "type": "loot_item",
+      "title": "Grenade",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1759,
+        "y": 2533
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878583671",
+      "type": "loot_item",
+      "title": "Flashbang",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1758,
+        "y": 2534
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878597910",
+      "type": "loot_item",
+      "title": "Prox Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1758,
+        "y": 2536
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878700948",
+      "type": "loot_item",
+      "title": "Random",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1824,
+        "y": 2593
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878710800",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1825,
+        "y": 2589
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878715942",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1829,
+        "y": 2589
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878740545",
+      "type": "loot_item",
+      "title": "Molotov",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1831,
+        "y": 2592
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878762614",
+      "type": "loot_item",
+      "title": "Pipe Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1833.3886396889866,
+        "y": 2593.6343646620307
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878782762",
+      "type": "loot_item",
+      "title": "Attractor",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1831.311735235194,
+        "y": 2587.86770211945
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786878989042",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1698,
+        "y": 2670
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879004387",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1676,
+        "y": 2664
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879018081",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1690,
+        "y": 2680
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879038749",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1682,
+        "y": 2683
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879089942",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1652,
+        "y": 2665
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879097760",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1655,
+        "y": 2652
+      },
+      "photos": []
+    }
+  ]
 }
