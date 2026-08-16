@@ -24,6 +24,7 @@ const aliases = new Map([
   ["crater lake", "Crater Lake"],
   ["highway 97", "Highway 97"],
 ]);
+const shouldReclassifyRegions = process.argv.includes("--reclassify-regions");
 
 const ironButteLostLakeBoundaryX = (y) => {
   const top = { x: 2986, y: 2186 };
@@ -41,8 +42,11 @@ const regionForPosition = (position) => {
 };
 
 const normalizeMarker = (marker) => {
-  const region = regionForPosition(marker.position)
-    ?? aliases.get(String(marker.region ?? "").trim().toLowerCase())
+  const savedRegion = aliases.get(String(marker.region ?? "").trim().toLowerCase());
+  const inferredRegion = regionForPosition(marker.position);
+  const region = (shouldReclassifyRegions ? inferredRegion : savedRegion)
+    ?? savedRegion
+    ?? inferredRegion
     ?? "Cascades";
   return { ...marker, region };
 };
@@ -78,4 +82,4 @@ for (const [id, label] of regions) {
   manifestRegions.push({ id, label, path, markerCount: markers.length });
 }
 await writeFile(resolve(regionsDirectory, "manifest.json"), `${JSON.stringify({ version: 1, generatedAt: nextSnapshot.generatedAt, regions: manifestRegions }, null, 2)}\n`);
-console.log(`Built ${manifestRegions.length} region files from ${allMarkers.length} markers.`);
+console.log(`Built ${manifestRegions.length} region files from ${allMarkers.length} markers${shouldReclassifyRegions ? " after reclassifying coordinates" : " using saved classifications"}.`);
