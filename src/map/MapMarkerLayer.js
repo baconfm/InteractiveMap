@@ -96,8 +96,7 @@ export class MapMarkerLayer {
         counts[marker.title] = (counts[marker.title] ?? 0) + 1;
         return counts;
       }, {}))
-        .sort(([, firstCount], [, secondCount]) => secondCount - firstCount)
-        .slice(0, 3)
+        .sort(([firstTitle, firstCount], [secondTitle, secondCount]) => secondCount - firstCount || firstTitle.localeCompare(secondTitle))
         .map(([title, count]) => `${title} ×${count}`)
         .join(", ");
       clusters.push({
