@@ -158,7 +158,7 @@ button, output { font: inherit; }
 .hide-deek-pin { display: grid; width: 28px; height: 28px; place-items: center; border: 2px solid #182018; border-radius: 50%; color: #182018; font: 900 17px/1 Arial, sans-serif; box-shadow: 0 2px 7px rgb(0 0 0 / 55%); }
 .hide-deek-pin--guess { background: #e3b746; }
 .hide-deek-pin--answer { background: #78ba73; }
-.hide-deek-result-line { position: absolute; z-index: 2; height: 8px; pointer-events: none; background: linear-gradient(90deg, #e3b746 0%, #e3b746 45%, #78ba73 55%, #78ba73 100%); border: 2px solid #182018; border-radius: 999px; box-shadow: 0 2px 7px rgb(0 0 0 / 60%); }
+.hide-deek-result-line { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; overflow: visible; pointer-events: none; filter: drop-shadow(0 2px 5px rgb(0 0 0 / 60%)); }
 .hide-deek-intro { min-height: 100vh; padding: 110px 24px 32px; display: grid; place-items: center; background: radial-gradient(circle at 50% 15%, #28362a 0, #111714 52%); }
 .hide-deek-intro[hidden], .map-shell[hidden] { display: none; }
 .hide-deek-intro__card { display: grid; gap: 12px; width: min(460px, 100%); padding: 18px; color: #edf0de; background: rgb(10 15 12 / 96%); border: 1px solid rgb(227 183 70 / 45%); border-radius: 4px; box-shadow: 0 20px 50px rgb(0 0 0 / 50%); }

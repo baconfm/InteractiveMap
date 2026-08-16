@@ -64,15 +64,42 @@ function renderRoundMedia(value) {
 }
 
 function renderResultLine(from, to) {
-  const deltaX = to.x - from.x;
-  const deltaY = to.y - from.y;
-  const line = document.createElement("span");
-  line.className = "hide-deek-result-line";
-  line.style.left = `${from.x}px`;
-  line.style.top = `${from.y}px`;
-  line.style.width = `${Math.hypot(deltaX, deltaY)}px`;
-  line.style.transform = `translateY(-50%) rotate(${Math.atan2(deltaY, deltaX)}rad)`;
-  resultLayer.element.append(line);
+  const namespace = "http://www.w3.org/2000/svg";
+  const overlay = document.createElementNS(namespace, "svg");
+  overlay.classList.add("hide-deek-result-line");
+  overlay.setAttribute("viewBox", `0 0 ${map.size.width} ${map.size.height}`);
+  overlay.setAttribute("preserveAspectRatio", "none");
+  const gradient = document.createElementNS(namespace, "linearGradient");
+  gradient.id = "hide-deek-result-gradient";
+  gradient.setAttribute("gradientUnits", "userSpaceOnUse");
+  gradient.setAttribute("x1", String(from.x));
+  gradient.setAttribute("y1", String(from.y));
+  gradient.setAttribute("x2", String(to.x));
+  gradient.setAttribute("y2", String(to.y));
+  [["0%", "#e3b746"], ["45%", "#e3b746"], ["55%", "#78ba73"], ["100%", "#78ba73"]].forEach(([offset, color]) => {
+    const stop = document.createElementNS(namespace, "stop");
+    stop.setAttribute("offset", offset);
+    stop.setAttribute("stop-color", color);
+    gradient.append(stop);
+  });
+  const definitions = document.createElementNS(namespace, "defs");
+  definitions.append(gradient);
+  overlay.append(definitions);
+  [
+    { stroke: "#182018", width: "15" },
+    { stroke: "url(#hide-deek-result-gradient)", width: "9" },
+  ].forEach(({ stroke, width }) => {
+    const line = document.createElementNS(namespace, "line");
+    line.setAttribute("x1", String(from.x));
+    line.setAttribute("y1", String(from.y));
+    line.setAttribute("x2", String(to.x));
+    line.setAttribute("y2", String(to.y));
+    line.setAttribute("stroke", stroke);
+    line.setAttribute("stroke-width", width);
+    line.setAttribute("stroke-linecap", "round");
+    overlay.append(line);
+  });
+  resultLayer.element.append(overlay);
 }
 
 async function loadCandidates() {
