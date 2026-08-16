@@ -468,9 +468,13 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3657.0298545695596,
-        "y": 861.0239841120544
-      }
+        "x": 3657,
+        "y": 861
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/7HJI_a4YWlY"
+      ]
     },
     {
       "id": "manual-loot-1786734019082",
@@ -14638,6 +14642,55 @@
         "y": 3262
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1786908740799",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3872,
+        "y": 735
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786908752717",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3868.0275465169834,
+        "y": 726.4157894354095
+      }
+    },
+    {
+      "id": "manual-loot-1786908756886",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3867.7775465169834,
+        "y": 729.8824566107024
+      }
     }
   ]
 }
