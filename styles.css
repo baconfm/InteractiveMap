@@ -37,6 +37,8 @@ button, output { font: inherit; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #d4a83e; box-shadow: 0 0 10px #d4a83e; }
 .thanks-link { padding: 8px 11px; color: #1a211a; background: #e3b746; border: 1px solid #f3d375; border-radius: 3px; font-size: 0.7rem; font-weight: 850; letter-spacing: 0.02em; text-decoration: none; white-space: nowrap; }
 .thanks-link:hover, .thanks-link:focus-visible { background: #f1c85e; outline: 2px solid #f4d47d; outline-offset: 2px; }
+.discord-link { padding: 8px 11px; color: #f3f4ff; background: #5865f2; border: 1px solid #7c86ff; border-radius: 3px; font-size: 0.7rem; font-weight: 850; letter-spacing: 0.02em; text-decoration: none; white-space: nowrap; }
+.discord-link:hover, .discord-link:focus-visible { background: #6974f6; outline: 2px solid #9fa6ff; outline-offset: 2px; }
 
 .map-shell { position: relative; min-height: 100vh; padding-top: 72px; overflow: hidden; }
 .map-viewport { position: absolute; inset: 72px 0 0; overflow: hidden; cursor: grab; outline: none; touch-action: none; background: #1c2620; }
@@ -247,6 +249,7 @@ button, output { font: inherit; }
   .top-bar { height: 60px; padding: 0 18px; }
   .top-bar__status { display: none; }
   .thanks-link { margin-left: auto; padding: 7px 9px; font-size: 0.61rem; }
+  .discord-link { padding: 7px 9px; font-size: 0.61rem; }
   .editor-toggle { padding: 8px 10px; font-size: 0.68rem; }
   .map-shell { padding-top: 60px; }
   .map-viewport { inset: 60px 0 0; }
