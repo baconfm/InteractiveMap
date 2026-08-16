@@ -62,6 +62,18 @@ function dedupeMarkers(markers) {
   });
 }
 
+function youtubeEmbedUrl(value) {
+  try {
+    const url = new URL(value);
+    const videoId = url.hostname === "youtu.be"
+      ? url.pathname.slice(1)
+      : url.pathname.match(/^\/(?:shorts|watch|embed)\/([^/?#]+)/)?.[1] ?? url.searchParams.get("v");
+    return videoId ? `https://www.youtube-nocookie.com/embed/${videoId}` : null;
+  } catch {
+    return null;
+  }
+}
+
 const LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
   { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Beer Bottle", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
@@ -173,6 +185,17 @@ function showMarkerDetails(marker) {
   markerDetailsDescription.textContent = marker.note || marker.grid || "No additional location notes yet.";
   const photos = Array.isArray(marker.photos) ? marker.photos : [];
   markerDetailsPhotos.replaceChildren(...photos.map((url, index) => {
+    const videoUrl = youtubeEmbedUrl(url);
+    if (videoUrl) {
+      const frame = document.createElement("iframe");
+      frame.className = "marker-details__video";
+      frame.src = videoUrl;
+      frame.title = `${marker.title} location video ${index + 1}`;
+      frame.loading = "lazy";
+      frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      frame.allowFullscreen = true;
+      return frame;
+    }
     const link = document.createElement("a");
     link.href = url;
     link.target = "_blank";

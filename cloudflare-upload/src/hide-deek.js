@@ -63,12 +63,32 @@ function renderRoundMedia(value) {
   media.replaceChildren(image);
 }
 
+function renderResultLine(from, to) {
+  const deltaX = to.x - from.x;
+  const deltaY = to.y - from.y;
+  const line = document.createElement("span");
+  line.className = "hide-deek-result-line";
+  line.style.left = `${from.x}px`;
+  line.style.top = `${from.y}px`;
+  line.style.width = `${Math.hypot(deltaX, deltaY)}px`;
+  line.style.transform = `translateY(-50%) rotate(${Math.atan2(deltaY, deltaX)}rad)`;
+  resultLayer.element.append(line);
+}
+
 async function loadCandidates() {
   const manifestResponse = await fetch(assetUrl("assets/games/days-gone/regions/manifest.json"), { cache: "no-store" });
   if (!manifestResponse.ok) throw new Error("No map regions have been published yet.");
   const manifest = await manifestResponse.json();
   const snapshots = await Promise.all(manifest.regions.map(async (region) => (await fetch(assetUrl(region.path), { cache: "no-store" })).json()));
-  candidates = snapshots.flatMap((snapshot) => snapshot.markers ?? []).flatMap((marker) => (marker.photos ?? []).map((image) => ({ marker, image })));
+  const seenVideos = new Set();
+  candidates = snapshots.flatMap((snapshot) => snapshot.markers ?? [])
+    .flatMap((marker) => (marker.photos ?? []).map((image) => ({ marker, image })))
+    .filter((candidate) => {
+      const embedUrl = youtubeEmbedUrl(candidate.image);
+      if (!embedUrl || seenVideos.has(embedUrl)) return !embedUrl;
+      seenVideos.add(embedUrl);
+      return true;
+    });
   if (!candidates.length) throw new Error("No marker photos have been published yet.");
 }
 
@@ -76,7 +96,7 @@ function beginThinking() {
   clearInterval(thinkingInterval);
   clearInterval(roundInterval);
   resultLayer.render([]);
-  round = { ...candidates[Math.floor(Math.random() * candidates.length)], phase: "thinking", thinkingEndsAt: Date.now() + 30_000 };
+  round = { ...candidates[Math.floor(Math.random() * candidates.length)], phase: "thinking", thinkingEndsAt: Date.now() + 60_000 };
   renderRoundMedia(round.image);
   intro.hidden = false;
   mapShell.hidden = true;
@@ -119,6 +139,7 @@ function guess(position) {
   const score = accuracy + speed;
   round = { ...round, phase: "answered" };
   resultLayer.render([{ id: "guess", title: "Your guess", position, kind: "guess" }, { id: "answer", title: "Correct location", position: round.marker.position, kind: "answer" }]);
+  renderResultLine(position, round.marker.position);
   gameTitle.textContent = `${score} / 1000 points`;
   gameMessage.textContent = `${distance} map units away · ${accuracy} accuracy + ${speed} speed. Green is correct; gold is your guess.`;
   nextButton.hidden = false;
