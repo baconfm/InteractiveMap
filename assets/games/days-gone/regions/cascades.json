@@ -8903,6 +8903,1397 @@
         "x": 2717.669474478733,
         "y": 3325.540992424667
       }
+    },
+    {
+      "id": "manual-loot-1786892455390",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2735.1362704386484,
+        "y": 3647.8768217131187
+      }
+    },
+    {
+      "id": "manual-loot-1786892572079",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2709.2029411743256,
+        "y": 3661.2768257821294
+      }
+    },
+    {
+      "id": "manual-loot-1786892594123",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2723.802947277841,
+        "y": 3677.610156572331
+      }
+    },
+    {
+      "id": "manual-loot-1786892609943",
+      "type": "loot_item",
+      "title": "Fire Axe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2721.6696058064867,
+        "y": 3691.8101560637047
+      }
+    },
+    {
+      "id": "manual-loot-1786892653304",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2722.669595633961,
+        "y": 3662.3434888884117
+      }
+    },
+    {
+      "id": "manual-loot-1786892658506",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.4029330363046,
+        "y": 3665.2101575895836
+      }
+    },
+    {
+      "id": "manual-loot-1786892669928",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2725.936268404143,
+        "y": 3663.2768232389976
+      }
+    },
+    {
+      "id": "manual-loot-1786892682722",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2737.802937105315,
+        "y": 3664.476825273503
+      }
+    },
+    {
+      "id": "manual-loot-1786892689145",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2752.0029391398202,
+        "y": 3651.3434888884117
+      }
+    },
+    {
+      "id": "manual-loot-1786892701142",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2746.5362745076586,
+        "y": 3649.4101570809576
+      }
+    },
+    {
+      "id": "manual-loot-1786892706098",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2746.420343580331,
+        "y": 3646.3067222957234
+      }
+    },
+    {
+      "id": "manual-loot-1786892715928",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2745.6870061779873,
+        "y": 3647.5733874365114
+      }
+    },
+    {
+      "id": "manual-loot-1786892731026",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2749.469603771982,
+        "y": 3636.4101558093917
+      }
+    },
+    {
+      "id": "manual-loot-1786892751806",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2715.77497475901,
+        "y": 3630.602789360192
+      }
+    },
+    {
+      "id": "manual-loot-1786892756602",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.1060249680268,
+        "y": 3629.928427960853
+      }
+    },
+    {
+      "id": "manual-loot-1786892764061",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.5255258578704,
+        "y": 3635.5832501949258
+      }
+    },
+    {
+      "id": "manual-loot-1786892778115",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2716.159332578712,
+        "y": 3639.2262425317804
+      }
+    },
+    {
+      "id": "manual-loot-1786892793566",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2713.842672015561,
+        "y": 3641.959579934124
+      }
+    },
+    {
+      "id": "manual-loot-1786892829918",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2715.892669981056,
+        "y": 3646.3595789168717
+      }
+    },
+    {
+      "id": "manual-loot-1786892836800",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2722.6260073833996,
+        "y": 3646.0929112329522
+      }
+    },
+    {
+      "id": "manual-loot-1786892847649",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2721.2260033143893,
+        "y": 3639.6262466007906
+      }
+    },
+    {
+      "id": "manual-loot-1786892872589",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2743.5593366477224,
+        "y": 3628.8929117415787
+      }
+    },
+    {
+      "id": "manual-loot-1786892889169",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2754.0926720155608,
+        "y": 3620.559578408245
+      }
+    },
+    {
+      "id": "manual-loot-1786892941806",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2828.5447093372086,
+        "y": 3513.234082362498
+      }
+    },
+    {
+      "id": "manual-loot-1786893054167",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2572.3392720206048,
+        "y": 3563.2609313190237
+      }
+    },
+    {
+      "id": "manual-loot-1786893073283",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2577.2726012849275,
+        "y": 3548.0609292845184
+      }
+    },
+    {
+      "id": "manual-loot-1786893085702",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2580.9392679515945,
+        "y": 3560.927595442559
+      }
+    },
+    {
+      "id": "manual-loot-1786893096501",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2564.405942756282,
+        "y": 3565.7275934080535
+      }
+    },
+    {
+      "id": "manual-loot-1786893099267",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2564.355934618261,
+        "y": 3567.327594425306
+      }
+    },
+    {
+      "id": "manual-loot-1786893105075",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2566.4233329552562,
+        "y": 3566.7574924647793
+      }
+    },
+    {
+      "id": "manual-loot-1786893129743",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2572.449027386407,
+        "y": 3593.598697064668
+      }
+    },
+    {
+      "id": "manual-loot-1786893142322",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2561.449027386407,
+        "y": 3589.0653616968298
+      }
+    },
+    {
+      "id": "manual-loot-1786893210553",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2666.0283105848393,
+        "y": 3401.2202204990867
+      }
+    },
+    {
+      "id": "manual-loot-1786893255970",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2663.961639849162,
+        "y": 3389.6202220249656
+      }
+    },
+    {
+      "id": "manual-loot-1786893261464",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2663.894979286011,
+        "y": 3393.020221007713
+      }
+    },
+    {
+      "id": "manual-loot-1786893274497",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2667.694977251506,
+        "y": 3393.3535543410467
+      }
+    },
+    {
+      "id": "manual-loot-1786893279300",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2668.244975217001,
+        "y": 3393.55355383242
+      }
+    },
+    {
+      "id": "manual-loot-1786893286178",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2670.644979286011,
+        "y": 3393.486888183006
+      }
+    },
+    {
+      "id": "manual-loot-1786893300504",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2674.0283105848393,
+        "y": 3383.8868871657537
+      }
+    },
+    {
+      "id": "manual-loot-1786893307973",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2682.694977251506,
+        "y": 3394.486888183006
+      }
+    },
+    {
+      "id": "manual-loot-1786893345715",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2660.2283126193447,
+        "y": 3382.8868871657537
+      }
+    },
+    {
+      "id": "manual-loot-1786893348878",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2656.761637814657,
+        "y": 3382.8868871657537
+      }
+    },
+    {
+      "id": "manual-loot-1786893372578",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "First Floor Kitchen",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2682.699785431587,
+        "y": 3372.7034679058106
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893381924",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "First Floor Kitchen",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2682.699785431587,
+        "y": 3369.303468923063
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893396068",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2683.2283126193447,
+        "y": 3387.9535528151678
+      }
+    },
+    {
+      "id": "manual-loot-1786893471298",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second Floor Bathroom",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2673.6331146959096,
+        "y": 3370.1701350811036
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893538281",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second floor bedroom",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2687.2997813625766,
+        "y": 3384.836804290902
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893542014",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second floor bedroom",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2684,
+        "y": 3387
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893623347",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second floor bedroom",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2656,
+        "y": 3378
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893639147",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second floor",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2665,
+        "y": 3376
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893681930",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2674,
+        "y": 3360
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786893686897",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Second Floor Bathroom",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2673.377899155019,
+        "y": 3359.2756172247136
+      }
+    },
+    {
+      "id": "manual-loot-1786894113001",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Fun fact this growler used to be a Napalm Molotov in version 1.00, creating a huge plot hole.",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2702.813552842354,
+        "y": 3379.7004333154873
+      }
+    },
+    {
+      "id": "manual-loot-1786894137501",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "car",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2700,
+        "y": 3375
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894146688",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "car",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700,
+        "y": 3371
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894171039",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "car",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2698,
+        "y": 3368
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894219215",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2706.946884141182,
+        "y": 3388.2337661401943
+      }
+    },
+    {
+      "id": "manual-loot-1786894229799",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2707.4802195090206,
+        "y": 3391.5004287378506
+      }
+    },
+    {
+      "id": "manual-loot-1786894234399",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2706.3635508078487,
+        "y": 3393.833762071184
+      }
+    },
+    {
+      "id": "manual-loot-1786894246401",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.880213405505,
+        "y": 3392.5004287378506
+      }
+    },
+    {
+      "id": "manual-loot-1786894303130",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2693.680221543526,
+        "y": 3355.1670928613858
+      }
+    },
+    {
+      "id": "manual-loot-1786894316179",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2683.080225612536,
+        "y": 3351.1004246688403
+      }
+    },
+    {
+      "id": "manual-loot-1786894348007",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2680.946894313708,
+        "y": 3329.2337585108
+      }
+    },
+    {
+      "id": "manual-loot-1786894386323",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2745.02161826915,
+        "y": 3364.7808773537454
+      }
+    },
+    {
+      "id": "manual-loot-1786894388758",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Can also spawn empty",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2748,
+        "y": 3368
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894624084",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2444,
+        "y": 3332
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894651185",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2464.5989140476445,
+        "y": 3360.657468446249
+      }
+    },
+    {
+      "id": "manual-loot-1786894682926",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2449.79891608215,
+        "y": 3367.724134095663
+      }
+    },
+    {
+      "id": "manual-loot-1786894685819",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2450.665574610796,
+        "y": 3371.657468446249
+      }
+    },
+    {
+      "id": "manual-loot-1786894695778",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2449,
+        "y": 3369
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786894716364",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2438.79891608215,
+        "y": 3359.790799745077
+      }
+    },
+    {
+      "id": "manual-loot-1786894719635",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2435.79891608215,
+        "y": 3358.657468446249
+      }
+    },
+    {
+      "id": "manual-loot-1786894742263",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2437.932247380978,
+        "y": 3356.524132061158
+      }
+    },
+    {
+      "id": "manual-loot-1786894761390",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2429.3322514499882,
+        "y": 3383.790789572551
+      }
+    },
+    {
+      "id": "manual-loot-1786894788380",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2430.4655827488164,
+        "y": 3392.857455221965
+      }
+    },
+    {
+      "id": "manual-loot-1786894797751",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2427.5322534844936,
+        "y": 3396.0574521702074
+      }
+    },
+    {
+      "id": "manual-loot-1786894814661",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2433.732255518999,
+        "y": 3417.5241218886317
+      }
+    },
+    {
+      "id": "manual-loot-1786894817823",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2433.1489221856655,
+        "y": 3419.857455221965
+      }
+    },
+    {
+      "id": "manual-loot-1786894837363",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2427.3322616225146,
+        "y": 3420.324119854127
+      }
+    },
+    {
+      "id": "manual-loot-1786894841749",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2426.065588852332,
+        "y": 3417.457451152955
+      }
+    },
+    {
+      "id": "manual-loot-1786894856590",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2415.2655807143115,
+        "y": 3403.724118836874
+      }
+    },
+    {
+      "id": "manual-loot-1786894862408",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2414.5989140476445,
+        "y": 3399.1241178196215
+      }
+    },
+    {
+      "id": "manual-loot-1786894872553",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2407.2655807143115,
+        "y": 3398.3241147678636
+      }
+    },
+    {
+      "id": "manual-loot-1786894883465",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2426.5989140476445,
+        "y": 3427.7907794000253
+      }
+    },
+    {
+      "id": "manual-loot-1786895034865",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2398.998897771603,
+        "y": 3341.857439963176
+      }
+    },
+    {
+      "id": "manual-loot-1786895037951",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2398,
+        "y": 3336
+      },
+      "photos": []
     }
   ]
 }

@@ -137,22 +137,6 @@
       "photos": []
     },
     {
-      "id": "manual-loot-1786878689779",
-      "type": "loot_item",
-      "title": "Hatchet",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1819.2553083901585,
-        "y": 2605.4343626275254
-      }
-    },
-    {
       "id": "manual-loot-1786878700948",
       "type": "loot_item",
       "title": "Random",
@@ -177,12 +161,12 @@
       "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Added manually",
+      "note": "Fun fact this growler used to be a Napalm Molotov in version 1.00, creating a huge plot hole.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
         "x": 1825,
-        "y": 2589
+        "y": 2590
       },
       "photos": []
     },
@@ -578,6 +562,23 @@
       "position": {
         "x": 1830,
         "y": 2591
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786892222039",
+      "type": "loot_item",
+      "title": "Ripper Axe",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1820,
+        "y": 2604
       },
       "photos": []
     }
