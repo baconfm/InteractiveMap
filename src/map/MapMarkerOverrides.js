@@ -20,8 +20,17 @@ export class MapMarkerOverrides {
     } catch { return []; }
   }
 
+  uniqueMarkers(markers) {
+    const markerIds = new Set();
+    return [...markers].reverse().filter((marker) => {
+      if (!marker?.id || markerIds.has(marker.id)) return false;
+      markerIds.add(marker.id);
+      return true;
+    }).reverse();
+  }
+
   getAll() {
-    return [...this.baseMarkers, ...this.manualMarkers]
+    return this.uniqueMarkers([...this.baseMarkers, ...this.manualMarkers])
       .map((marker) => ({ ...marker, ...this.overrides[marker.id] }))
       .filter((marker) => !marker.hidden);
   }
