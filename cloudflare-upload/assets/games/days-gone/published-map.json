@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-16T19:42:27.283Z",
+  "savedAt": "2026-08-16T19:53:21.910Z",
   "routeMarkers": [],
   "publishedLootMarkers": [
     {
@@ -1418,9 +1418,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2914.9652022517976,
-        "y": 629.6537868024142
-      }
+        "x": 2888,
+        "y": 602
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736480753",
@@ -1433,9 +1437,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.7651900447663,
-        "y": 633.4537822247775
-      }
+        "x": 2888,
+        "y": 604
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736486262",
@@ -1448,9 +1456,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.365196148282,
-        "y": 637.8537837506564
-      }
+        "x": 2890,
+        "y": 603
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736494880",
@@ -1463,8 +1475,8 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2908.365196148282,
-        "y": 634.0537806988985
+        "x": 2879.63677635969,
+        "y": 603.6340835437453
       }
     },
     {
@@ -17806,8 +17818,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2348.0060907848633,
-        "y": 3129.5542508641706
+        "x": 2344.7541416440777,
+        "y": 3126.197997226893
       }
     },
     {
@@ -18596,6 +18608,55 @@
         "x": 3867.7775465169834,
         "y": 729.8824566107024
       }
+    },
+    {
+      "id": "manual-loot-1786909953184",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2879.6868522723835,
+        "y": 591.0462830882726
+      }
+    },
+    {
+      "id": "manual-loot-1786909989101",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.420174415938,
+        "y": 592.5129502635656
+      }
+    },
+    {
+      "id": "manual-loot-1786909997109",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875,
+        "y": 598
+      },
+      "photos": []
     }
   ],
   "lootMarkers": [
@@ -20014,9 +20075,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2914.9652022517976,
-        "y": 629.6537868024142
-      }
+        "x": 2888,
+        "y": 602
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736480753",
@@ -20029,9 +20094,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.7651900447663,
-        "y": 633.4537822247775
-      }
+        "x": 2888,
+        "y": 604
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736486262",
@@ -20044,9 +20113,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.365196148282,
-        "y": 637.8537837506564
-      }
+        "x": 2890,
+        "y": 603
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736494880",
@@ -20059,8 +20132,8 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2908.365196148282,
-        "y": 634.0537806988985
+        "x": 2879.63677635969,
+        "y": 603.6340835437453
       }
     },
     {
@@ -36402,8 +36475,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2348.0060907848633,
-        "y": 3129.5542508641706
+        "x": 2344.7541416440777,
+        "y": 3126.197997226893
       }
     },
     {
@@ -37192,6 +37265,55 @@
         "x": 3867.7775465169834,
         "y": 729.8824566107024
       }
+    },
+    {
+      "id": "manual-loot-1786909953184",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2879.6868522723835,
+        "y": 591.0462830882726
+      }
+    },
+    {
+      "id": "manual-loot-1786909989101",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.420174415938,
+        "y": 592.5129502635656
+      }
+    },
+    {
+      "id": "manual-loot-1786909997109",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875,
+        "y": 598
+      },
+      "photos": []
     }
   ],
   "allLootMarkers": [
@@ -38610,9 +38732,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2914.9652022517976,
-        "y": 629.6537868024142
-      }
+        "x": 2888,
+        "y": 602
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736480753",
@@ -38625,9 +38751,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.7651900447663,
-        "y": 633.4537822247775
-      }
+        "x": 2888,
+        "y": 604
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736486262",
@@ -38640,9 +38770,13 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2915.365196148282,
-        "y": 637.8537837506564
-      }
+        "x": 2890,
+        "y": 603
+      },
+      "oneTimeSpawn": false,
+      "photos": [
+        "https://youtube.com/shorts/hociBjvPDEI"
+      ]
     },
     {
       "id": "manual-loot-1786736494880",
@@ -38655,8 +38789,8 @@
       "note": "Added manually",
       "quantity": 2,
       "position": {
-        "x": 2908.365196148282,
-        "y": 634.0537806988985
+        "x": 2879.63677635969,
+        "y": 603.6340835437453
       }
     },
     {
@@ -54998,8 +55132,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 2348.0060907848633,
-        "y": 3129.5542508641706
+        "x": 2344.7541416440777,
+        "y": 3126.197997226893
       }
     },
     {
@@ -55788,7 +55922,56 @@
         "x": 3867.7775465169834,
         "y": 729.8824566107024
       }
+    },
+    {
+      "id": "manual-loot-1786909953184",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2879.6868522723835,
+        "y": 591.0462830882726
+      }
+    },
+    {
+      "id": "manual-loot-1786909989101",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.420174415938,
+        "y": 592.5129502635656
+      }
+    },
+    {
+      "id": "manual-loot-1786909997109",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875,
+        "y": 598
+      },
+      "photos": []
     }
   ],
-  "generatedAt": "2026-08-16T19:42:27.373Z"
+  "generatedAt": "2026-08-16T19:53:22.313Z"
 }
