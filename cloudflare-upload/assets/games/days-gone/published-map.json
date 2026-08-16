@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-16T11:22:32.158Z",
+  "savedAt": "2026-08-16T11:31:26.164Z",
   "routeMarkers": [],
   "publishedLootMarkers": [
     {
@@ -7855,7 +7855,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -11263,7 +11263,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15685,7 +15685,7 @@
       "type": "loot_item",
       "title": "Hatchet",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15752,7 +15752,7 @@
       "type": "loot_item",
       "title": "Prox Mine",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15775,8 +15775,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1831,
-        "y": 2592
+        "x": 1830.1186145969161,
+        "y": 2590.1522162451915
       },
       "photos": []
     },
@@ -15921,7 +15921,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15937,7 +15937,7 @@
       "type": "loot_item",
       "title": "Kerosene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15953,7 +15953,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15969,7 +15969,7 @@
       "type": "loot_item",
       "title": "Polystyrene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -15985,7 +15985,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16001,7 +16001,7 @@
       "type": "loot_item",
       "title": "Bandage",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16017,7 +16017,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16033,7 +16033,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16049,7 +16049,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16065,7 +16065,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16081,7 +16081,7 @@
       "type": "loot_item",
       "title": "Spark Igniter",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16097,7 +16097,7 @@
       "type": "loot_item",
       "title": "Rag",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -16106,6 +16106,199 @@
       "position": {
         "x": 1703.3506036072547,
         "y": 2626.1324811101313
+      }
+    },
+    {
+      "id": "manual-loot-1786879470956",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2710.896575250329,
+        "y": 3310.0967741683767
+      }
+    },
+    {
+      "id": "manual-loot-1786879548545",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1830,
+        "y": 2591
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879616463",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2708.881576891756,
+        "y": 3316.610328492197
+      }
+    },
+    {
+      "id": "manual-loot-1786879625007",
+      "type": "loot_item",
+      "title": "Attractor",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3317.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879650199",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2716.0149081905843,
+        "y": 3321.010327474944
+      }
+    },
+    {
+      "id": "manual-loot-1786879664595",
+      "type": "loot_item",
+      "title": "Prox Mine",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2711.281580960767,
+        "y": 3322.143658773772
+      }
+    },
+    {
+      "id": "manual-loot-1786879667875",
+      "type": "loot_item",
+      "title": "Grenade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3324.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879678702",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.8815870642825,
+        "y": 3324.2770002451266
+      }
+    },
+    {
+      "id": "manual-loot-1786879688475",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.1482598344646,
+        "y": 3329.810330526702
+      }
+    },
+    {
+      "id": "manual-loot-1786879696659",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.0315911332927,
+        "y": 3327.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879709826",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.6149244666262,
+        "y": 3328.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879720310",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.669474478733,
+        "y": 3325.540992424667
       }
     }
   ],
@@ -23962,7 +24155,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -27370,7 +27563,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -31792,7 +31985,7 @@
       "type": "loot_item",
       "title": "Hatchet",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -31859,7 +32052,7 @@
       "type": "loot_item",
       "title": "Prox Mine",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -31882,8 +32075,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1831,
-        "y": 2592
+        "x": 1830.1186145969161,
+        "y": 2590.1522162451915
       },
       "photos": []
     },
@@ -32028,7 +32221,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32044,7 +32237,7 @@
       "type": "loot_item",
       "title": "Kerosene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32060,7 +32253,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32076,7 +32269,7 @@
       "type": "loot_item",
       "title": "Polystyrene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32092,7 +32285,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32108,7 +32301,7 @@
       "type": "loot_item",
       "title": "Bandage",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32124,7 +32317,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32140,7 +32333,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32156,7 +32349,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32172,7 +32365,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32188,7 +32381,7 @@
       "type": "loot_item",
       "title": "Spark Igniter",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32204,7 +32397,7 @@
       "type": "loot_item",
       "title": "Rag",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -32213,6 +32406,199 @@
       "position": {
         "x": 1703.3506036072547,
         "y": 2626.1324811101313
+      }
+    },
+    {
+      "id": "manual-loot-1786879470956",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2710.896575250329,
+        "y": 3310.0967741683767
+      }
+    },
+    {
+      "id": "manual-loot-1786879548545",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1830,
+        "y": 2591
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879616463",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2708.881576891756,
+        "y": 3316.610328492197
+      }
+    },
+    {
+      "id": "manual-loot-1786879625007",
+      "type": "loot_item",
+      "title": "Attractor",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3317.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879650199",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2716.0149081905843,
+        "y": 3321.010327474944
+      }
+    },
+    {
+      "id": "manual-loot-1786879664595",
+      "type": "loot_item",
+      "title": "Prox Mine",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2711.281580960767,
+        "y": 3322.143658773772
+      }
+    },
+    {
+      "id": "manual-loot-1786879667875",
+      "type": "loot_item",
+      "title": "Grenade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3324.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879678702",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.8815870642825,
+        "y": 3324.2770002451266
+      }
+    },
+    {
+      "id": "manual-loot-1786879688475",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.1482598344646,
+        "y": 3329.810330526702
+      }
+    },
+    {
+      "id": "manual-loot-1786879696659",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.0315911332927,
+        "y": 3327.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879709826",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.6149244666262,
+        "y": 3328.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879720310",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.669474478733,
+        "y": 3325.540992424667
       }
     }
   ],
@@ -40069,7 +40455,7 @@
       "type": "loot_item",
       "title": "Scrap",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -43477,7 +43863,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -47899,7 +48285,7 @@
       "type": "loot_item",
       "title": "Hatchet",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -47966,7 +48352,7 @@
       "type": "loot_item",
       "title": "Prox Mine",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -47989,8 +48375,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1831,
-        "y": 2592
+        "x": 1830.1186145969161,
+        "y": 2590.1522162451915
       },
       "photos": []
     },
@@ -48135,7 +48521,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48151,7 +48537,7 @@
       "type": "loot_item",
       "title": "Kerosene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48167,7 +48553,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48183,7 +48569,7 @@
       "type": "loot_item",
       "title": "Polystyrene",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48199,7 +48585,7 @@
       "type": "loot_item",
       "title": "Nails",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48215,7 +48601,7 @@
       "type": "loot_item",
       "title": "Bandage",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48231,7 +48617,7 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48247,7 +48633,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48263,7 +48649,7 @@
       "type": "loot_item",
       "title": "Can",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48279,7 +48665,7 @@
       "type": "loot_item",
       "title": "Beer Bottle",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48295,7 +48681,7 @@
       "type": "loot_item",
       "title": "Spark Igniter",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48311,7 +48697,7 @@
       "type": "loot_item",
       "title": "Rag",
       "location": "Manual placement",
-      "region": "Cascades",
+      "region": "Iron Butte",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
@@ -48321,7 +48707,200 @@
         "x": 1703.3506036072547,
         "y": 2626.1324811101313
       }
+    },
+    {
+      "id": "manual-loot-1786879470956",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2710.896575250329,
+        "y": 3310.0967741683767
+      }
+    },
+    {
+      "id": "manual-loot-1786879548545",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1830,
+        "y": 2591
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786879616463",
+      "type": "loot_item",
+      "title": "Remote Bomb",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2708.881576891756,
+        "y": 3316.610328492197
+      }
+    },
+    {
+      "id": "manual-loot-1786879625007",
+      "type": "loot_item",
+      "title": "Attractor",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3317.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879650199",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2716.0149081905843,
+        "y": 3321.010327474944
+      }
+    },
+    {
+      "id": "manual-loot-1786879664595",
+      "type": "loot_item",
+      "title": "Prox Mine",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2711.281580960767,
+        "y": 3322.143658773772
+      }
+    },
+    {
+      "id": "manual-loot-1786879667875",
+      "type": "loot_item",
+      "title": "Grenade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2712.6149142941,
+        "y": 3324.2769951588634
+      }
+    },
+    {
+      "id": "manual-loot-1786879678702",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.8815870642825,
+        "y": 3324.2770002451266
+      }
+    },
+    {
+      "id": "manual-loot-1786879688475",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.1482598344646,
+        "y": 3329.810330526702
+      }
+    },
+    {
+      "id": "manual-loot-1786879696659",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.0315911332927,
+        "y": 3327.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879709826",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.6149244666262,
+        "y": 3328.1436638600353
+      }
+    },
+    {
+      "id": "manual-loot-1786879720310",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.669474478733,
+        "y": 3325.540992424667
+      }
     }
   ],
-  "generatedAt": "2026-08-16T11:22:33.467Z"
+  "generatedAt": "2026-08-16T11:31:26.555Z"
 }

@@ -20,22 +20,6 @@
       "photos": []
     },
     {
-      "id": "manual-loot-1786803510890",
-      "type": "loot_item",
-      "title": "Scrap",
-      "location": "Manual placement",
-      "region": "Belknap",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": true,
-      "position": {
-        "x": 1787,
-        "y": 1785
-      }
-    },
-    {
       "id": "manual-loot-1786803620590",
       "type": "collectible_plant",
       "title": "Collectible Plant",

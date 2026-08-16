@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:22:33.467Z",
+  "generatedAt": "2026-08-16T11:31:26.555Z",
   "regions": [
     {
       "id": "cascades",
       "label": "Cascades",
       "path": "assets/games/days-gone/regions/cascades.json",
-      "markerCount": 585
+      "markerCount": 581
     },
     {
       "id": "belknap",
       "label": "Belknap",
       "path": "assets/games/days-gone/regions/belknap.json",
-      "markerCount": 423
+      "markerCount": 422
     },
     {
       "id": "lost-lake",
@@ -24,7 +24,7 @@
       "id": "iron-butte",
       "label": "Iron Butte",
       "path": "assets/games/days-gone/regions/iron-butte.json",
-      "markerCount": 18
+      "markerCount": 35
     },
     {
       "id": "crater-lake",
