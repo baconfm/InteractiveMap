@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-15T22:03:51.151Z",
+  "savedAt": "2026-08-16T08:20:19.398Z",
   "routeMarkers": [],
   "publishedLootMarkers": [
     {
@@ -6577,6 +6577,23 @@
       }
     },
     {
+      "id": "manual-loot-1786823654455",
+      "type": "collectible_cairn",
+      "title": "Cairn",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1214,
+        "y": 1534
+      },
+      "photos": []
+    },
+    {
       "id": "manual-loot-1786792671884",
       "type": "collectible_plant",
       "title": "Cedar Sapling",
@@ -11244,8 +11261,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1430.5687363293193,
-        "y": 1687.938647958435
+        "x": 1431.8742898083417,
+        "y": 1689.3129297156072
       }
     },
     {
@@ -11317,15 +11334,15 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1282.0674832204388,
-        "y": 1697.2819420968017
+        "x": 1415.4102852385754,
+        "y": 1940.2564923735408
       }
     },
     {
@@ -11508,23 +11525,6 @@
       }
     },
     {
-      "id": "manual-loot-1786823654455",
-      "type": "collectible_cairn",
-      "title": "Cairn",
-      "location": "Manual placement",
-      "region": "Belknap",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": true,
-      "position": {
-        "x": 1214,
-        "y": 1534
-      },
-      "photos": []
-    },
-    {
       "id": "manual-loot-1786826075192",
       "type": "loot_item",
       "title": "Rag",
@@ -11588,11 +11588,337 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1103,
-        "y": 1513
+        "x": 1098.4974039062754,
+        "y": 1516.699717685694
       },
       "photos": [
         "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
+    },
+    {
+      "id": "manual-loot-1786866966134",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1121.511307155068,
+        "y": 1608.0870807066083
+      }
+    },
+    {
+      "id": "manual-loot-1786866968290",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1130.377965683714,
+        "y": 1614.6870817238607
+      }
+    },
+    {
+      "id": "manual-loot-1786866990876",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.1113132585836,
+        "y": 1644.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786866997450",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.644638453896,
+        "y": 1640.4204140399415
+      }
+    },
+    {
+      "id": "manual-loot-1786867017035",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1104.1113132585836,
+        "y": 1662.6204160744467
+      }
+    },
+    {
+      "id": "manual-loot-1786867030579",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1106.0446425229065,
+        "y": 1645.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786867046586",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1101.3113051205628,
+        "y": 1646.7537473732748
+      }
+    },
+    {
+      "id": "manual-loot-1786867058959",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.644638453896,
+        "y": 1631.1537463560223
+      }
+    },
+    {
+      "id": "manual-loot-1786867064823",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1084.8446404884014,
+        "y": 1626.0204125140626
+      }
+    },
+    {
+      "id": "manual-loot-1786867089719",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.511307155068,
+        "y": 1614.0870794350424
+      }
+    },
+    {
+      "id": "manual-loot-1786867121495",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1063,
+        "y": 1635
+      },
+      "photos": [
+        "https://youtube.com/shorts/ITEk5729XiU"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867259052",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1107,
+        "y": 1629
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786867436979",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019.7382794703886,
+        "y": 1636.8135014907623
+      }
+    },
+    {
+      "id": "manual-loot-1786867447703",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1020.3407178970157,
+        "y": 1629.7212291815838
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867452080",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1017,
+        "y": 1629
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867469136",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019,
+        "y": 1626
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868002407",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 967,
+        "y": 1622
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868016036",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868023833",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
       ]
     }
   ],
@@ -18171,6 +18497,23 @@
       }
     },
     {
+      "id": "manual-loot-1786823654455",
+      "type": "collectible_cairn",
+      "title": "Cairn",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1214,
+        "y": 1534
+      },
+      "photos": []
+    },
+    {
       "id": "manual-loot-1786792671884",
       "type": "collectible_plant",
       "title": "Cedar Sapling",
@@ -22838,8 +23181,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1430.5687363293193,
-        "y": 1687.938647958435
+        "x": 1431.8742898083417,
+        "y": 1689.3129297156072
       }
     },
     {
@@ -22911,15 +23254,15 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1282.0674832204388,
-        "y": 1697.2819420968017
+        "x": 1415.4102852385754,
+        "y": 1940.2564923735408
       }
     },
     {
@@ -23102,23 +23445,6 @@
       }
     },
     {
-      "id": "manual-loot-1786823654455",
-      "type": "collectible_cairn",
-      "title": "Cairn",
-      "location": "Manual placement",
-      "region": "Belknap",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": true,
-      "position": {
-        "x": 1214,
-        "y": 1534
-      },
-      "photos": []
-    },
-    {
       "id": "manual-loot-1786826075192",
       "type": "loot_item",
       "title": "Rag",
@@ -23182,11 +23508,337 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1103,
-        "y": 1513
+        "x": 1098.4974039062754,
+        "y": 1516.699717685694
       },
       "photos": [
         "https://youtube.com/shorts/fjKtgH3ruH4"
+      ]
+    },
+    {
+      "id": "manual-loot-1786866966134",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1121.511307155068,
+        "y": 1608.0870807066083
+      }
+    },
+    {
+      "id": "manual-loot-1786866968290",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1130.377965683714,
+        "y": 1614.6870817238607
+      }
+    },
+    {
+      "id": "manual-loot-1786866990876",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.1113132585836,
+        "y": 1644.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786866997450",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.644638453896,
+        "y": 1640.4204140399415
+      }
+    },
+    {
+      "id": "manual-loot-1786867017035",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1104.1113132585836,
+        "y": 1662.6204160744467
+      }
+    },
+    {
+      "id": "manual-loot-1786867030579",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1106.0446425229065,
+        "y": 1645.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786867046586",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1101.3113051205628,
+        "y": 1646.7537473732748
+      }
+    },
+    {
+      "id": "manual-loot-1786867058959",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.644638453896,
+        "y": 1631.1537463560223
+      }
+    },
+    {
+      "id": "manual-loot-1786867064823",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1084.8446404884014,
+        "y": 1626.0204125140626
+      }
+    },
+    {
+      "id": "manual-loot-1786867089719",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.511307155068,
+        "y": 1614.0870794350424
+      }
+    },
+    {
+      "id": "manual-loot-1786867121495",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1063,
+        "y": 1635
+      },
+      "photos": [
+        "https://youtube.com/shorts/ITEk5729XiU"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867259052",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1107,
+        "y": 1629
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786867436979",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019.7382794703886,
+        "y": 1636.8135014907623
+      }
+    },
+    {
+      "id": "manual-loot-1786867447703",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1020.3407178970157,
+        "y": 1629.7212291815838
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867452080",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1017,
+        "y": 1629
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867469136",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019,
+        "y": 1626
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868002407",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 967,
+        "y": 1622
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868016036",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868023833",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
       ]
     }
   ],
@@ -29765,6 +30417,23 @@
       }
     },
     {
+      "id": "manual-loot-1786823654455",
+      "type": "collectible_cairn",
+      "title": "Cairn",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1214,
+        "y": 1534
+      },
+      "photos": []
+    },
+    {
       "id": "manual-loot-1786792671884",
       "type": "collectible_plant",
       "title": "Cedar Sapling",
@@ -34432,8 +35101,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1430.5687363293193,
-        "y": 1687.938647958435
+        "x": 1431.8742898083417,
+        "y": 1689.3129297156072
       }
     },
     {
@@ -34505,15 +35174,15 @@
       "type": "loot_item",
       "title": "Sterilizer",
       "location": "Manual placement",
-      "region": "Belknap",
+      "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
       "note": "Added manually",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1282.0674832204388,
-        "y": 1697.2819420968017
+        "x": 1415.4102852385754,
+        "y": 1940.2564923735408
       }
     },
     {
@@ -34696,23 +35365,6 @@
       }
     },
     {
-      "id": "manual-loot-1786823654455",
-      "type": "collectible_cairn",
-      "title": "Cairn",
-      "location": "Manual placement",
-      "region": "Belknap",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": true,
-      "position": {
-        "x": 1214,
-        "y": 1534
-      },
-      "photos": []
-    },
-    {
       "id": "manual-loot-1786826075192",
       "type": "loot_item",
       "title": "Rag",
@@ -34776,13 +35428,339 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1103,
-        "y": 1513
+        "x": 1098.4974039062754,
+        "y": 1516.699717685694
       },
       "photos": [
         "https://youtube.com/shorts/fjKtgH3ruH4"
       ]
+    },
+    {
+      "id": "manual-loot-1786866966134",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1121.511307155068,
+        "y": 1608.0870807066083
+      }
+    },
+    {
+      "id": "manual-loot-1786866968290",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1130.377965683714,
+        "y": 1614.6870817238607
+      }
+    },
+    {
+      "id": "manual-loot-1786866990876",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.1113132585836,
+        "y": 1644.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786866997450",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1114.644638453896,
+        "y": 1640.4204140399415
+      }
+    },
+    {
+      "id": "manual-loot-1786867017035",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1104.1113132585836,
+        "y": 1662.6204160744467
+      }
+    },
+    {
+      "id": "manual-loot-1786867030579",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1106.0446425229065,
+        "y": 1645.4870796893556
+      }
+    },
+    {
+      "id": "manual-loot-1786867046586",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1101.3113051205628,
+        "y": 1646.7537473732748
+      }
+    },
+    {
+      "id": "manual-loot-1786867058959",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.644638453896,
+        "y": 1631.1537463560223
+      }
+    },
+    {
+      "id": "manual-loot-1786867064823",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1084.8446404884014,
+        "y": 1626.0204125140626
+      }
+    },
+    {
+      "id": "manual-loot-1786867089719",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1082.511307155068,
+        "y": 1614.0870794350424
+      }
+    },
+    {
+      "id": "manual-loot-1786867121495",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1063,
+        "y": 1635
+      },
+      "photos": [
+        "https://youtube.com/shorts/ITEk5729XiU"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867259052",
+      "type": "loot_item",
+      "title": "Beer Bottle",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1107,
+        "y": 1629
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786867436979",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019.7382794703886,
+        "y": 1636.8135014907623
+      }
+    },
+    {
+      "id": "manual-loot-1786867447703",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1020.3407178970157,
+        "y": 1629.7212291815838
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867452080",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1017,
+        "y": 1629
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786867469136",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1019,
+        "y": 1626
+      },
+      "photos": [
+        "https://youtube.com/shorts/wCnLgB5Ikpg"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868002407",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 967,
+        "y": 1622
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868016036",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
+    },
+    {
+      "id": "manual-loot-1786868023833",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 966,
+        "y": 1625
+      },
+      "photos": [
+        "https://youtube.com/shorts/2YhhwzDiAGA"
+      ]
     }
   ],
-  "generatedAt": "2026-08-15T22:28:30.892Z"
+  "generatedAt": "2026-08-16T08:20:19.817Z"
 }

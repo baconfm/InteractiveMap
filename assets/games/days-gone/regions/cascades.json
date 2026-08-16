@@ -8222,6 +8222,22 @@
         "x": 2480.435061455866,
         "y": 1627.3302424714927
       }
+    },
+    {
+      "id": "manual-loot-1786820384748",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1415.4102852385754,
+        "y": 1940.2564923735408
+      }
     }
   ]
 }

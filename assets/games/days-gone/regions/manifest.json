@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T22:28:30.892Z",
+  "generatedAt": "2026-08-16T08:20:19.817Z",
   "regions": [
     {
       "id": "cascades",
       "label": "Cascades",
       "path": "assets/games/days-gone/regions/cascades.json",
-      "markerCount": 539
+      "markerCount": 540
     },
     {
       "id": "belknap",
       "label": "Belknap",
       "path": "assets/games/days-gone/regions/belknap.json",
-      "markerCount": 210
+      "markerCount": 228
     },
     {
       "id": "lost-lake",
