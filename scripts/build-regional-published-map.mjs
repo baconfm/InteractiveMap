@@ -26,6 +26,7 @@ const aliases = new Map([
 ]);
 
 const regionForPosition = (position) => {
+  if (position && position.x >= 521 && position.x <= 1837 && position.y >= 1776 && position.y <= 3277) return "Iron Butte";
   if (position && position.x <= 2320 && position.y <= 1940) return "Belknap";
   return null;
 };

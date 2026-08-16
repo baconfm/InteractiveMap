@@ -36,6 +36,8 @@ const ITEM_BADGES = {
   "Prox Bomb": ["PX", "#ba6658"],
   Rag: ["RA", "#ded4ac"],
   Random: ["?", "#8b78b8"],
+  "Remote Bomb": ["RB", "#9b74ba"],
+  "Ripper Axe": ["RX", "#a9554b"],
   SAF: ["SAF", "#6f8fa8"],
   "Saw Blade": ["SB", "#afb5ba"],
   "Sawed Off": ["SO", "#7f695b"],
@@ -97,6 +99,12 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "Fire Axe") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#c95c45" stroke="#182018" stroke-width="2"/><path d="m8 21 8-8m-1-5 6 2-2 6-3-3-8 8m8-13 3 3" fill="none" stroke="#fff0d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+  }
+  if (itemName === "Ripper Axe") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#a9554b" stroke="#182018" stroke-width="2"/><path d="m8 21 8-8m-2-5 7 2-2 7-4-3-7 7m8-13 3 3" fill="none" stroke="#f5e4d0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m11 9 2 2m4 4 2 2" stroke="#182018" stroke-linecap="round" stroke-width="1.25"/></svg>';
+  }
+  if (itemName === "Remote Bomb") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#9b74ba" stroke="#182018" stroke-width="2"/><path d="M9 15h10v7H9v-7Zm3-3h4v3m-3 3h2m3-6 2-2m-9 8h.01m6 0h.01" fill="#f4f1e7" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35"/></svg>';
   }
   if (itemName === "Pickaxe") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#8a7960" stroke="#182018" stroke-width="2"/><path d="m8 21 10-10m-4-2 7 1-1 4m-6-5 3 3" fill="none" stroke="#f0e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
