@@ -187,14 +187,14 @@ function showMarkerDetails(marker) {
   markerDetailsPhotos.replaceChildren(...photos.map((url, index) => {
     const videoUrl = youtubeEmbedUrl(url);
     if (videoUrl) {
-      const frame = document.createElement("iframe");
-      frame.className = "marker-details__video";
-      frame.src = videoUrl;
-      frame.title = `${marker.title} location video ${index + 1}`;
-      frame.loading = "lazy";
-      frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      frame.allowFullscreen = true;
-      return frame;
+      const link = document.createElement("a");
+      link.className = "marker-details__video-link";
+      link.href = url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Video";
+      link.title = `Open ${marker.title} location video ${index + 1}`;
+      return link;
     }
     const link = document.createElement("a");
     link.href = url;
