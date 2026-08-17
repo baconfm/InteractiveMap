@@ -22,9 +22,11 @@ export class MapEngine {
     this.renderFrame = null;
     this.activePointers = new Map();
     this.pinchState = null;
-    this.layers.register({ id: "regions", zIndex: 1 });
-    this.layers.register({ id: "entities", zIndex: 2 });
-    this.layers.register({ id: "annotations", zIndex: 3 });
+    this.layers.register({ id: "routes", zIndex: 0 });
+    this.layers.register({ id: "map-lines", zIndex: 1 });
+    this.layers.register({ id: "regions", zIndex: 2 });
+    this.layers.register({ id: "entities", zIndex: 3 });
+    this.layers.register({ id: "annotations", zIndex: 4 });
     this.bindEvents();
   }
 

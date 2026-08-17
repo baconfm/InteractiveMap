@@ -1,6 +1,6 @@
 import { APP_CONFIG } from "../core/config.js";
 import { expandRequests, plannerOptions, rankLootZones } from "../planner/ResourcePlanner.js";
-import { resourceNameForId } from "../data/games/days-gone/crafting-recipes.js";
+import { resourceIdForName, resourceNameForId } from "../data/games/days-gone/crafting-recipes.js";
 
 const STORAGE_KEY = "days-gone-wip-fast-travel-v1";
 const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
@@ -61,7 +61,26 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
     return ordered;
   }
 
-  function drawRoute(zones) {
+  function routePickupMarkers(zones, requirements) {
+    const remaining = { ...requirements };
+    const selected = [];
+    zones.forEach((zone) => {
+      zone.markers
+        .slice()
+        .sort((first, second) => Math.hypot(first.position.x - zone.position.x, first.position.y - zone.position.y)
+          - Math.hypot(second.position.x - zone.position.x, second.position.y - zone.position.y))
+        .forEach((marker) => {
+          const resourceId = resourceIdForName(marker.title);
+          if (!remaining[resourceId]) return;
+          const amount = Math.min(Number(marker.quantity) || 1, remaining[resourceId]);
+          remaining[resourceId] -= amount;
+          selected.push(marker);
+        });
+    });
+    return selected;
+  }
+
+  function drawRoute(zones, pickupMarkers) {
     clearRoute();
     if (!routeLayer || !zones.length) return;
     const svg = document.createElementNS(SVG_NAMESPACE, "svg");
@@ -82,6 +101,23 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
       path.setAttribute("stroke-linecap", "round");
       path.setAttribute("stroke-linejoin", "round");
       svg.append(path);
+    });
+    pickupMarkers.forEach((marker) => {
+      const halo = document.createElementNS(SVG_NAMESPACE, "circle");
+      halo.setAttribute("cx", marker.position.x);
+      halo.setAttribute("cy", marker.position.y);
+      halo.setAttribute("r", "19");
+      halo.setAttribute("fill", "#153e4e");
+      halo.setAttribute("fill-opacity", "0.9");
+      halo.setAttribute("stroke", "#77d6f5");
+      halo.setAttribute("stroke-width", "5");
+      svg.append(halo);
+      const dot = document.createElementNS(SVG_NAMESPACE, "circle");
+      dot.setAttribute("cx", marker.position.x);
+      dot.setAttribute("cy", marker.position.y);
+      dot.setAttribute("r", "6");
+      dot.setAttribute("fill", "#f8e58a");
+      svg.append(dot);
     });
     points.forEach((point, index) => {
       const circle = document.createElementNS(SVG_NAMESPACE, "circle");
@@ -154,10 +190,11 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
     if (notes.length) { const note = document.createElement("small"); note.textContent = notes.join(" "); requirementsRoot.append(note); }
     requirementsRoot.hidden = false;
     const zones = routeZones(rankLootZones(markers, requirements, startPosition));
+    const pickupMarkers = routePickupMarkers(zones, requirements);
     const totalDistance = zones.reduce((total, zone) => total + zone.legDistance, 0);
     const routeSummary = document.createElement("small");
     routeSummary.className = "resource-planner__route-summary";
-    routeSummary.textContent = `Route: ${zones.length} stops · ${totalDistance}m direct distance`;
+    routeSummary.textContent = `Route: ${zones.length} stops · ${totalDistance}m direct distance · blue rings mark ${pickupMarkers.length} planned pickups`;
     resultsRoot.replaceChildren(routeSummary, ...zones.map((zone, index) => {
       const button = document.createElement("button"); button.type = "button"; button.className = "resource-planner__result";
       const nearest = allFastTravel().reduce((best, point) => { const distance = Math.round(Math.hypot(point.position.x - zone.position.x, point.position.y - zone.position.y)); return !best || distance < best.distance ? { title: point.title, distance } : best; }, null);
@@ -165,7 +202,7 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
       button.addEventListener("click", () => focus(zone.position)); return button;
     }));
     if (!zones.length) resultsRoot.textContent = "No published markers match this request yet.";
-    drawRoute(zones);
+    drawRoute(zones, pickupMarkers);
     resultsRoot.hidden = false;
   }
 

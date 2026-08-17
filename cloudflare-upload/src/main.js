@@ -8,9 +8,12 @@ import { MapEngine } from "./map/MapEngine.js";
 import { MapMarkerLayer } from "./map/MapMarkerLayer.js";
 import { MapMarkerOverrides } from "./map/MapMarkerOverrides.js";
 import { MapMarkerStore } from "./map/MapMarkerStore.js";
+import { MapLineStore } from "./map/MapLineStore.js";
+import { MapLineLayer } from "./map/MapLineLayer.js";
 import { bindControls } from "./ui/Controls.js";
 import { MarkerEditor } from "./ui/MarkerEditor.js";
 import { MapLocationEditor } from "./ui/MapLocationEditor.js";
+import { MapLineEditor } from "./ui/MapLineEditor.js";
 
 const coordinateReadout = document.querySelector("#coordinate-readout");
 const emptyState = document.querySelector("#map-empty-state");
@@ -20,6 +23,8 @@ const lootEditorPanel = document.querySelector("#loot-editor-panel");
 const lootEditorToggle = document.querySelector("#loot-editor-toggle");
 const locationEditorPanel = document.querySelector("#location-editor-panel");
 const locationEditorToggle = document.querySelector("#location-editor-toggle");
+const lineEditorPanel = document.querySelector("#line-editor-panel");
+const lineEditorToggle = document.querySelector("#line-editor-toggle");
 const addHotbar = document.querySelector("#add-hotbar");
 const saveMapButton = document.querySelector("#save-map");
 const publishMapButton = document.querySelector("#publish-map");
@@ -48,6 +53,7 @@ const lootEditor = {
 };
 let markerEditor;
 let mapLocationEditor;
+let mapLineEditor;
 let lootStore;
 let selectedLootId;
 let placingManualLoot = false;
@@ -64,6 +70,7 @@ const engine = new MapEngine({
     coordinateReadout.value = `X ${Math.round(x)} · Y ${Math.round(y)}`;
   },
   onMapClick: (position) => {
+    if (mapLineEditor?.place(position)) return;
     if (placingManualLoot) placeManualLoot(position);
     else if (!locationEditorPanel.hidden && mapLocationEditor?.place(position)) return;
     else if (!editorPanel.hidden) markerEditor?.place(position);
@@ -76,6 +83,7 @@ const engine = new MapEngine({
 
 const markerStore = new MapMarkerStore("days-gone-route-markers-v1");
 const mapLocationStore = new MapMarkerStore("days-gone-map-locations-v1");
+const mapLineStore = new MapLineStore("days-gone-map-lines-v1");
 daysGoneMap.coordinateMigrations?.forEach((migration) => {
   markerStore.migratePositions({ ...migration, toSize: daysGoneMap.size });
 });
@@ -99,6 +107,10 @@ const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), daysGoneM
   combineMatchingBelowZoom: APP_CONFIG.camera.maxZoom,
   combineMatchingRadius: 34,
 });
+const mapLineLayer = new MapLineLayer(engine.layers.get("map-lines"), daysGoneMap.size, {
+  onLineClick: (line) => { mapLineEditor?.select(line); toggleLineEditor(true); },
+  onPointPointerDown: (line, index, event) => mapLineEditor?.movePoint(line, index, event),
+});
 engine.layers.setVisibility("entities", !lootOnly);
 // Map locations are editing aids, so keep camps, checkpoints, and their
 // fast-travel arrivals available while the editor is in its loot-only view.
@@ -114,6 +126,7 @@ markerLayer.render(markerStore.getAll());
 mapLocationStore.subscribe((markers) => mapLocationLayer.render(markers));
 mapLocationStore.subscribe(() => markAutoSaved());
 mapLocationLayer.render(mapLocationStore.getAll());
+mapLineLayer.render(mapLineStore.getAll());
 initializeLootMarkers();
 lootEditor.type.replaceChildren(...LOOT_ITEM_NAMES.map((name) => new Option(name, name)));
 const MAP_REGIONS = ["Cascades", "Belknap", "Lost Lake", "Iron Butte", "Crater Lake", "Highway 97"];
@@ -511,6 +524,7 @@ function getMapSnapshot() {
     savedAt: new Date().toISOString(),
     routeMarkers: markerStore.getAll(),
     mapLocations: mapLocationStore.getAll(),
+    mapLines: mapLineStore.getAll(),
     publishedLootMarkers: lootStore?.getReviewed() ?? [],
     lootMarkers: lootStore?.getReviewed() ?? [],
     allLootMarkers: lootStore?.getAll() ?? [],
@@ -606,6 +620,12 @@ mapLocationEditor = new MapLocationEditor({
   },
 });
 
+mapLineEditor = new MapLineEditor({ store: mapLineStore, layer: mapLineLayer, elements: {
+  type: document.querySelector("#map-line-type"), title: document.querySelector("#map-line-title"),
+  start: document.querySelector("#start-map-line"), finish: document.querySelector("#finish-map-line"),
+  cancel: document.querySelector("#cancel-map-line"), delete: document.querySelector("#delete-map-line"), status: document.querySelector("#map-line-status"),
+}, positionForEvent: (event) => engine.coordinates.clamp(engine.coordinates.screenToMap(engine.toViewportPoint(event), engine.camera.getState())) });
+
 function toggleEditor(open) {
   editorPanel.hidden = !open;
   editorToggle.setAttribute("aria-expanded", String(open));
@@ -626,6 +646,16 @@ function toggleLocationEditor(open) {
 
 locationEditorToggle.addEventListener("click", () => toggleLocationEditor(locationEditorPanel.hidden));
 document.querySelector("#location-editor-close").addEventListener("click", () => toggleLocationEditor(false));
+
+function toggleLineEditor(open) {
+  lineEditorPanel.hidden = !open;
+  lineEditorToggle.setAttribute("aria-expanded", String(open));
+  lineEditorToggle.classList.toggle("is-active", open);
+  lineEditorToggle.textContent = open ? "Close drawing" : "Draw map lines";
+  if (!open) mapLineEditor.reset();
+}
+lineEditorToggle.addEventListener("click", () => toggleLineEditor(lineEditorPanel.hidden));
+document.querySelector("#line-editor-close").addEventListener("click", () => toggleLineEditor(false));
 
 bindControls(engine);
 engine.mount();
