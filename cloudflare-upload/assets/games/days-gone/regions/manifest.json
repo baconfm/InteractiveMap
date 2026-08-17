@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T18:03:27.425Z",
+  "generatedAt": "2026-08-17T18:54:15.788Z",
   "regions": [
     {
       "id": "cascades",
       "label": "Cascades",
       "path": "assets/games/days-gone/regions/cascades.json",
-      "markerCount": 982,
+      "markerCount": 1070,
       "locationCount": 9
     },
     {
