@@ -2404,8 +2404,8 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 2994.9366709453016,
-        "y": 939.6488579357175
+        "x": 3000.0106316663996,
+        "y": 941.4777472618583
       }
     },
     {
@@ -4498,8 +4498,8 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3403.6807904270727,
-        "y": 1695.4080859669768
+        "x": 3406.648484535603,
+        "y": 1698.1718122337013
       }
     },
     {
@@ -11140,8 +11140,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1393.1374487517014,
-        "y": 1720.1202684169782
+        "x": 1403.4261756314331,
+        "y": 1711.9502820384791
       }
     },
     {
@@ -14752,75 +14752,730 @@
         "y": 598
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1786987194764",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 3503.0363266426552,
+        "y": 2099.294187644398
+      }
+    },
+    {
+      "id": "manual-loot-1786987205973",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3498.6947123077257,
+        "y": 2108.470793556219
+      }
+    },
+    {
+      "id": "manual-loot-1786987227319",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3475.2104900901813,
+        "y": 2122.877081546251
+      }
+    },
+    {
+      "id": "manual-loot-1786987233074",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3471.3622417049637,
+        "y": 2120.410255561776
+      }
+    },
+    {
+      "id": "manual-loot-1786987257712",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3472.878547513324,
+        "y": 2120.9778658344003
+      }
+    },
+    {
+      "id": "manual-loot-1786987291612",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3475.7038560398933,
+        "y": 2128.6001295741735
+      }
+    },
+    {
+      "id": "manual-loot-1786987294934",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3471.263562492488,
+        "y": 2128.008091940153
+      }
+    },
+    {
+      "id": "manual-loot-1786987308606",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3480,
+        "y": 2108
+      },
+      "photos": [
+        "https://youtube.com/shorts/YFkLDWPRvok"
+      ]
+    },
+    {
+      "id": "manual-loot-1786987534809",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3477.259408236986,
+        "y": 2096.6429110277786
+      }
+    },
+    {
+      "id": "manual-loot-1786987559555",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3480.9768797662514,
+        "y": 2087.69345770449
+      }
+    },
+    {
+      "id": "manual-loot-1786987578082",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3478.842775156611,
+        "y": 2072.479385479232
+      }
+    },
+    {
+      "id": "manual-loot-1786987587726",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3478.85999194644,
+        "y": 2072.7547543242395
+      }
+    },
+    {
+      "id": "manual-loot-1786987611933",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "coltsfoot",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3497,
+        "y": 2066
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786987666663",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "coltsfoo",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3506.327925252293,
+        "y": 2090.1717668051097
+      }
+    },
+    {
+      "id": "manual-loot-1786987746174",
+      "type": "loot_item",
+      "title": "Dog Toy",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3509.6577982583167,
+        "y": 2082.27752161296
+      }
+    },
+    {
+      "id": "manual-loot-1786987776585",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3527.057792154801,
+        "y": 2081.9441882796264
+      }
+    },
+    {
+      "id": "manual-loot-1786987783389",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3524.541129557145,
+        "y": 2084.0108539290404
+      }
+    },
+    {
+      "id": "manual-loot-1786987800615",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3512.5244567869627,
+        "y": 2091.677520595707
+      }
+    },
+    {
+      "id": "manual-loot-1786987818568",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3524,
+        "y": 2109
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989250467",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n2x Gun Powder\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714,
+        "y": 4678
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989336953",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2713,
+        "y": 4680
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989378651",
+      "type": "loot_item",
+      "title": "SAF",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n2x Gun Powder",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.273633940266,
+        "y": 4681.590098491083
+      }
+    },
+    {
+      "id": "manual-loot-1786989422859",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2711,
+        "y": 4678
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989441387",
+      "type": "loot_item",
+      "title": "Prox Mine",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2718.0652443895765,
+        "y": 4676.554567465005
+      }
+    },
+    {
+      "id": "manual-loot-1786989455818",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.338593743952,
+        "y": 4683.721214537807
+      }
+    },
+    {
+      "id": "manual-loot-1786989464762",
+      "type": "loot_item",
+      "title": "Grenade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2717.288544239618,
+        "y": 4679.821177922701
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989483048",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2714.4097549736675,
+        "y": 4683.533295435723
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989489196",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2716,
+        "y": 4680
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989502075",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2720.773392262079,
+        "y": 4683.154511256035
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989510398",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2720.9249069512066,
+        "y": 4679.896932724134
+      }
+    },
+    {
+      "id": "manual-loot-1786989611615",
+      "type": "loot_item",
+      "title": "Attractor Bomb",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2735.8491470635113,
+        "y": 4682.548447413262
+      }
+    },
+    {
+      "id": "manual-loot-1786989628946",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2735.167333505569,
+        "y": 4685.95754063429
+      }
+    },
+    {
+      "id": "manual-loot-1786989640473",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2741.000666838902,
+        "y": 4692.851476791517
+      }
+    },
+    {
+      "id": "manual-loot-1786989651184",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2742.2606185343393,
+        "y": 4693.181202099188
+      }
+    },
+    {
+      "id": "manual-loot-1786989658860",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2743.197637460647,
+        "y": 4690.351476791517
+      }
+    },
+    {
+      "id": "manual-loot-1786989669799",
+      "type": "loot_item",
+      "title": "Attractor Bomb",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2735.9249120374698,
+        "y": 4701.033295435723
+      }
+    },
+    {
+      "id": "manual-loot-1786989676882",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2755,
+        "y": 4690
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786989679452",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside the Cave.\n\nMay not respawn on the Remastered version, still testing.\nMay not spawn before certain story mission.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2754.7885493258814,
+        "y": 4686.790873967623
+      }
     }
   ],
   "locations": [
     {
-      "id": "map-location-1786976393563",
+      "id": "map-location-1786980748973",
       "title": "Peaceful Lake",
       "type": "camp",
       "note": "",
       "position": {
-        "x": 2647.822531307769,
-        "y": 1901.0446197674457
+        "x": 2648.4844623707713,
+        "y": 1901.0275835995972
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976400069",
-      "parentId": "map-location-1786976393563",
+      "id": "fast-travel-arrival-1786980754366",
+      "parentId": "map-location-1786980748973",
       "title": "Peaceful Lake arrival",
       "type": "fast_travel_arrival",
       "note": "Fast travel arrival for Peaceful Lake.",
       "position": {
-        "x": 2651.870427949862,
-        "y": 1874.731000369087
+        "x": 2651.8844664397816,
+        "y": 1873.0942492490112
       },
       "region": "Cascades"
     },
     {
-      "id": "map-location-1786976413781",
-      "title": "Peaceful Lake",
-      "type": "camp",
+      "id": "map-location-1786980887059",
+      "title": "Horse Creek Ambush Camp",
+      "type": "ambush_camp",
       "note": "",
       "position": {
-        "x": 2651.265524969427,
-        "y": 1874.290043474139
+        "x": 3393.871642533834,
+        "y": 1691.4611018756896
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976556565",
-      "parentId": "map-location-1786976413781",
-      "title": "Peaceful Lake arrival",
+      "id": "fast-travel-arrival-1786980891259",
+      "parentId": "map-location-1786980887059",
+      "title": "Horse Creek Ambush Camp arrival",
       "type": "fast_travel_arrival",
-      "note": "Fast travel arrival for Peaceful Lake.",
+      "note": "Fast travel arrival for Horse Creek Ambush Camp.",
       "position": {
-        "x": 2651.528060092559,
-        "y": 1874.552591951041
+        "x": 3351.612702268161,
+        "y": 1631.1685964884946
       },
       "region": "Cascades"
     },
     {
-      "id": "map-location-1786976611565",
-      "title": "Peaceful Lake",
-      "type": "camp",
+      "id": "map-location-1786980924002",
+      "title": "Old Pioneer Cemetery NERO Checkpoint",
+      "type": "nero_checkpoint",
       "note": "",
       "position": {
-        "x": 2645.3469548965495,
-        "y": 1906.058858553407
+        "x": 3870.506127706327,
+        "y": 727.7215888158615
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976614706",
-      "parentId": "map-location-1786976611565",
-      "title": "Peaceful Lake arrival",
+      "id": "fast-travel-arrival-1786980927803",
+      "parentId": "map-location-1786980924002",
+      "title": "Old Pioneer Cemetery NERO Checkpoint arrival",
       "type": "fast_travel_arrival",
-      "note": "Fast travel arrival for Peaceful Lake.",
+      "note": "Fast travel arrival for Old Pioneer Cemetery NERO Checkpoint.",
       "position": {
-        "x": 2650.9479267528613,
-        "y": 1875.6035423695068
+        "x": 3838.639469177681,
+        "y": 692.254919097437
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1786981001971",
+      "title": "Jefferson Rail Tunnel Ambush Camp",
+      "type": "nero_checkpoint",
+      "note": "",
+      "position": {
+        "x": 3024.253562751335,
+        "y": 640.7084346567646
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1786981004418",
+      "parentId": "map-location-1786981001971",
+      "title": "Jefferson Rail Tunnel Ambush Camp arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for Jefferson Rail Tunnel Ambush Camp.",
+      "position": {
+        "x": 2900.6889205357134,
+        "y": 673.6428994172107
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1786987899706",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Spotted During Night - Specific Spawn Conditions Unknown",
+      "position": {
+        "x": 3572.2742856938135,
+        "y": 2081.674010378457
       },
       "region": "Cascades"
     }
