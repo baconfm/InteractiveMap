@@ -48,7 +48,7 @@ const normalizeMarker = (marker) => {
     ?? savedRegion
     ?? inferredRegion
     ?? "Cascades";
-  return { ...marker, region };
+  return { ...marker, title: marker.title === "Beer Bottle" ? "Bottle" : marker.title, region };
 };
 const dedupeMarkers = (markers) => {
   const markerIds = new Set();

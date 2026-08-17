@@ -1,5 +1,5 @@
 import { DAYS_GONE_TRACED_ICON_BODIES } from "./overlay-icons.js";
-import { renderLootItemIcon } from "./loot-item-icons.js";
+import { canonicalLootItemName, renderLootItemIcon } from "./loot-item-icons.js";
 import { isOneTimeSpawn } from "./loot-rules.js";
 
 const ICON_COLORS = {
@@ -45,6 +45,7 @@ function withOneTimeSpawnBadge(marker, icon) {
 }
 
 export function renderDaysGoneMarkerIcon(marker) {
+  const title = canonicalLootItemName(marker.title);
   if (marker.type === "fast_travel_arrival") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7bc8e8" stroke="#182018" stroke-width="2"/><path d="M14 6v12m0 0-4-4m4 4 4-4M8 20h12" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
@@ -52,9 +53,9 @@ export function renderDaysGoneMarkerIcon(marker) {
     return `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#f0be5d" stroke="#182018" stroke-width="2.5"/><path d="m9 12 7-4 7 4-7 4-7-4Zm0 5 7 4 7-4m-14 5 7 4 7-4" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><text x="16" y="20" fill="#182018" font-family="Arial,sans-serif" font-size="9" font-weight="800" text-anchor="middle">${marker.clusterCount}</text></svg>`;
   }
   if (marker.type === "loot_stack") {
-    const hasBuiltInCount = marker.title === "Bottle" || marker.title === "Beer Bottle";
+    const hasBuiltInCount = title === "Bottle";
     const countBadge = hasBuiltInCount ? "" : `<b class="loot-stack-icon__count">${marker.stackCount}</b>`;
-    return withOneTimeSpawnBadge(marker, `<span class="loot-stack-icon">${renderLootItemIcon(marker.title, marker.stackCount)}${countBadge}</span>`);
+    return withOneTimeSpawnBadge(marker, `<span class="loot-stack-icon">${renderLootItemIcon(title, marker.stackCount)}${countBadge}</span>`);
   }
   if (marker.icon === "mushroom") return mushroomIcon();
   if (marker.icon === "plant") return plantIcon();
@@ -63,7 +64,7 @@ export function renderDaysGoneMarkerIcon(marker) {
   if (!marker.icon && (/mushroom/i.test(`${marker.type} ${marker.title} ${marker.note}`))) return mushroomIcon();
   if (!marker.icon && isPlantMarker(marker)) return plantIcon();
   if (marker.type === "loot_item") {
-    return withOneTimeSpawnBadge(marker, renderLootItemIcon(marker.title, marker.quantity));
+    return withOneTimeSpawnBadge(marker, renderLootItemIcon(title, marker.quantity));
   }
   if (marker.type === "loot_location") {
     return '<svg viewBox="0 0 24 24" aria-hidden="true" style="color:#f0be5d"><path fill="currentColor" d="M4 8h16v12H4zM6 4h12v3H6zM10.75 11h2.5v3h-2.5z"/></svg>';

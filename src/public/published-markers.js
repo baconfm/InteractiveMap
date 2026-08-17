@@ -1,4 +1,5 @@
 import { PUBLISHED_MAP_DATA_URL } from "../data/games/days-gone/published-map-source.js";
+import { canonicalLootItemName } from "../data/games/days-gone/loot-item-icons.js";
 
 const assetUrl = (path) => new URL(`../../${path}`, import.meta.url).href;
 
@@ -40,7 +41,8 @@ export async function loadPublishedMap() {
     }
   }
   if (!Array.isArray(lootMarkers) || !Array.isArray(locationMarkers)) throw new Error("Published map data is invalid.");
-  return { lootMarkers: dedupeMarkers(lootMarkers), locationMarkers: dedupeMarkers(locationMarkers) };
+  const normalizedLootMarkers = lootMarkers.map((marker) => ({ ...marker, title: canonicalLootItemName(marker.title) }));
+  return { lootMarkers: dedupeMarkers(normalizedLootMarkers), locationMarkers: dedupeMarkers(locationMarkers) };
 }
 
 export async function loadPublishedMarkers() {

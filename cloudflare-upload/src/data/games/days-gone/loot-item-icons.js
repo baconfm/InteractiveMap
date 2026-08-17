@@ -7,7 +7,6 @@ const ITEM_BADGES = {
   "Attractor Bomb": ["AX", "#b060c8"],
   Bandage: ["BD", "#e9e5d5"],
   "Baseball Bat": ["BT", "#9c6b45"],
-  "Beer Bottle": ["BB", "#8cae66"],
   Bottle: ["BT", "#86aa75"],
   Can: ["CN", "#b4bdc5"],
   "Car Alarm": ["CA", "#d9795e"],
@@ -87,7 +86,12 @@ const SHEET_GLYPHS = {
 
 export const LOOT_ITEM_NAMES = Object.keys(ITEM_BADGES);
 
+export function canonicalLootItemName(itemName) {
+  return itemName === "Beer Bottle" ? "Bottle" : itemName;
+}
+
 export function renderLootItemIcon(itemName, quantity = 1) {
+  itemName = canonicalLootItemName(itemName);
   if (itemName === "Sledgehammer") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#787f78" stroke="#182018" stroke-width="2"/><path d="m8 21 9-9m-2-5 6 6m-8-4 4-4 4 4-4 4-4-4Z" fill="none" stroke="#e9e0cd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
@@ -126,9 +130,6 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "Bottle") {
     return `<span class="loot-item-icon loot-item-icon--bottle"><img src="/assets/icons/Bottle.svg" alt="" aria-hidden="true"><b class="loot-item-icon__count">${quantity}</b></span>`;
-  }
-  if (itemName === "Beer Bottle") {
-    return `<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#86aa75" stroke="#182018" stroke-width="2"/><path d="M11 7h6v4l2 3v7H9v-7l2-3V7Z" fill="#e7f0d5" stroke="#182018" stroke-linejoin="round" stroke-width="1.5"/><text x="20" y="10" fill="#182018" font-family="Arial,sans-serif" font-size="7" font-weight="700" text-anchor="middle">${quantity}</text></svg>`;
   }
   if (itemName === "Cedar Sapling") {
     return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#315c3a" stroke="#182018" stroke-width="2"/><path d="M15.5 4 8.6 16.2l4.4-1.5-6.5 10.1h17l-5.8-9.5 4.8 1.5L15.5 4Zm-1.1 18.6h2.2v5h-2.2v-5Z" fill="#70b96f" stroke="#182018" stroke-linejoin="round" stroke-width="1.25"/><path d="m24.5 6-3.6 6h2.7l-3.1 6 6.1-7.5h-2.8L26.5 6h-2Z" fill="#75c7f2" stroke="#182018" stroke-linejoin="round" stroke-width=".8"/></svg>';

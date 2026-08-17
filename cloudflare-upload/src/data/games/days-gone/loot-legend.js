@@ -1,6 +1,6 @@
 export const LOOT_LEGEND_GROUPS = [
   { id: "supplies", label: "Supplies", items: ["Ammo Tin", "Bandage", "Gas Can", "Medkit"] },
-  { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Beer Bottle", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
+  { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
   { id: "throwables", label: "Throwables", items: ["Attractor", "Attractor Bomb", "Car Alarm", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Bomb", "Prox Mine", "Remote Bomb", "Smoke Bomb"] },
   { id: "weapons", label: "Melee weapons", items: ["Baseball Bat", "Fire Axe", "Hatchet", "Machete", "Pickaxe", "Pipe", "Ripper Axe", "Sledgehammer", "Superior Axe"] },
   { id: "firearms", label: "Firearms", items: ["SAF", "Sawed Off"] },

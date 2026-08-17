@@ -21,7 +21,7 @@ export const DAYS_GONE_RECIPES = [
 ];
 
 export const RESOURCE_NAMES = {
-  airbag: "Airbag", alarm_clock: "Alarm Clock", beer_bottle: "Beer Bottle", berry: "Berry", box_of_nails: "Nails",
+  airbag: "Airbag", alarm_clock: "Alarm Clock", beer_bottle: "Bottle", berry: "Berry", box_of_nails: "Nails",
   can: "Can", car_alarm: "Car Alarm", cedar_sapling: "Cedar Sapling", growler: "Growler", gun_powder: "Gun Powder",
   herb: "Herb", kerosene: "Kerosene", mushroom: "Mushroom", nest_residue: "Nest Residue", poison: "Poison",
   polystyrene: "Polystyrene", rag: "Rag", sawblade: "Saw Blade", scrap: "Scrap", small_pipe: "Pipe",

@@ -1,6 +1,6 @@
 import { APP_CONFIG } from "./core/config.js";
 import { daysGoneMap } from "./data/games/days-gone/map.js";
-import { LOOT_ITEM_NAMES, renderLootItemIcon } from "./data/games/days-gone/loot-item-icons.js";
+import { canonicalLootItemName, LOOT_ITEM_NAMES, renderLootItemIcon } from "./data/games/days-gone/loot-item-icons.js";
 import { isOneTimeSpawn } from "./data/games/days-gone/loot-rules.js";
 import { renderDaysGoneMarkerIcon } from "./data/games/days-gone/marker-icons.js";
 import { loadRouteQueue } from "./data/games/days-gone/route-objectives.js";
@@ -100,7 +100,9 @@ const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), daysGoneM
   combineMatchingRadius: 34,
 });
 engine.layers.setVisibility("entities", !lootOnly);
-engine.layers.setVisibility("regions", !lootOnly);
+// Map locations are editing aids, so keep camps, checkpoints, and their
+// fast-travel arrivals available while the editor is in its loot-only view.
+engine.layers.setVisibility("regions", true);
 engine.onCameraChange = ({ zoom }) => {
   markerLayer.setZoom(zoom);
   mapLocationLayer.setZoom(zoom);
@@ -320,9 +322,9 @@ async function initializeLootMarkers() {
     const response = await fetch(new URL("../assets/games/days-gone/published-map.json", import.meta.url), { cache: "no-store" });
     if (!response.ok) throw new Error("Clean loot baseline could not be loaded.");
     const snapshot = await response.json();
-    const markers = Array.isArray(snapshot.allLootMarkers)
+    const markers = (Array.isArray(snapshot.allLootMarkers)
       ? snapshot.allLootMarkers
-      : snapshot.publishedLootMarkers;
+      : snapshot.publishedLootMarkers)?.map((marker) => ({ ...marker, title: canonicalLootItemName(marker.title) }));
     if (!Array.isArray(markers)) throw new Error("Clean loot baseline is invalid.");
     lootStore = new MapMarkerOverrides("days-gone-loot-item-overrides-v2", markers);
     lootStore.subscribe(() => {
@@ -531,7 +533,6 @@ publishMapButton.addEventListener("click", async () => {
 lootOnlyToggle.addEventListener("click", () => {
   lootOnly = !lootOnly;
   engine.layers.setVisibility("entities", !lootOnly);
-  engine.layers.setVisibility("regions", !lootOnly);
   lootOnlyToggle.setAttribute("aria-pressed", String(lootOnly));
   lootOnlyToggle.classList.toggle("is-active", lootOnly);
   document.querySelector("#map-status").textContent = lootOnly ? "Loot only view" : "All map markers shown";
