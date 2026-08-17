@@ -212,7 +212,10 @@ export class MapMarkerLayer {
     if (this.renderIcon) element.innerHTML = this.renderIcon(marker);
     if (this.onMarkerPointerDown) {
       element.classList.add("map-marker--editable");
-      element.addEventListener("pointerdown", (event) => this.onMarkerPointerDown(marker, event));
+      element.addEventListener("pointerdown", (event) => {
+        element.setPointerCapture?.(event.pointerId);
+        this.onMarkerPointerDown(marker, event);
+      });
     }
     if (this.onMarkerClick) {
       element.classList.add("map-marker--interactive");

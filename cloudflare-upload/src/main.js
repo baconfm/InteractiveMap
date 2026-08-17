@@ -264,7 +264,9 @@ function moveCollectibleMarker(marker, event) {
 }
 
 function moveMapLocationMarker(marker, event) {
+  if (event.button !== 0) return;
   event.preventDefault();
+  event.stopPropagation();
   const startPosition = { x: event.clientX, y: event.clientY };
   let moved = false;
   const move = (moveEvent) => {
@@ -275,6 +277,11 @@ function moveMapLocationMarker(marker, event) {
     window.removeEventListener("pointermove", move);
     window.removeEventListener("pointerup", end);
     if (moved) document.querySelector("#map-status").textContent = `${marker.title} moved`;
+    else {
+      mapLocationEditor?.edit(marker);
+      mapLocationLayer.select(marker.id);
+      toggleLocationEditor(true);
+    }
   };
   window.addEventListener("pointermove", move);
   window.addEventListener("pointerup", end, { once: true });
@@ -592,6 +599,8 @@ mapLocationEditor = new MapLocationEditor({
     arrival: document.querySelector("#map-location-arrival"),
     place: document.querySelector("#place-map-location"),
     cancel: document.querySelector("#cancel-map-location"),
+    save: document.querySelector("#save-map-location"),
+    delete: document.querySelector("#delete-map-location"),
     status: document.querySelector("#map-location-status"),
     count: document.querySelector("#map-location-count"),
   },

@@ -41,6 +41,11 @@ export class MapMarkerStore {
     this.persist();
   }
 
+  remove(id) {
+    this.markers = this.markers.filter((marker) => marker.id !== id);
+    this.persist();
+  }
+
   subscribe(listener) { this.listeners.add(listener); return () => this.listeners.delete(listener); }
 
   persist() {
