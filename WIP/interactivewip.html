@@ -4,44 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111714" />
-    <meta name="description" content="Free Days Gone interactive loot map for finding gear, crafting materials, weapons, throwables, plants, and one-time pickups across Oregon." />
-    <meta name="keywords" content="Days Gone interactive map, Days Gone loot map, Days Gone loot locations, Days Gone weapons, Days Gone crafting materials, Days Gone Oregon map" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://interactivemap.baconfmspeedruns.workers.dev/readonly/" />
-    <meta property="og:title" content="Days Gone Interactive Loot Map" />
-    <meta property="og:description" content="Find Days Gone loot, gear, crafting materials, weapons and one-time pickups on an interactive Oregon map." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://interactivemap.baconfmspeedruns.workers.dev/readonly/" />
-    <meta name="twitter:card" content="summary" />
-    <title>Days Gone Interactive Loot Map — Gear &amp; Locations</title>
+    <meta name="description" content="Private work-in-progress test map for Days Gone resource planning and fast travel." />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Days Gone Interactive Map — WIP</title>
     <link rel="stylesheet" href="../styles.css" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Days Gone Interactive Loot Map",
-        "applicationCategory": "GameApplication",
-        "operatingSystem": "Web",
-        "isAccessibleForFree": true,
-        "description": "A free, community-built interactive Days Gone loot map for tracking gear, crafting materials, weapons, throwables and item spawn information across Oregon."
-      }
-    </script>
   </head>
   <body>
     <main class="map-app">
       <header class="top-bar">
         <div class="brand">
-          <span class="brand__eyebrow">Interactive Map</span>
-          <span class="brand__title">Days Gone</span>
+          <span class="brand__eyebrow">Private feature testing</span>
+          <span class="brand__title">Days Gone WIP</span>
         </div>
         <div class="top-bar__status" aria-live="polite">
           <span class="status-dot"></span>
           <span id="map-status">Loading published map</span>
         </div>
-        <a class="editor-toggle" href="../hide-deek/">Hide &amp; Deek</a>
-        <a class="discord-link" href="https://discord.gg/V8sqdVemgM" target="_blank" rel="noopener noreferrer">Discord support</a>
-        <a class="thanks-link" href="https://www.youtube.com/@bacon-fm/" target="_blank" rel="noopener noreferrer">Subscribe to BaconFM to say thanks</a>
-        <span class="save-state">Read only</span>
+        <button id="planner-toggle" class="planner-toggle" type="button" aria-expanded="false" aria-controls="resource-planner">Resource planner</button>
+        <span class="save-state">Private WIP · not deployed</span>
       </header>
 
       <section id="map-shell" class="map-shell" aria-label="Days Gone world map">
@@ -76,6 +56,33 @@
           <div id="marker-details-photos" class="marker-details__photos" hidden></div>
         </aside>
 
+        <aside id="resource-planner" class="resource-planner" aria-label="GPS resource planner" hidden>
+          <div class="resource-planner__heading">
+            <div><span class="map-hud__label">GPS / Resource planner</span><strong>Find what you need</strong></div>
+            <button id="planner-close" class="map-legend__collapse" type="button" aria-label="Close resource planner">×</button>
+          </div>
+          <p class="resource-planner__intro">Add raw resources or craftable gear, then choose where you are to rank nearby loot zones.</p>
+          <div class="resource-planner__add">
+            <select id="planner-request" aria-label="Resource or crafted item"></select>
+            <input id="planner-quantity" type="number" min="1" max="99" value="1" aria-label="Quantity" />
+            <button id="planner-add" type="button">Add</button>
+          </div>
+          <div id="planner-requests" class="resource-planner__requests" aria-live="polite"></div>
+          <button id="planner-set-start" class="resource-planner__start" type="button">Set my map position</button>
+          <p id="planner-start-readout" class="resource-planner__start-readout">Start point: map centre</p>
+          <label class="resource-planner__fast-travel-label" for="fast-travel-name">Fast travel test point</label>
+          <div class="resource-planner__add">
+            <input id="fast-travel-name" type="text" maxlength="60" placeholder="e.g. Lost Lake camp" />
+            <span></span>
+            <button id="fast-travel-add" type="button">Place</button>
+          </div>
+          <div id="fast-travel-points" class="resource-planner__requests"></div>
+          <button id="planner-run" class="resource-planner__run" type="button">Find best loot zones</button>
+          <div id="planner-requirements" class="resource-planner__requirements" hidden></div>
+          <div id="planner-results" class="resource-planner__results" hidden></div>
+        </aside>
+
+
         <aside class="map-legend" aria-label="Map legend">
           <div class="map-legend__heading">
             <div>
@@ -106,20 +113,8 @@
 
         <p class="map-hint">Scroll to zoom · Drag to pan</p>
       </section>
-      <section class="map-seo-content" aria-labelledby="map-seo-heading">
-        <h1 id="map-seo-heading">Days Gone Interactive Loot Map</h1>
-        <p>This free community-built Days Gone map helps you locate loot, gear, crafting materials, weapons, throwables, plants, and other useful pickups throughout Oregon.</p>
-        <p>The map is actively being expanded. Current work focuses on precise loot locations in Cascade Wilderness, Belknap, and Iron Butte, with filters for item types and respawn information where it is known.</p>
-        <h2>What the map currently tracks</h2>
-        <ul>
-          <li>Crafting materials, healing supplies, weapons, and throwables</li>
-          <li>Individual item filters and one-time versus respawnable pickup information</li>
-          <li>Zoomed-out area summaries that expand into individual pickup locations</li>
-        </ul>
-        <p>Want a different challenge? Try <a href="../hide-deek/">Hide &amp; Deek, the Days Gone Geo Guesser</a>.</p>
-      </section>
     </main>
 
-    <script type="module" src="../src/public-map.js"></script>
+    <script type="module" src="../src/wip-map.js"></script>
   </body>
 </html>

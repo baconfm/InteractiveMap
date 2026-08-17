@@ -45,6 +45,9 @@ function withOneTimeSpawnBadge(marker, icon) {
 }
 
 export function renderDaysGoneMarkerIcon(marker) {
+  if (marker.type === "fast_travel_arrival") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7bc8e8" stroke="#182018" stroke-width="2"/><path d="M14 6v12m0 0-4-4m4 4 4-4M8 20h12" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+  }
   if (marker.type === "loot_cluster") {
     return `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#f0be5d" stroke="#182018" stroke-width="2.5"/><path d="m9 12 7-4 7 4-7 4-7-4Zm0 5 7 4 7-4m-14 5 7 4 7-4" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><text x="16" y="20" fill="#182018" font-family="Arial,sans-serif" font-size="9" font-weight="800" text-anchor="middle">${marker.clusterCount}</text></svg>`;
   }

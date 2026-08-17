@@ -124,7 +124,10 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Cairn") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#a79b83" stroke="#182018" stroke-width="2"/><path d="M7 19h14l-3-4h-8l-3 4Zm3-5h8l-2-4h-4l-2 4Zm2-5h4l-2-3-2 3Z" fill="#e5d8b8" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/></svg>';
   }
-  if (itemName === "Bottle" || itemName === "Beer Bottle") {
+  if (itemName === "Bottle") {
+    return `<span class="loot-item-icon loot-item-icon--bottle"><img src="/assets/icons/Bottle.svg" alt="" aria-hidden="true"><b class="loot-item-icon__count">${quantity}</b></span>`;
+  }
+  if (itemName === "Beer Bottle") {
     return `<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#86aa75" stroke="#182018" stroke-width="2"/><path d="M11 7h6v4l2 3v7H9v-7l2-3V7Z" fill="#e7f0d5" stroke="#182018" stroke-linejoin="round" stroke-width="1.5"/><text x="20" y="10" fill="#182018" font-family="Arial,sans-serif" font-size="7" font-weight="700" text-anchor="middle">${quantity}</text></svg>`;
   }
   if (itemName === "Cedar Sapling") {

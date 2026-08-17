@@ -1,0 +1,1041 @@
+# Days Gone Crafting / Resource Planner Knowledge Base
+# Format: YAML
+# Purpose: Give an LLM (e.g. GPT-5.6 Terra) explicit, structured data for
+# recipe expansion, resource planning, GPS loot-zone ranking, and quantity math.
+#
+# IMPORTANT:
+# - Do not infer missing recipe quantities.
+# - Respect output_quantity. One craft action can create more than one item.
+# - For requested quantities, batches_required = ceil(requested_quantity / output_quantity).
+# - Multiply every ingredient quantity by batches_required.
+# - ingredient_groups with mode: any_of mean ONE listed alternative is required, not all.
+# - Base melee weapons listed as ingredients are CONSUMED by crafting.
+# - Some melee recipe values conflict across public sources. See data_quality_notes.
+# - Planner should normally prioritize recipes with confidence high/medium.
+# - Do not treat "unlock" metadata as an ingredient requirement.
+
+schema_version: "1.0"
+game:
+  title: "Days Gone"
+  scope:
+    - "Days Gone (original / PC)"
+    - "Days Gone Remastered"
+  data_focus: "crafting recipes and planner dependency expansion"
+
+planner_rules:
+  quantity_math:
+    formula: "batches_required = ceil(requested_quantity / output_quantity)"
+    ingredient_formula: "total_ingredient = ingredient.quantity * batches_required"
+    examples:
+      - request:
+          recipe_id: incendiary_bolt
+          quantity: 8
+        output_quantity_per_batch: 3
+        batches_required: 3
+        resulting_requirements:
+          cedar_sapling: 3
+          rag: 3
+          kerosene: 3
+          scrap: 3
+      - request:
+          recipe_id: crossbow_bolt
+          quantity: 12
+        output_quantity_per_batch: 5
+        batches_required: 3
+        resulting_requirements:
+          cedar_sapling: 3
+          scrap: 3
+
+  ingredient_group_rules:
+    all_of:
+      meaning: "Every ingredient in this list is required."
+    any_of:
+      meaning: "Exactly one valid alternative from the group is sufficient per batch."
+      planner_behavior:
+        - "Evaluate each valid alternative against known loot locations."
+        - "Choose the alternative producing the best route/zone score."
+        - "Do not sum all alternatives together."
+
+  inventory_subtraction:
+    enabled: true
+    formula: "missing = max(0, required - inventory_owned)"
+    order:
+      - "Expand recipes into raw requirements."
+      - "Apply batch/output quantity."
+      - "Resolve alternative ingredient groups."
+      - "Subtract current inventory."
+      - "Send only missing resources to GPS optimizer."
+
+  recipe_combination:
+    enabled: true
+    behavior:
+      - "Multiple requested recipes may share ingredients."
+      - "Expand each request."
+      - "Sum identical normalized ingredient IDs."
+      - "Then subtract current inventory."
+    example:
+      request:
+        molotov: 5
+        incendiary_bolt: 8
+      normalized_total_before_inventory:
+        beer_bottle: 5
+        rag: 8
+        kerosene: 8
+        cedar_sapling: 3
+        scrap: 3
+
+  confidence_policy:
+    high: "Safe to use automatically in planner."
+    medium: "Usable, but retain provenance/verification note."
+    disputed: "Do not silently assume a single canonical value. Prefer in-game verification or version-specific configuration."
+
+resource_normalization:
+  aliases:
+    rag:
+      canonical_name: "Rag"
+      aliases: ["Cloth"]
+    sterilizer:
+      canonical_name: "Sterilizer"
+      aliases: ["Steriliser"]
+    gun_powder:
+      canonical_name: "Gun Powder"
+      aliases: ["Gunpowder"]
+    beer_bottle:
+      canonical_name: "Beer Bottle"
+      aliases: ["Bottle"]
+    wooden_baseball_bat:
+      canonical_name: "Wooden Baseball Bat"
+      aliases: ["Wood Baseball Bat", "Baseball Bat", "Bat"]
+    sawblade:
+      canonical_name: "Sawblade"
+      aliases: ["Saw Blade"]
+    two_by_four:
+      canonical_name: "2x4"
+      aliases: ["2×4", "2 x 4"]
+    alarm_clock:
+      canonical_name: "Alarm Clock"
+      aliases: ["Clock"]
+    car_alarm:
+      canonical_name: "Car Alarm"
+      aliases: []
+    box_of_nails:
+      canonical_name: "Box of Nails"
+      aliases: ["Nails", "Box Of Nails"]
+    cedar_sapling:
+      canonical_name: "Cedar Sapling"
+      aliases: []
+    nest_residue:
+      canonical_name: "Nest Residue"
+      aliases: []
+    spark_igniter:
+      canonical_name: "Spark Igniter"
+      aliases: []
+    small_pipe:
+      canonical_name: "Small Pipe"
+      aliases: []
+    polystyrene:
+      canonical_name: "Polystyrene"
+      aliases: []
+    growler:
+      canonical_name: "Growler"
+      aliases: []
+    airbag:
+      canonical_name: "Airbag"
+      aliases: ["Air Bag"]
+    poison:
+      canonical_name: "Poison"
+      aliases: []
+    herb:
+      canonical_name: "Herb"
+      aliases: []
+      semantic_type: "plant_category"
+      note: "Any inventory item counted by the game as Herb can satisfy this generic crafting resource."
+    berry:
+      canonical_name: "Berry"
+      aliases: []
+      semantic_type: "plant_category"
+      note: "Any inventory item counted by the game as Berry can satisfy this generic crafting resource."
+    mushroom:
+      canonical_name: "Mushroom"
+      aliases: []
+      semantic_type: "plant_category"
+      note: "Any inventory item counted by the game as Mushroom can satisfy this generic crafting resource."
+    ipca_tech:
+      canonical_name: "IPCA Tech"
+      aliases: []
+      semantic_type: "unique_collectible_component"
+
+recipes:
+
+  # --------------------------------------------------------------------------
+  # MEDICAL / COCKTAILS
+  # --------------------------------------------------------------------------
+
+  - id: bandage
+    name: "Bandage"
+    category: "medical"
+    repeatable: true
+    output:
+      item_id: bandage
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: rag
+          quantity: 1
+        - item_id: sterilizer
+          quantity: 1
+    unlock:
+      type: "story"
+      description: "Unlocked during the prologue."
+    confidence: high
+
+  - id: health_cocktail
+    name: "Health Cocktail"
+    category: "cocktail"
+    repeatable: true
+    output:
+      item_id: health_cocktail
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: rag
+          quantity: 1
+        - item_id: sterilizer
+          quantity: 1
+        - item_id: herb
+          quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'A War We Can Win'."
+    confidence: high
+
+  - id: stamina_cocktail
+    name: "Stamina Cocktail"
+    category: "cocktail"
+    repeatable: true
+    output:
+      item_id: stamina_cocktail
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: rag
+          quantity: 1
+        - item_id: sterilizer
+          quantity: 1
+        - item_id: berry
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Early Ambush Camp Hunter reward; commonly listed at 14% / second camp."
+    confidence: high
+
+  - id: focus_cocktail
+    name: "Focus Cocktail"
+    category: "cocktail"
+    repeatable: true
+    output:
+      item_id: focus_cocktail
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: rag
+          quantity: 1
+        - item_id: sterilizer
+          quantity: 1
+        - item_id: mushroom
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Ambush Camp Hunter reward; public guides disagree on percentage numbering, but recipe is tied to Ambush Camp progression."
+    confidence: high
+
+  # --------------------------------------------------------------------------
+  # FIRE / THROWABLES / EXPLOSIVES / DISTRACTIONS
+  # --------------------------------------------------------------------------
+
+  - id: molotov
+    name: "Molotov"
+    category: "throwable_fire"
+    repeatable: true
+    output:
+      item_id: molotov
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: beer_bottle
+          quantity: 1
+        - item_id: rag
+          quantity: 1
+        - item_id: kerosene
+          quantity: 1
+    unlock:
+      type: "story"
+      description: "Unlocked during the prologue."
+    confidence: high
+
+  - id: napalm_molotov
+    name: "Napalm Molotov"
+    category: "throwable_fire"
+    repeatable: true
+    output:
+      item_id: napalm_molotov
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: growler
+          quantity: 1
+        - item_id: rag
+          quantity: 1
+        - item_id: kerosene
+          quantity: 1
+        - item_id: polystyrene
+          quantity: 1
+    unlock:
+      type: "story"
+      description: "Late-story recipe associated with the Napalm Molotov mission sequence."
+    confidence: high
+
+  - id: pipe_bomb
+    name: "Pipe Bomb"
+    category: "explosive"
+    repeatable: true
+    output:
+      item_id: pipe_bomb
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: small_pipe
+          quantity: 1
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'They Will Never Stop'."
+    confidence: high
+
+  - id: smoke_bomb
+    name: "Smoke Bomb"
+    category: "throwable_utility"
+    repeatable: true
+    output:
+      item_id: smoke_bomb
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: can
+          quantity: 1
+        - item_id: rag
+          quantity: 1
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Early Ambush Camp Hunter reward."
+    confidence: high
+
+  - id: attractor
+    name: "Attractor"
+    category: "distraction"
+    repeatable: true
+    output:
+      item_id: attractor
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: can
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+      any_of:
+        - group_id: sound_device
+          quantity_required: 1
+          alternatives:
+            - item_id: alarm_clock
+              quantity: 1
+            - item_id: car_alarm
+              quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'Do You Have My Back?'."
+    confidence: high
+    planner_note: "GPS should choose whichever sound-device alternative is easiest to obtain."
+
+  - id: attractor_bomb
+    name: "Attractor Bomb"
+    category: "explosive_distraction"
+    repeatable: true
+    output:
+      item_id: attractor_bomb
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: can
+          quantity: 1
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: spark_igniter
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+      any_of:
+        - group_id: sound_device
+          quantity_required: 1
+          alternatives:
+            - item_id: alarm_clock
+              quantity: 1
+            - item_id: car_alarm
+              quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Late Ambush Camp Hunter reward; commonly listed around 71% / tenth camp."
+    confidence: high
+
+  - id: remote_bomb
+    name: "Remote Bomb"
+    category: "explosive"
+    repeatable: true
+    output:
+      item_id: remote_bomb
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: airbag
+          quantity: 1
+        - item_id: spark_igniter
+          quantity: 1
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'We Couldn't Take the Risk'."
+    confidence: high
+
+  - id: proximity_bomb
+    name: "Proximity Bomb"
+    category: "explosive"
+    repeatable: true
+    output:
+      item_id: proximity_bomb
+      quantity: 1
+      unit: "item"
+    ingredients:
+      all_of:
+        - item_id: can
+          quantity: 1
+        - item_id: spark_igniter
+          quantity: 1
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Ambush Camp Hunter reward; commonly listed at 50% / seventh camp."
+    confidence: high
+
+  # --------------------------------------------------------------------------
+  # CROSSBOW AMMO
+  # IMPORTANT: output quantity is NOT always 1.
+  # --------------------------------------------------------------------------
+
+  - id: crossbow_bolt
+    name: "Crossbow Bolt"
+    category: "crossbow_ammo"
+    repeatable: true
+    output:
+      item_id: crossbow_bolt
+      quantity: 5
+      unit: "bolts"
+    ingredients:
+      all_of:
+        - item_id: cedar_sapling
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "weapon_acquisition"
+      description: "Unlocked when the Crossbow is acquired."
+    confidence: high
+    planner_note: "One crafting batch creates 5 standard bolts."
+
+  - id: residue_bolt
+    name: "Residue Bolt"
+    category: "crossbow_ammo"
+    repeatable: true
+    output:
+      item_id: residue_bolt
+      quantity: 5
+      unit: "bolts"
+    ingredients:
+      all_of:
+        - item_id: cedar_sapling
+          quantity: 1
+        - item_id: nest_residue
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'They're Not Sleeping'."
+    confidence: high
+    planner_note: "One crafting batch creates 5 Residue Bolts."
+
+  - id: poison_bolt
+    name: "Poison Bolt"
+    category: "crossbow_ammo"
+    repeatable: true
+    output:
+      item_id: poison_bolt
+      quantity: 5
+      unit: "bolts"
+    ingredients:
+      all_of:
+        - item_id: cedar_sapling
+          quantity: 1
+        - item_id: poison
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "mission"
+      description: "Complete 'I've Got a Plan'."
+    confidence: high
+    planner_note: "One crafting batch creates 5 Poison Bolts."
+
+  - id: incendiary_bolt
+    name: "Incendiary Bolt"
+    category: "crossbow_ammo"
+    repeatable: true
+    output:
+      item_id: incendiary_bolt
+      quantity: 3
+      unit: "bolts"
+    ingredients:
+      all_of:
+        - item_id: cedar_sapling
+          quantity: 1
+        - item_id: rag
+          quantity: 1
+        - item_id: kerosene
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Unlocked after clearing 8 Ambush Camps."
+    confidence: high
+    planner_note: "Important efficiency case: 1 Kerosene produces 3 Incendiary Bolts per crafting batch."
+
+  - id: explosive_bolt
+    name: "Explosive Bolt"
+    category: "crossbow_ammo"
+    repeatable: true
+    output:
+      item_id: explosive_bolt
+      quantity: 3
+      unit: "bolts"
+    ingredients:
+      all_of:
+        - item_id: cedar_sapling
+          quantity: 1
+        - item_id: spark_igniter
+          quantity: 1
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Unlocked after clearing 12 Ambush Camps."
+    confidence: medium
+    planner_note: "Multiple player/guide sources report 3 Explosive Bolts per crafting batch; keep configurable if in-game verification is later available."
+
+  # --------------------------------------------------------------------------
+  # NG+ / BND-150 SPECIAL DARTS
+  # --------------------------------------------------------------------------
+
+  - id: explosive_dart
+    name: "Explosive Dart"
+    category: "bnd150_ammo"
+    availability: "new_game_plus"
+    repeatable: true
+    output:
+      item_id: explosive_dart
+      quantity: 1
+      unit: "dart"
+    ingredients:
+      all_of:
+        - item_id: gun_powder
+          quantity: 1
+        - item_id: scrap
+          quantity: 2
+    unlock:
+      type: "weapon_acquisition"
+      description: "NG+ only; requires BND-150."
+    confidence: high
+
+  - id: gas_dart
+    name: "X34 Gas Dart"
+    category: "bnd150_ammo"
+    availability: "new_game_plus"
+    repeatable: true
+    output:
+      item_id: gas_dart
+      quantity: 1
+      unit: "dart"
+    ingredients:
+      all_of:
+        - item_id: poison
+          quantity: 1
+        - item_id: scrap
+          quantity: 2
+    unlock:
+      type: "weapon_acquisition"
+      description: "NG+ only; requires BND-150."
+    confidence: high
+
+  - id: edt_dart
+    name: "EDT Dart"
+    category: "bnd150_ammo"
+    availability: "new_game_plus"
+    repeatable: true
+    output:
+      item_id: edt_dart
+      quantity: 1
+      unit: "dart"
+    ingredients:
+      all_of:
+        - item_id: spark_igniter
+          quantity: 1
+        - item_id: scrap
+          quantity: 2
+    unlock:
+      type: "weapon_acquisition"
+      description: "NG+ only; requires BND-150."
+    confidence: high
+
+  # --------------------------------------------------------------------------
+  # UNIQUE ONE-TIME CRAFT
+  # --------------------------------------------------------------------------
+
+  - id: ipca_stun_gun
+    name: "IPCA Stun Gun"
+    category: "unique_weapon"
+    repeatable: false
+    output:
+      item_id: ipca_stun_gun
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: ipca_tech
+          quantity: 18
+    unlock:
+      type: "completion_collectible"
+      description: "Requires all 18 IPCA Tech components / Finding NERO completion."
+    confidence: high
+    planner_note: "Treat as a one-time collection goal, not normal repeatable farming."
+
+  # --------------------------------------------------------------------------
+  # CRAFTED MELEE WEAPONS
+  #
+  # Data warning:
+  # Older/original-game sources generally show 1 Scrap for early improvised
+  # melee upgrades. Some 2025 Remastered guides list 3 Scrap for spiked
+  # variants and 5 Scrap for axe/club variants. This conflict is unresolved.
+  #
+  # Therefore:
+  # - canonical ingredients below use the older/original-game values where
+  #   multiple established sources agree;
+  # - alternative_remastered_report is preserved where a newer guide differs;
+  # - planner should permit version override rather than hard-code one value.
+  # --------------------------------------------------------------------------
+
+  - id: spiked_stool_leg
+    name: "Spiked Stool Leg"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: spiked_stool_leg
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: stool_leg
+          quantity: 1
+          consumed: true
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 3
+    confidence: disputed
+
+  - id: stool_leg_axe
+    name: "Stool Leg Axe"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: stool_leg_axe
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: stool_leg
+          quantity: 1
+          consumed: true
+        - item_id: sawblade
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 5
+    confidence: disputed
+
+  - id: spiked_fence_post
+    name: "Spiked Fence Post"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: spiked_fence_post
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: fence_post
+          quantity: 1
+          consumed: true
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 3
+    confidence: disputed
+
+  - id: fence_post_axe
+    name: "Fence Post Axe"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: fence_post_axe
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: fence_post
+          quantity: 1
+          consumed: true
+        - item_id: sawblade
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 5
+    confidence: disputed
+
+  - id: spiked_2x4
+    name: "Spiked 2x4"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: spiked_2x4
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: two_by_four
+          quantity: 1
+          consumed: true
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 3
+    confidence: disputed
+
+  - id: two_by_four_axe
+    name: "2x4 Axe"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: two_by_four_axe
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: two_by_four
+          quantity: 1
+          consumed: true
+        - item_id: sawblade
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 5
+    confidence: disputed
+
+  - id: spiked_bat
+    name: "Spiked Bat"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: spiked_bat
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: wooden_baseball_bat
+          quantity: 1
+          consumed: true
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 3
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Early Ambush Camp Hunter reward."
+    confidence: disputed
+
+  - id: baseball_bat_axe
+    name: "Baseball Bat Axe"
+    aliases: ["Bat Axe"]
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: baseball_bat_axe
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: wooden_baseball_bat
+          quantity: 1
+          consumed: true
+        - item_id: sawblade
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 5
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Ambush Camp Hunter reward; commonly fourth camp / ~29%."
+    confidence: disputed
+
+  - id: superior_club
+    name: "Superior Club"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: superior_club
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: wooden_baseball_bat
+          quantity: 1
+          consumed: true
+        - item_id: small_pipe
+          quantity: 1
+        - item_id: scrap
+          quantity: 1
+    alternative_remastered_report:
+      scrap: 5
+    unlock:
+      type: "ambush_camp_progress"
+      description: "Ambush Camp Hunter reward; commonly sixth camp / ~43%."
+    confidence: disputed
+
+  - id: ripper_club
+    name: "Ripper Club"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: ripper_club
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: wooden_baseball_bat
+          quantity: 1
+          consumed: true
+        - item_id: small_pipe
+          quantity: 1
+        - item_id: scrap
+          quantity: 5
+    unlock:
+      type: "mission"
+      description: "Associated with 'They Will Never Stop'."
+    confidence: medium
+    verification_note: "Most guide sources use Small Pipe; one wiki entry reports Box of Nails instead. Verify in-game before treating as immutable."
+
+  - id: ripper_blade
+    name: "Ripper Blade"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: ripper_blade
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: stool_leg
+          quantity: 1
+          consumed: true
+        - item_id: sawblade
+          quantity: 1
+        - item_id: scrap
+          quantity: 5
+    unlock:
+      type: "mission"
+      description: "Associated with 'They Will Never Stop'."
+    confidence: high
+
+  - id: ripper_axe
+    name: "Ripper Axe"
+    category: "crafted_melee"
+    repeatable: true
+    output:
+      item_id: ripper_axe
+      quantity: 1
+      unit: "weapon"
+    ingredients:
+      all_of:
+        - item_id: two_by_four
+          quantity: 1
+          consumed: true
+        - item_id: box_of_nails
+          quantity: 1
+        - item_id: scrap
+          quantity: 5
+    unlock:
+      type: "story_progress"
+      description: "Ripped Apart/story progression; exact public unlock wording varies by guide."
+    confidence: high
+
+data_quality_notes:
+  - id: melee_scrap_cost_conflict
+    severity: high
+    description: >
+      Established original-game sources and current map/wiki-style references
+      usually list 1 Scrap for Spiked Bat, Bat Axe, Superior Club, and the
+      corresponding early improvised melee variants. Some 2025 Remastered
+      recipe guides instead list 3 Scrap for spiked variants and 5 Scrap for
+      axe/club variants. No strong primary-source confirmation of a Remastered
+      balance change was found. Keep these values version-configurable.
+    recommended_project_behavior:
+      - "Default classic/original data to the 1-Scrap values."
+      - "Do not assume the 3/5-Scrap Remastered values are correct without in-game verification."
+      - "Allow a future data override by game version."
+
+  - id: ripper_club_component_conflict
+    severity: medium
+    description: >
+      Multiple established guides list Wooden Baseball Bat + Small Pipe + 5 Scrap.
+      One Days Gone Wiki entry lists Wooden Baseball Bat + Box of Nails + 5 Scrap.
+    recommended_project_behavior:
+      - "Use Small Pipe provisionally."
+      - "Mark recipe as verification-needed."
+
+  - id: explosive_bolt_batch_yield
+    severity: medium
+    description: >
+      Community/gameplay sources report 3 Explosive Bolts per Gun Powder/crafting
+      batch. This is less strongly documented than the standard/poison/residue
+      x5 yields and the widely documented Incendiary Bolt x3 yield.
+    recommended_project_behavior:
+      - "Use output_quantity: 3 provisionally."
+      - "Make batch yield configurable."
+
+source_basis:
+  note: >
+    Data was cross-checked against multiple Days Gone guide/wiki sources.
+    The model should trust explicit confidence fields more than guessing.
+  sources_consulted:
+    - "PowerPyx"
+    - "Gamepressure"
+    - "Days Gone Wiki"
+    - "GameRevolution"
+    - "GameFAQs / SENIORBILL"
+    - "MapMaster"
+    - "ClutchChamp Remastered crafting guide"
+    - "Steam community discussions for batch-yield corroboration"
+
+recommended_project_typescript_shape: |
+  type Ingredient = {
+    itemId: string;
+    quantity: number;
+    consumed?: boolean;
+  };
+
+  type AlternativeIngredientGroup = {
+    groupId: string;
+    quantityRequired: number;
+    alternatives: Ingredient[];
+  };
+
+  type Recipe = {
+    id: string;
+    name: string;
+    aliases?: string[];
+    category: string;
+    repeatable: boolean;
+    output: {
+      itemId: string;
+      quantity: number;
+      unit: string;
+    };
+    ingredients: {
+      allOf?: Ingredient[];
+      anyOf?: AlternativeIngredientGroup[];
+    };
+    confidence: "high" | "medium" | "disputed";
+  };
+
+recommended_resolver_pseudocode: |
+  function expandRecipe(recipe, requestedQty, inventory):
+      batches = ceil(requestedQty / recipe.output.quantity)
+
+      requirements = {}
+
+      for ingredient in recipe.ingredients.allOf:
+          requirements[ingredient.itemId] += ingredient.quantity * batches
+
+      for group in recipe.ingredients.anyOf:
+          # Do NOT add every alternative.
+          # Ask route optimizer which alternative is cheapest/nearest/available.
+          chosen = chooseBestAlternative(group.alternatives)
+          requirements[chosen.itemId] += chosen.quantity * batches
+
+      for itemId in requirements:
+          requirements[itemId] = max(
+              0,
+              requirements[itemId] - inventory.get(itemId, 0)
+          )
+
+      return requirements

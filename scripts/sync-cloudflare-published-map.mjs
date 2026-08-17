@@ -1,4 +1,4 @@
-import { copyFile, cp, readFile } from "node:fs/promises";
+import { copyFile, cp, readFile, rm } from "node:fs/promises";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { dirname, resolve } from "node:path";
@@ -8,8 +8,16 @@ const scriptDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(scriptDirectory, "..");
 const source = resolve(projectRoot, "assets/games/days-gone/published-map.json");
 const destination = resolve(projectRoot, "cloudflare-upload/assets/games/days-gone/published-map.json");
+const sourceCode = resolve(projectRoot, "src");
+const destinationCode = resolve(projectRoot, "cloudflare-upload/src");
+const readonlySource = resolve(projectRoot, "readonly");
+const readonlyDestination = resolve(projectRoot, "cloudflare-upload/readonly");
+const stylesSource = resolve(projectRoot, "styles.css");
+const stylesDestination = resolve(projectRoot, "cloudflare-upload/styles.css");
 const photosSource = resolve(projectRoot, "assets/photos");
 const photosDestination = resolve(projectRoot, "cloudflare-upload/assets/photos");
+const iconsSource = resolve(projectRoot, "assets/icons");
+const iconsDestination = resolve(projectRoot, "cloudflare-upload/assets/icons");
 const regionsSource = resolve(projectRoot, "assets/games/days-gone/regions");
 const regionsDestination = resolve(projectRoot, "cloudflare-upload/assets/games/days-gone/regions");
 const run = promisify(execFile);
@@ -24,6 +32,12 @@ if (!Array.isArray(markers)) {
 }
 
 await copyFile(source, destination);
+await rm(destinationCode, { recursive: true, force: true });
+await rm(readonlyDestination, { recursive: true, force: true });
+await cp(sourceCode, destinationCode, { recursive: true, force: true });
+await cp(readonlySource, readonlyDestination, { recursive: true, force: true });
+await copyFile(stylesSource, stylesDestination);
 await cp(photosSource, photosDestination, { recursive: true, force: true });
+await cp(iconsSource, iconsDestination, { recursive: true, force: true });
 await cp(regionsSource, regionsDestination, { recursive: true, force: true });
-console.log(`Synced ${markers.length} published markers, regional files, and photo assets into the Cloudflare upload bundle.`);
+console.log(`Synced ${markers.length} published markers, public files, regional files, photo assets, and item icons into the Cloudflare upload bundle.`);

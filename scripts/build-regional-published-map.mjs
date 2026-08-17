@@ -63,11 +63,13 @@ const allMarkers = dedupeMarkers(
   (Array.isArray(snapshot.allLootMarkers) ? snapshot.allLootMarkers : snapshot.publishedLootMarkers ?? [])
     .map(normalizeMarker),
 );
+const mapLocations = dedupeMarkers((Array.isArray(snapshot.mapLocations) ? snapshot.mapLocations : []).map(normalizeMarker));
 const nextSnapshot = {
   ...snapshot,
   publishedLootMarkers: allMarkers,
   lootMarkers: allMarkers,
   allLootMarkers: allMarkers,
+  mapLocations,
   generatedAt: new Date().toISOString(),
 };
 
@@ -77,9 +79,10 @@ await writeFile(sourcePath, `${JSON.stringify(nextSnapshot, null, 2)}\n`);
 const manifestRegions = [];
 for (const [id, label] of regions) {
   const markers = allMarkers.filter((marker) => marker.region === label);
+  const locations = mapLocations.filter((marker) => marker.region === label);
   const path = `assets/games/days-gone/regions/${id}.json`;
-  await writeFile(resolve(regionsDirectory, `${id}.json`), `${JSON.stringify({ version: 1, region: label, markers }, null, 2)}\n`);
-  manifestRegions.push({ id, label, path, markerCount: markers.length });
+  await writeFile(resolve(regionsDirectory, `${id}.json`), `${JSON.stringify({ version: 1, region: label, markers, locations }, null, 2)}\n`);
+  manifestRegions.push({ id, label, path, markerCount: markers.length, locationCount: locations.length });
 }
 await writeFile(resolve(regionsDirectory, "manifest.json"), `${JSON.stringify({ version: 1, generatedAt: nextSnapshot.generatedAt, regions: manifestRegions }, null, 2)}\n`);
 console.log(`Built ${manifestRegions.length} region files from ${allMarkers.length} markers${shouldReclassifyRegions ? " after reclassifying coordinates" : " using saved classifications"}.`);
