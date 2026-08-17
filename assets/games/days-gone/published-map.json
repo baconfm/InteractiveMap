@@ -1,7 +1,78 @@
 {
   "version": 2,
-  "savedAt": "2026-08-16T19:53:21.910Z",
+  "savedAt": "2026-08-17T15:37:44.086Z",
   "routeMarkers": [],
+  "mapLocations": [
+    {
+      "id": "map-location-1786976393563",
+      "title": "Peaceful Lake",
+      "type": "camp",
+      "note": "",
+      "position": {
+        "x": 2647.822531307769,
+        "y": 1901.0446197674457
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1786976400069",
+      "parentId": "map-location-1786976393563",
+      "title": "Peaceful Lake arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for Peaceful Lake.",
+      "position": {
+        "x": 2651.870427949862,
+        "y": 1874.731000369087
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1786976413781",
+      "title": "Peaceful Lake",
+      "type": "camp",
+      "note": "",
+      "position": {
+        "x": 2651.265524969427,
+        "y": 1874.290043474139
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1786976556565",
+      "parentId": "map-location-1786976413781",
+      "title": "Peaceful Lake arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for Peaceful Lake.",
+      "position": {
+        "x": 2651.528060092559,
+        "y": 1874.552591951041
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1786976611565",
+      "title": "Peaceful Lake",
+      "type": "camp",
+      "note": "",
+      "position": {
+        "x": 2645.3469548965495,
+        "y": 1906.058858553407
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1786976614706",
+      "parentId": "map-location-1786976611565",
+      "title": "Peaceful Lake arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for Peaceful Lake.",
+      "position": {
+        "x": 2650.9479267528613,
+        "y": 1875.6035423695068
+      },
+      "region": "Cascades"
+    }
+  ],
   "publishedLootMarkers": [
     {
       "id": "manual-loot-1786731287283",
@@ -55973,6 +56044,5 @@
       "photos": []
     }
   ],
-  "generatedAt": "2026-08-17T15:10:44.440Z",
-  "mapLocations": []
+  "generatedAt": "2026-08-17T15:37:44.180Z"
 }
