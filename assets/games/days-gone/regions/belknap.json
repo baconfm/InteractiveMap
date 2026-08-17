@@ -4349,6 +4349,344 @@
         "x": 2027.8231578944603,
         "y": 687.1526497749783
       }
+    },
+    {
+      "id": "manual-loot-1786995192923",
+      "type": "loot_item",
+      "title": "M40",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1996,
+        "y": 681
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786995217838",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1999.8707159651995,
+        "y": 671.7810310002674
+      }
+    },
+    {
+      "id": "manual-loot-1786995222946",
+      "type": "loot_item",
+      "title": "Machete",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2000.152569981445,
+        "y": 671.7810310002674
+      }
+    },
+    {
+      "id": "manual-loot-1786995242122",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2001.5618552014632,
+        "y": 679.6730229337929
+      }
+    },
+    {
+      "id": "manual-loot-1786995255261",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2002.5201709677306,
+        "y": 680.2367347509816
+      }
+    },
+    {
+      "id": "manual-loot-1786995279251",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2004.4931642202398,
+        "y": 695.7952263217616
+      }
+    },
+    {
+      "id": "manual-loot-1786995289213",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2019.4879553279245,
+        "y": 720.3731372451422
+      }
+    },
+    {
+      "id": "manual-loot-1786995299064",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2015.7258792719795,
+        "y": 722.7804596440071
+      }
+    },
+    {
+      "id": "manual-loot-1786995307448",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2015.9241101574803,
+        "y": 721.6127044564131
+      }
+    },
+    {
+      "id": "manual-loot-1786995338053",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2019.6006939066644,
+        "y": 748.8970422429365
+      }
+    },
+    {
+      "id": "manual-loot-1786995355068",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2008.1009349890383,
+        "y": 749.1225194004164
+      }
+    },
+    {
+      "id": "manual-loot-1786995358703",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2012.7233983828696,
+        "y": 748.8970422429365
+      }
+    },
+    {
+      "id": "manual-loot-1786995370088",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2004.9441488127818,
+        "y": 745.740240927889
+      }
+    },
+    {
+      "id": "manual-loot-1786995388449",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1996.4884374926721,
+        "y": 740.5540770709623
+      }
+    },
+    {
+      "id": "manual-loot-1786995430862",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2002.5765175489137,
+        "y": 726.3485014308307
+      }
+    },
+    {
+      "id": "manual-loot-1786995441060",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2002.1819249539283,
+        "y": 725.1083316483179
+      }
+    },
+    {
+      "id": "manual-loot-1786995449118",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2006.6352729102543,
+        "y": 723.0789691064389
+      }
+    },
+    {
+      "id": "manual-loot-1786995466286",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1989.385634533815,
+        "y": 722.5152535045524
+      }
+    },
+    {
+      "id": "manual-loot-1786995488597",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1992,
+        "y": 733
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786995511433",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1984.5376939825037,
+        "y": 742.3579700247573
+      }
+    },
+    {
+      "id": "manual-loot-1786995532765",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1972.8124579073976,
+        "y": 719.3584597589005
+      }
     }
   ],
   "locations": [
