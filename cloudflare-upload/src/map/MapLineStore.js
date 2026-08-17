@@ -8,6 +8,7 @@ export class MapLineStore {
 
   getAll() { return [...this.lines]; }
   add(line) { this.lines = [...this.lines, line]; this.persist(); }
+  update(id, patch) { this.lines = this.lines.map((line) => line.id === id ? { ...line, ...patch } : line); this.persist(); }
   remove(id) { this.lines = this.lines.filter((line) => line.id !== id); this.persist(); }
   subscribe(listener) { this.listeners.add(listener); return () => this.listeners.delete(listener); }
   persist() { localStorage.setItem(this.storageKey, JSON.stringify(this.lines)); this.listeners.forEach((listener) => listener(this.getAll())); }
