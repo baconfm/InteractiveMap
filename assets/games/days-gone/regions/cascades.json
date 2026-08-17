@@ -16940,6 +16940,456 @@
         "x": 2477.633606906974,
         "y": 4760.403377781145
       }
+    },
+    {
+      "id": "manual-loot-1786994247371",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2341.9656197033287,
+        "y": 798.3549672641032
+      }
+    },
+    {
+      "id": "manual-loot-1786994316779",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2328.3937797987724,
+        "y": 806.4524578184133
+      }
+    },
+    {
+      "id": "manual-loot-1786994323979",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2328.0960642082982,
+        "y": 807.5923361175091
+      }
+    },
+    {
+      "id": "manual-loot-1786994374826",
+      "type": "loot_item",
+      "title": "Sawed Off",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2405.8331232271908,
+        "y": 822.9895814543011
+      }
+    },
+    {
+      "id": "manual-loot-1786994389424",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2414.158711352048,
+        "y": 823.5598253806696
+      }
+    },
+    {
+      "id": "manual-loot-1786994396477",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2425.905770692225,
+        "y": 832.3416124751758
+      }
+    },
+    {
+      "id": "manual-loot-1786994419266",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2435,
+        "y": 837
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786994430976",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2439,
+        "y": 839
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1786994447885",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2447.232958623824,
+        "y": 836.6754739726847
+      }
+    },
+    {
+      "id": "manual-loot-1786994454338",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2451.680880392267,
+        "y": 837.4738192981545
+      }
+    },
+    {
+      "id": "manual-loot-1786994462495",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2460.462648344005,
+        "y": 843.1762738760553
+      }
+    },
+    {
+      "id": "manual-loot-1786994470795",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2469.928731978707,
+        "y": 850.8175692892706
+      }
+    },
+    {
+      "id": "manual-loot-1786994488736",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2479.6670434409975,
+        "y": 852.228596489565
+      }
+    },
+    {
+      "id": "manual-loot-1786994504504",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2491.5617976344106,
+        "y": 856.149939782611
+      }
+    },
+    {
+      "id": "manual-loot-1786994514086",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2489.7318327505623,
+        "y": 848.0458265074692
+      }
+    },
+    {
+      "id": "manual-loot-1786994524595",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2503.064413988199,
+        "y": 856.2806553210859
+      }
+    },
+    {
+      "id": "manual-loot-1786994535485",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2511.95278977889,
+        "y": 856.4113708595606
+      }
+    },
+    {
+      "id": "manual-loot-1786994539887",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2517.0355160237136,
+        "y": 858.3580487105428
+      }
+    },
+    {
+      "id": "manual-loot-1786994549626",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.3385454019685,
+        "y": 860.5550193322875
+      }
+    },
+    {
+      "id": "manual-loot-1786994562094",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2525.59612393387,
+        "y": 863.8125927779256
+      }
+    },
+    {
+      "id": "manual-loot-1786994577605",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2533.8537024657708,
+        "y": 861.6913820438762
+      }
+    },
+    {
+      "id": "manual-loot-1786994583068",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2536.2779476643386,
+        "y": 857.0701713098266
+      }
+    },
+    {
+      "id": "manual-loot-1786994599556",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2542.641574780224,
+        "y": 857.6004752649047
+      }
+    },
+    {
+      "id": "manual-loot-1786994612219",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2547.641574780224,
+        "y": 861.161078088798
+      }
+    },
+    {
+      "id": "manual-loot-1786994616136",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2548.7779476643386,
+        "y": 858.7368379764933
+      }
+    },
+    {
+      "id": "manual-loot-1786994631346",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2556.959751049755,
+        "y": 864.1156272424438
+      }
+    },
+    {
+      "id": "manual-loot-1786994644263",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2560.9749081135574,
+        "y": 864.418656620699
+      }
+    },
+    {
+      "id": "manual-loot-1786994739199",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2440.59612393387,
+        "y": 836.2368456058879
+      }
     }
   ],
   "locations": [
