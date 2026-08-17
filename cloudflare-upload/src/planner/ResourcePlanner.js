@@ -64,5 +64,37 @@ export function rankLootZones(markers, requirements, startPosition, zoneSize = 3
       .map(([resourceId, amount]) => `${resourceNameForId(resourceId)} ×${amount}`)
       .join(", ");
     return zone;
-  }).sort((first, second) => second.score - first.score || first.distance - second.distance).slice(0, 8);
+  }).sort((first, second) => second.score - first.score || first.distance - second.distance);
+}
+
+export function planLootRoute(zones, requirements, startPosition, maximumStops = 8) {
+  const remaining = { ...requirements };
+  const available = [...zones];
+  const route = [];
+  let current = startPosition;
+
+  while (available.length && route.length < maximumStops) {
+    const candidates = available.map((zone, index) => {
+      const usefulQuantity = Object.entries(zone.resources).reduce((total, [resourceId, amount]) => total + Math.min(amount, remaining[resourceId] ?? 0), 0);
+      const distance = Math.hypot(zone.position.x - current.x, zone.position.y - current.y);
+      return { zone, index, usefulQuantity, distance };
+    }).filter((candidate) => candidate.usefulQuantity > 0);
+    if (!candidates.length) break;
+
+    // Prefer stops that satisfy more outstanding needs without sending the player
+    // across the map for a single pickup. Distant zones remain eligible when they
+    // are the only source for an outstanding resource.
+    candidates.sort((first, second) => (second.usefulQuantity / (1 + second.distance / 750)) - (first.usefulQuantity / (1 + first.distance / 750))
+      || first.distance - second.distance);
+    const selected = candidates[0];
+    available.splice(selected.index, 1);
+    Object.entries(selected.zone.resources).forEach(([resourceId, amount]) => {
+      remaining[resourceId] = Math.max(0, (remaining[resourceId] ?? 0) - amount);
+    });
+    route.push({ ...selected.zone, legDistance: Math.round(selected.distance) });
+    current = selected.zone.position;
+    if (Object.values(remaining).every((amount) => amount <= 0)) break;
+  }
+
+  return { zones: route, remaining };
 }

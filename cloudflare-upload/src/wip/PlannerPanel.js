@@ -1,5 +1,5 @@
 import { APP_CONFIG } from "../core/config.js";
-import { expandRequests, plannerOptions, rankLootZones } from "../planner/ResourcePlanner.js";
+import { expandRequests, planLootRoute, plannerOptions, rankLootZones } from "../planner/ResourcePlanner.js";
 import { resourceIdForName, resourceNameForId } from "../data/games/days-gone/crafting-recipes.js";
 
 const STORAGE_KEY = "days-gone-wip-fast-travel-v1";
@@ -41,25 +41,6 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
   const allFastTravel = () => [...linkedArrivals, ...fastTravel];
 
   function clearRoute() { routeLayer?.replaceChildren(); }
-
-  function routeZones(zones) {
-    const remaining = [...zones];
-    const ordered = [];
-    let current = startPosition;
-    while (remaining.length) {
-      let nearestIndex = 0;
-      for (let index = 1; index < remaining.length; index += 1) {
-        const candidateDistance = Math.hypot(remaining[index].position.x - current.x, remaining[index].position.y - current.y);
-        const nearestDistance = Math.hypot(remaining[nearestIndex].position.x - current.x, remaining[nearestIndex].position.y - current.y);
-        if (candidateDistance < nearestDistance) nearestIndex = index;
-      }
-      const zone = remaining.splice(nearestIndex, 1)[0];
-      const legDistance = Math.round(Math.hypot(zone.position.x - current.x, zone.position.y - current.y));
-      ordered.push({ ...zone, legDistance });
-      current = zone.position;
-    }
-    return ordered;
-  }
 
   function routePickupMarkers(zones, requirements) {
     const remaining = { ...requirements };
@@ -189,12 +170,13 @@ export function createPlannerPanel({ engine, map, markers, locationMarkers, over
     requirementsRoot.replaceChildren(...entries.map(([id, amount]) => { const item = document.createElement("div"); item.className = "resource-planner__requirement"; item.textContent = `${resourceNameForId(id)} ×${amount}`; return item; }));
     if (notes.length) { const note = document.createElement("small"); note.textContent = notes.join(" "); requirementsRoot.append(note); }
     requirementsRoot.hidden = false;
-    const zones = routeZones(rankLootZones(markers, requirements, startPosition));
+    const { zones, remaining } = planLootRoute(rankLootZones(markers, requirements, startPosition), requirements, startPosition);
     const pickupMarkers = routePickupMarkers(zones, requirements);
     const totalDistance = zones.reduce((total, zone) => total + zone.legDistance, 0);
     const routeSummary = document.createElement("small");
     routeSummary.className = "resource-planner__route-summary";
-    routeSummary.textContent = `Route: ${zones.length} stops · ${totalDistance}m direct distance · blue rings mark ${pickupMarkers.length} planned pickups`;
+    const missing = Object.entries(remaining).filter(([, amount]) => amount > 0).map(([id, amount]) => `${resourceNameForId(id)} ×${amount}`);
+    routeSummary.textContent = `Route: ${zones.length} stops · ${totalDistance}m direct distance · blue rings mark ${pickupMarkers.length} planned pickups${missing.length ? ` · unavailable: ${missing.join(", ")}` : ""}`;
     resultsRoot.replaceChildren(routeSummary, ...zones.map((zone, index) => {
       const button = document.createElement("button"); button.type = "button"; button.className = "resource-planner__result";
       const nearest = allFastTravel().reduce((best, point) => { const distance = Math.round(Math.hypot(point.position.x - zone.position.x, point.position.y - zone.position.y)); return !best || distance < best.distance ? { title: point.title, distance } : best; }, null);

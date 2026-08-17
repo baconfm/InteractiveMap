@@ -2,6 +2,7 @@ const LOCATION_TYPES = [
   ["camp", "Camp"],
   ["ambush_camp", "Ambush camp"],
   ["nero_checkpoint", "NERO checkpoint"],
+  ["random_encounter", "Random encounter"],
 ];
 
 export class MapLocationEditor {

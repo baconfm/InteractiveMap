@@ -13,6 +13,7 @@ const ITEM_BADGES = {
   Cairn: ["CR", "#a79b83"],
   "Cedar Sapling": ["CS", "#4f9461"],
   "Collectible Plant": ["PL", "#73ae68"],
+  "Dog Toy": ["DT", "#e28b5a"],
   Flashbang: ["FB", "#f1e99a"],
   "Fire Axe": ["FA", "#c95c45"],
   "Gas Can": ["GC", "#d9684d"],
@@ -128,8 +129,12 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Cairn") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#a79b83" stroke="#182018" stroke-width="2"/><path d="M7 19h14l-3-4h-8l-3 4Zm3-5h8l-2-4h-4l-2 4Zm2-5h4l-2-3-2 3Z" fill="#e5d8b8" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/></svg>';
   }
+  if (itemName === "Dog Toy") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#e28b5a" stroke="#182018" stroke-width="2"/><path d="m8 11 3 3m6 0 3-3M8 17l3-3m6 0 3 3M10 11h8v6h-8z" fill="#f7e4bb" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>';
+  }
   if (itemName === "Bottle") {
-    return `<span class="loot-item-icon loot-item-icon--bottle"><img src="/assets/icons/Bottle.svg" alt="" aria-hidden="true"><b class="loot-item-icon__count">${quantity}</b></span>`;
+    const count = Number(quantity) > 1 ? `<b class="loot-item-icon__count">${quantity}</b>` : "";
+    return `<span class="loot-item-icon loot-item-icon--bottle"><img src="/assets/icons/Bottle.svg" alt="" aria-hidden="true">${count}</span>`;
   }
   if (itemName === "Cedar Sapling") {
     return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#315c3a" stroke="#182018" stroke-width="2"/><path d="M15.5 4 8.6 16.2l4.4-1.5-6.5 10.1h17l-5.8-9.5 4.8 1.5L15.5 4Zm-1.1 18.6h2.2v5h-2.2v-5Z" fill="#70b96f" stroke="#182018" stroke-linejoin="round" stroke-width="1.25"/><path d="m24.5 6-3.6 6h2.7l-3.1 6 6.1-7.5h-2.8L26.5 6h-2Z" fill="#75c7f2" stroke="#182018" stroke-linejoin="round" stroke-width=".8"/></svg>';
