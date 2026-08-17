@@ -2404,8 +2404,8 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 2994.9366709453016,
-        "y": 939.6488579357175
+        "x": 3000.0106316663996,
+        "y": 941.4777472618583
       }
     },
     {
@@ -4498,8 +4498,8 @@
       "note": "Added manually",
       "quantity": 1,
       "position": {
-        "x": 3403.6807904270727,
-        "y": 1695.4080859669768
+        "x": 3406.648484535603,
+        "y": 1698.1718122337013
       }
     },
     {
@@ -14756,71 +14756,94 @@
   ],
   "locations": [
     {
-      "id": "map-location-1786976393563",
+      "id": "map-location-1786980748973",
       "title": "Peaceful Lake",
       "type": "camp",
       "note": "",
       "position": {
-        "x": 2647.822531307769,
-        "y": 1901.0446197674457
+        "x": 2648.4844623707713,
+        "y": 1901.0275835995972
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976400069",
-      "parentId": "map-location-1786976393563",
+      "id": "fast-travel-arrival-1786980754366",
+      "parentId": "map-location-1786980748973",
       "title": "Peaceful Lake arrival",
       "type": "fast_travel_arrival",
       "note": "Fast travel arrival for Peaceful Lake.",
       "position": {
-        "x": 2651.870427949862,
-        "y": 1874.731000369087
+        "x": 2651.8844664397816,
+        "y": 1873.0942492490112
       },
       "region": "Cascades"
     },
     {
-      "id": "map-location-1786976413781",
-      "title": "Peaceful Lake",
-      "type": "camp",
+      "id": "map-location-1786980887059",
+      "title": "Horse Creek Ambush Camp",
+      "type": "ambush_camp",
       "note": "",
       "position": {
-        "x": 2651.265524969427,
-        "y": 1874.290043474139
+        "x": 3393.871642533834,
+        "y": 1691.4611018756896
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976556565",
-      "parentId": "map-location-1786976413781",
-      "title": "Peaceful Lake arrival",
+      "id": "fast-travel-arrival-1786980891259",
+      "parentId": "map-location-1786980887059",
+      "title": "Horse Creek Ambush Camp arrival",
       "type": "fast_travel_arrival",
-      "note": "Fast travel arrival for Peaceful Lake.",
+      "note": "Fast travel arrival for Horse Creek Ambush Camp.",
       "position": {
-        "x": 2651.528060092559,
-        "y": 1874.552591951041
+        "x": 3351.612702268161,
+        "y": 1631.1685964884946
       },
       "region": "Cascades"
     },
     {
-      "id": "map-location-1786976611565",
-      "title": "Peaceful Lake",
-      "type": "camp",
+      "id": "map-location-1786980924002",
+      "title": "Old Pioneer Cemetery NERO Checkpoint",
+      "type": "nero_checkpoint",
       "note": "",
       "position": {
-        "x": 2645.3469548965495,
-        "y": 1906.058858553407
+        "x": 3870.506127706327,
+        "y": 727.7215888158615
       },
       "region": "Cascades"
     },
     {
-      "id": "fast-travel-arrival-1786976614706",
-      "parentId": "map-location-1786976611565",
-      "title": "Peaceful Lake arrival",
+      "id": "fast-travel-arrival-1786980927803",
+      "parentId": "map-location-1786980924002",
+      "title": "Old Pioneer Cemetery NERO Checkpoint arrival",
       "type": "fast_travel_arrival",
-      "note": "Fast travel arrival for Peaceful Lake.",
+      "note": "Fast travel arrival for Old Pioneer Cemetery NERO Checkpoint.",
       "position": {
-        "x": 2650.9479267528613,
-        "y": 1875.6035423695068
+        "x": 3838.639469177681,
+        "y": 692.254919097437
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1786981001971",
+      "title": "Jefferson Rail Tunnel Ambush Camp",
+      "type": "nero_checkpoint",
+      "note": "",
+      "position": {
+        "x": 3024.253562751335,
+        "y": 640.7084346567646
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1786981004418",
+      "parentId": "map-location-1786981001971",
+      "title": "Jefferson Rail Tunnel Ambush Camp arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for Jefferson Rail Tunnel Ambush Camp.",
+      "position": {
+        "x": 2900.6889205357134,
+        "y": 673.6428994172107
       },
       "region": "Cascades"
     }
