@@ -16796,6 +16796,150 @@
         "x": 2607.9471693258197,
         "y": 4655.951192991352
       }
+    },
+    {
+      "id": "manual-loot-1786993337840",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2534.803238254856,
+        "y": 4688.3754343752225
+      }
+    },
+    {
+      "id": "manual-loot-1786993361406",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2491.2929638270975,
+        "y": 4701.844606807605
+      }
+    },
+    {
+      "id": "manual-loot-1786993378907",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2495.2143071201435,
+        "y": 4705.373821036826
+      }
+    },
+    {
+      "id": "manual-loot-1786993399265",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2500.442770694738,
+        "y": 4708.510897426423
+      }
+    },
+    {
+      "id": "manual-loot-1786993412180",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2493.3843597878954,
+        "y": 4713.2165076229185
+      }
+    },
+    {
+      "id": "manual-loot-1786993421489",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2491.685101666722,
+        "y": 4719.882798241736
+      }
+    },
+    {
+      "id": "manual-loot-1786993432721",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2485.018811047904,
+        "y": 4717.137859691764
+      }
+    },
+    {
+      "id": "manual-loot-1786993458802",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2477.6989515125115,
+        "y": 4759.096266275396
+      }
+    },
+    {
+      "id": "manual-loot-1786993462226",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "On Top of Tower",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2477.633606906974,
+        "y": 4760.403377781145
+      }
     }
   ],
   "locations": [
