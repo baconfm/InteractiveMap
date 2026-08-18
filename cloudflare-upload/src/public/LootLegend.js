@@ -8,9 +8,12 @@ export function createLootLegend({ onChange }) {
   const showAll = document.querySelector("#legend-show-all");
   const hideAll = document.querySelector("#legend-hide-all");
   const actions = document.querySelector(".map-legend__actions");
+  const search = document.querySelector("#map-legend-search");
+  const searchInput = document.querySelector("#legend-search-input");
   let markers = [];
   let visibleTitles = new Set();
   let spawnFilter = "all";
+  let searchTerm = "";
 
   function filteredMarkers() {
     return markers.filter((marker) => visibleTitles.has(marker.title)
@@ -40,7 +43,9 @@ export function createLootLegend({ onChange }) {
       spawnControls.append(button);
     });
     const sections = [...LOOT_LEGEND_GROUPS].sort((a, b) => a.label.localeCompare(b.label)).flatMap((group) => {
-      const entries = [...grouped.get(group.id).entries()].sort(([a], [b]) => a.localeCompare(b));
+      const entries = [...grouped.get(group.id).entries()]
+        .filter(([itemName]) => itemName.toLocaleLowerCase().includes(searchTerm))
+        .sort(([a], [b]) => a.localeCompare(b));
       if (!entries.length) return [];
       const section = document.createElement("section");
       section.className = "map-legend__group";
@@ -71,14 +76,26 @@ export function createLootLegend({ onChange }) {
   toggle?.addEventListener("click", () => {
     const collapse = !itemsRoot.hidden;
     itemsRoot.hidden = collapse;
+    search.hidden = collapse;
     actions.hidden = collapse;
     toggle.setAttribute("aria-expanded", String(!collapse));
     toggle.textContent = collapse ? "Show" : "Hide";
   });
   showAll?.addEventListener("click", () => { visibleTitles = new Set(markers.map((marker) => marker.title)); render(); notify(); });
   hideAll?.addEventListener("click", () => { visibleTitles.clear(); render(); notify(); });
+  searchInput?.addEventListener("input", () => { searchTerm = searchInput.value.trim().toLocaleLowerCase(); render(); });
 
   return {
     setMarkers(nextMarkers) { markers = nextMarkers; visibleTitles = new Set(markers.map((marker) => marker.title)); render(); notify(); },
+    setState({ titles, spawn } = {}) {
+      visibleTitles = Array.isArray(titles) ? new Set(titles) : new Set(markers.map((marker) => marker.title));
+      spawnFilter = ["all", "respawnable", "one-time"].includes(spawn) ? spawn : "all";
+      render();
+      notify();
+    },
+    getState() {
+      const allTitles = new Set(markers.map((marker) => marker.title));
+      return { titles: [...visibleTitles], spawn: spawnFilter, hasCustomSelection: visibleTitles.size !== allTitles.size || [...visibleTitles].some((title) => !allTitles.has(title)) };
+    },
   };
 }

@@ -20,6 +20,26 @@ function configuredMap() {
   };
 }
 
+function sharedMapState() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    x: Number(params.get("x")), y: Number(params.get("y")), z: Number(params.get("z")),
+    hasView: params.has("x") && params.has("y") && params.has("z"),
+    titles: params.has("selection") ? params.getAll("item") : undefined,
+    spawn: params.get("spawn") || "all",
+  };
+}
+
+function applySharedView(engine, state) {
+  if (!state.hasView || ![state.x, state.y, state.z].every(Number.isFinite)) return;
+  const { width, height } = engine.getViewportSize();
+  const zoom = Math.min(APP_CONFIG.camera.maxZoom, Math.max(APP_CONFIG.camera.minZoom, state.z));
+  engine.camera.zoom = zoom;
+  engine.camera.x = width / 2 - state.x * zoom;
+  engine.camera.y = height / 2 - state.y * zoom;
+  engine.render();
+}
+
 export function initMapApplication({ onReady, onMapClick, showLocations = false } = {}) {
   const map = configuredMap();
   const status = document.querySelector("#map-status");
@@ -29,6 +49,8 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
   const clusterSettings = document.querySelector("#cluster-settings");
   const clusterZoomInput = document.querySelector("#cluster-zoom");
   const clusterZoomValue = document.querySelector("#cluster-zoom-value");
+  const share = document.querySelector("#share-map");
+  const sharedState = sharedMapState();
   const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v3"));
   const splitPercent = Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0.65;
   let mapClickHandler = onMapClick;
@@ -83,10 +105,35 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
   engine.onCameraChange = ({ zoom }) => { locationLayer.setZoom(zoom); overlayLayer.setZoom(zoom); lootLayer.setZoom(zoom); };
   bindControls(engine);
   engine.mount();
+  applySharedView(engine, sharedState);
+
+  share?.addEventListener("click", async () => {
+    const { width, height } = engine.getViewportSize();
+    const { x, y, zoom } = engine.camera.getState();
+    const filters = legend.getState();
+    const url = new URL(window.location.href);
+    url.search = "";
+    url.searchParams.set("x", String(Math.round((width / 2 - x) / zoom)));
+    url.searchParams.set("y", String(Math.round((height / 2 - y) / zoom)));
+    url.searchParams.set("z", String(Number(zoom.toFixed(3))));
+    if (filters.hasCustomSelection) {
+      url.searchParams.set("selection", "custom");
+      filters.titles.forEach((title) => url.searchParams.append("item", title));
+    }
+    if (filters.spawn !== "all") url.searchParams.set("spawn", filters.spawn);
+    try {
+      await navigator.clipboard.writeText(url.href);
+      share.textContent = "Link copied";
+      window.setTimeout(() => { share.textContent = "Share view"; }, 1800);
+    } catch {
+      window.prompt("Copy this map link:", url.href);
+    }
+  });
 
   loadPublishedMap().then(({ lootMarkers, locationMarkers }) => {
     publishedMarkers = lootMarkers;
     legend.setMarkers(lootMarkers);
+    legend.setState(sharedState);
     locationLayer.render(showLocations ? locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival") : []);
     status.textContent = `Published map · ${lootMarkers.length} reviewed loot markers`;
     onReady?.({ engine, map, markers: lootMarkers, locationMarkers, lootLayer, locationLayer, overlayLayer, details, setMapClickHandler });

@@ -40,6 +40,7 @@
         </div>
         <a class="editor-toggle" href="../hide-deek/">Hide &amp; Deek</a>
         <a class="editor-toggle" href="../news/">News</a>
+        <button id="share-map" class="editor-toggle" type="button">Share view</button>
         <a class="discord-link" href="https://discord.gg/V8sqdVemgM" target="_blank" rel="noopener noreferrer">Discord support</a>
         <a class="thanks-link" href="https://www.youtube.com/@bacon-fm/" target="_blank" rel="noopener noreferrer">Subscribe to BaconFM to say thanks</a>
         <span class="save-state">Read only</span>
@@ -85,13 +86,16 @@
             </div>
             <div class="map-legend__buttons">
               <button id="cluster-settings-toggle" class="map-legend__collapse" type="button" aria-expanded="false" aria-controls="cluster-settings" aria-label="Cluster settings">⚙</button>
-              <button id="legend-toggle" class="map-legend__collapse" type="button" aria-expanded="true" aria-controls="map-legend-items">Hide</button>
+              <button id="legend-toggle" class="map-legend__collapse" type="button" aria-expanded="true" aria-controls="map-legend-search map-legend-items">Hide</button>
             </div>
           </div>
           <div id="cluster-settings" class="cluster-settings" hidden>
             <label for="cluster-zoom">Split item pins at <output id="cluster-zoom-value">95%</output> of maximum zoom</label>
             <input id="cluster-zoom" type="range" min="15" max="100" step="1" value="95" />
           </div>
+          <label id="map-legend-search" class="map-legend__search">
+            <input id="legend-search-input" type="search" aria-label="Search items" placeholder="Search items…" autocomplete="off" />
+          </label>
           <div id="map-legend-items" class="map-legend__items"></div>
           <div class="map-legend__actions">
             <button id="legend-show-all" type="button">Show all</button>
