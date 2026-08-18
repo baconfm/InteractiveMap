@@ -133,6 +133,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Cairn") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#a79b83" stroke="#182018" stroke-width="2"/><path d="M7 19h14l-3-4h-8l-3 4Zm3-5h8l-2-4h-4l-2 4Zm2-5h4l-2-3-2 3Z" fill="#e5d8b8" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/></svg>';
   }
+  if (itemName === "Grenade") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/Grenade.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Dog Toy") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#e28b5a" stroke="#182018" stroke-width="2"/><path d="m8 11 3 3m6 0 3-3M8 17l3-3m6 0 3 3M10 11h8v6h-8z" fill="#f7e4bb" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>';
   }
