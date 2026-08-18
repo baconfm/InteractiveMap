@@ -29,8 +29,8 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
   const clusterSettings = document.querySelector("#cluster-settings");
   const clusterZoomInput = document.querySelector("#cluster-zoom");
   const clusterZoomValue = document.querySelector("#cluster-zoom-value");
-  const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v2"));
-  const splitPercent = Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0.95;
+  const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v3"));
+  const splitPercent = Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0.65;
   let mapClickHandler = onMapClick;
   let publishedMarkers = [];
 
@@ -48,7 +48,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
   const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), map.size, {
     renderIcon: renderDaysGoneMarkerIcon,
     clusterBelowZoom: APP_CONFIG.camera.maxZoom * splitPercent,
-    clusterRadius: 54,
+    clusterRadius: 24,
     combineMatchingBelowZoom: APP_CONFIG.camera.maxZoom,
     combineMatchingRadius: 34,
   });
@@ -77,7 +77,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
   clusterZoomInput?.addEventListener("input", () => {
     const percent = Number(clusterZoomInput.value) / 100;
     clusterZoomValue.textContent = `${clusterZoomInput.value}%`;
-    localStorage.setItem("days-gone-public-cluster-split-percent-v2", String(percent));
+    localStorage.setItem("days-gone-public-cluster-split-percent-v3", String(percent));
     lootLayer.setClusterBelowZoom(APP_CONFIG.camera.maxZoom * percent);
   });
   engine.onCameraChange = ({ zoom }) => { locationLayer.setZoom(zoom); overlayLayer.setZoom(zoom); lootLayer.setZoom(zoom); };
