@@ -1,0 +1,449 @@
+# About the Interactive Loot Map
+
+## Built by a Fan, for the Fans
+
+The **Interactive Loot Map will not be placed behind a paywall**.
+
+This project uses AI-assisted tools when building parts of its infrastructure, particularly where they help keep development and hosting costs as low as possible.
+
+Because of that, and because **Days Gone and its intellectual property do not belong to me**, it does not feel right to charge people simply to access the map or the information collected through it.
+
+This is a fan project.
+
+It is built by a fan, for other fans.
+
+The goal is to make useful Days Gone information easier to access, not to take community knowledge about somebody else's game and lock it behind a subscription.
+
+That does not mean the project requires no work.
+
+Researching locations, verifying information, maintaining the database, improving the website, correcting mistakes, creating guides, and building new tools all require a substantial amount of time and effort.
+
+I also have a day job, other responsibilities, other interests, and a life outside the broken roads of Oregon.
+
+So please keep that in mind if development slows down, updates arrive in bursts, or I take a break from the project.
+
+There may be periods where a lot happens very quickly.
+
+There may also be periods where very little changes.
+
+That does not necessarily mean the project has been abandoned.
+
+This is something being built because I enjoy working on it and because I believe it can be useful to the Days Gone community — not because I owe anyone a release schedule.
+
+**No paywalls. No promises of constant updates. Just a fan project that will keep growing when time allows.**
+
+---
+
+# Who Is Behind It?
+
+I’m **Bacon FM**, a Days Gone speedrunner, challenge runner, researcher, and creator.
+
+A large part of what I do revolves around understanding Days Gone beyond a normal playthrough: routing missions, testing mechanics, documenting obscure details, and trying to answer questions that often do not have good answers anywhere else.
+
+Speedrunning is where a lot of that started.
+
+When you're trying to complete a game as efficiently as possible, you start looking at the world differently.
+
+A grenade is not just a grenade — it may be a grenade sitting fifteen seconds off your route.
+
+A crafting material is not just loot — it might save a trip later.
+
+A mission is not simply something to complete — it becomes something to test, route, optimise, and understand.
+
+Eventually that creates a lot of information.
+
+The **Interactive Loot Map** exists to make that information useful.
+
+You can find my submitted speedruns and history on my [speedrun.com profile](https://www.speedrun.com/users/BaconFM).
+
+---
+
+# What Is the Interactive Loot Map?
+
+The Interactive Loot Map is an **interactive map and research database for Days Gone**.
+
+There are already plenty of Days Gone loot maps, collectible guides, spreadsheets, videos, forum posts, Discord discussions, and community-made resources.
+
+The problem is not that information does not exist.
+
+The problem is that it exists **everywhere**.
+
+Different resources document different things.
+
+One map might show crafting materials.
+
+Another guide might contain several reliable grenade locations.
+
+A video may demonstrate where ammunition can be found.
+
+A community member may have spent hours cataloguing loot in one particular region.
+
+But there has never really been a single detailed location database that attempts to bring **all of that practical world information together in one place**.
+
+That is what the Interactive Loot Map is trying to become.
+
+---
+
+# Why Make Another Loot Map?
+
+Because the existing problem is not simply finding a map.
+
+It is finding the **specific information you actually need**.
+
+Imagine you are looking for one particular crafting material.
+
+You could search old Reddit posts.
+
+You could look through videos.
+
+You could check community spreadsheets.
+
+You could visit several different loot maps.
+
+Or you could drive around Oregon opening every car trunk, searching every building, and hoping the item you need happens to be there.
+
+That works.
+
+Eventually.
+
+But it is not a particularly good way of finding information.
+
+For new and returning players especially, Days Gone contains an enormous amount of loot scattered throughout the world, and very little of it is comprehensively documented in one place.
+
+The Interactive Loot Map is intended to reduce that searching.
+
+Instead of wondering:
+
+> “Where can I possibly find one of these?”
+
+You should eventually be able to open the map, select the item, and immediately see the locations that are currently known.
+
+---
+
+# The Real Problem Is Showing Everything
+
+A lot of community members have already tried to solve this problem.
+
+And that creates another challenge.
+
+**Days Gone has too much stuff.**
+
+If every known item is simply placed onto one map at the same time, the result quickly becomes unusable.
+
+Hundreds or thousands of markers might technically contain more information, but they do not necessarily help the person looking at them.
+
+So one of the main challenges of the Interactive Loot Map is not simply collecting the data.
+
+It is figuring out how to present a huge amount of information in a way that remains understandable.
+
+That means experimenting with things such as:
+
+- Item-specific filtering
+- Categories and subcategories
+- Search
+- Marker grouping
+- Zoom-dependent information
+- Different marker types
+- Respawn information
+- One-time pickups
+- Detailed location information
+- Region-based organisation
+- Hiding information that is not currently relevant
+
+The goal is not simply to create the map with the most markers.
+
+The goal is to create a map where **having more information does not make the map worse to use**.
+
+---
+
+# What Kind of Information Is Being Documented?
+
+The project focuses heavily on practical world information.
+
+That can include things such as:
+
+- Crafting materials
+- Throwables
+- Explosives
+- Ammunition
+- Weapons
+- Consumables
+- Loot containers
+- Car trunks
+- Environmental pickups
+- One-time items
+- Respawning items
+- Useful resource locations
+- Speedrun-relevant locations
+- Unusual or easily missed pickups
+- Other useful discoveries found through research
+
+Where possible, I also want the database to describe **how a location behaves**, rather than only saying that an item exists there.
+
+For example:
+
+- Does the item respawn?
+- Is it a one-time pickup?
+- Is it always there?
+- Does story progression affect it?
+- Is it inside a container?
+- Is the location particularly difficult to describe?
+- Is the information confirmed or still being researched?
+
+Those details can be just as important as the marker itself.
+
+---
+
+# Who Is This For?
+
+## New Players
+
+Days Gone can be overwhelming when you do not yet know where useful resources are.
+
+If you need a particular item, the Interactive Loot Map should help you find it without requiring detailed prior knowledge of the world.
+
+## Returning Players
+
+Maybe you have not played Days Gone in years.
+
+You remember that certain items exist, but not which camp, building, roadside stop, NERO site, or abandoned car contained them.
+
+The map should function as a quick reference without requiring you to relearn the entire world.
+
+## Survival Players
+
+Resource knowledge becomes considerably more important when fast travel and other conveniences disappear.
+
+Knowing what is available along your route can prevent unnecessary trips and make preparation much easier.
+
+## Challenge Runners
+
+Challenge runs often create very specific resource problems.
+
+You may need a particular explosive, crafting ingredient, weapon, or environmental resource while deliberately refusing to use easier alternatives.
+
+Being able to find those resources quickly can make experimentation much less tedious.
+
+## Speedrunners
+
+A lot of the thinking behind this project comes directly from speedrunning.
+
+For a speedrunner, a loot location is not simply useful.
+
+Its location has a **cost**.
+
+An item might be valuable because it sits directly beside a mission route.
+
+Another technically identical item might be useless because collecting it requires a two-minute detour.
+
+Having detailed map data makes it possible to start looking at resources as part of route development rather than isolated pickups.
+
+## People Who Simply Want to Explore
+
+You do not need to be routing anything.
+
+If you enjoy exploring Days Gone, learning where things are, or discovering strange details about the world, this project is also for you.
+
+---
+
+# Community Knowledge
+
+The Interactive Loot Map is not built around the idea that one person discovered everything.
+
+The Days Gone community has accumulated an enormous amount of knowledge over the years.
+
+Players have created maps, spreadsheets, guides, videos, posts, screenshots, notes, and countless Discord messages containing useful information.
+
+A major goal of this project is to make that kind of knowledge easier to preserve and use.
+
+Community members can contribute information through **Discord**.
+
+That can include:
+
+- Missing locations
+- Corrections
+- New discoveries
+- Respawn behaviour
+- Item information
+- Screenshots
+- Research results
+- Guide corrections
+- Other useful Days Gone knowledge
+
+If something is wrong, it should be corrected.
+
+If something is missing, it should eventually be added.
+
+And if nobody knows the answer yet, that is a perfectly good excuse to test it.
+
+---
+
+# Research and Accuracy
+
+This is an ongoing research project.
+
+That means the database will not always be perfect.
+
+Days Gone is a large game, and documenting individual pickups across the entire world is a substantial task.
+
+Some areas will be more complete than others.
+
+Some items may need additional testing.
+
+Some assumptions may eventually turn out to be wrong.
+
+When that happens, the information should change.
+
+I would rather have a database that improves through testing and community corrections than one that presents uncertain information as permanent fact.
+
+The map therefore represents the **best currently documented information**, not a claim that every corner of Oregon has already been completely catalogued.
+
+---
+
+# More Than a Loot Map
+
+Although loot documentation is at the centre of the project, the Interactive Loot Map is also becoming the foundation for other Days Gone resources.
+
+The broader goal is to connect information rather than create a collection of isolated pages.
+
+Future additions include:
+
+## Mission Guides
+
+Detailed guides for specific missions, including useful information such as:
+
+- Important objectives
+- Useful loot along the route
+- Easy-to-miss interactions
+- Relevant mechanics
+- Trophy requirements
+- Alternate approaches
+- Challenge considerations
+- Speedrun information
+
+## Platinum Trophy Guide
+
+A complete Days Gone Platinum resource designed to make it clear what needs to be done, when it can be done, and how progress can be organised efficiently.
+
+## Individual Trophy Guides
+
+Dedicated guides for trophies that require additional explanation, planning, or tracking.
+
+## Interactive Checklists
+
+Checklists for tracking things such as:
+
+- Trophy progress
+- Collectibles
+- Objectives
+- Missions
+- Completion requirements
+- Other useful progression goals
+
+## Speedrun Route Visualisation
+
+One of the long-term goals is to make it possible to document:
+
+- Speedrun routes
+- Mission paths
+- Important waypoints
+- Resource pickups
+- Optional detours
+- Alternative strategies
+- Category differences
+
+This could turn the map into both a reference tool and a visual way of explaining how routes actually work.
+
+## Better Connections Between Everything
+
+Eventually, a mission guide should not have to exist separately from the map.
+
+A trophy should not have to exist separately from a mission.
+
+A checklist should not have to exist separately from a guide.
+
+If a mission contains an important trophy requirement, useful pickup, collectible, or route decision, those pieces of information should be able to connect to one another.
+
+That is one of the biggest long-term goals of the project.
+
+---
+
+# Is the Interactive Loot Map Finished?
+
+No.
+
+And realistically, a project like this may never have a perfect definition of *finished*.
+
+You can define completion for a collectible list.
+
+It is much harder to define completion when your question is:
+
+> “Where is everything?”
+
+Someone will always find another box behind a building.
+
+Another trunk.
+
+Another bottle.
+
+Another grenade.
+
+Another strange spawn.
+
+Another location that somehow everyone has driven past for years.
+
+And as the project expands into mission guides, trophies, checklists, routes, and other tools, the definition becomes even broader.
+
+The aim is not to reach some arbitrary final version.
+
+The aim is to keep improving the project whenever there is useful information to add or a better way to present it.
+
+---
+
+# Why Am I Doing This?
+
+Because apparently playing Days Gone normally was not enough.
+
+Speedrunning leads to routing.
+
+Routing leads to testing.
+
+Testing leads to notes.
+
+Notes lead to spreadsheets.
+
+Spreadsheets lead to databases.
+
+Databases lead to interactive maps.
+
+And once you have built the interactive map, apparently the reasonable next step is to catalogue every bottle, grenade, alarm clock, kerosene can, and suspicious car trunk in post-apocalyptic Oregon.
+
+At that point, you may as well make it useful to everyone else.
+
+---
+
+# The Goal
+
+The goal of the Interactive Loot Map is simple:
+
+**Make detailed Days Gone information easy to find.**
+
+Not scattered across ten guides.
+
+Not buried in an old Discord conversation.
+
+Not hidden twenty minutes into a YouTube video.
+
+And not discovered only after searching the trunk of every abandoned car between Copeland's Camp and Crater Lake.
+
+One place.
+
+Detailed information.
+
+Easy to search.
+
+Useful whether you have played Days Gone for five hours or five thousand.
+
+If this project saves somebody from spending an hour searching for one stupid item, then it has already accomplished something.
+
+**Good morning, Oregon.**

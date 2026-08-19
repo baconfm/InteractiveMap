@@ -244,6 +244,20 @@ button, output { font: inherit; }
 .project-status__regions div { display: flex; justify-content: space-between; gap: 8px; padding: 9px 10px; background: #172219; border: 1px solid #3c493e; border-radius: 3px; font-size: 0.78rem; }
 .project-status__regions strong { color: #e3b746; white-space: nowrap; }
 .project-status__disclaimer { margin: 0; color: #dce2d7; font-size: 0.86rem; line-height: 1.55; }
+.project-phases, .about-content { margin-top: 28px; padding: 24px; background: rgb(21 29 23 / 88%); border: 1px solid #3c493e; border-radius: 5px; box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
+.project-phases h2, .about-content h2 { margin: 7px 0 14px; font-size: 1.25rem; }
+.project-phases ol { display: grid; gap: 12px; margin: 0; padding-left: 22px; color: #dce2d7; line-height: 1.55; }
+.project-phases li::marker { color: #e3b746; font-weight: 800; }
+.about-content { color: #dce2d7; line-height: 1.65; }
+.about-content h2 { margin-top: 0; padding-top: 0; color: #edf0e9; }
+.about-content h2:not(:first-child) { margin-top: 34px; padding-top: 28px; border-top: 1px solid #3c493e; }
+.about-content h3 { margin: 24px 0 8px; color: #e3b746; font-size: 1rem; }
+.about-content p { margin: 0 0 14px; }
+.about-content ul { margin: 0 0 16px; padding-left: 22px; }
+.about-content li { margin: 4px 0; }
+.about-content blockquote { margin: 18px 0; padding: 10px 14px; border-left: 3px solid #e3b746; background: #172219; color: #f0f2eb; font-style: italic; }
+.about-content hr { margin: 34px 0; border: 0; border-top: 1px solid #3c493e; }
+.about-content a { color: #f0c85a; }
 .news-list { display: grid; gap: 18px; padding-top: 28px; }
 .news-entry { padding: 24px; background: rgb(21 29 23 / 88%); border: 1px solid #3c493e; border-radius: 5px; box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
 .news-entry time { color: #aeb8a8; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111714" />
+    <meta name="description" content="About the Days Gone Interactive Loot Map, its research goals, project status, and roadmap." />
+    <link rel="canonical" href="https://interactivemap.baconfmspeedruns.workers.dev/about.html" />
+    <title>About — Days Gone Interactive Loot Map</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="news-page about-page">
+    <main class="news-page__content">
+      <header class="news-page__header">
+        <a class="news-page__back" href="readonly/">← Back to map</a>
+        <span class="brand__eyebrow">Days Gone Interactive Map</span>
+        <h1>About the Interactive Loot Map</h1>
+        <p>A free, community-focused research project for Days Gone.</p>
+      </header>
+
+      <section class="project-status" aria-labelledby="project-status-heading">
+        <div>
+          <span class="brand__eyebrow">Project status</span>
+          <h2 id="project-status-heading">Manually added and checked</h2>
+        </div>
+        <p class="project-status__updated">Last updated August 19, 2026</p>
+        <div class="project-status__regions">
+          <div><span>Cascades</span><strong>90%</strong></div>
+          <div><span>Belknap</span><strong>50%</strong></div>
+          <div><span>Iron Butte</span><strong>5%</strong></div>
+          <div><span>Lost Lake</span><strong>10%</strong></div>
+          <div><span>Crater Lake</span><strong>Not started</strong></div>
+          <div><span>Highway 97</span><strong>5%</strong></div>
+        </div>
+      </section>
+
+      <section class="project-phases" aria-labelledby="project-phases-heading">
+        <span class="brand__eyebrow">Roadmap</span>
+        <h2 id="project-phases-heading">Project phases</h2>
+        <ol>
+          <li><strong>Phase 1 — Recording end-game loot.</strong> Documenting and checking every piece of loot available in the end game.</li>
+          <li><strong>Phase 2 — Fresh-playthrough loot.</strong> Recording loot from a fresh-playthrough perspective, adding missions, and detailing mission-specific loot spawns.</li>
+          <li><strong>Phase 3 — UI and future features.</strong> Improving the UI and building future features. Everything currently added is intended as WIP functionality.</li>
+        </ol>
+      </section>
+
+      <article id="about-content" class="about-content" aria-live="polite">
+        <p>Loading the project overview…</p>
+      </article>
+    </main>
+    <script type="module">
+      const content = document.querySelector("#about-content");
+      const escapeHtml = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+      const inline = (value) => escapeHtml(value)
+        .replace(/\[([^\]]+)]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+      const markdown = await fetch("about.txt").then((response) => response.ok ? response.text() : Promise.reject());
+      let listOpen = false;
+      const blocks = [];
+      markdown.split(/\r?\n/).forEach((line, index) => {
+        const closeList = () => { if (listOpen) { blocks.push("</ul>"); listOpen = false; } };
+        if (!line.trim()) return;
+        if (line === "---") { closeList(); blocks.push("<hr>"); return; }
+        if (line.startsWith("- ")) { if (!listOpen) { blocks.push("<ul>"); listOpen = true; } blocks.push(`<li>${inline(line.slice(2))}</li>`); return; }
+        closeList();
+        if (line.startsWith("# ")) { if (index) blocks.push(`<h2>${inline(line.slice(2))}</h2>`); return; }
+        if (line.startsWith("## ")) { blocks.push(`<h3>${inline(line.slice(3))}</h3>`); return; }
+        if (line.startsWith("> ")) { blocks.push(`<blockquote>${inline(line.slice(2))}</blockquote>`); return; }
+        blocks.push(`<p>${inline(line)}</p>`);
+      });
+      if (listOpen) blocks.push("</ul>");
+      content.innerHTML = blocks.join("");
+    </script>
+  </body>
+</html>
