@@ -17390,6 +17390,150 @@
         "x": 2440.59612393387,
         "y": 836.2368456058879
       }
+    },
+    {
+      "id": "manual-loot-1787169108504",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1182.1935069039253,
+        "y": 4156.627828409304
+      }
+    },
+    {
+      "id": "manual-loot-1787169115653",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1180.7078758626656,
+        "y": 4154.354698087775
+      }
+    },
+    {
+      "id": "manual-loot-1787169128145",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1177.3450266793159,
+        "y": 4163.521769652793
+      }
+    },
+    {
+      "id": "manual-loot-1787169133218",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1177.610173570592,
+        "y": 4163.446009765098
+      }
+    },
+    {
+      "id": "manual-loot-1787169143806",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1178.860173570592,
+        "y": 4166.552068521609
+      }
+    },
+    {
+      "id": "manual-loot-1787169157798",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1175.6025950386909,
+        "y": 4153.218735188276
+      }
+    },
+    {
+      "id": "manual-loot-1787169161428",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1175.7919973010607,
+        "y": 4152.688433776329
+      }
+    },
+    {
+      "id": "manual-loot-1787169167954",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1176.7110269587374,
+        "y": 4153.093913885433
+      }
+    },
+    {
+      "id": "manual-loot-1787169188197",
+      "type": "loot_item",
+      "title": "Superior Axe",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1192.5722910836128,
+        "y": 4143.06722304228
+      }
     }
   ],
   "locations": [
