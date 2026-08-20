@@ -274,6 +274,7 @@ button, output { font: inherit; }
 .map-marker img { width: 32px; height: 32px; object-fit: contain; }
 .map-marker .loot-item-icon--superior-mace img { width: 50px; height: 50px; }
 .loot-item-icon--superior-mace img { filter: drop-shadow(1px 0 #182018) drop-shadow(-1px 0 #182018) drop-shadow(0 1px #182018) drop-shadow(0 -1px #182018); }
+.loot-item-icon--white-stroke img { filter: drop-shadow(1px 0 #fff) drop-shadow(-1px 0 #fff) drop-shadow(0 1px #fff) drop-shadow(0 -1px #fff); }
 .loot-item-icon { position: relative; display: grid; width: 100%; height: 100%; place-items: center; }
 .loot-item-icon__count { position: absolute; top: -2px; right: -2px; min-width: 13px; padding: 1px 3px; color: #182018; background: #f0be5d; border: 1px solid #182018; border-radius: 9px; font: 800 8px/1 Arial, sans-serif; text-align: center; }
 .map-tile { position: absolute; display: block; object-fit: fill; }
