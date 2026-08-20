@@ -20,5 +20,17 @@
       "photos": []
     }
   ],
-  "locations": []
+  "locations": [
+    {
+      "id": "map-location-1787222239602",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Generally tends to spawn after unlocking Lost Lake camp, so worth checking while heading to Sherman's camp for the Liston knife.",
+      "position": {
+        "x": 3180.9533162011635,
+        "y": 2588.098232102413
+      },
+      "region": "Lost Lake"
+    }
+  ]
 }

@@ -376,5 +376,17 @@
       "photos": []
     }
   ],
-  "locations": []
+  "locations": [
+    {
+      "id": "map-location-1787222374984",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Spawn conditions unknown.",
+      "position": {
+        "x": 2486.1814456828624,
+        "y": 2914.5317487762823
+      },
+      "region": "Iron Butte"
+    }
+  ]
 }

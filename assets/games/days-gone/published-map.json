@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-20T07:16:58.716Z",
+  "savedAt": "2026-08-20T10:39:39.033Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -101,8 +101,8 @@
       "type": "random_encounter",
       "note": "Spotted During Night - Specific Spawn Conditions Unknown",
       "position": {
-        "x": 3572.2742856938135,
-        "y": 2081.674010378457
+        "x": 3572.42533863096,
+        "y": 2080.625130846587
       },
       "region": "Cascades"
     },
@@ -138,6 +138,28 @@
         "y": 556.6100475461723
       },
       "region": "Cascades"
+    },
+    {
+      "id": "map-location-1787222239602",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Generally tends to spawn after unlocking Lost Lake camp, so worth checking while heading to Sherman's camp for the Liston knife.",
+      "position": {
+        "x": 3180.9533162011635,
+        "y": 2588.098232102413
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1787222374984",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Spawn conditions unknown.",
+      "position": {
+        "x": 2486.1814456828624,
+        "y": 2914.5317487762823
+      },
+      "region": "Iron Butte"
     }
   ],
   "mapLines": [
@@ -73782,5 +73804,5 @@
       }
     }
   ],
-  "generatedAt": "2026-08-20T09:35:30.732Z"
+  "generatedAt": "2026-08-20T10:39:39.454Z"
 }
