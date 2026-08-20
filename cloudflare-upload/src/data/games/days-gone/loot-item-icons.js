@@ -144,7 +144,7 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<span class="loot-item-icon"><img src="/assets/icons/gascanister.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Alarm Clock") {
-    return '<span class="loot-item-icon loot-item-icon--white-stroke"><img src="/assets/icons/alarmclock.svg" alt="" aria-hidden="true"></span>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/alarmclock.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Growler") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
@@ -156,7 +156,10 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<span class="loot-item-icon"><img src="/assets/icons/rag.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Nails") {
-    return '<span class="loot-item-icon loot-item-icon--white-stroke"><img src="/assets/icons/nails.svg" alt="" aria-hidden="true"></span>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/nails.svg" alt="" aria-hidden="true"></span>';
+  }
+  if (itemName === "Polystyrene") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/polystyrene.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Bottle") {
     const count = Number(quantity) > 1 ? `<b class="loot-item-icon__count">${quantity}</b>` : "";
@@ -172,7 +175,7 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<span class="loot-item-icon"><img src="/assets/icons/kerosene.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Sterilizer") {
-    return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#75b9db" stroke="#182018" stroke-width="2"/><path d="M8 5h5v7h5v5h7v9h-7v3h-6v-7H7v-7h1V5Zm7 12h3v3h-3v-3Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/><path d="m8.5 26.5 12-12 2.4 2.4-12 12-3.7 1.1 1.3-3.5Zm11.8-13 4.8-4.8 2.9 2.9-4.8 4.8-2.9-2.9Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/><path d="m17.8 17 2.7 2.7" fill="none" stroke="#182018" stroke-width="1.2"/></svg>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/sterilizer.svg" alt="" aria-hidden="true"></span>';
   }
   if (SHEET_GLYPHS[itemName]) {
     const [color, body] = SHEET_GLYPHS[itemName];

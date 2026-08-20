@@ -4,7 +4,7 @@
 <svg
    width="100"
    height="100"
-   viewBox="0 0 26.458333 26.458333"
+   viewBox="-1 -1 28.458333 28.458333"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -68,11 +68,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"><path
-       style="fill:#1a1a1a;stroke-width:0.964999"
+       style="fill:#1a1a1a;stroke:#ffffff;stroke-width:1.2;stroke-linejoin:round;paint-order:stroke fill"
        d="M 0.19087403,5.3444729 4.4537275,0.12724935 4.2628532,3.2448586 24.62275,22.904884 25.322621,25.004498 23.286632,24.813624 2.7358611,4.8991 Z"
        id="path1"
        sodipodi:nodetypes="cccccccc" /><path
-       style="display:inline;fill:#1a1a1a;stroke-width:0.964999"
+       style="display:inline;fill:#1a1a1a;stroke:#ffffff;stroke-width:1.2;stroke-linejoin:round;paint-order:stroke fill"
        d="M 20.754665,0.58655725 25.971888,4.8494102 22.854279,4.6585362 3.1942552,25.018434 1.0946412,25.718305 1.2855152,23.682316 8.8137962,15.913514 21.200038,3.1315442 Z"
        id="path1-8"
        sodipodi:nodetypes="ccccccccc" /></g></svg>
