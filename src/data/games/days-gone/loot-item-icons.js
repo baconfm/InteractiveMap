@@ -140,8 +140,14 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Grenade") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Grenade.svg" alt="" aria-hidden="true"></span>';
   }
+  if (itemName === "Growler") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Dog Toy") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#e28b5a" stroke="#182018" stroke-width="2"/><path d="m8 11 3 3m6 0 3-3M8 17l3-3m6 0 3 3M10 11h8v6h-8z" fill="#f7e4bb" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>';
+  }
+  if (itemName === "Rag") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/rag.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Bottle") {
     const count = Number(quantity) > 1 ? `<b class="loot-item-icon__count">${quantity}</b>` : "";
