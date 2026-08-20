@@ -140,6 +140,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Grenade") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Grenade.svg" alt="" aria-hidden="true"></span>';
   }
+  if (itemName === "Gas Can") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/gascanister.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Growler") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
   }
