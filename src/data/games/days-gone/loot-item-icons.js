@@ -51,6 +51,7 @@ const ITEM_BADGES = {
   Sterilizer: ["SZ", "#7caed1"],
   Suppressor: ["SU", "#555f64"],
   "Superior Axe": ["SA", "#8e9fa3"],
+  "Superior Mace": ["SM", "#8e9fa3"],
 };
 
 const SHEET_GLYPHS = {
@@ -103,6 +104,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Superior Axe") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#8e9fa3" stroke="#182018" stroke-width="2"/><path d="m8 21 8-8m-3-5 7 1-1 7-3-3-8 8m5-13 3 3" fill="none" stroke="#e6eee4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
+  if (itemName === "Superior Mace") {
+    return '<span class="loot-item-icon loot-item-icon--superior-mace"><img src="/assets/icons/superiormace.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Fire Axe") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#c95c45" stroke="#182018" stroke-width="2"/><path d="m8 21 8-8m-1-5 6 2-2 6-3-3-8 8m8-13 3 3" fill="none" stroke="#fff0d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
@@ -150,7 +154,7 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#73ae68" stroke="#182018" stroke-width="2"/><path d="M14 22V7M14 16c-6 0-7-5-7-8 5 0 7 3 7 8Zm0-4c5 0 7-4 7-7-5 0-7 3-7 7Z" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
   if (itemName === "Kerosene") {
-    return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#d89d39" stroke="#182018" stroke-width="2"/><path d="M14.8 3.3c.8 4.2-1.6 6.8-4.8 9.3-2.5 2-4.2 4.4-4.2 7.4 0 5.2 4.5 8.8 10 8.8 5.8 0 10.4-4.5 10.4-10.5 0-5.7-4.9-10.9-11.4-15Zm1.8 22.8c-2.8 0-4.8-2.1-4.8-4.7 0-2.2 1.3-4 3.4-5.5-.2 2.4.8 4 2.7 5.8 1.3 1.2.8 4.4-1.3 4.4Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.25"/></svg>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/kerosene.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Sterilizer") {
     return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#75b9db" stroke="#182018" stroke-width="2"/><path d="M8 5h5v7h5v5h7v9h-7v3h-6v-7H7v-7h1V5Zm7 12h3v3h-3v-3Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/><path d="m8.5 26.5 12-12 2.4 2.4-12 12-3.7 1.1 1.3-3.5Zm11.8-13 4.8-4.8 2.9 2.9-4.8 4.8-2.9-2.9Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.2"/><path d="m17.8 17 2.7 2.7" fill="none" stroke="#182018" stroke-width="1.2"/></svg>';
