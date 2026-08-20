@@ -17534,6 +17534,199 @@
         "x": 1192.5722910836128,
         "y": 4143.06722304228
       }
+    },
+    {
+      "id": "manual-loot-1787169210176",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1185,
+        "y": 4109
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787207113278",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1176.312218462731,
+        "y": 4097.0736916730675
+      }
+    },
+    {
+      "id": "manual-loot-1787207510666",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1182.6758659236684,
+        "y": 4092.0736916730675
+      }
+    },
+    {
+      "id": "manual-loot-1787207535127",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1185.6304150773142,
+        "y": 4090.937328961479
+      }
+    },
+    {
+      "id": "manual-loot-1787207552509",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1181.6910229874704,
+        "y": 4097.225206362195
+      }
+    },
+    {
+      "id": "manual-loot-1787207562557",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1184.6834342830434,
+        "y": 4095.710054384656
+      }
+    },
+    {
+      "id": "manual-loot-1787207571560",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1187.524356320804,
+        "y": 4094.952480939018
+      }
+    },
+    {
+      "id": "manual-loot-1787208725790",
+      "type": "loot_item",
+      "title": "Superior Mace",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1197.20644916623,
+        "y": 4069.341753499529
+      }
+    },
+    {
+      "id": "manual-loot-1787209177215",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1202.2820855512775,
+        "y": 4062.220778532077
+      }
+    },
+    {
+      "id": "manual-loot-1787209181512",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1206.1630098064197,
+        "y": 4063.7134386235844
+      }
+    },
+    {
+      "id": "manual-loot-1787209203147",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1213.0292542445757,
+        "y": 4070.1816379209645
+      }
+    },
+    {
+      "id": "manual-loot-1787209231506",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1209.2478504610299,
+        "y": 4072.0723431532474
+      }
     }
   ],
   "locations": [
@@ -17637,6 +17830,17 @@
       "position": {
         "x": 3572.2742856938135,
         "y": 2081.674010378457
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1787207064972",
+      "title": "2 Survivors",
+      "type": "random_encounter",
+      "note": "4 Marauders on Bike",
+      "position": {
+        "x": 2745.3551150213125,
+        "y": 556.6100475461723
       },
       "region": "Cascades"
     }

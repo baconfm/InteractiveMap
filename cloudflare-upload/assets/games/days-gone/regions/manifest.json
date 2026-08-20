@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T19:53:14.567Z",
+  "generatedAt": "2026-08-20T07:16:59.145Z",
   "regions": [
     {
       "id": "cascades",
       "label": "Cascades",
       "path": "assets/games/days-gone/regions/cascades.json",
-      "markerCount": 1116,
-      "locationCount": 9
+      "markerCount": 1128,
+      "locationCount": 10
     },
     {
       "id": "belknap",
