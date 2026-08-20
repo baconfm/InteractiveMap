@@ -143,6 +143,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   if (itemName === "Gas Can") {
     return '<span class="loot-item-icon"><img src="/assets/icons/gascanister.svg" alt="" aria-hidden="true"></span>';
   }
+  if (itemName === "Alarm Clock") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/alarmclock.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Growler") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
   }
@@ -151,6 +154,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "Rag") {
     return '<span class="loot-item-icon"><img src="/assets/icons/rag.svg" alt="" aria-hidden="true"></span>';
+  }
+  if (itemName === "Nails") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/nails.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Bottle") {
     const count = Number(quantity) > 1 ? `<b class="loot-item-icon__count">${quantity}</b>` : "";
