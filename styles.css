@@ -72,14 +72,6 @@ button, output { font: inherit; }
 
 .map-canvas.has-background::before { opacity: 0; }
 
-.map-seo-content { max-width: 880px; margin: 0 auto; padding: 52px 28px 64px; color: #dce3d6; background: #111714; line-height: 1.65; }
-.map-seo-content h1, .map-seo-content h2 { margin: 0 0 12px; color: #f1f2eb; line-height: 1.2; }
-.map-seo-content h1 { font-size: clamp(1.55rem, 3vw, 2.2rem); }
-.map-seo-content h2 { margin-top: 28px; font-size: 1.05rem; }
-.map-seo-content p, .map-seo-content ul { margin: 0 0 16px; }
-.map-seo-content ul { padding-left: 20px; }
-.map-seo-content a { color: #e3b746; }
-
 .map-empty-state {
   position: absolute;
   z-index: 2;

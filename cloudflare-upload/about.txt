@@ -84,6 +84,20 @@ That is what the Interactive Loot Map is trying to become.
 
 ---
 
+# What the Map Currently Tracks
+
+The map currently tracks crafting materials, healing supplies, weapons, throwables, plants, and other useful pickups throughout Oregon.
+
+- Individual item filters
+- One-time and respawnable pickup information where it is known
+- Zoomed-out area summaries that expand into individual pickup locations
+
+The current focus is on precise loot locations in Cascade Wilderness, Belknap, and Iron Butte, with more regions being added over time.
+
+Want a different challenge? Try [Hide & Deek, the Days Gone Geo Guesser](https://interactivemap.baconfmspeedruns.workers.dev/hide-deek/).
+
+---
+
 # Why Make Another Loot Map?
 
 Because the existing problem is not simply finding a map.
