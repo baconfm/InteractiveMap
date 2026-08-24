@@ -60,7 +60,7 @@ let placingManualLoot = false;
 let selectedToolboxToolId;
 let showUnreviewed = localStorage.getItem("days-gone-show-unreviewed-v1") === "true";
 let lootOnly = true;
-const EDITOR_CLUSTER_SPLIT_ZOOM = 0.55;
+const EDITOR_CLUSTER_SPLIT_ZOOM = 1;
 const engine = new MapEngine({
   viewport: document.querySelector("#map-viewport"),
   canvas: document.querySelector("#map-canvas"),
@@ -610,6 +610,7 @@ mapLocationEditor = new MapLocationEditor({
     type: document.querySelector("#map-location-type"),
     title: document.querySelector("#map-location-title"),
     note: document.querySelector("#map-location-note"),
+    photos: document.querySelector("#map-location-photos"),
     arrival: document.querySelector("#map-location-arrival"),
     place: document.querySelector("#place-map-location"),
     cancel: document.querySelector("#cancel-map-location"),

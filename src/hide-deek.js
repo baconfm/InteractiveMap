@@ -58,7 +58,7 @@ function renderRoundMedia(value) {
 
   const image = document.createElement("img");
   image.src = value;
-  image.alt = "Mystery Days Gone loot location";
+  image.alt = "Mystery Days Gone map location";
   image.onerror = () => { thinking.textContent = "This round media could not be loaded. Start another round."; };
   media.replaceChildren(image);
 }
@@ -108,7 +108,7 @@ async function loadCandidates() {
   const manifest = await manifestResponse.json();
   const snapshots = await Promise.all(manifest.regions.map(async (region) => (await fetch(assetUrl(region.path), { cache: "no-store" })).json()));
   const seenVideos = new Set();
-  candidates = snapshots.flatMap((snapshot) => snapshot.markers ?? [])
+  candidates = snapshots.flatMap((snapshot) => [...(snapshot.markers ?? []), ...(snapshot.locations ?? [])])
     .flatMap((marker) => (marker.photos ?? []).map((image) => ({ marker, image })))
     .filter((candidate) => {
       const embedUrl = youtubeEmbedUrl(candidate.image);

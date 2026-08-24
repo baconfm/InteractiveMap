@@ -50,6 +50,7 @@ export class MapLocationEditor {
         title,
         type,
         note: this.elements.note.value.trim(),
+        photos: this.elements.photos.value.split(/\r?\n/).map((value) => value.trim()).filter(Boolean),
         position,
         region: this.regionForPosition(position) ?? "Cascades",
       });
@@ -91,6 +92,7 @@ export class MapLocationEditor {
     const isArrival = marker.type === "fast_travel_arrival";
     this.elements.title.value = marker.title;
     this.elements.note.value = marker.note ?? "";
+    this.elements.photos.value = (marker.photos ?? []).join("\n");
     this.elements.type.value = isArrival ? "" : marker.type;
     this.elements.type.disabled = isArrival;
     this.elements.arrival.checked = !isArrival && this.store.getAll().some((item) => item.parentId === marker.id);
@@ -114,6 +116,7 @@ export class MapLocationEditor {
     const patch = {
       title,
       note: this.elements.note.value.trim(),
+      photos: this.elements.photos.value.split(/\r?\n/).map((value) => value.trim()).filter(Boolean),
     };
     if (marker.type !== "fast_travel_arrival") patch.type = this.elements.type.value;
     this.store.update(marker.id, patch);

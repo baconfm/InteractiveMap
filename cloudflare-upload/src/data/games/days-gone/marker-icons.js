@@ -60,6 +60,7 @@ export function renderDaysGoneMarkerIcon(marker) {
     const countBadge = hasBuiltInCount ? "" : `<b class="loot-stack-icon__count">${marker.stackCount}</b>`;
     return withOneTimeSpawnBadge(marker, `<span class="loot-stack-icon">${renderLootItemIcon(title, marker.stackCount)}${countBadge}</span>`);
   }
+  if (title === "Cedar Sapling") return withOneTimeSpawnBadge(marker, renderLootItemIcon(title, marker.quantity));
   if (marker.icon === "mushroom") return mushroomIcon();
   if (marker.icon === "plant") return plantIcon();
   if (!marker.icon && marker.type === "collectible_mushroom") return mushroomIcon();
