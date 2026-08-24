@@ -8637,9 +8637,10 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1357.1749214383108,
-        "y": 1041.1141434829237
-      }
+        "x": 1357,
+        "y": 1041
+      },
+      "photos": []
     }
   ],
   "locations": [
@@ -8697,6 +8698,20 @@
         "y": 1145.9773210206574
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1787594034610",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "In a car",
+      "position": {
+        "x": 1664.7314061241052,
+        "y": 1022.5379180888433
+      },
+      "region": "Belknap",
+      "photos": [
+        "https://youtube.com/shorts/5a_HCiRVyJg"
+      ]
     }
   ]
 }
