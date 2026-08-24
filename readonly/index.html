@@ -97,6 +97,15 @@
           <label id="map-legend-search" class="map-legend__search">
             <input id="legend-search-input" type="search" aria-label="Search items" placeholder="Search items…" autocomplete="off" />
           </label>
+          <section id="map-legend-location-filters" class="map-legend__group" hidden>
+            <h2>Map locations</h2>
+            <label class="map-legend__item">
+              <input id="random-encounters-toggle" type="checkbox" checked />
+              <span id="random-encounters-icon" class="map-legend__icon"></span>
+              <span>Random Encounters</span>
+              <span id="random-encounters-count" class="map-legend__count">0</span>
+            </label>
+          </section>
           <div id="map-legend-items" class="map-legend__items"></div>
           <div class="map-legend__actions">
             <button id="legend-show-all" type="button">Show all</button>

@@ -9,6 +9,7 @@ export function createLootLegend({ onChange }) {
   const hideAll = document.querySelector("#legend-hide-all");
   const actions = document.querySelector(".map-legend__actions");
   const search = document.querySelector("#map-legend-search");
+  const locationFilters = document.querySelector("#map-legend-location-filters");
   const searchInput = document.querySelector("#legend-search-input");
   let markers = [];
   let visibleTitles = new Set();
@@ -77,6 +78,7 @@ export function createLootLegend({ onChange }) {
     const collapse = !itemsRoot.hidden;
     itemsRoot.hidden = collapse;
     search.hidden = collapse;
+    if (locationFilters) locationFilters.hidden = collapse || !locationFilters.querySelector("input");
     actions.hidden = collapse;
     toggle.setAttribute("aria-expanded", String(!collapse));
     toggle.textContent = collapse ? "Show" : "Hide";

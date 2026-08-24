@@ -50,11 +50,16 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const clusterZoomInput = document.querySelector("#cluster-zoom");
   const clusterZoomValue = document.querySelector("#cluster-zoom-value");
   const share = document.querySelector("#share-map");
+  const randomEncountersToggle = document.querySelector("#random-encounters-toggle");
+  const randomEncountersFilter = document.querySelector("#map-legend-location-filters");
+  const randomEncountersIcon = document.querySelector("#random-encounters-icon");
+  const randomEncountersCount = document.querySelector("#random-encounters-count");
   const sharedState = sharedMapState();
   const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v3"));
   const splitPercent = Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0.65;
   let mapClickHandler = onMapClick;
   let publishedMarkers = [];
+  let locationMarkers = [];
 
   const engine = new MapEngine({
     viewport: document.querySelector("#map-viewport"),
@@ -88,6 +93,10 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
       status.textContent = `Published map - ${visibleMarkers.length} of ${total} ${filterLabel} markers shown`;
     },
   });
+  const renderLocationMarkers = () => locationLayer.render(showLocations
+    ? locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival")
+    : locationMarkers.filter((marker) => marker.type === "random_encounter" && showRandomEncounters && randomEncountersToggle?.checked));
+  randomEncountersToggle?.addEventListener("change", renderLocationMarkers);
 
   clusterZoomInput.value = String(Math.round(splitPercent * 100));
   clusterZoomValue.textContent = `${clusterZoomInput.value}%`;
@@ -130,11 +139,16 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     }
   });
 
-  loadPublishedMap().then(({ lootMarkers, locationMarkers }) => {
+  loadPublishedMap().then(({ lootMarkers, locationMarkers: nextLocationMarkers }) => {
     publishedMarkers = lootMarkers;
+    locationMarkers = nextLocationMarkers;
     legend.setMarkers(lootMarkers);
     legend.setState(sharedState);
-    locationLayer.render(locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival" && (showLocations || (showRandomEncounters && marker.type === "random_encounter"))));
+    const randomEncounters = locationMarkers.filter((marker) => marker.type === "random_encounter");
+    if (randomEncountersFilter) randomEncountersFilter.hidden = !showRandomEncounters || !randomEncounters.length;
+    if (randomEncountersIcon && randomEncounters[0]) randomEncountersIcon.innerHTML = renderDaysGoneMarkerIcon(randomEncounters[0]);
+    if (randomEncountersCount) randomEncountersCount.textContent = String(randomEncounters.length);
+    renderLocationMarkers();
     status.textContent = `Published map · ${lootMarkers.length} reviewed loot markers`;
     onReady?.({ engine, map, markers: lootMarkers, locationMarkers, lootLayer, locationLayer, overlayLayer, details, setMapClickHandler });
   }).catch((error) => {
