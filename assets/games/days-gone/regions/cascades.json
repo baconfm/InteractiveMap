@@ -21394,9 +21394,12 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1137.516680968411,
-        "y": 4709.748725932757
-      }
+        "x": 1138,
+        "y": 4710
+      },
+      "photos": [
+        "https://youtube.com/shorts/weDpXrSsQaU"
+      ]
     },
     {
       "id": "manual-loot-1787588398481",

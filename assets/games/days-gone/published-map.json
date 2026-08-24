@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-24T16:31:01.092Z",
+  "savedAt": "2026-08-24T16:34:43.694Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -28786,9 +28786,12 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1137.516680968411,
-        "y": 4709.748725932757
-      }
+        "x": 1138,
+        "y": 4710
+      },
+      "photos": [
+        "https://youtube.com/shorts/weDpXrSsQaU"
+      ]
     },
     {
       "id": "manual-loot-1787588398481",
@@ -57273,9 +57276,12 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1137.516680968411,
-        "y": 4709.748725932757
-      }
+        "x": 1138,
+        "y": 4710
+      },
+      "photos": [
+        "https://youtube.com/shorts/weDpXrSsQaU"
+      ]
     },
     {
       "id": "manual-loot-1787588398481",
@@ -85760,9 +85766,12 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1137.516680968411,
-        "y": 4709.748725932757
-      }
+        "x": 1138,
+        "y": 4710
+      },
+      "photos": [
+        "https://youtube.com/shorts/weDpXrSsQaU"
+      ]
     },
     {
       "id": "manual-loot-1787588398481",
@@ -86213,5 +86222,5 @@
       }
     }
   ],
-  "generatedAt": "2026-08-24T16:31:01.187Z"
+  "generatedAt": "2026-08-24T16:34:44.099Z"
 }
