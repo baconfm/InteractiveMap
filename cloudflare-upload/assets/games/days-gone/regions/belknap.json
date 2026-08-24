@@ -8998,6 +8998,167 @@
         "x": 1877.3723676090299,
         "y": 517.4831811694743
       }
+    },
+    {
+      "id": "manual-loot-1787598274577",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1706.774257400435,
+        "y": 641.6327921912438
+      }
+    },
+    {
+      "id": "manual-loot-1787598276898",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1704.3500122018675,
+        "y": 648.450973547038
+      }
+    },
+    {
+      "id": "manual-loot-1787598279499",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1702,
+        "y": 651
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787599184694",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1431.7204132489271,
+        "y": 669.0516084136616
+      }
+    },
+    {
+      "id": "manual-loot-1787599189061",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1432.2123572295304,
+        "y": 669.6419517595979
+      }
+    },
+    {
+      "id": "manual-loot-1787599218357",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1417.749077369244,
+        "y": 699.7492113835582
+      }
+    },
+    {
+      "id": "manual-loot-1787599229621",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1407.0506680312046,
+        "y": 687.3398150100123
+      }
+    },
+    {
+      "id": "manual-loot-1787599242825",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1403.2627855442254,
+        "y": 686.9610308303248
+      }
+    },
+    {
+      "id": "manual-loot-1787599263066",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1399.4749132297723,
+        "y": 688.1731483433456
+      }
+    },
+    {
+      "id": "manual-loot-1787599284401",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1397.2021776340691,
+        "y": 690.7489082310409
+      }
     }
   ],
   "locations": [
@@ -9075,11 +9236,23 @@
       "id": "map-location-1787596326293",
       "title": "Survivor",
       "type": "random_encounter",
-      "note": "",
+      "note": "1 during night time, up to two during day time.",
       "photos": [],
       "position": {
         "x": 1486.942500468484,
         "y": 899.7612257609961
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1787598839045",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "1 during night time, up to two during day time.",
+      "photos": [],
+      "position": {
+        "x": 1411.226339259761,
+        "y": 575.5518787997354
       },
       "region": "Belknap"
     }
