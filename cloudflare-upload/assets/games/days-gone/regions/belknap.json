@@ -6276,6 +6276,17 @@
         "y": 663.2759076759174
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1787586149247",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "",
+      "position": {
+        "x": 1945.1695149665927,
+        "y": 677.0946696906034
+      },
+      "region": "Belknap"
     }
   ]
 }
