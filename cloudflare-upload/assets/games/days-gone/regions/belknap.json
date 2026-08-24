@@ -5561,8 +5561,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1891.248583506066,
-        "y": 738.7282286037366
+        "x": 1813.7703368147272,
+        "y": 773.984121848312
       }
     },
     {
@@ -5577,8 +5577,8 @@
       "quantity": 1,
       "oneTimeSpawn": true,
       "position": {
-        "x": 1888.445554127811,
-        "y": 744.7130766261976
+        "x": 1892.7635924369133,
+        "y": 734.7791413261031
       }
     },
     {
@@ -8914,8 +8914,89 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1625.350381128966,
-        "y": 825.7466297837476
+        "x": 1625,
+        "y": 826
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787597696246",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1847.4107143965084,
+        "y": 526.4716781390239
+      }
+    },
+    {
+      "id": "manual-loot-1787597701120",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1843.2160740957756,
+        "y": 530.6663184397568
+      }
+    },
+    {
+      "id": "manual-loot-1787597704401",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1846.8863743009852,
+        "y": 524.224555153878
+      }
+    },
+    {
+      "id": "manual-loot-1787597713452",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1847.1860000864074,
+        "y": 523.6253236988966
+      }
+    },
+    {
+      "id": "manual-loot-1787597747735",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1877.3723676090299,
+        "y": 517.4831811694743
       }
     }
   ],
@@ -8935,12 +9016,13 @@
       "id": "map-location-1786997004540",
       "title": "2 Survivors",
       "type": "random_encounter",
-      "note": "4 Marauders on Bike",
+      "note": "4 Marauders on Bike\nSpotted during night",
       "position": {
         "x": 1943.8711037943362,
         "y": 663.2759076759174
       },
-      "region": "Belknap"
+      "region": "Belknap",
+      "photos": []
     },
     {
       "id": "map-location-1787586149247",
