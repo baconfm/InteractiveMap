@@ -1,3 +1,3 @@
 import { initMapApplication } from "./public/MapApplication.js";
 
-initMapApplication();
+initMapApplication({ showRandomEncounters: true });

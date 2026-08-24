@@ -40,7 +40,7 @@ function applySharedView(engine, state) {
   engine.render();
 }
 
-export function initMapApplication({ onReady, onMapClick, showLocations = false } = {}) {
+export function initMapApplication({ onReady, onMapClick, showLocations = false, showRandomEncounters = false } = {}) {
   const map = configuredMap();
   const status = document.querySelector("#map-status");
   const readout = document.querySelector("#coordinate-readout");
@@ -134,7 +134,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false 
     publishedMarkers = lootMarkers;
     legend.setMarkers(lootMarkers);
     legend.setState(sharedState);
-    locationLayer.render(showLocations ? locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival") : []);
+    locationLayer.render(locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival" && (showLocations || (showRandomEncounters && marker.type === "random_encounter"))));
     status.textContent = `Published map · ${lootMarkers.length} reviewed loot markers`;
     onReady?.({ engine, map, markers: lootMarkers, locationMarkers, lootLayer, locationLayer, overlayLayer, details, setMapClickHandler });
   }).catch((error) => {
