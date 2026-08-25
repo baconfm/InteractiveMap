@@ -130,14 +130,13 @@ mapLineLayer.render(mapLineStore.getAll());
 initializeLootMarkers();
 lootEditor.type.replaceChildren(...LOOT_ITEM_NAMES.map((name) => new Option(name, name)));
 const MAP_REGIONS = ["Cascades", "Belknap", "Lost Lake", "Iron Butte", "Crater Lake", "Highway 97"];
-const ironButteLostLakeBoundaryX = (y) => {
-  const top = { x: 2986, y: 2186 };
-  const bottom = { x: 2919, y: 3733 };
-  return top.x + ((y - top.y) / (bottom.y - top.y)) * (bottom.x - top.x);
+const LOST_LAKE_BOUNDARIES = {
+  cascadesExit: { x: 3284, y: 2304 }, highway97Exit: { x: 2715, y: 3696 },
+  ironButteExits: [{ x: 1845, y: 2446 }, { x: 1797, y: 2732 }, { x: 1817, y: 2902 }],
 };
 const regionForPosition = (position) => {
-  if (position.y >= 2186 && position.y <= 3733) {
-    return position.x < ironButteLostLakeBoundaryX(position.y) ? "Iron Butte" : "Lost Lake";
+  if (position.y >= LOST_LAKE_BOUNDARIES.cascadesExit.y && position.y <= LOST_LAKE_BOUNDARIES.highway97Exit.y) {
+    return position.x < Math.min(...LOST_LAKE_BOUNDARIES.ironButteExits.map((exit) => exit.x)) ? "Iron Butte" : "Lost Lake";
   }
   if (position.x >= 521 && position.x <= 1837 && position.y >= 1776 && position.y <= 3277) return "Iron Butte";
   if (position.x <= 2320 && position.y <= 1940) return "Belknap";

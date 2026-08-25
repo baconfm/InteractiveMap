@@ -71,14 +71,13 @@ export function createLootLegend({ onChange }) {
       });
       return section;
     });
-    itemsRoot.replaceChildren(spawnControls, ...sections);
+    itemsRoot.replaceChildren(spawnControls, ...sections, ...(locationFilters ? [locationFilters] : []));
   }
 
   toggle?.addEventListener("click", () => {
     const collapse = !itemsRoot.hidden;
     itemsRoot.hidden = collapse;
     search.hidden = collapse;
-    if (locationFilters) locationFilters.hidden = collapse || !locationFilters.querySelector("input");
     actions.hidden = collapse;
     toggle.setAttribute("aria-expanded", String(!collapse));
     toggle.textContent = collapse ? "Show" : "Hide";
