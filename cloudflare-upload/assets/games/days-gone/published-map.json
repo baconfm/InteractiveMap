@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-25T17:17:34.613Z",
+  "savedAt": "2026-08-25T19:20:45.793Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -265,6 +265,42 @@
         "y": 575.5518787997354
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1787681553096",
+      "title": "Snare Trap",
+      "type": "random_encounter",
+      "note": "Spotted during night",
+      "photos": [],
+      "position": {
+        "x": 2471.438359893537,
+        "y": 4695.697030263582
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1787682907214",
+      "title": "Sniper Ambush",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2330.0300798933426,
+        "y": 5237.25275823643
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1787683477149",
+      "title": "Snare Trap",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2466.814136480005,
+        "y": 5200.790764230019
+      },
+      "region": "Cascades"
     }
   ],
   "mapLines": [
@@ -19794,7 +19830,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19811,7 +19847,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -19828,7 +19864,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "DOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19845,7 +19881,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\n\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19862,7 +19898,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19879,7 +19915,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19896,7 +19932,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -19913,7 +19949,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19930,7 +19966,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -19947,12 +19983,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2718.2832279718,
-        "y": 4683.293290387
+        "x": 2719,
+        "y": 4684
       },
       "photos": []
     },
@@ -19964,7 +20000,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -19981,12 +20017,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2736,
-        "y": 4683
+        "x": 2735,
+        "y": 4684
       },
       "photos": []
     },
@@ -19998,12 +20034,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2735,
-        "y": 4686
+        "x": 2733.6016464969066,
+        "y": 4686.709332101281
       },
       "photos": []
     },
@@ -20015,7 +20051,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -20049,7 +20085,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "Inside Cave\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -20066,7 +20102,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -20083,7 +20119,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -20100,7 +20136,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -20117,7 +20153,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before NERO story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -32820,6 +32856,70 @@
       "position": {
         "x": 1668.1551404250795,
         "y": 2117.0444614102576
+      }
+    },
+    {
+      "id": "manual-loot-1787680514491",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2797.9577154259428,
+        "y": 4649.815398487186
+      }
+    },
+    {
+      "id": "manual-loot-1787680518476",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2794.018323336099,
+        "y": 4645.7244891650835
+      }
+    },
+    {
+      "id": "manual-loot-1787680522284",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2791.8971075157865,
+        "y": 4649.057819955285
+      }
+    },
+    {
+      "id": "manual-loot-1787680555998",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2744.8516464969066,
+        "y": 4624.7396411426225
       }
     }
   ],
@@ -51815,7 +51915,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51832,7 +51932,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -51849,7 +51949,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "DOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51866,7 +51966,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\n\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51883,7 +51983,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51900,7 +52000,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51917,7 +52017,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -51934,7 +52034,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51951,7 +52051,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -51968,12 +52068,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2718.2832279718,
-        "y": 4683.293290387
+        "x": 2719,
+        "y": 4684
       },
       "photos": []
     },
@@ -51985,7 +52085,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -52002,12 +52102,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2736,
-        "y": 4683
+        "x": 2735,
+        "y": 4684
       },
       "photos": []
     },
@@ -52019,12 +52119,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2735,
-        "y": 4686
+        "x": 2733.6016464969066,
+        "y": 4686.709332101281
       },
       "photos": []
     },
@@ -52036,7 +52136,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -52070,7 +52170,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "Inside Cave\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -52087,7 +52187,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -52104,7 +52204,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -52121,7 +52221,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -52138,7 +52238,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before NERO story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -64841,6 +64941,70 @@
       "position": {
         "x": 1668.1551404250795,
         "y": 2117.0444614102576
+      }
+    },
+    {
+      "id": "manual-loot-1787680514491",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2797.9577154259428,
+        "y": 4649.815398487186
+      }
+    },
+    {
+      "id": "manual-loot-1787680518476",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2794.018323336099,
+        "y": 4645.7244891650835
+      }
+    },
+    {
+      "id": "manual-loot-1787680522284",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2791.8971075157865,
+        "y": 4649.057819955285
+      }
+    },
+    {
+      "id": "manual-loot-1787680555998",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2744.8516464969066,
+        "y": 4624.7396411426225
       }
     }
   ],
@@ -83836,7 +84000,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "2x Gun Powder\nInside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83853,7 +84017,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -83870,7 +84034,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "DOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83887,7 +84051,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\n\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83904,7 +84068,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83921,7 +84085,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83938,7 +84102,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -83955,7 +84119,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83972,7 +84136,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
@@ -83989,12 +84153,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2718.2832279718,
-        "y": 4683.293290387
+        "x": 2719,
+        "y": 4684
       },
       "photos": []
     },
@@ -84006,7 +84170,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -84023,12 +84187,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2736,
-        "y": 4683
+        "x": 2735,
+        "y": 4684
       },
       "photos": []
     },
@@ -84040,12 +84204,12 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2735,
-        "y": 4686
+        "x": 2733.6016464969066,
+        "y": 4686.709332101281
       },
       "photos": []
     },
@@ -84057,7 +84221,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -84091,7 +84255,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave",
+      "note": "Inside Cave\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -84108,7 +84272,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -84125,7 +84289,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before certain story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": true,
       "position": {
@@ -84142,7 +84306,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDoes not Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nMay not spawn before NERO story mission in Remastered.",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -84159,7 +84323,7 @@
       "region": "Cascades",
       "grid": "Manual",
       "category": "Manual placement",
-      "note": "Inside the Cave.\n\nMay not spawn before NERO story mission.",
+      "note": "Inside the Cave.\n\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
       "quantity": 2,
       "oneTimeSpawn": false,
       "position": {
@@ -96863,7 +97027,71 @@
         "x": 1668.1551404250795,
         "y": 2117.0444614102576
       }
+    },
+    {
+      "id": "manual-loot-1787680514491",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2797.9577154259428,
+        "y": 4649.815398487186
+      }
+    },
+    {
+      "id": "manual-loot-1787680518476",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2794.018323336099,
+        "y": 4645.7244891650835
+      }
+    },
+    {
+      "id": "manual-loot-1787680522284",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2791.8971075157865,
+        "y": 4649.057819955285
+      }
+    },
+    {
+      "id": "manual-loot-1787680555998",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Cascades",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Inside Cave\n\nPS4 Original Version Loot Respawns.\nDOES NOT Respawn in the PS5 Remastered Version and PC latest patch. - Tested at 17th of August 2026.\nDOES NOT spawn before NERO story mission in Remastered.",
+      "quantity": 2,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2744.8516464969066,
+        "y": 4624.7396411426225
+      }
     }
   ],
-  "generatedAt": "2026-08-25T17:17:35.038Z"
+  "generatedAt": "2026-08-25T19:20:46.223Z"
 }
