@@ -50,6 +50,10 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const clusterZoomInput = document.querySelector("#cluster-zoom");
   const clusterZoomValue = document.querySelector("#cluster-zoom-value");
   const share = document.querySelector("#share-map");
+  const mobileFiltersToggle = document.querySelector("#mobile-filters-toggle");
+  const mobileMenuToggle = document.querySelector("#mobile-menu-toggle");
+  const topBarLinks = document.querySelector("#top-bar-links");
+  const mapLegend = document.querySelector(".map-legend");
   const randomEncountersToggle = document.querySelector("#random-encounters-toggle");
   const randomEncountersFilter = document.querySelector("#map-legend-location-filters");
   const randomEncountersIcon = document.querySelector("#random-encounters-icon");
@@ -60,6 +64,16 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   let mapClickHandler = onMapClick;
   let publishedMarkers = [];
   let locationMarkers = [];
+  mobileFiltersToggle?.addEventListener("click", () => {
+    const open = !mapLegend.classList.contains("is-mobile-open");
+    mapLegend.classList.toggle("is-mobile-open", open);
+    mobileFiltersToggle.setAttribute("aria-expanded", String(open));
+  });
+  mobileMenuToggle?.addEventListener("click", () => {
+    const open = !topBarLinks.classList.contains("is-open");
+    topBarLinks.classList.toggle("is-open", open);
+    mobileMenuToggle.setAttribute("aria-expanded", String(open));
+  });
 
   const engine = new MapEngine({
     viewport: document.querySelector("#map-viewport"),

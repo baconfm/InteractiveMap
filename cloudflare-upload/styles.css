@@ -28,6 +28,8 @@ button, output { font: inherit; }
   border-bottom: 1px solid rgb(235 239 223 / 13%);
   backdrop-filter: blur(12px);
 }
+.top-bar__links { display: flex; align-items: center; gap: 8px; }
+.mobile-top-action { display: none; }
 
 .brand { display: grid; color: inherit; text-decoration: none; text-transform: uppercase; }
 .brand__eyebrow, .map-hud__label, .map-empty-state__eyebrow { color: #aeb8a8; font-size: 0.64rem; font-weight: 700; letter-spacing: 0.17em; text-transform: uppercase; }
@@ -308,6 +310,14 @@ button, output { font: inherit; }
 @media (max-width: 640px) {
   .top-bar { height: 60px; padding: 0 18px; }
   .top-bar__status { display: none; }
+  .brand__eyebrow { font-size: 0.55rem; }
+  .brand__title { font-size: 0.95rem; }
+  .mobile-top-action { display: block; min-height: 36px; padding: 7px 10px; color: #e5e9dc; background: #202b22; border: 1px solid #3d4a3e; border-radius: 3px; font: 800 0.68rem/1 inherit; cursor: pointer; }
+  .mobile-top-action--menu { width: 36px; padding: 0; font-size: 1.1rem; }
+  .top-bar__links { position: absolute; z-index: 12; top: 56px; right: 12px; display: none; width: min(230px, calc(100vw - 24px)); padding: 10px; background: #101812; border: 1px solid #3d4a3e; border-radius: 4px; box-shadow: 0 12px 32px rgb(0 0 0 / 45%); }
+  .top-bar__links.is-open { display: grid; gap: 7px; }
+  .top-bar__links .editor-toggle, .top-bar__links .discord-link, .top-bar__links .thanks-link { width: 100%; margin: 0; text-align: center; }
+  .top-bar__links .save-state { text-align: center; }
   .thanks-link { margin-left: auto; padding: 7px 9px; font-size: 0.61rem; }
   .discord-link { padding: 7px 9px; font-size: 0.61rem; }
   .editor-toggle { padding: 8px 10px; font-size: 0.68rem; }
@@ -320,7 +330,8 @@ button, output { font: inherit; }
   .map-legend, .map-hud { backdrop-filter: none; }
   .map-controls { right: 16px; bottom: 18px; }
   .map-hint { display: none; }
-  .map-legend { top: 77px; right: 16px; width: min(230px, calc(100vw - 32px)); max-height: calc(100vh - 96px); }
+  .map-legend { display: none; top: 68px; right: 12px; width: min(280px, calc(100vw - 24px)); max-height: calc(100vh - 82px); }
+  .map-legend.is-mobile-open { display: block; }
   .resource-planner { top: auto; bottom: 74px; left: 16px; width: min(320px, calc(100vw - 32px)); backdrop-filter: none; }
   .map-legend__items { max-height: calc(100vh - 226px); }
   .project-status__regions { grid-template-columns: 1fr; }
