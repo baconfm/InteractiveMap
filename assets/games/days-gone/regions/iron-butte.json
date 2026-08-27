@@ -4255,6 +4255,198 @@
         "x": 1703.7540542106062,
         "y": 2916.4672811452924
       }
+    },
+    {
+      "id": "manual-loot-1787859206984",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1294.2167432518088,
+        "y": 2802.913341824658
+      }
+    },
+    {
+      "id": "manual-loot-1787859211089",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1297.3985568097514,
+        "y": 2803.3678858920407
+      }
+    },
+    {
+      "id": "manual-loot-1787859214877",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1294.4440178286316,
+        "y": 2800.110309903271
+      }
+    },
+    {
+      "id": "manual-loot-1787859245197",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1302.019772630064,
+        "y": 2791.7012204969396
+      }
+    },
+    {
+      "id": "manual-loot-1787859257722",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1300.0278661018974,
+        "y": 2793.887430927607
+      }
+    },
+    {
+      "id": "manual-loot-1787859261904",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1300.3687677946057,
+        "y": 2794.493492227249
+      }
+    },
+    {
+      "id": "manual-loot-1787859276205",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1309.1187677946057,
+        "y": 2790.402582905146
+      }
+    },
+    {
+      "id": "manual-loot-1787859280443",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1312.906650281585,
+        "y": 2790.47834024971
+      }
+    },
+    {
+      "id": "manual-loot-1787859338076",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1308.5884740120537,
+        "y": 2772.7510682160187
+      }
+    },
+    {
+      "id": "manual-loot-1787859345505",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1313.20967965984,
+        "y": 2766.235918781611
+      }
+    },
+    {
+      "id": "manual-loot-1787859350237",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1314.952111300465,
+        "y": 2769.5692521149444
+      }
+    },
+    {
+      "id": "manual-loot-1787859353923",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1311.3157485888767,
+        "y": 2770.0237961823273
+      }
     }
   ],
   "locations": [
