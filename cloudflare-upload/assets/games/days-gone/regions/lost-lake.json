@@ -18,6 +18,583 @@
         "y": 2087
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1787859574159",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3020.6259083915743,
+        "y": 2696.0389119763763
+      }
+    },
+    {
+      "id": "manual-loot-1787859585252",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3022.747114039361,
+        "y": 2707.5540639539154
+      }
+    },
+    {
+      "id": "manual-loot-1787859589262",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3023.731967148085,
+        "y": 2708.766186553199
+      }
+    },
+    {
+      "id": "manual-loot-1787859592325",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3024.1865061292046,
+        "y": 2710.963152088681
+      }
+    },
+    {
+      "id": "manual-loot-1787859605464",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3020.6259083915743,
+        "y": 2716.948000111142
+      }
+    },
+    {
+      "id": "manual-loot-1787859607820",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3021.3456044364966,
+        "y": 2718.008608021298
+      }
+    },
+    {
+      "id": "manual-loot-1787859630556",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3008.4289377698296,
+        "y": 2702.705578643043
+      }
+    },
+    {
+      "id": "manual-loot-1787859678672",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 3004.03499652634,
+        "y": 2629.1449707328866
+      }
+    },
+    {
+      "id": "manual-loot-1787859886306",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2998,
+        "y": 2631
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787859894016",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2995.2266663854543,
+        "y": 2628.9057150626572
+      }
+    },
+    {
+      "id": "manual-loot-1787859923666",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2992.3099997187874,
+        "y": 2627.769352351069
+      }
+    },
+    {
+      "id": "manual-loot-1787859939902",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2985.125615114704,
+        "y": 2621.3924882087526
+      }
+    },
+    {
+      "id": "manual-loot-1787859980251",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2981.1104682234277,
+        "y": 2622.0743068529587
+      }
+    },
+    {
+      "id": "manual-loot-1787860022116",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2856.413502687946,
+        "y": 2664.650064197522
+      }
+    },
+    {
+      "id": "manual-loot-1787860026378",
+      "type": "loot_item",
+      "title": "Machete",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2858.686228111123,
+        "y": 2669.1955150438766
+      }
+    },
+    {
+      "id": "manual-loot-1787860034976",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2859.170293114785,
+        "y": 2668.437536699886
+      }
+    },
+    {
+      "id": "manual-loot-1787860048783",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2852.398345624144,
+        "y": 2671.4682455533166
+      }
+    },
+    {
+      "id": "manual-loot-1787860140649",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2796.2619829125556,
+        "y": 2457.528858549736
+      }
+    },
+    {
+      "id": "manual-loot-1787860176459",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2798.383198732868,
+        "y": 2457.7561280402956
+      }
+    },
+    {
+      "id": "manual-loot-1787860178406",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2798.686228111123,
+        "y": 2460.028858549736
+      }
+    },
+    {
+      "id": "manual-loot-1787860438287",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2391.0347591983627,
+        "y": 2654.4227940711794
+      }
+    },
+    {
+      "id": "manual-loot-1787860457449",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2381.034749025837,
+        "y": 2672.0743087603073
+      }
+    },
+    {
+      "id": "manual-loot-1787860473161",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2381.110503827269,
+        "y": 2654.1197646929245
+      }
+    },
+    {
+      "id": "manual-loot-1787860475358",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2384.0650428083886,
+        "y": 2654.6500686480026
+      }
+    },
+    {
+      "id": "manual-loot-1787860517827",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2387.2468563663315,
+        "y": 2643.5137033932824
+      }
+    },
+    {
+      "id": "manual-loot-1787860534078",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2383.38321907792,
+        "y": 2642.9833994382043
+      }
+    },
+    {
+      "id": "manual-loot-1787860542948",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2397.9286800968002,
+        "y": 2639.953095483126
+      }
+    },
+    {
+      "id": "manual-loot-1787860549024",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2402.1711015648993,
+        "y": 2645.2561248613815
+      }
+    },
+    {
+      "id": "manual-loot-1787860554173",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2398.913523032998,
+        "y": 2646.1652155392785
+      }
+    },
+    {
+      "id": "manual-loot-1787860562671",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2403.2317094750556,
+        "y": 2651.544004805229
+      }
+    },
+    {
+      "id": "manual-loot-1787860567980",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2400.655944501097,
+        "y": 2653.2106714718957
+      }
+    },
+    {
+      "id": "manual-loot-1787860577257",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2400.4801986961465,
+        "y": 2652.495878454496
+      }
+    },
+    {
+      "id": "manual-loot-1787860600199",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2415.7317094750556,
+        "y": 2663.2106714718957
+      }
+    },
+    {
+      "id": "manual-loot-1787860608774",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2414.2923072126855,
+        "y": 2668.286426273328
+      }
+    },
+    {
+      "id": "manual-loot-1787860616143",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2419.368072186644,
+        "y": 2660.786426273328
+      }
+    },
+    {
+      "id": "manual-loot-1787860631906",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2398.913523032998,
+        "y": 2657.6046076291223
+      }
     }
   ],
   "locations": [
