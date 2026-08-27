@@ -1,10 +1,11 @@
 import { createServer } from "node:http";
 import { execFileSync } from "node:child_process";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, extname, join, normalize, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const newsPath = join(projectRoot, "news/posts.json");
 const dedupeMarkers = (markers) => {
   const markerIds = new Set();
   return markers.filter((marker) => {
@@ -65,9 +66,39 @@ async function publish(request, response) {
   }
 }
 
+async function publishNews(request, response) {
+  let raw = "";
+  for await (const chunk of request) {
+    raw += chunk;
+    if (raw.length > 10_000) return send(response, 413, JSON.stringify({ error: "News post is too large." }));
+  }
+  try {
+    const { date, title, body } = JSON.parse(raw);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || typeof title !== "string" || typeof body !== "string" || !title.trim() || !body.trim()) throw new Error("Enter a title, date, and post.");
+    if (new Date(`${date}T12:00:00`).toISOString().slice(0, 10) !== date) throw new Error("Enter a valid date.");
+    const posts = JSON.parse(await readFile(newsPath, "utf8"));
+    posts.unshift({ date, title: title.trim().slice(0, 120), body: body.trim().slice(0, 2000).split(/\r?\n\s*\r?\n/).map((paragraph) => paragraph.trim()).filter(Boolean) });
+    await writeFile(newsPath, `${JSON.stringify(posts, null, 2)}\n`);
+    await rm(join(projectRoot, "cloudflare-upload/news"), { recursive: true, force: true });
+    await cp(join(projectRoot, "news"), join(projectRoot, "cloudflare-upload/news"), { recursive: true });
+    run("git", ["add", "news", "cloudflare-upload/news"]);
+    try {
+      run("git", ["diff", "--cached", "--quiet"]);
+    } catch (error) {
+      if (error.status !== 1) throw error;
+      run("git", ["commit", "-m", "Publish news post"]);
+      run("git", ["push", "origin", "main"]);
+    }
+    send(response, 200, JSON.stringify({ postCount: posts.length }));
+  } catch (error) {
+    send(response, 400, JSON.stringify({ error: error.stderr?.trim() || error.message || "Could not publish news." }));
+  }
+}
+
 createServer(async (request, response) => {
   const url = new URL(request.url, `http://${request.headers.host}`);
   if (request.method === "POST" && url.pathname === "/api/publish") return publish(request, response);
+  if (request.method === "POST" && url.pathname === "/api/publish-news") return publishNews(request, response);
   if (request.method !== "GET" && request.method !== "HEAD") return send(response, 405, "Method not allowed", "text/plain; charset=utf-8");
   const relativePath = url.pathname === "/" ? "editor-local.html" : decodeURIComponent(url.pathname).replace(/^\/+/, "");
   const filePath = resolve(projectRoot, normalize(relativePath));
