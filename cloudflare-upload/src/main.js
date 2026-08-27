@@ -28,6 +28,14 @@ const lineEditorToggle = document.querySelector("#line-editor-toggle");
 const addHotbar = document.querySelector("#add-hotbar");
 const saveMapButton = document.querySelector("#save-map");
 const publishMapButton = document.querySelector("#publish-map");
+const newsEditorToggle = document.querySelector("#news-editor-toggle");
+const newsEditorPanel = document.querySelector("#news-editor-panel");
+const newsEditor = {
+  close: document.querySelector("#news-editor-close"), title: document.querySelector("#news-editor-title"), date: document.querySelector("#news-editor-date"),
+  body: document.querySelector("#news-editor-body"), status: document.querySelector("#news-editor-status"), publish: document.querySelector("#publish-news"),
+  statusDate: document.querySelector("#region-status-date"), regionInputs: [...document.querySelectorAll("[data-region-status]")],
+  regionStatus: document.querySelector("#region-status-editor-status"), publishRegions: document.querySelector("#publish-region-status"),
+};
 const saveState = document.querySelector("#save-state");
 const lootOnlyToggle = document.querySelector("#loot-only-toggle");
 const lootEditor = {
@@ -531,6 +539,54 @@ function getMapSnapshot() {
 }
 
 saveMapButton.addEventListener("click", saveMapBackup);
+newsEditor.date.value = new Date().toISOString().slice(0, 10);
+newsEditor.statusDate.value = newsEditor.date.value;
+fetch("news/project-status.json", { cache: "no-store" }).then((response) => response.json()).then(({ date, regions }) => {
+  newsEditor.statusDate.value = date;
+  newsEditor.regionInputs.forEach((input) => { input.value = regions[input.dataset.regionStatus] ?? ""; });
+});
+const toggleNewsEditor = (open) => {
+  newsEditorPanel.hidden = !open;
+  newsEditorToggle.setAttribute("aria-expanded", String(open));
+  if (open) newsEditor.title.focus();
+};
+newsEditorToggle.addEventListener("click", () => toggleNewsEditor(newsEditorPanel.hidden));
+newsEditor.close.addEventListener("click", () => toggleNewsEditor(false));
+newsEditor.publish.addEventListener("click", async () => {
+  const title = newsEditor.title.value.trim();
+  const body = newsEditor.body.value.trim();
+  if (!title || !body || !newsEditor.date.value) return void (newsEditor.status.textContent = "Add a title, date, and post before publishing.");
+  newsEditor.publish.disabled = true;
+  newsEditor.status.textContent = "Publishing to GitHub…";
+  try {
+    const response = await fetch("/api/publish-news", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ title, body, date: newsEditor.date.value }) });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Could not publish news.");
+    newsEditor.status.textContent = "Published.";
+    newsEditor.title.value = "";
+    newsEditor.body.value = "";
+  } catch (error) {
+    newsEditor.status.textContent = error.message;
+  } finally {
+    newsEditor.publish.disabled = false;
+  }
+});
+newsEditor.publishRegions.addEventListener("click", async () => {
+  const regions = Object.fromEntries(newsEditor.regionInputs.map((input) => [input.dataset.regionStatus, input.value.trim()]));
+  if (!newsEditor.statusDate.value || Object.values(regions).some((value) => !value)) return void (newsEditor.regionStatus.textContent = "Add a date and every region status.");
+  newsEditor.publishRegions.disabled = true;
+  newsEditor.regionStatus.textContent = "Publishing to GitHub…";
+  try {
+    const response = await fetch("/api/publish-region-status", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ date: newsEditor.statusDate.value, regions }) });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Could not publish statuses.");
+    newsEditor.regionStatus.textContent = "Published.";
+  } catch (error) {
+    newsEditor.regionStatus.textContent = error.message;
+  } finally {
+    newsEditor.publishRegions.disabled = false;
+  }
+});
 publishMapButton.addEventListener("click", async () => {
   if (!lootStore) return;
   publishMapButton.disabled = true;

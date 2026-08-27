@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const newsPath = join(projectRoot, "news/posts.json");
+const regionStatusPath = join(projectRoot, "news/project-status.json");
+const regionNames = ["Cascades", "Belknap", "Lost Lake", "Iron Butte", "Crater Lake", "Highway 97"];
 const dedupeMarkers = (markers) => {
   const markerIds = new Set();
   return markers.filter((marker) => {
@@ -28,6 +30,11 @@ function send(response, status, body, type = "application/json; charset=utf-8") 
 
 function run(command, args) {
   return execFileSync(command, args, { cwd: projectRoot, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+}
+
+async function syncNews() {
+  await rm(join(projectRoot, "cloudflare-upload/news"), { recursive: true, force: true });
+  await cp(join(projectRoot, "news"), join(projectRoot, "cloudflare-upload/news"), { recursive: true });
 }
 
 async function publish(request, response) {
@@ -79,8 +86,7 @@ async function publishNews(request, response) {
     const posts = JSON.parse(await readFile(newsPath, "utf8"));
     posts.unshift({ date, title: title.trim().slice(0, 120), body: body.trim().slice(0, 2000).split(/\r?\n\s*\r?\n/).map((paragraph) => paragraph.trim()).filter(Boolean) });
     await writeFile(newsPath, `${JSON.stringify(posts, null, 2)}\n`);
-    await rm(join(projectRoot, "cloudflare-upload/news"), { recursive: true, force: true });
-    await cp(join(projectRoot, "news"), join(projectRoot, "cloudflare-upload/news"), { recursive: true });
+    await syncNews();
     run("git", ["add", "news", "cloudflare-upload/news"]);
     try {
       run("git", ["diff", "--cached", "--quiet"]);
@@ -95,10 +101,36 @@ async function publishNews(request, response) {
   }
 }
 
+async function publishRegionStatus(request, response) {
+  let raw = "";
+  for await (const chunk of request) {
+    raw += chunk;
+    if (raw.length > 5_000) return send(response, 413, JSON.stringify({ error: "Region statuses are too large." }));
+  }
+  try {
+    const { date, regions } = JSON.parse(raw);
+    if (new Date(`${date}T12:00:00`).toISOString().slice(0, 10) !== date || !regions || regionNames.some((region) => typeof regions[region] !== "string" || !regions[region].trim())) throw new Error("Enter a valid date and every region status.");
+    await writeFile(regionStatusPath, `${JSON.stringify({ date, regions: Object.fromEntries(regionNames.map((region) => [region, regions[region].trim().slice(0, 30)])) }, null, 2)}\n`);
+    await syncNews();
+    run("git", ["add", "news", "cloudflare-upload/news"]);
+    try {
+      run("git", ["diff", "--cached", "--quiet"]);
+    } catch (error) {
+      if (error.status !== 1) throw error;
+      run("git", ["commit", "-m", "Update region statuses"]);
+      run("git", ["push", "origin", "main"]);
+    }
+    send(response, 200, JSON.stringify({ updated: true }));
+  } catch (error) {
+    send(response, 400, JSON.stringify({ error: error.stderr?.trim() || error.message || "Could not publish statuses." }));
+  }
+}
+
 createServer(async (request, response) => {
   const url = new URL(request.url, `http://${request.headers.host}`);
   if (request.method === "POST" && url.pathname === "/api/publish") return publish(request, response);
   if (request.method === "POST" && url.pathname === "/api/publish-news") return publishNews(request, response);
+  if (request.method === "POST" && url.pathname === "/api/publish-region-status") return publishRegionStatus(request, response);
   if (request.method !== "GET" && request.method !== "HEAD") return send(response, 405, "Method not allowed", "text/plain; charset=utf-8");
   const relativePath = url.pathname === "/" ? "editor-local.html" : decodeURIComponent(url.pathname).replace(/^\/+/, "");
   const filePath = resolve(projectRoot, normalize(relativePath));
