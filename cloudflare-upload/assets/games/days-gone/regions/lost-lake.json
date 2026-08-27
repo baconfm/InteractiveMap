@@ -31,6 +31,18 @@
         "y": 2588.098232102413
       },
       "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1787843560576",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "Guarded by - 3 Rippers\nConfirmed spotted during night(by Bacon FM), but can also spawn during day time.",
+      "photos": [],
+      "position": {
+        "x": 1798.7163539911537,
+        "y": 2658.511520286791
+      },
+      "region": "Lost Lake"
     }
   ]
 }
