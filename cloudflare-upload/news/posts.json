@@ -1,9 +1,60 @@
 [
-  { "date": "2026-08-24", "title": "Belknap is 90% complete", "body": ["Belknap is nearly finished. Next up: Lost Lake."] },
-  { "date": "2026-08-20", "title": "Short update break", "body": ["I will be away from the project for the next couple of days while I do not have access to my PC. Updates will resume next week."] },
-  { "date": "2026-08-20", "title": "Loot item icon refresh", "body": ["All loot items with custom artwork have received their new map icons, including Cans, Gas Cans, Growlers, Rags, Nails, Alarm Clocks, Polystyrene, and Sterilizers."] },
-  { "date": "2026-08-19", "title": "Share the exact map view", "body": ["The new Share view button copies a link to your current map position and zoom, along with any active item and spawn filters. Send it to someone and they will open the same view you are looking at."] },
-  { "date": "2026-08-18", "title": "Item filter search", "body": ["The map legend now includes a search box, making it quicker to find and filter a specific item."] },
-  { "date": "2026-08-18", "title": "Zoomed-out map improvements", "body": ["Map now has a way less aggressive item grouping when zoomed out.", "Grenade now has a new “fancier” placeholder icon."] },
-  { "date": "2026-08-17", "title": "Bottle counter update", "body": ["Combined Beer Bottles with Bottles so that we have a unified counter and so we can reduce clutter.", "Also bottle now has a fancy icon (:"] }
+  {
+    "date": "2026-08-27",
+    "title": "Iron Butt(e) Update",
+    "body": [
+      "We should be now 90% done with Iron Butte."
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Belknap is 90% complete",
+    "body": [
+      "Belknap is nearly finished. Next up: Lost Lake."
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Short update break",
+    "body": [
+      "I will be away from the project for the next couple of days while I do not have access to my PC. Updates will resume next week."
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Loot item icon refresh",
+    "body": [
+      "All loot items with custom artwork have received their new map icons, including Cans, Gas Cans, Growlers, Rags, Nails, Alarm Clocks, Polystyrene, and Sterilizers."
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Share the exact map view",
+    "body": [
+      "The new Share view button copies a link to your current map position and zoom, along with any active item and spawn filters. Send it to someone and they will open the same view you are looking at."
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Item filter search",
+    "body": [
+      "The map legend now includes a search box, making it quicker to find and filter a specific item."
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Zoomed-out map improvements",
+    "body": [
+      "Map now has a way less aggressive item grouping when zoomed out.",
+      "Grenade now has a new “fancier” placeholder icon."
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "title": "Bottle counter update",
+    "body": [
+      "Combined Beer Bottles with Bottles so that we have a unified counter and so we can reduce clutter.",
+      "Also bottle now has a fancy icon (:"
+    ]
+  }
 ]
