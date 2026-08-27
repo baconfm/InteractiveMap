@@ -2556,6 +2556,518 @@
         "x": 750.9771553410387,
         "y": 2576.5752251574263
       }
+    },
+    {
+      "id": "manual-loot-1787846983290",
+      "type": "loot_item",
+      "title": "Suppressor",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 885.0316136900583,
+        "y": 2565.232322324168
+      }
+    },
+    {
+      "id": "manual-loot-1787847011874",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 903.5922114276885,
+        "y": 2530.005052833608
+      }
+    },
+    {
+      "id": "manual-loot-1787847048723",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 965.1831131203968,
+        "y": 2524.5505062230936
+      }
+    },
+    {
+      "id": "manual-loot-1787847077287",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 958.2134069029489,
+        "y": 2528.3383836238095
+      }
+    },
+    {
+      "id": "manual-loot-1787847091226",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 935.486142498652,
+        "y": 2510.4595969009906
+      }
+    },
+    {
+      "id": "manual-loot-1787847101297",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 942.7588679218292,
+        "y": 2513.792930234324
+      }
+    },
+    {
+      "id": "manual-loot-1787847105381",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 940.7134170754749,
+        "y": 2514.095962155711
+      }
+    },
+    {
+      "id": "manual-loot-1787847113332",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 941.5467504088083,
+        "y": 2516.520204811147
+      }
+    },
+    {
+      "id": "manual-loot-1787847153010",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 969.4255447610218,
+        "y": 2520.762626279246
+      }
+    },
+    {
+      "id": "manual-loot-1787847177667",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1013.6679662291208,
+        "y": 2528.641415545196
+      }
+    },
+    {
+      "id": "manual-loot-1787847181373",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1013.2429532705431,
+        "y": 2528.5652507591485
+      }
+    },
+    {
+      "id": "manual-loot-1787847205219",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1009.3497899595895,
+        "y": 2542.5050477473446
+      }
+    },
+    {
+      "id": "manual-loot-1787847218720",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1017.4558487160999,
+        "y": 2556.292930234324
+      }
+    },
+    {
+      "id": "manual-loot-1787847255186",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1034.3497899595895,
+        "y": 2574.1717144140116
+      }
+    },
+    {
+      "id": "manual-loot-1787847263430",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1040.8649368508657,
+        "y": 2588.6414104589335
+      }
+    },
+    {
+      "id": "manual-loot-1787847288508",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 992.3800837421417,
+        "y": 2573.3383861669413
+      }
+    },
+    {
+      "id": "manual-loot-1787847291776",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 987.228563966751,
+        "y": 2578.1868714778134
+      }
+    },
+    {
+      "id": "manual-loot-1787847304875",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 992.986142498652,
+        "y": 2585.3838420995585
+      }
+    },
+    {
+      "id": "manual-loot-1787847312530",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 990.6376521015167,
+        "y": 2583.641415545196
+      }
+    },
+    {
+      "id": "manual-loot-1787847322746",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 993.5164464537302,
+        "y": 2583.3383861669413
+      }
+    },
+    {
+      "id": "manual-loot-1787847328751",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 993.9709854348499,
+        "y": 2583.7171754328915
+      }
+    },
+    {
+      "id": "manual-loot-1787847369299",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 973.743721030553,
+        "y": 2587.1262686539203
+      }
+    },
+    {
+      "id": "manual-loot-1787847372036",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 975.8649368508655,
+        "y": 2589.7777833430478
+      }
+    },
+    {
+      "id": "manual-loot-1787847381023",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 964.1225052102405,
+        "y": 2592.883847185821
+      }
+    },
+    {
+      "id": "manual-loot-1787847388396",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 962.3800837421417,
+        "y": 2591.2171805191547
+      }
+    },
+    {
+      "id": "manual-loot-1787847395925",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 962.0770543638864,
+        "y": 2589.6262686539203
+      }
+    },
+    {
+      "id": "manual-loot-1787847399759",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 961.5088679218292,
+        "y": 2590.535361874949
+      }
+    },
+    {
+      "id": "manual-loot-1787847405011",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 962.5694758319854,
+        "y": 2590.762636451772
+      }
+    },
+    {
+      "id": "manual-loot-1787847413980",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 962.8704048802964,
+        "y": 2589.500718724487
+      }
+    },
+    {
+      "id": "manual-loot-1787847447581",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 966.1679662291208,
+        "y": 2604.550518938751
+      }
+    },
+    {
+      "id": "manual-loot-1787847458051",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 987.3043289407093,
+        "y": 2610.9141562271625
+      }
+    },
+    {
+      "id": "manual-loot-1787847482665",
+      "type": "loot_item",
+      "title": "US556",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 995.6187246805315,
+        "y": 2586.702469210161
+      }
     }
   ],
   "locations": [
