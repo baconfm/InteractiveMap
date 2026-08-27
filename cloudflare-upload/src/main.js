@@ -159,7 +159,7 @@ document.querySelector("#marker-icon").replaceChildren(...[
 const TOOLBOX_GROUPS = ["All", "Loot", "Explosives", "Collectibles", "Melee", "Firearms"];
 const COLLECTIBLE_TOOLS = new Set(["Collectible Plant", "Cedar Sapling", "Mushroom", "Cairn"]);
 const MELEE_TOOLS = new Set(["2x4", "Hatchet", "Machete", "Pipe", "Baseball Bat", "Fire Axe", "Ripper Axe", "Superior Axe", "Sledgehammer", "Pickaxe"]);
-const FIREARM_TOOLS = new Set(["M40", "SAF", "Sawed Off", "US556"]);
+const FIREARM_TOOLS = new Set([".22 Repeater", "M40", "SAF", "Sawed Off", "US556"]);
 const EXPLOSIVE_TOOLS = new Set(["Attractor", "Attractor Bomb", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Mine", "Prox Bomb", "Remote Bomb", "Smoke Bomb"]);
 const TOOLBOX_ITEMS = LOOT_ITEM_NAMES.flatMap((title) => title === "Scrap"
   ? [

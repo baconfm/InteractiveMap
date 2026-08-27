@@ -1,5 +1,6 @@
 const ITEM_BADGES = {
   "2x4": ["2×4", "#a67a54"],
+  ".22 Repeater": [".22", "#947454"],
   Airbag: ["AB", "#a8c6d7"],
   "Alarm Clock": ["AC", "#d4b36a"],
   "Ammo Tin": ["AM", "#86a36b"],
@@ -131,6 +132,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "US556") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#788c73" stroke="#182018" stroke-width="2"/><path d="M6 16h13l4-3 1 2-4 4H6v-3Zm5-4h7v3h-7zm-2 8 2 3m6-3 2 3" fill="#edf3f0" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/></svg>';
+  }
+  if (itemName === ".22 Repeater") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#947454" stroke="#182018" stroke-width="2"/><path d="M6 16h14l3-2 1 2-4 4H6v-4Zm6-4h7v3h-7zm-2 8 2 3m6-3 2 3" fill="#f1e3c7" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/></svg>';
   }
   if (itemName === "Random") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#8b78b8" stroke="#182018" stroke-width="2"/><path d="M10.5 11.5a3.5 3.5 0 1 1 5.2 3l-1.7 1v1.5m0 4h.01" fill="none" stroke="#f5f0dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';

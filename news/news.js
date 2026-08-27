@@ -4,7 +4,7 @@ const statusRegions = document.querySelector("#project-status-regions");
 const formatDate = (date) => new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric" }).format(new Date(`${date}T12:00:00`));
 
 fetch("posts.json", { cache: "no-store" }).then((response) => response.json()).then((posts) => {
-  posts.forEach(({ date, title, body }) => {
+  posts.forEach(({ date, title, body, images = [] }) => {
     const article = document.createElement("article");
     article.className = "news-entry";
     const time = document.createElement("time");
@@ -12,7 +12,9 @@ fetch("posts.json", { cache: "no-store" }).then((response) => response.json()).t
     time.textContent = formatDate(date);
     const heading = document.createElement("h2");
     heading.textContent = title;
-    article.append(time, heading, ...body.map((text) => Object.assign(document.createElement("p"), { textContent: text })));
+    const photos = Object.assign(document.createElement("div"), { className: "news-entry__photos" });
+    photos.replaceChildren(...images.map((src) => Object.assign(document.createElement("img"), { src, alt: `${title} screenshot`, loading: "lazy" })));
+    article.append(time, heading, ...body.map((text) => Object.assign(document.createElement("p"), { textContent: text })), photos);
     list.append(article);
   });
 }).catch(() => { list.textContent = "News posts could not be loaded."; });

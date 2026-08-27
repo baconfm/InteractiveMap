@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-08-27",
+    "title": "Cluster crafting summaries",
+    "body": [
+      "Zoomed-out area summaries now show nearby loot as readable item chips and highlight everything craftable from that cluster, including Bandages, Molotovs, and Spiked Baseball Bats."
+    ],
+    "images": ["../assets/photos/cluster-crafting-summary.png"]
+  },
+  {
+    "date": "2026-08-27",
     "title": "Iron Butt(e) Update",
     "body": [
       "We should be now 90% done with Iron Butte."
