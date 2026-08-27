@@ -3,7 +3,7 @@ export const LOOT_LEGEND_GROUPS = [
   { id: "crafting", label: "Crafting materials", items: ["2x4", "Airbag", "Alarm Clock", "Bottle", "Can", "Kerosene", "Nails", "Polystyrene", "Rag", "Saw Blade", "Scrap", "Spark Igniter", "Sterilizer"] },
   { id: "throwables", label: "Throwables", items: ["Attractor", "Attractor Bomb", "Car Alarm", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Bomb", "Prox Mine", "Remote Bomb", "Smoke Bomb"] },
   { id: "weapons", label: "Melee weapons", items: ["Baseball Bat", "Fire Axe", "Hatchet", "Machete", "Pickaxe", "Pipe", "Ripper Axe", "Sledgehammer", "Superior Axe", "Superior Mace"] },
-  { id: "firearms", label: "Firearms", items: ["M40", "SAF", "Sawed Off"] },
+  { id: "firearms", label: "Firearms", items: ["M40", "SAF", "Sawed Off", "US556"] },
   { id: "misc", label: "Miscellaneous", items: ["Dog Toy", "Random"] },
   { id: "plants", label: "Plants & mushrooms", items: ["Cedar Sapling", "Collectible Plant", "Mushroom"] },
   { id: "collectibles", label: "Collectibles", items: ["Cairn"] },
