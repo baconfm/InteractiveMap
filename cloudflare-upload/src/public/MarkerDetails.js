@@ -22,6 +22,17 @@ export function createMarkerDetails({ layer }) {
 
   close?.addEventListener("click", () => { panel.hidden = true; });
 
+  const summarySection = (label, entries) => {
+    const section = document.createElement("section");
+    const heading = document.createElement("span");
+    heading.textContent = label;
+    const list = document.createElement("div");
+    list.className = "marker-details__chips";
+    list.replaceChildren(...entries.map((entry) => Object.assign(document.createElement("span"), { textContent: entry })));
+    section.append(heading, list);
+    return section;
+  };
+
   return {
     show(marker) {
       const group = LOOT_LEGEND_GROUPS.find((entry) => entry.items.includes(marker.title));
@@ -31,7 +42,13 @@ export function createMarkerDetails({ layer }) {
       icon.innerHTML = renderDaysGoneMarkerIcon(marker);
       type.textContent = group ? `${group.label} · ${spawnLabel}` : spawnLabel;
       title.textContent = marker.title;
-      description.textContent = marker.note || marker.grid || "No additional location notes yet.";
+      description.replaceChildren();
+      if (marker.type === "loot_cluster") {
+        description.append(summarySection("Nearby loot", marker.items.map(({ title: itemTitle, count }) => `${itemTitle} ×${count}`)));
+        if (marker.craftable?.length) description.append(summarySection("Craftable here", marker.craftable));
+      } else {
+        description.textContent = marker.note || marker.grid || "No additional location notes yet.";
+      }
       const attachments = Array.isArray(marker.photos) ? marker.photos : [];
       photos.replaceChildren(...attachments.map((url, index) => {
         const link = document.createElement("a");

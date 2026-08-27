@@ -18,10 +18,12 @@ export const DAYS_GONE_RECIPES = [
   recipe("poison_bolt", "Poison Bolt", 5, [["cedar_sapling", 1], ["poison", 1], ["scrap", 1]]),
   recipe("incendiary_bolt", "Incendiary Bolt", 3, [["cedar_sapling", 1], ["rag", 1], ["kerosene", 1], ["scrap", 1]]),
   recipe("explosive_bolt", "Explosive Bolt", 3, [["cedar_sapling", 1], ["spark_igniter", 1], ["gun_powder", 1], ["scrap", 1]]),
+  recipe("spiked_baseball_bat", "Spiked Baseball Bat", 1, [["baseball_bat", 1], ["box_of_nails", 1], ["scrap", 1]]),
 ];
 
 export const RESOURCE_NAMES = {
   airbag: "Airbag", alarm_clock: "Alarm Clock", beer_bottle: "Bottle", berry: "Berry", box_of_nails: "Nails",
+  baseball_bat: "Baseball Bat",
   can: "Can", car_alarm: "Car Alarm", cedar_sapling: "Cedar Sapling", growler: "Growler", gun_powder: "Gun Powder",
   herb: "Herb", kerosene: "Kerosene", mushroom: "Mushroom", nest_residue: "Nest Residue", poison: "Poison",
   polystyrene: "Polystyrene", rag: "Rag", sawblade: "Saw Blade", scrap: "Scrap", small_pipe: "Pipe",
@@ -30,6 +32,7 @@ export const RESOURCE_NAMES = {
 
 const ALIASES = {
   "airbag": "airbag", "air bag": "airbag", "alarm clock": "alarm_clock", "beer bottle": "beer_bottle", bottle: "beer_bottle",
+  "baseball bat": "baseball_bat",
   berry: "berry", nails: "box_of_nails", "box of nails": "box_of_nails", can: "can", "car alarm": "car_alarm",
   "cedar sapling": "cedar_sapling", "collectible plant": "herb", growler: "growler", "gun powder": "gun_powder",
   herb: "herb", kerosene: "kerosene", mushroom: "mushroom", "nest residue": "nest_residue", poison: "poison",
@@ -39,3 +42,9 @@ const ALIASES = {
 
 export const resourceIdForName = (value) => ALIASES[String(value ?? "").trim().toLowerCase()];
 export const resourceNameForId = (value) => RESOURCE_NAMES[value] ?? value;
+
+export function craftableRecipesForItems(items) {
+  const available = items.reduce((counts, { title, count = 1 }) => { const id = resourceIdForName(title); if (id) counts[id] = (counts[id] ?? 0) + count; return counts; }, {});
+  const has = ([id, amount]) => (available[id] ?? 0) >= amount;
+  return DAYS_GONE_RECIPES.filter((recipe) => recipe.ingredients.every(has) && recipe.alternatives.every(([, options]) => options.some(has)));
+}

@@ -1,3 +1,5 @@
+import { craftableRecipesForItems } from "../data/games/days-gone/crafting-recipes.js";
+
 export class MapMarkerLayer {
   constructor(element, mapSize, { renderIcon, onMarkerPointerDown, onMarkerClick, clusterBelowZoom, clusterRadius = 52, combineMatchingBelowZoom, combineMatchingRadius = 34 } = {}) {
     this.element = element;
@@ -92,17 +94,17 @@ export class MapMarkerLayer {
         x: total.x + marker.position.x / members.length,
         y: total.y + marker.position.y / members.length,
       }), { x: 0, y: 0 });
-      const summary = Object.entries(members.reduce((counts, marker) => {
-        counts[marker.title] = (counts[marker.title] ?? 0) + 1;
+      const items = Object.entries(members.reduce((counts, marker) => {
+        counts[marker.title] = (counts[marker.title] ?? 0) + (Number(marker.quantity) || 1);
         return counts;
       }, {}))
         .sort(([firstTitle, firstCount], [secondTitle, secondCount]) => secondCount - firstCount || firstTitle.localeCompare(secondTitle))
-        .map(([title, count]) => `${title} ×${count}`)
-        .join(", ");
+        .map(([title, count]) => ({ title, count }));
       clusters.push({
         id: `loot-cluster-${members.map((marker) => marker.id).sort().join("-")}`,
         title: `${members.length} nearby pickups`,
-        note: summary,
+        items,
+        craftable: craftableRecipesForItems(items).map(({ name }) => name),
         position,
         type: "loot_cluster",
         clusterCount: members.length,
