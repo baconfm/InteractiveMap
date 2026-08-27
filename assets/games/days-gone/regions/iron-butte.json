@@ -3068,6 +3068,1193 @@
         "x": 995.6187246805315,
         "y": 2586.702469210161
       }
+    },
+    {
+      "id": "manual-loot-1787848964092",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1178.0711165422406,
+        "y": 2740.4724624953346
+      }
+    },
+    {
+      "id": "manual-loot-1787848978279",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1172.7485788126203,
+        "y": 2727.7670290267783
+      }
+    },
+    {
+      "id": "manual-loot-1787848984931",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1177.4355116770578,
+        "y": 2724.519603172522
+      }
+    },
+    {
+      "id": "manual-loot-1787848994544",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1180.8908387632396,
+        "y": 2724.520008070874
+      }
+    },
+    {
+      "id": "manual-loot-1787849024891",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1205.966613909724,
+        "y": 2710.9594052469806
+      }
+    },
+    {
+      "id": "manual-loot-1787849053088",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1213,
+        "y": 2707
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787849214380",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1040.3605449806876,
+        "y": 2974.7472801045656
+      }
+    },
+    {
+      "id": "manual-loot-1787849217942",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1037.254476051651,
+        "y": 2974.595760329175
+      }
+    },
+    {
+      "id": "manual-loot-1787849233201",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1031.496907692276,
+        "y": 2983.5351575052814
+      }
+    },
+    {
+      "id": "manual-loot-1787849236982",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1032.0650839618072,
+        "y": 2983.459397617586
+      }
+    },
+    {
+      "id": "manual-loot-1787849244057",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1033.5423585386302,
+        "y": 2978.383642816154
+      }
+    },
+    {
+      "id": "manual-loot-1787849261887",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1053.5423585386302,
+        "y": 2962.7018241719484
+      }
+    },
+    {
+      "id": "manual-loot-1787849289481",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1028.542348366104,
+        "y": 2996.641216261792
+      }
+    },
+    {
+      "id": "manual-loot-1787849296688",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1030.1627862538808,
+        "y": 2999.216566164872
+      }
+    },
+    {
+      "id": "manual-loot-1787849342430",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1015.6635641864167,
+        "y": 2991.7927258646564
+      }
+    },
+    {
+      "id": "manual-loot-1787849346432",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1014.1862997821198,
+        "y": 2994.8230298197345
+      }
+    },
+    {
+      "id": "manual-loot-1787849473058",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1125.6635540138907,
+        "y": 3166.868475579826
+      }
+    },
+    {
+      "id": "manual-loot-1787849492972",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1122.254465879125,
+        "y": 3167.0199902689533
+      }
+    },
+    {
+      "id": "manual-loot-1787849678038",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1018.239318987849,
+        "y": 3149.1412035461344
+      }
+    },
+    {
+      "id": "manual-loot-1787849717706",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1031.1938681414947,
+        "y": 3089.7472648457765
+      }
+    },
+    {
+      "id": "manual-loot-1787849735460",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1056.9514365008697,
+        "y": 3092.853326145418
+      }
+    },
+    {
+      "id": "manual-loot-1787849751785",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1068.769612770401,
+        "y": 3099.1412035461344
+      }
+    },
+    {
+      "id": "manual-loot-1787849762685",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1069.299916725479,
+        "y": 3113.838174167879
+      }
+    },
+    {
+      "id": "manual-loot-1787849775239",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1063.5423381935782,
+        "y": 3121.1108995910563
+      }
+    },
+    {
+      "id": "manual-loot-1787849786371",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1046.496887347224,
+        "y": 3125.0502916809
+      }
+    },
+    {
+      "id": "manual-loot-1787849838882",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1032.7090150327708,
+        "y": 3168.4593810872316
+      }
+    },
+    {
+      "id": "manual-loot-1787849852497",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1024.299916725479,
+        "y": 3162.019986454256
+      }
+    },
+    {
+      "id": "manual-loot-1787849875432",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1023,
+        "y": 3187
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787850505685",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1509.1633640292205,
+        "y": 2809.0363226855584
+      }
+    },
+    {
+      "id": "manual-loot-1787850509163",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1505.527001317632,
+        "y": 2808.6575334196077
+      }
+    },
+    {
+      "id": "manual-loot-1787850519818",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1497.8754815422415,
+        "y": 2821.990866752941
+      }
+    },
+    {
+      "id": "manual-loot-1787850533907",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1509.1633640292205,
+        "y": 2833.6575334196077
+      }
+    },
+    {
+      "id": "manual-loot-1787850545306",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1533.1785210930227,
+        "y": 2816.460562797863
+      }
+    },
+    {
+      "id": "manual-loot-1787850549472",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1532.534579849533,
+        "y": 2816.8393520638133
+      }
+    },
+    {
+      "id": "manual-loot-1787850555277",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1534.011854426356,
+        "y": 2819.415106865246
+      }
+    },
+    {
+      "id": "manual-loot-1787850569262",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1536.1330600741423,
+        "y": 2822.6726803108836
+      }
+    },
+    {
+      "id": "manual-loot-1787850575234",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1536.2466973625537,
+        "y": 2823.1272294645296
+      }
+    },
+    {
+      "id": "manual-loot-1787850582691",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1536.739129003179,
+        "y": 2825.930258842785
+      }
+    },
+    {
+      "id": "manual-loot-1787850596530",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1537.269432958257,
+        "y": 2830.8544989550896
+      }
+    },
+    {
+      "id": "manual-loot-1787850607185",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1542.1936679842986,
+        "y": 2826.990861666678
+      }
+    },
+    {
+      "id": "manual-loot-1787850609291",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1542.2315402987517,
+        "y": 2827.445410820324
+      }
+    },
+    {
+      "id": "manual-loot-1787850624993",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1542.1936679842986,
+        "y": 2823.506013644217
+      }
+    },
+    {
+      "id": "manual-loot-1787850628662",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1542.2315402987517,
+        "y": 2823.6575334196077
+      }
+    },
+    {
+      "id": "manual-loot-1787850646102",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1542.6239809358585,
+        "y": 2825.973039271023
+      }
+    },
+    {
+      "id": "manual-loot-1787850657672",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1554.3906487785696,
+        "y": 2830.7029842659617
+      }
+    },
+    {
+      "id": "manual-loot-1787850660358",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1553.2163934074756,
+        "y": 2827.899954887707
+      }
+    },
+    {
+      "id": "manual-loot-1787850663532",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1552.4209425611216,
+        "y": 2827.445410820324
+      }
+    },
+    {
+      "id": "manual-loot-1787850667757",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1552.1179233553923,
+        "y": 2832.5969255094515
+      }
+    },
+    {
+      "id": "manual-loot-1787850685251",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1551.7391391757048,
+        "y": 2821.0817735319124
+      }
+    },
+    {
+      "id": "manual-loot-1787850690430",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1549.4664137525278,
+        "y": 2825.172685397147
+      }
+    },
+    {
+      "id": "manual-loot-1787850694054",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1551.1051496276523,
+        "y": 2827.0175575960952
+      }
+    },
+    {
+      "id": "manual-loot-1787850894759",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1549.9312278380332,
+        "y": 3031.280905190762
+      }
+    },
+    {
+      "id": "manual-loot-1787850908492",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1549.051645380758,
+        "y": 3030.6744364496362
+      }
+    },
+    {
+      "id": "manual-loot-1787850952791",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1526.2948549539187,
+        "y": 3026.205142759935
+      }
+    },
+    {
+      "id": "manual-loot-1787850966639",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1526.8251589089969,
+        "y": 3035.5990840034247
+      }
+    },
+    {
+      "id": "manual-loot-1787850989995",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1510.7645509988406,
+        "y": 3027.720294737474
+      }
+    },
+    {
+      "id": "manual-loot-1787850999727",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1510.7645509988406,
+        "y": 3031.5839269396224
+      }
+    },
+    {
+      "id": "manual-loot-1787851140015",
+      "type": "loot_item",
+      "title": "Car Alarm",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1463,
+        "y": 3135
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787851444085",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1652.2193500102694,
+        "y": 3124.43631115958
+      }
+    },
+    {
+      "id": "manual-loot-1787851460158",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1646.7648110291495,
+        "y": 3133.7544925153743
+      }
+    },
+    {
+      "id": "manual-loot-1787851557677",
+      "type": "loot_item",
+      "title": "Random",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1635.723740083002,
+        "y": 2834.8763718231894
+      }
+    },
+    {
+      "id": "manual-loot-1787851575022",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1664.5873773714136,
+        "y": 2843.058190467395
+      }
+    },
+    {
+      "id": "manual-loot-1787851592707",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1676.4055638134707,
+        "y": 2834.043038489856
+      }
+    },
+    {
+      "id": "manual-loot-1787851596265",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1675.7532661055443,
+        "y": 2833.663849411816
+      }
+    },
+    {
+      "id": "manual-loot-1787851599607",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1679.389628817133,
+        "y": 2836.921422857454
+      }
+    },
+    {
+      "id": "manual-loot-1787851624139",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1687.7692011018823,
+        "y": 2840.785465044218
+      }
+    },
+    {
+      "id": "manual-loot-1787851631892",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1684.4358677685489,
+        "y": 2841.088494422473
+      }
+    },
+    {
+      "id": "manual-loot-1787851681201",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1675.0419163525332,
+        "y": 2859.6491023326294
+      }
+    },
+    {
+      "id": "manual-loot-1787851720052",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1652.6934361279239,
+        "y": 2842.679403744576
+      }
+    },
+    {
+      "id": "manual-loot-1787851750923",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1673.981318614903,
+        "y": 2906.3157664561645
+      }
+    },
+    {
+      "id": "manual-loot-1787851760243",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1677.3146519482364,
+        "y": 2884.8763743663208
+      }
+    },
+    {
+      "id": "manual-loot-1787851820727",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1681.1025344352156,
+        "y": 2886.088496965605
+      }
+    },
+    {
+      "id": "manual-loot-1787851847188",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1710.8752700309187,
+        "y": 2890.7854625010864
+      }
+    },
+    {
+      "id": "manual-loot-1787851883715",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1703.7540542106062,
+        "y": 2916.4672811452924
+      }
     }
   ],
   "locations": [
@@ -3127,6 +4314,42 @@
       "position": {
         "x": 666.7771336867296,
         "y": 2579.288741561113
+      },
+      "region": "Iron Butte"
+    },
+    {
+      "id": "map-location-1787848943164",
+      "title": "Hostage",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1130.5115623883203,
+        "y": 2804.686431211062
+      },
+      "region": "Iron Butte"
+    },
+    {
+      "id": "map-location-1787849643846",
+      "title": "Hostage",
+      "type": "random_encounter",
+      "note": "In a car, with some freakers hopping.",
+      "photos": [],
+      "position": {
+        "x": 1022.7847698342031,
+        "y": 3161.7169634338297
+      },
+      "region": "Iron Butte"
+    },
+    {
+      "id": "map-location-1787850339968",
+      "title": "Hostage",
+      "type": "random_encounter",
+      "note": "In a car, with some freakers hopping.",
+      "photos": [],
+      "position": {
+        "x": 1258.6045951237081,
+        "y": 2959.5105123337985
       },
       "region": "Iron Butte"
     }
