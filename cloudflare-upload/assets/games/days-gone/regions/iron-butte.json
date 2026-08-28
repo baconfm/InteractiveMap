@@ -4447,6 +4447,70 @@
         "x": 1311.3157485888767,
         "y": 2770.0237961823273
       }
+    },
+    {
+      "id": "manual-loot-1787931040048",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1794.1482165412756,
+        "y": 2463.4141480123267
+      }
+    },
+    {
+      "id": "manual-loot-1787931108353",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1807.6388558545402,
+        "y": 2305.5136193830494
+      }
+    },
+    {
+      "id": "manual-loot-1787931125196",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1807.8382268426094,
+        "y": 2288.633677734408
+      }
+    },
+    {
+      "id": "manual-loot-1787931143059",
+      "type": "collectible_cairn",
+      "title": "Cairn",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1792.6861566797047,
+        "y": 2291.026107282247
+      }
     }
   ],
   "locations": [
