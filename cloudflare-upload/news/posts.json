@@ -1,11 +1,20 @@
 [
   {
+    "date": "2026-08-28",
+    "title": "Lost Lake is DONE",
+    "body": [
+      "Loot that spawns after every objective on the map is cleared is documented. This is the 90% treshhold that I consider as done.\nOnce we get to the playthrough that documents mission based loot spawns we can consider the area 99% done."
+    ]
+  },
+  {
     "date": "2026-08-27",
     "title": "Cluster crafting summaries",
     "body": [
       "Zoomed-out area summaries now show nearby loot as readable item chips and highlight everything craftable from that cluster, including Bandages, Molotovs, and Spiked Baseball Bats."
     ],
-    "images": ["../assets/photos/cluster-crafting-summary.png"]
+    "images": [
+      "../assets/photos/cluster-crafting-summary.png"
+    ]
   },
   {
     "date": "2026-08-27",
