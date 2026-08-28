@@ -331,7 +331,7 @@ button, output { font: inherit; }
   .editor-toggle { padding: 8px 10px; font-size: 0.68rem; }
   .map-shell { padding-top: 60px; }
   .map-viewport { inset: 60px 0 0; }
-  .map-hud { top: 77px; left: 16px; width: 175px; }
+  .map-hud { display: none; }
   .map-hud__section { padding: 11px 12px; }
   .map-hud__section--coordinates { display: none; }
   .map-marker { filter: none; }
