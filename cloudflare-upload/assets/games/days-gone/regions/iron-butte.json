@@ -3,6 +3,22 @@
   "region": "Iron Butte",
   "markers": [
     {
+      "id": "manual-loot-1786803510890",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1787,
+        "y": 1785
+      }
+    },
+    {
       "id": "manual-loot-1786878527738",
       "type": "loot_item",
       "title": "Fire Axe",
@@ -103,139 +119,6 @@
         "y": 2536
       },
       "photos": []
-    },
-    {
-      "id": "manual-loot-1786878700948",
-      "type": "loot_item",
-      "title": "Random",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1824,
-        "y": 2593
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878710800",
-      "type": "loot_item",
-      "title": "Growler",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Fun fact this growler used to be a Napalm Molotov in version 1.00, creating a huge plot hole.",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1825,
-        "y": 2590
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878715942",
-      "type": "loot_item",
-      "title": "Ammo Tin",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": true,
-      "position": {
-        "x": 1829,
-        "y": 2589
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878735694",
-      "type": "loot_item",
-      "title": "Prox Mine",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1829,
-        "y": 2590
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878740545",
-      "type": "loot_item",
-      "title": "Molotov",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1830,
-        "y": 2590
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878762614",
-      "type": "loot_item",
-      "title": "Pipe Bomb",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1831,
-        "y": 2593
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
-    },
-    {
-      "id": "manual-loot-1786878782762",
-      "type": "loot_item",
-      "title": "Attractor",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1831,
-        "y": 2588
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
     },
     {
       "id": "manual-loot-1786878989042",
@@ -340,9 +223,9 @@
       "photos": []
     },
     {
-      "id": "manual-loot-1786879548545",
+      "id": "manual-loot-1786879130651",
       "type": "loot_item",
-      "title": "Remote Bomb",
+      "title": "Nails",
       "location": "Manual placement",
       "region": "Iron Butte",
       "grid": "Manual",
@@ -351,17 +234,14 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1830,
-        "y": 2591
-      },
-      "photos": [
-        "https://youtube.com/shorts/Pg2uh3WRk_Q"
-      ]
+        "x": 1684.7145183589994,
+        "y": 2624.563320816831
+      }
     },
     {
-      "id": "manual-loot-1786892222039",
+      "id": "manual-loot-1786879135036",
       "type": "loot_item",
-      "title": "Ripper Axe",
+      "title": "Kerosene",
       "location": "Manual placement",
       "region": "Iron Butte",
       "grid": "Manual",
@@ -370,10 +250,169 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 1820,
-        "y": 2604
-      },
-      "photos": []
+        "x": 1685.810220251098,
+        "y": 2625.795982833095
+      }
+    },
+    {
+      "id": "manual-loot-1786879154390",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1692.1104904565825,
+        "y": 2619.084832255114
+      }
+    },
+    {
+      "id": "manual-loot-1786879165839",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1697.8628992666304,
+        "y": 2616.7564735714454
+      }
+    },
+    {
+      "id": "manual-loot-1786879180058",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1703.4783584019006,
+        "y": 2614.565077624289
+      }
+    },
+    {
+      "id": "manual-loot-1786879186822",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1703.683936940588,
+        "y": 2617.599145742293
+      }
+    },
+    {
+      "id": "manual-loot-1786879191020",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1704.1620588020405,
+        "y": 2615.637959693357
+      }
+    },
+    {
+      "id": "manual-loot-1786879213985",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1706.683936940588,
+        "y": 2621.799147776798
+      }
+    },
+    {
+      "id": "manual-loot-1786879217653",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1706.7005995382442,
+        "y": 2622.799147776798
+      }
+    },
+    {
+      "id": "manual-loot-1786879227832",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1707.4172743429317,
+        "y": 2625.999147268172
+      }
+    },
+    {
+      "id": "manual-loot-1786879235099",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1703.2172723084266,
+        "y": 2622.532480092879
+      }
+    },
+    {
+      "id": "manual-loot-1786879241512",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1703.3506036072547,
+        "y": 2626.1324811101313
+      }
     },
     {
       "id": "manual-loot-1787675759356",
@@ -4465,22 +4504,6 @@
       }
     },
     {
-      "id": "manual-loot-1787931108353",
-      "type": "loot_item",
-      "title": "Scrap",
-      "location": "Manual placement",
-      "region": "Iron Butte",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1807.6388558545402,
-        "y": 2305.5136193830494
-      }
-    },
-    {
       "id": "manual-loot-1787931125196",
       "type": "loot_item",
       "title": "Bandage",
@@ -4514,17 +4537,6 @@
     }
   ],
   "locations": [
-    {
-      "id": "map-location-1787222374984",
-      "title": "Survivor",
-      "type": "random_encounter",
-      "note": "Spawn conditions unknown.",
-      "position": {
-        "x": 2486.1814456828624,
-        "y": 2914.5317487762823
-      },
-      "region": "Iron Butte"
-    },
     {
       "id": "map-location-1787843412040",
       "title": "Sniper Ambush",

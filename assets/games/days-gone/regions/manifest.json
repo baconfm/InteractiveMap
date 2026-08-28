@@ -1,47 +1,47 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T18:05:36.486Z",
+  "generatedAt": "2026-08-28T20:13:55.684Z",
   "regions": [
     {
       "id": "cascades",
       "label": "Cascades",
       "path": "assets/games/days-gone/regions/cascades.json",
-      "markerCount": 1407,
-      "locationCount": 16
+      "markerCount": 641,
+      "locationCount": 10
     },
     {
       "id": "belknap",
       "label": "Belknap",
       "path": "assets/games/days-gone/regions/belknap.json",
-      "markerCount": 567,
+      "markerCount": 773,
       "locationCount": 8
     },
     {
       "id": "lost-lake",
       "label": "Lost Lake",
       "path": "assets/games/days-gone/regions/lost-lake.json",
-      "markerCount": 498,
-      "locationCount": 4
+      "markerCount": 627,
+      "locationCount": 5
     },
     {
       "id": "iron-butte",
       "label": "Iron Butte",
       "path": "assets/games/days-gone/regions/iron-butte.json",
-      "markerCount": 279,
-      "locationCount": 8
+      "markerCount": 282,
+      "locationCount": 7
     },
     {
       "id": "crater-lake",
       "label": "Crater Lake",
       "path": "assets/games/days-gone/regions/crater-lake.json",
-      "markerCount": 0,
-      "locationCount": 0
+      "markerCount": 360,
+      "locationCount": 6
     },
     {
       "id": "highway-97",
       "label": "Highway 97",
       "path": "assets/games/days-gone/regions/highway-97.json",
-      "markerCount": 0,
+      "markerCount": 68,
       "locationCount": 0
     }
   ]
