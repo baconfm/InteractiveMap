@@ -2596,6 +2596,311 @@
         "x": 2105.3693950426155,
         "y": 2975.2597581425052
       }
+    },
+    {
+      "id": "manual-loot-1787932798541",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2183.9984625593065,
+        "y": 2861.3836559013675
+      }
+    },
+    {
+      "id": "manual-loot-1787932802282",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2180.9681586042284,
+        "y": 2859.868501380697
+      }
+    },
+    {
+      "id": "manual-loot-1787932844402",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2179.301491937562,
+        "y": 2846.610927935059
+      }
+    },
+    {
+      "id": "manual-loot-1787932849793",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2179.4908840274056,
+        "y": 2846.762442624187
+      }
+    },
+    {
+      "id": "manual-loot-1787932861953",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2175.2105800723275,
+        "y": 2841.4594132459315
+      }
+    },
+    {
+      "id": "manual-loot-1787932873126",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2166.574217360739,
+        "y": 2839.5654745455736
+      }
+    },
+    {
+      "id": "manual-loot-1787932875573",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2165.7030015404266,
+        "y": 2841.9139573133143
+      }
+    },
+    {
+      "id": "manual-loot-1787932932631",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2236.5103552259125,
+        "y": 2817.648994839072
+      }
+    },
+    {
+      "id": "manual-loot-1787932938251",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2235.007166024551,
+        "y": 2821.701053670593
+      }
+    },
+    {
+      "id": "manual-loot-1787932952815",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2241.2159741982073,
+        "y": 2793.7287796895716
+      }
+    },
+    {
+      "id": "manual-loot-1787932971130",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2211.021606269513,
+        "y": 2821.1782002924933
+      }
+    },
+    {
+      "id": "manual-loot-1787932977844",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2206.8388318995176,
+        "y": 2824.57670775904
+      }
+    },
+    {
+      "id": "manual-loot-1787933026860",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2352.0593633660947,
+        "y": 2847.8433452161667
+      }
+    },
+    {
+      "id": "manual-loot-1787933043673",
+      "type": "loot_item",
+      "title": "Suppressor",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2349,
+        "y": 2856
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1787933061857",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2348.3994335983984,
+        "y": 2872.1556982052916
+      }
+    },
+    {
+      "id": "manual-loot-1787933114318",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2432.7084021568867,
+        "y": 2927.054539411136
+      }
+    },
+    {
+      "id": "manual-loot-1787933118398",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2438.459710333781,
+        "y": 2927.5773840134357
+      }
+    },
+    {
+      "id": "manual-loot-1787933140448",
+      "type": "loot_item",
+      "title": "2x4",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2440.681795505654,
+        "y": 2913.9833804746495
+      }
+    },
+    {
+      "id": "manual-loot-1787933211471",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2439.1164565265112,
+        "y": 3126.139977779332
+      }
     }
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T15:55:26.354Z",
+  "generatedAt": "2026-08-28T16:07:11.455Z",
   "regions": [
     {
       "id": "cascades",
@@ -20,7 +20,7 @@
       "id": "lost-lake",
       "label": "Lost Lake",
       "path": "assets/games/days-gone/regions/lost-lake.json",
-      "markerCount": 162,
+      "markerCount": 181,
       "locationCount": 3
     },
     {
