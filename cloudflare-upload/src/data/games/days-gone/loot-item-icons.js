@@ -29,6 +29,7 @@ const ITEM_BADGES = {
   Medkit: ["MK", "#d86562"],
   Molotov: ["MO", "#e3784d"],
   Mushroom: ["MS", "#c98e66"],
+  "Nest Residue": ["NR", "#a75734"],
   Nails: ["NA", "#9ca6ab"],
   Pipe: ["PI", "#7b9196"],
   "Pipe Bomb": ["PB", "#ba6452"],
@@ -73,6 +74,7 @@ const SHEET_GLYPHS = {
   "Health Cocktail": ["#d97883", '<path d="M11 7h6v5l2 3v7H9v-7l2-3V7Zm3 8v4m-2-2h4" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/>'],
   Medkit: ["#d86562", '<path d="M7 10h14v11H7zM11 8h6v2m-3 3v5m-2-2h4" fill="#f4f1e7" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>'],
   Molotov: ["#e3784d", '<path d="M11 7h6v5l2 3v7H9v-7l2-3V7Zm3 8c2 2 1 4-1 5-2-2-1-4 1-5Z" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.3"/>'],
+  "Nest Residue": ["#a75734", '<path d="M9 19c0-5 2-8 5-8s5 3 5 8H9Zm2-8 2-3h2l2 3m-5 5 1 2m3-2-1 2" fill="#f0c077" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>'],
   Nails: ["#9ca6ab", '<path d="m8 20 10-10m-7 9 7-7m-9 1 2 2m6-7 2 2" fill="none" stroke="#f4f1e7" stroke-linecap="round" stroke-width="2"/>'],
   Pipe: ["#7b9196", '<path d="M7 13h14v5H7zM7 11v9m14-9v9" fill="#f4f1e7" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/>'],
   "Pipe Bomb": ["#ba6452", '<path d="M6 13h14v5H6zM6 11v9m14-9v9m-4-7 4-4m0 0 2 2" fill="#f4f1e7" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>'],
@@ -97,6 +99,12 @@ export function canonicalLootItemName(itemName) {
 
 export function renderLootItemIcon(itemName, quantity = 1) {
   itemName = canonicalLootItemName(itemName);
+  if (itemName === "Airbag") {
+    return '<span class="loot-item-icon"><img src="/assets/icons/airbag.svg" alt="" aria-hidden="true"></span>';
+  }
+  if (itemName === "Pipe") {
+    return '<span class="loot-item-icon loot-item-icon--pipe"><img src="/assets/icons/pipe.svg" alt="" aria-hidden="true"></span>';
+  }
   if (itemName === "Sledgehammer") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#787f78" stroke="#182018" stroke-width="2"/><path d="m8 21 9-9m-2-5 6 6m-8-4 4-4 4 4-4 4-4-4Z" fill="none" stroke="#e9e0cd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }

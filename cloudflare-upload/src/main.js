@@ -47,6 +47,7 @@ const lootEditor = {
   quantityValue: document.querySelector("#loot-editor-quantity-value"),
   notes: document.querySelector("#loot-editor-notes"),
   photos: document.querySelector("#loot-editor-photos"),
+  upload: document.querySelector("#loot-editor-photo-upload"),
   region: document.querySelector("#loot-editor-region"),
   oneTime: document.querySelector("#loot-editor-one-time"),
   save: document.querySelector("#save-loot-position"),
@@ -432,6 +433,7 @@ function refreshLootEditor() {
   lootEditor.oneTime.disabled = false;
   lootEditor.notes.disabled = false;
   lootEditor.photos.disabled = false;
+  lootEditor.upload.disabled = false;
   lootEditor.x.disabled = false;
   lootEditor.y.disabled = false;
   lootEditor.save.disabled = false;
@@ -454,6 +456,7 @@ function clearLootEditor() {
   lootEditor.oneTime.disabled = true;
   lootEditor.notes.disabled = true;
   lootEditor.photos.disabled = true;
+  lootEditor.upload.disabled = true;
   lootEditor.x.disabled = true;
   lootEditor.y.disabled = true;
   lootEditor.save.disabled = true;
@@ -700,6 +703,39 @@ mapLocationEditor = new MapLocationEditor({
     status: document.querySelector("#map-location-status"),
     count: document.querySelector("#map-location-count"),
   },
+});
+
+function bindImageUpload(input, photos, setStatus) {
+  input.addEventListener("change", async () => {
+    const [file] = input.files;
+  if (!file) return;
+    setStatus("Uploading image…");
+  try {
+    const response = await fetch("/api/upload-location-image", {
+      method: "POST",
+      headers: { "Content-Type": file.type },
+      body: file,
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Could not upload image.");
+    photos.value = [photos.value.trim(), result.url].filter(Boolean).join("\n");
+      setStatus("Image added. Save, then publish the map.");
+  } catch (error) {
+      setStatus(error.message);
+  } finally {
+      input.value = "";
+  }
+  });
+}
+
+const locationPhotoUpload = document.querySelector("#map-location-photo-upload");
+bindImageUpload(locationPhotoUpload, document.querySelector("#map-location-photos"), (message) => {
+  document.querySelector("#map-location-status").textContent = message;
+});
+const lootPhotoUpload = document.querySelector("#loot-editor-photo-file");
+lootEditor.upload.addEventListener("click", () => lootPhotoUpload.click());
+bindImageUpload(lootPhotoUpload, lootEditor.photos, (message) => {
+  document.querySelector("#map-status").textContent = message;
 });
 
 mapLineEditor = new MapLineEditor({ store: mapLineStore, layer: mapLineLayer, elements: {

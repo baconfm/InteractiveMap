@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const newsPath = join(projectRoot, "news/posts.json");
 const regionStatusPath = join(projectRoot, "news/project-status.json");
+const locationPhotosPath = join(projectRoot, "assets/photos");
 const regionNames = ["Cascades", "Belknap", "Lost Lake", "Iron Butte", "Crater Lake", "Highway 97"];
 const dedupeMarkers = (markers) => {
   const markerIds = new Set();
@@ -37,6 +38,26 @@ async function syncNews() {
   await cp(join(projectRoot, "news"), join(projectRoot, "cloudflare-upload/news"), { recursive: true });
 }
 
+async function uploadLocationImage(request, response) {
+  const extension = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" }[request.headers["content-type"]?.split(";", 1)[0]];
+  if (!extension) return send(response, 415, JSON.stringify({ error: "Use a PNG, JPG, or WebP image." }));
+  const chunks = [];
+  let size = 0;
+  for await (const chunk of request) {
+    size += chunk.length;
+    if (size > 8_000_000) return send(response, 413, JSON.stringify({ error: "Image must be 8 MB or smaller." }));
+    chunks.push(chunk);
+  }
+  try {
+    await mkdir(locationPhotosPath, { recursive: true });
+    const filename = `hide-deek-${Date.now()}.${extension}`;
+    await writeFile(join(locationPhotosPath, filename), Buffer.concat(chunks));
+    send(response, 200, JSON.stringify({ url: `/assets/photos/${filename}` }));
+  } catch (error) {
+    send(response, 500, JSON.stringify({ error: error.message || "Could not save image." }));
+  }
+}
+
 async function publish(request, response) {
   let raw = "";
   for await (const chunk of request) {
@@ -59,7 +80,7 @@ async function publish(request, response) {
     await mkdir(dirname(dataPath), { recursive: true });
     await writeFile(dataPath, `${JSON.stringify(cleanedSnapshot, null, 2)}\n`);
     run(process.execPath, ["scripts/sync-cloudflare-published-map.mjs"]);
-    run("git", ["add", "assets/games/days-gone/published-map.json", "assets/games/days-gone/regions", "cloudflare-upload/assets/games/days-gone/published-map.json", "cloudflare-upload/assets/games/days-gone/regions"]);
+    run("git", ["add", "assets/games/days-gone/published-map.json", "assets/games/days-gone/regions", "assets/photos", "cloudflare-upload/assets/games/days-gone/published-map.json", "cloudflare-upload/assets/games/days-gone/regions", "cloudflare-upload/assets/photos"]);
     try {
       run("git", ["diff", "--cached", "--quiet"]);
     } catch (error) {
@@ -129,6 +150,7 @@ async function publishRegionStatus(request, response) {
 createServer(async (request, response) => {
   const url = new URL(request.url, `http://${request.headers.host}`);
   if (request.method === "POST" && url.pathname === "/api/publish") return publish(request, response);
+  if (request.method === "POST" && url.pathname === "/api/upload-location-image") return uploadLocationImage(request, response);
   if (request.method === "POST" && url.pathname === "/api/publish-news") return publishNews(request, response);
   if (request.method === "POST" && url.pathname === "/api/publish-region-status") return publishRegionStatus(request, response);
   if (request.method !== "GET" && request.method !== "HEAD") return send(response, 405, "Method not allowed", "text/plain; charset=utf-8");
