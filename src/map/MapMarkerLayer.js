@@ -74,7 +74,7 @@ export class MapMarkerLayer {
   }
 
   displayMarkers(markers) {
-    if (this.isClustering(this.zoom)) return this.clusterMarkers(markers);
+    if (this.isClustering(this.zoom)) return this.clusterSingletons ? this.gridClusters(markers) : this.clusterMarkers(markers);
     const visible = this.visibleMarkers(markers);
     if (this.isCombiningMatching(this.zoom)) return this.combineMatchingMarkers(visible);
     return visible;
@@ -88,9 +88,24 @@ export class MapMarkerLayer {
 
   clusterMarkers(markers) {
     if (!this.isClustering(this.zoom)) return markers;
-    const clusters = [];
     const radiusInMapUnits = this.clusterRadius / this.zoom;
-    this.nearbyGroups(markers, radiusInMapUnits).forEach((members) => {
+    return this.clustersFromGroups(this.nearbyGroups(markers, radiusInMapUnits));
+  }
+
+  gridClusters(markers) {
+    const cellSize = 100 / this.zoom;
+    const cells = new Map();
+    markers.forEach((marker) => {
+      const key = `${Math.floor(marker.position.x / cellSize)},${Math.floor(marker.position.y / cellSize)}`;
+      if (!cells.has(key)) cells.set(key, []);
+      cells.get(key).push(marker);
+    });
+    return this.clustersFromGroups(cells.values());
+  }
+
+  clustersFromGroups(groups) {
+    const clusters = [];
+    [...groups].forEach((members) => {
       const seed = members[0];
       if (members.length === 1 && !this.clusterSingletons) {
         clusters.push(seed);
@@ -117,7 +132,6 @@ export class MapMarkerLayer {
         clusterCount: members.length,
       });
     });
-
     return clusters;
   }
 
@@ -189,6 +203,7 @@ export class MapMarkerLayer {
   }
 
   layoutMarkers(markers) {
+    if (this.clusterSingletons) return markers.map((marker) => ({ ...marker, layoutOffset: { x: 0, y: 0 } }));
     const minimumSpacing = this.clusterSingletons ? 44 : Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
     const minimumSpacingSquared = minimumSpacing * minimumSpacing;
     const placed = [];
