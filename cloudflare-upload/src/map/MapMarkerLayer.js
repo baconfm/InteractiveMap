@@ -1,7 +1,7 @@
 import { craftableRecipesForItems } from "../data/games/days-gone/crafting-recipes.js";
 
 export class MapMarkerLayer {
-  constructor(element, mapSize, { renderIcon, onMarkerPointerDown, onMarkerClick, clusterBelowZoom, clusterRadius = 52, combineMatchingBelowZoom, combineMatchingRadius = 34 } = {}) {
+  constructor(element, mapSize, { renderIcon, onMarkerPointerDown, onMarkerClick, clusterBelowZoom, clusterRadius = 52, combineMatchingBelowZoom, combineMatchingRadius = 34, clusterSingletons = false } = {}) {
     this.element = element;
     this.mapSize = mapSize;
     this.renderIcon = renderIcon;
@@ -11,6 +11,7 @@ export class MapMarkerLayer {
     this.clusterRadius = clusterRadius;
     this.combineMatchingBelowZoom = combineMatchingBelowZoom;
     this.combineMatchingRadius = combineMatchingRadius;
+    this.clusterSingletons = clusterSingletons;
     this.zoom = 1;
     this.layoutZoom = 1;
     this.viewBounds = null;
@@ -91,7 +92,7 @@ export class MapMarkerLayer {
     const radiusInMapUnits = this.clusterRadius / this.zoom;
     this.nearbyGroups(markers, radiusInMapUnits).forEach((members) => {
       const seed = members[0];
-      if (members.length === 1) {
+      if (members.length === 1 && !this.clusterSingletons) {
         clusters.push(seed);
         return;
       }
@@ -188,7 +189,7 @@ export class MapMarkerLayer {
   }
 
   layoutMarkers(markers) {
-    const minimumSpacing = Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
+    const minimumSpacing = this.clusterSingletons ? 110 : Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
     const minimumSpacingSquared = minimumSpacing * minimumSpacing;
     const placed = [];
     const clusters = markers.filter((marker) => marker.type === "loot_cluster");

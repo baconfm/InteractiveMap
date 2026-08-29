@@ -117,6 +117,12 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const renderLocationMarkers = () => locationLayer.render(showLocations
     ? locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival")
     : []);
+  const setOverviewMode = (zoom) => {
+    const active = zoom <= APP_CONFIG.camera.minZoom * 1.2;
+    if (lootLayer.clusterSingletons === active) return;
+    lootLayer.clusterSingletons = active;
+    renderLootMarkers();
+  };
   randomEncountersToggle?.addEventListener("change", () => {
     renderLootMarkers();
     renderLocationMarkers();
@@ -139,6 +145,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     locationLayer.setZoom(camera.zoom);
     overlayLayer.setZoom(camera.zoom);
     lootLayer.setZoom(camera.zoom);
+    setOverviewMode(camera.zoom);
     lootLayer.setView(camera, engine.getViewportSize());
   };
   bindControls(engine);
