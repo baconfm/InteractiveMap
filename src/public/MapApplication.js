@@ -65,6 +65,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   let mapClickHandler = onMapClick;
   let publishedMarkers = [];
   let locationMarkers = [];
+  let visibleLootMarkers = [];
   mobileFiltersToggle?.addEventListener("click", () => {
     const open = !mapLegend.classList.contains("is-mobile-open");
     mapLegend.classList.toggle("is-mobile-open", open);
@@ -103,15 +104,23 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const overlayLayer = new MapMarkerLayer(engine.layers.get("entities"), map.size, { renderIcon: renderDaysGoneMarkerIcon });
   const legend = createLootLegend({
     onChange: (visibleMarkers, { total, spawnFilter }) => {
-      lootLayer.render(visibleMarkers);
+      visibleLootMarkers = visibleMarkers;
+      renderLootMarkers();
       const filterLabel = spawnFilter === "all" ? "all spawn types" : spawnFilter;
       status.textContent = `Published map - ${visibleMarkers.length} of ${total} ${filterLabel} markers shown`;
     },
   });
+  const activeRandomEncounters = () => !showLocations && showRandomEncounters && randomEncountersToggle?.checked
+    ? locationMarkers.filter((marker) => marker.type === "random_encounter")
+    : [];
+  const renderLootMarkers = () => lootLayer.render([...visibleLootMarkers, ...activeRandomEncounters()]);
   const renderLocationMarkers = () => locationLayer.render(showLocations
     ? locationMarkers.filter((marker) => marker.type !== "fast_travel_arrival")
-    : locationMarkers.filter((marker) => marker.type === "random_encounter" && showRandomEncounters && randomEncountersToggle?.checked));
-  randomEncountersToggle?.addEventListener("change", renderLocationMarkers);
+    : []);
+  randomEncountersToggle?.addEventListener("change", () => {
+    renderLootMarkers();
+    renderLocationMarkers();
+  });
 
   clusterZoomInput.value = String(Math.round(splitPercent * 100));
   clusterZoomValue.textContent = `${clusterZoomInput.value}%`;
