@@ -61,7 +61,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const sharedState = sharedMapState();
   const isMobile = window.matchMedia("(max-width: 640px)").matches;
   const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v3"));
-  const splitPercent = Math.max(isMobile ? 0.85 : 0.65, Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0);
+  const splitPercent = Math.max(isMobile ? 0.94 : 0.92, Number.isFinite(savedSplit) && savedSplit >= 0.15 && savedSplit <= 1 ? savedSplit : 0);
   let mapClickHandler = onMapClick;
   let publishedMarkers = [];
   let locationMarkers = [];
@@ -90,9 +90,9 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const lootLayer = new MapMarkerLayer(engine.layers.get("annotations"), map.size, {
     renderIcon: renderDaysGoneMarkerIcon,
     clusterBelowZoom: APP_CONFIG.camera.maxZoom * splitPercent,
-    clusterRadius: isMobile ? 34 : 24,
+    clusterRadius: isMobile ? 46 : 38,
     combineMatchingBelowZoom: APP_CONFIG.camera.maxZoom,
-    combineMatchingRadius: 34,
+    combineMatchingRadius: 42,
   });
   const details = createMarkerDetails({ layer: lootLayer });
   lootLayer.onMarkerClick = (marker) => details.show(marker);
