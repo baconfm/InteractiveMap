@@ -188,10 +188,13 @@ export class MapMarkerLayer {
   }
 
   layoutMarkers(markers) {
-    const minimumSpacing = 35;
+    const minimumSpacing = Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
+    const minimumSpacingSquared = minimumSpacing * minimumSpacing;
     const placed = [];
+    const clusters = markers.filter((marker) => marker.type === "loot_cluster");
+    const offsets = new Map();
 
-    return [...markers].sort((first, second) => first.id.localeCompare(second.id)).map((marker) => {
+    clusters.sort((first, second) => first.id.localeCompare(second.id)).forEach((marker) => {
       const origin = { x: marker.position.x * this.zoom, y: marker.position.y * this.zoom };
       let offset = { x: 0, y: 0 };
 
@@ -200,7 +203,7 @@ export class MapMarkerLayer {
         const overlaps = placed.some((point) => {
           const xDistance = point.x - candidate.x;
           const yDistance = point.y - candidate.y;
-          return xDistance * xDistance + yDistance * yDistance < minimumSpacing * minimumSpacing;
+          return xDistance * xDistance + yDistance * yDistance < minimumSpacingSquared;
         });
         if (!overlaps) break;
         const ring = Math.floor(attempt / 7) + 1;
@@ -210,8 +213,9 @@ export class MapMarkerLayer {
       }
 
       placed.push({ x: origin.x + offset.x, y: origin.y + offset.y });
-      return { ...marker, layoutOffset: offset };
+      offsets.set(marker.id, offset);
     });
+    return markers.map((marker) => ({ ...marker, layoutOffset: offsets.get(marker.id) ?? { x: 0, y: 0 } }));
   }
 
   select(markerId) {
