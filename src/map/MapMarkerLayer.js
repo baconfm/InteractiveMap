@@ -189,7 +189,7 @@ export class MapMarkerLayer {
   }
 
   layoutMarkers(markers) {
-    const minimumSpacing = this.clusterSingletons ? 110 : Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
+    const minimumSpacing = this.clusterSingletons ? 44 : Math.round(Math.max(50, 100 - 50 * Math.min(1, this.zoom)));
     const minimumSpacingSquared = minimumSpacing * minimumSpacing;
     const placed = [];
     const clusters = markers.filter((marker) => marker.type === "loot_cluster");
@@ -209,7 +209,7 @@ export class MapMarkerLayer {
         if (!overlaps) break;
         const ring = Math.floor(attempt / 7) + 1;
         const angle = attempt * 2.4;
-        const radius = ring * minimumSpacing;
+        const radius = Math.min(ring * minimumSpacing, minimumSpacing * 2);
         offset = { x: Math.cos(angle) * radius, y: Math.sin(angle) * radius };
       }
 

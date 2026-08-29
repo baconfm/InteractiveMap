@@ -121,6 +121,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     const active = zoom <= APP_CONFIG.camera.minZoom * 1.2;
     if (lootLayer.clusterSingletons === active) return;
     lootLayer.clusterSingletons = active;
+    lootLayer.clusterRadius = active ? (isMobile ? 20 : 16) : (isMobile ? 46 : 38);
     renderLootMarkers();
   };
   randomEncountersToggle?.addEventListener("change", () => {
