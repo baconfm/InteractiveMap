@@ -42,25 +42,25 @@ export class MapMarkerOverrides {
   add(marker) {
     this.manualMarkers = [...this.manualMarkers, marker];
     localStorage.setItem(`${this.storageKey}:manual`, JSON.stringify(this.manualMarkers));
-    this.listeners.forEach((listener) => listener(this.getAll()));
+    this.listeners.forEach((listener) => listener(this.getAll(), "add"));
   }
 
   move(id, position) {
     this.overrides[id] = { ...this.overrides[id], position };
     localStorage.setItem(this.storageKey, JSON.stringify(this.overrides));
-    this.listeners.forEach((listener) => listener(this.getAll()));
+    this.listeners.forEach((listener) => listener(this.getAll(), "move"));
   }
 
   update(id, patch) {
     this.overrides[id] = { ...this.overrides[id], ...patch };
     localStorage.setItem(this.storageKey, JSON.stringify(this.overrides));
-    this.listeners.forEach((listener) => listener(this.getAll()));
+    this.listeners.forEach((listener) => listener(this.getAll(), "update"));
   }
 
   reset(id) {
     delete this.overrides[id];
     localStorage.setItem(this.storageKey, JSON.stringify(this.overrides));
-    this.listeners.forEach((listener) => listener(this.getAll()));
+    this.listeners.forEach((listener) => listener(this.getAll(), "reset"));
   }
 
   remove(id) {
@@ -73,7 +73,7 @@ export class MapMarkerOverrides {
       this.overrides[id] = { ...this.overrides[id], hidden: true };
     }
     localStorage.setItem(this.storageKey, JSON.stringify(this.overrides));
-    this.listeners.forEach((listener) => listener(this.getAll()));
+    this.listeners.forEach((listener) => listener(this.getAll(), "remove"));
   }
 
   subscribe(listener) {

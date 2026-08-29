@@ -267,7 +267,8 @@ button, output { font: inherit; }
 .news-entry__photos img { display: block; width: 100%; border: 1px solid #3c493e; border-radius: 4px; }
 .loot-hint { position: absolute; z-index: 5; right: 32px; bottom: 28px; max-width: 260px; margin: 0; color: #f0be5d; font-size: 0.72rem; line-height: 1.4; text-align: right; text-shadow: 0 1px 4px #000; pointer-events: none; }
 .add-hotbar { position: absolute; z-index: 6; left: 22px; top: 104px; display: grid; width: min(330px, calc(100vw - 44px)); max-height: min(700px, calc(100vh - 150px)); gap: 10px; padding: 13px; overflow: hidden; border: 1px solid rgb(237 240 222 / 18%); border-radius: 5px; background: rgb(10 15 12 / 94%); box-shadow: 0 12px 32px rgb(0 0 0 / 48%); backdrop-filter: blur(10px); }
-.add-hotbar__heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #f1f2eb; font-size: 0.84rem; font-weight: 700; }
+.add-hotbar__heading { display: flex; align-items: center; gap: 6px; color: #f1f2eb; font-size: 0.84rem; font-weight: 700; }
+.add-hotbar__heading > span { margin-right: auto; }
 .add-hotbar__review { padding: 4px 6px; border: 1px solid #3c493e; border-radius: 3px; background: #1b261d; color: #a8caa4; cursor: pointer; font-size: 0.62rem; font-weight: 700; }
 .add-hotbar__review:hover { border-color: #f0be5d; color: #f0be5d; }
 .add-hotbar__search { width: 100%; padding: 8px 9px; border: 1px solid #3c493e; border-radius: 3px; background: #151d17; color: #f1f2eb; font: inherit; font-size: 0.76rem; }

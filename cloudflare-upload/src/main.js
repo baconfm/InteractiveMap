@@ -171,6 +171,7 @@ const TOOLBOX_ITEMS = LOOT_ITEM_NAMES.flatMap((title) => title === "Scrap"
   : [{ id: title.toLocaleLowerCase().replaceAll(/[^a-z0-9]+/g, "-"), title, label: title, oneTimeSpawn: isOneTimeSpawn({ title }) }]);
 let toolboxGroup = "All";
 let toolboxQuery = "";
+let toolboxSort = localStorage.getItem("days-gone-toolbox-sort-v1") ?? "count";
 
 function toolboxGroupFor(item) {
   if (COLLECTIBLE_TOOLS.has(item)) return "Collectibles";
@@ -178,6 +179,14 @@ function toolboxGroupFor(item) {
   if (FIREARM_TOOLS.has(item)) return "Firearms";
   if (EXPLOSIVE_TOOLS.has(item)) return "Explosives";
   return "Loot";
+}
+
+function toolboxItemCounts() {
+  return lootStore?.getAll().reduce((counts, marker) => {
+    const title = canonicalLootItemName(marker.title);
+    counts.set(title, (counts.get(title) ?? 0) + (Number(marker.quantity) || 1));
+    return counts;
+  }, new Map()) ?? new Map();
 }
 
 function renderToolbox(focusSearch = false) {
@@ -208,10 +217,13 @@ function renderToolbox(focusSearch = false) {
 
   const grid = document.createElement("div");
   grid.className = "add-hotbar__grid";
+  const counts = toolboxItemCounts();
   TOOLBOX_ITEMS.filter((tool) => {
     const matchesGroup = toolboxGroup === "All" || toolboxGroupFor(tool.title) === toolboxGroup;
     return matchesGroup && tool.label.toLocaleLowerCase().includes(toolboxQuery.trim().toLocaleLowerCase());
-  }).forEach((tool) => {
+  }).sort((first, second) => toolboxSort === "count"
+    ? (counts.get(second.title) ?? 0) - (counts.get(first.title) ?? 0) || first.label.localeCompare(second.label)
+    : first.label.localeCompare(second.label)).forEach((tool) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "add-hotbar__slot";
@@ -243,7 +255,17 @@ function renderToolbox(focusSearch = false) {
     renderLootMarkers();
     renderToolbox();
   });
-  heading.append(title, reviewToggle);
+  const sortToggle = document.createElement("button");
+  sortToggle.type = "button";
+  sortToggle.className = "add-hotbar__review";
+  sortToggle.textContent = toolboxSort === "count" ? "Most spawns" : "A–Z";
+  sortToggle.title = "Toggle toolbox sorting";
+  sortToggle.addEventListener("click", () => {
+    toolboxSort = toolboxSort === "count" ? "name" : "count";
+    localStorage.setItem("days-gone-toolbox-sort-v1", toolboxSort);
+    renderToolbox();
+  });
+  heading.append(title, reviewToggle, sortToggle);
   addHotbar.replaceChildren(heading, search, filters, grid);
   if (focusSearch) {
     search.focus();
@@ -356,8 +378,9 @@ async function initializeLootMarkers() {
       : snapshot.publishedLootMarkers)?.map((marker) => ({ ...marker, title: canonicalLootItemName(marker.title) }));
     if (!Array.isArray(markers)) throw new Error("Clean loot baseline is invalid.");
     lootStore = new MapMarkerOverrides("days-gone-loot-item-overrides-v2", markers);
-    lootStore.subscribe(() => {
+    lootStore.subscribe((markers, change) => {
       renderLootMarkers();
+      if (change !== "move") renderToolbox();
       markAutoSaved();
       if (selectedLootId) {
         refreshLootEditor();
@@ -365,6 +388,7 @@ async function initializeLootMarkers() {
       }
     });
     renderLootMarkers();
+    renderToolbox();
     lootEditor.export.disabled = false;
     document.querySelector("#map-status").textContent = `Clean loot baseline loaded · ${markers.length} markers`;
   } catch (error) {
