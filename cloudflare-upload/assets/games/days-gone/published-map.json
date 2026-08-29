@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-28T20:39:10.708Z",
+  "savedAt": "2026-08-29T11:18:51.214Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -285,8 +285,8 @@
       "note": "",
       "photos": [],
       "position": {
-        "x": 2330.0300798933426,
-        "y": 5237.25275823643
+        "x": 2326.412093101771,
+        "y": 5238.647371625907
       },
       "region": "Cascades"
     },
@@ -421,6 +421,30 @@
         "y": 2558.9597225988555
       },
       "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1787949600968",
+      "title": "Marauders n Freaks",
+      "type": "random_encounter",
+      "note": "4 Marauders",
+      "photos": [],
+      "position": {
+        "x": 2228.508086750898,
+        "y": 5138.983761285241
+      },
+      "region": "Crater Lake"
+    },
+    {
+      "id": "map-location-1788001664008",
+      "title": "Marauders n Freaks",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2648.8032511807364,
+        "y": 5367.472395794642
+      },
+      "region": "Highway 97"
     }
   ],
   "mapLines": [
@@ -47580,6 +47604,343 @@
         "x": 2508.544509379644,
         "y": 5161.081344465217
       }
+    },
+    {
+      "id": "manual-loot-1788001716322",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.4699178474034,
+        "y": 5259.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788001735447",
+      "type": "loot_item",
+      "title": "Pickaxe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2450.88658451407,
+        "y": 5249.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001748814",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.3032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001769970",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2447,
+        "y": 5251
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788001782814",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.3032511807364,
+        "y": 5250.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001787031",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2442.8032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001921114",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2319.38658451407,
+        "y": 5245.389062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001977798",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.9699178474034,
+        "y": 5248.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002015572",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.7199178474034,
+        "y": 5245.222395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002026689",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.88658451407,
+        "y": 5244.055729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788002029062",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.4699178474034,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002036304",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.0532511807364,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002129514",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2346.2299067536846,
+        "y": 5235.258274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002135060",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2344.4799067536846,
+        "y": 5232.591608269301
+      }
+    },
+    {
+      "id": "manual-loot-1788002138654",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2343.896573420351,
+        "y": 5233.008274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002264470",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2340.396158105433,
+        "y": 5232.0939373493
+      }
+    },
+    {
+      "id": "manual-loot-1788002288703",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.7454264351045,
+        "y": 5239.564038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002293366",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.078759768438,
+        "y": 5239.064038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002296282",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.406887733406,
+        "y": 5239.552851735011
+      }
+    },
+    {
+      "id": "manual-loot-1788002311726",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.2454264351045,
+        "y": 5229.897371625907
+      }
+    },
+    {
+      "id": "manual-loot-1788002313878",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2328.8128247720997,
+        "y": 5228.510604015967
+      }
     }
   ],
   "lootMarkers": [
@@ -93927,6 +94288,343 @@
       "position": {
         "x": 2508.544509379644,
         "y": 5161.081344465217
+      }
+    },
+    {
+      "id": "manual-loot-1788001716322",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.4699178474034,
+        "y": 5259.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788001735447",
+      "type": "loot_item",
+      "title": "Pickaxe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2450.88658451407,
+        "y": 5249.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001748814",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.3032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001769970",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2447,
+        "y": 5251
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788001782814",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.3032511807364,
+        "y": 5250.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001787031",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2442.8032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001921114",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2319.38658451407,
+        "y": 5245.389062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001977798",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.9699178474034,
+        "y": 5248.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002015572",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.7199178474034,
+        "y": 5245.222395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002026689",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.88658451407,
+        "y": 5244.055729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788002029062",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.4699178474034,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002036304",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.0532511807364,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002129514",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2346.2299067536846,
+        "y": 5235.258274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002135060",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2344.4799067536846,
+        "y": 5232.591608269301
+      }
+    },
+    {
+      "id": "manual-loot-1788002138654",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2343.896573420351,
+        "y": 5233.008274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002264470",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2340.396158105433,
+        "y": 5232.0939373493
+      }
+    },
+    {
+      "id": "manual-loot-1788002288703",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.7454264351045,
+        "y": 5239.564038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002293366",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.078759768438,
+        "y": 5239.064038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002296282",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.406887733406,
+        "y": 5239.552851735011
+      }
+    },
+    {
+      "id": "manual-loot-1788002311726",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.2454264351045,
+        "y": 5229.897371625907
+      }
+    },
+    {
+      "id": "manual-loot-1788002313878",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2328.8128247720997,
+        "y": 5228.510604015967
       }
     }
   ],
@@ -140276,7 +140974,344 @@
         "x": 2508.544509379644,
         "y": 5161.081344465217
       }
+    },
+    {
+      "id": "manual-loot-1788001716322",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.4699178474034,
+        "y": 5259.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788001735447",
+      "type": "loot_item",
+      "title": "Pickaxe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2450.88658451407,
+        "y": 5249.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001748814",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.3032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001769970",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2447,
+        "y": 5251
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788001782814",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.3032511807364,
+        "y": 5250.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001787031",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2442.8032511807364,
+        "y": 5248.305729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788001921114",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2319.38658451407,
+        "y": 5245.389062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788001977798",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.9699178474034,
+        "y": 5248.472395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002015572",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2326.7199178474034,
+        "y": 5245.222395794642
+      }
+    },
+    {
+      "id": "manual-loot-1788002026689",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.88658451407,
+        "y": 5244.055729127976
+      }
+    },
+    {
+      "id": "manual-loot-1788002029062",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.4699178474034,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002036304",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2335.0532511807364,
+        "y": 5246.889062461309
+      }
+    },
+    {
+      "id": "manual-loot-1788002129514",
+      "type": "loot_item",
+      "title": "Spark Igniter",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2346.2299067536846,
+        "y": 5235.258274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002135060",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2344.4799067536846,
+        "y": 5232.591608269301
+      }
+    },
+    {
+      "id": "manual-loot-1788002138654",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2343.896573420351,
+        "y": 5233.008274935968
+      }
+    },
+    {
+      "id": "manual-loot-1788002264470",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2340.396158105433,
+        "y": 5232.0939373493
+      }
+    },
+    {
+      "id": "manual-loot-1788002288703",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.7454264351045,
+        "y": 5239.564038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002293366",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.078759768438,
+        "y": 5239.064038292574
+      }
+    },
+    {
+      "id": "manual-loot-1788002296282",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2331.406887733406,
+        "y": 5239.552851735011
+      }
+    },
+    {
+      "id": "manual-loot-1788002311726",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2330.2454264351045,
+        "y": 5229.897371625907
+      }
+    },
+    {
+      "id": "manual-loot-1788002313878",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2328.8128247720997,
+        "y": 5228.510604015967
+      }
     }
   ],
-  "generatedAt": "2026-08-28T20:39:11.134Z"
+  "generatedAt": "2026-08-29T11:18:51.657Z"
 }

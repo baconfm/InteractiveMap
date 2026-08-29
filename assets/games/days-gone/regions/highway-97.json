@@ -2,5 +2,18 @@
   "version": 1,
   "region": "Highway 97",
   "markers": [],
-  "locations": []
+  "locations": [
+    {
+      "id": "map-location-1788001664008",
+      "title": "Marauders n Freaks",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2648.8032511807364,
+        "y": 5367.472395794642
+      },
+      "region": "Highway 97"
+    }
+  ]
 }
