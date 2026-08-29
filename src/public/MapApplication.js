@@ -126,7 +126,12 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     localStorage.setItem("days-gone-public-cluster-split-percent-v3", String(percent));
     lootLayer.setClusterBelowZoom(APP_CONFIG.camera.maxZoom * percent);
   });
-  engine.onCameraChange = ({ zoom }) => { locationLayer.setZoom(zoom); overlayLayer.setZoom(zoom); lootLayer.setZoom(zoom); };
+  engine.onCameraChange = (camera) => {
+    locationLayer.setZoom(camera.zoom);
+    overlayLayer.setZoom(camera.zoom);
+    lootLayer.setZoom(camera.zoom);
+    lootLayer.setView(camera, engine.getViewportSize());
+  };
   bindControls(engine);
   engine.mount();
   applySharedView(engine, sharedState);

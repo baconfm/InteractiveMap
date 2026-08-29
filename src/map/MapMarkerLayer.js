@@ -13,6 +13,8 @@ export class MapMarkerLayer {
     this.combineMatchingRadius = combineMatchingRadius;
     this.zoom = 1;
     this.layoutZoom = 1;
+    this.viewBounds = null;
+    this.renderedViewCenter = null;
   }
 
   render(markers) {
@@ -55,10 +57,32 @@ export class MapMarkerLayer {
     if (this.markers) this.render(this.markers);
   }
 
+  setView({ x, y, zoom }, { width, height }) {
+    const buffer = 180 / zoom;
+    const center = { x: (width / 2 - x) / zoom, y: (height / 2 - y) / zoom };
+    this.viewBounds = {
+      left: -x / zoom - buffer, right: (width - x) / zoom + buffer,
+      top: -y / zoom - buffer, bottom: (height - y) / zoom + buffer,
+    };
+    if (!this.markers?.length || this.isClustering(this.zoom)) return;
+    const minimumMove = buffer / 2;
+    if (!this.renderedViewCenter || Math.hypot(center.x - this.renderedViewCenter.x, center.y - this.renderedViewCenter.y) > minimumMove) {
+      this.renderedViewCenter = center;
+      this.render(this.markers);
+    }
+  }
+
   displayMarkers(markers) {
     if (this.isClustering(this.zoom)) return this.clusterMarkers(markers);
-    if (this.isCombiningMatching(this.zoom)) return this.combineMatchingMarkers(markers);
-    return markers;
+    const visible = this.visibleMarkers(markers);
+    if (this.isCombiningMatching(this.zoom)) return this.combineMatchingMarkers(visible);
+    return visible;
+  }
+
+  visibleMarkers(markers) {
+    if (!this.viewBounds) return markers;
+    const { left, right, top, bottom } = this.viewBounds;
+    return markers.filter(({ position }) => position.x >= left && position.x <= right && position.y >= top && position.y <= bottom);
   }
 
   clusterMarkers(markers) {
