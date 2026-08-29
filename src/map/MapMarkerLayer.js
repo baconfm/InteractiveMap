@@ -12,10 +12,12 @@ export class MapMarkerLayer {
     this.combineMatchingBelowZoom = combineMatchingBelowZoom;
     this.combineMatchingRadius = combineMatchingRadius;
     this.zoom = 1;
+    this.layoutZoom = 1;
   }
 
   render(markers) {
     this.markers = markers;
+    this.layoutZoom = this.zoom;
     const laidOutMarkers = this.layoutMarkers(this.displayMarkers(markers));
     this.element.replaceChildren(...laidOutMarkers.map((marker) => this.createMarker(marker)));
   }
@@ -23,17 +25,13 @@ export class MapMarkerLayer {
   setZoom(zoom) {
     const zoomChanged = Math.abs(zoom - this.zoom) > 0.001;
     if (!zoomChanged) return;
-    const shouldRelayout = Math.abs(zoom - this.zoom) > 0.03 || this.displayMode(zoom) !== this.displayMode(this.zoom);
+    const previousZoom = this.zoom;
     this.zoom = zoom;
+    this.element.style.setProperty("--map-marker-scale", String(1 / zoom));
+    const shouldRelayout = Math.abs(zoom - this.layoutZoom) > 0.3 || this.displayMode(zoom) !== this.displayMode(previousZoom);
     if (shouldRelayout && this.markers?.length) {
       this.render(this.markers);
-      return;
     }
-    this.element.querySelectorAll(".map-marker").forEach((marker) => {
-      marker.style.setProperty("--map-marker-scale", String(1 / zoom));
-      marker.style.setProperty("--map-marker-offset-x", `${Number(marker.dataset.layoutOffsetX ?? 0) / zoom}px`);
-      marker.style.setProperty("--map-marker-offset-y", `${Number(marker.dataset.layoutOffsetY ?? 0) / zoom}px`);
-    });
   }
 
   isClustering(zoom) {
@@ -208,9 +206,8 @@ export class MapMarkerLayer {
     element.dataset.layoutOffsetY = String(marker.layoutOffset?.y ?? 0);
     if (marker.type === "loot_cluster") element.classList.add("map-marker--cluster");
     if (marker.type === "loot_stack") element.classList.add("map-marker--stack");
-    element.style.setProperty("--map-marker-scale", String(1 / this.zoom));
-    element.style.setProperty("--map-marker-offset-x", `${(marker.layoutOffset?.x ?? 0) / this.zoom}px`);
-    element.style.setProperty("--map-marker-offset-y", `${(marker.layoutOffset?.y ?? 0) / this.zoom}px`);
+    element.style.setProperty("--map-marker-offset-x", `${marker.layoutOffset?.x ?? 0}px`);
+    element.style.setProperty("--map-marker-offset-y", `${marker.layoutOffset?.y ?? 0}px`);
     if (this.renderIcon) element.innerHTML = this.renderIcon(marker);
     if (this.onMarkerPointerDown) {
       element.classList.add("map-marker--editable");

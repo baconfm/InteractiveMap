@@ -217,7 +217,7 @@ button, output { font: inherit; }
 .save-state { color: #a8caa4; font-size: 0.68rem; white-space: nowrap; }
 .editor-toggle { padding: 9px 12px; font-size: 0.75rem; font-weight: 700; }
 .editor-toggle:hover, .editor-toggle.is-active { border-color: #d4a83e; background: #334235; }
-.map-marker { position: absolute; z-index: 4; display: grid; place-items: center; width: 34px; height: 34px; transform: translate(calc(-50% + var(--map-marker-offset-x, 0px)), calc(-50% + var(--map-marker-offset-y, 0px))) scale(var(--map-marker-scale, 1)); transform-origin: center; filter: drop-shadow(0 0 1px rgb(245 242 224 / 85%)) drop-shadow(0 1px 3px rgb(0 0 0 / 95%)); pointer-events: none; }
+.map-marker { position: absolute; z-index: 4; display: grid; place-items: center; width: 34px; height: 34px; transform: translate(-50%, -50%) scale(var(--map-marker-scale, 1)) translate(var(--map-marker-offset-x, 0px), var(--map-marker-offset-y, 0px)); transform-origin: center; filter: drop-shadow(0 0 1px rgb(245 242 224 / 85%)) drop-shadow(0 1px 3px rgb(0 0 0 / 95%)); pointer-events: none; }
 .map-marker--editable { cursor: grab; pointer-events: auto; }
 .map-marker--editable:active { cursor: grabbing; }
 .map-marker--interactive { cursor: pointer; pointer-events: auto; }
