@@ -340,7 +340,7 @@ button, output { font: inherit; }
   .map-hud { display: none; }
   .map-hud__section { padding: 11px 12px; }
   .map-hud__section--coordinates { display: none; }
-  .map-marker { filter: drop-shadow(0 0 1px rgb(245 242 224 / 85%)) drop-shadow(0 1px 3px rgb(0 0 0 / 95%)); }
+  .map-marker, .map-marker .loot-item-icon img { filter: none; }
   .map-legend, .map-hud { backdrop-filter: none; }
   .map-controls { right: 16px; bottom: 18px; }
   .map-hint { display: none; }
