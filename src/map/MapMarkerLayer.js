@@ -87,29 +87,13 @@ export class MapMarkerLayer {
 
   clusterMarkers(markers) {
     if (!this.isClustering(this.zoom)) return markers;
-    const pending = new Map(markers.map((marker) => [marker.id, marker]));
     const clusters = [];
     const radiusInMapUnits = this.clusterRadius / this.zoom;
-
-    while (pending.size) {
-      const [seedId, seed] = pending.entries().next().value;
-      pending.delete(seedId);
-      const members = [seed];
-      const queue = [seed];
-
-      while (queue.length) {
-        const current = queue.shift();
-        pending.forEach((candidate, candidateId) => {
-          if (Math.hypot(candidate.position.x - current.position.x, candidate.position.y - current.position.y) > radiusInMapUnits) return;
-          pending.delete(candidateId);
-          members.push(candidate);
-          queue.push(candidate);
-        });
-      }
-
+    this.nearbyGroups(markers, radiusInMapUnits).forEach((members) => {
+      const seed = members[0];
       if (members.length === 1) {
         clusters.push(seed);
-        continue;
+        return;
       }
 
       const position = members.reduce((total, marker) => ({
@@ -131,41 +115,19 @@ export class MapMarkerLayer {
         type: "loot_cluster",
         clusterCount: members.length,
       });
-    }
+    });
 
     return clusters;
   }
 
   combineMatchingMarkers(markers) {
-    const pending = new Map(markers.map((marker) => [marker.id, marker]));
-    const stacks = [];
+    const stacks = markers.filter((marker) => marker.type !== "loot_item");
     const radiusInMapUnits = this.combineMatchingRadius / this.zoom;
-
-    while (pending.size) {
-      const [seedId, seed] = pending.entries().next().value;
-      pending.delete(seedId);
-      if (seed.type !== "loot_item") {
-        stacks.push(seed);
-        continue;
-      }
-
-      const members = [seed];
-      const queue = [seed];
-      while (queue.length) {
-        const current = queue.shift();
-        pending.forEach((candidate, candidateId) => {
-          const isMatchingLoot = candidate.type === "loot_item" && candidate.title === seed.title;
-          const isNearby = Math.hypot(candidate.position.x - current.position.x, candidate.position.y - current.position.y) <= radiusInMapUnits;
-          if (!isMatchingLoot || !isNearby) return;
-          pending.delete(candidateId);
-          members.push(candidate);
-          queue.push(candidate);
-        });
-      }
-
+    this.nearbyGroups(markers.filter((marker) => marker.type === "loot_item"), radiusInMapUnits, (seed, candidate) => seed.title === candidate.title).forEach((members) => {
+      const seed = members[0];
       if (members.length === 1) {
         stacks.push(seed);
-        continue;
+        return;
       }
 
       const position = members.reduce((total, marker) => ({
@@ -180,9 +142,46 @@ export class MapMarkerLayer {
         type: "loot_stack",
         stackCount: members.length,
       });
-    }
+    });
 
     return stacks;
+  }
+
+  nearbyGroups(markers, radius, matches = () => true) {
+    const cellKey = (marker) => `${Math.floor(marker.position.x / radius)},${Math.floor(marker.position.y / radius)}`;
+    const cells = new Map();
+    markers.forEach((marker) => {
+      const key = cellKey(marker);
+      if (!cells.has(key)) cells.set(key, new Set());
+      cells.get(key).add(marker);
+    });
+    const pending = new Set(markers);
+    const remove = (marker) => {
+      pending.delete(marker);
+      cells.get(cellKey(marker))?.delete(marker);
+    };
+    const groups = [];
+    while (pending.size) {
+      const seed = pending.values().next().value;
+      const members = [seed];
+      const queue = [seed];
+      remove(seed);
+      while (queue.length) {
+        const current = queue.shift();
+        const x = Math.floor(current.position.x / radius);
+        const y = Math.floor(current.position.y / radius);
+        for (let row = y - 1; row <= y + 1; row += 1) for (let column = x - 1; column <= x + 1; column += 1) {
+          for (const candidate of [...(cells.get(`${column},${row}`) ?? [])]) {
+            if (!matches(seed, candidate) || Math.hypot(candidate.position.x - current.position.x, candidate.position.y - current.position.y) > radius) continue;
+            remove(candidate);
+            members.push(candidate);
+            queue.push(candidate);
+          }
+        }
+      }
+      groups.push(members);
+    }
+    return groups;
   }
 
   layoutMarkers(markers) {
