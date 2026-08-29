@@ -74,7 +74,7 @@ export class MapMarkerLayer {
   }
 
   displayMarkers(markers) {
-    if (this.isClustering(this.zoom)) return this.clusterSingletons ? this.gridClusters(markers) : this.clusterMarkers(markers);
+    if (this.isClustering(this.zoom)) return this.clusterSingletons ? this.overviewRegionClusters(markers) : this.clusterMarkers(markers);
     const visible = this.visibleMarkers(markers);
     if (this.isCombiningMatching(this.zoom)) return this.combineMatchingMarkers(visible);
     return visible;
@@ -92,15 +92,32 @@ export class MapMarkerLayer {
     return this.clustersFromGroups(this.nearbyGroups(markers, radiusInMapUnits));
   }
 
-  gridClusters(markers) {
-    const cellSize = 100 / this.zoom;
-    const cells = new Map();
+  overviewRegionClusters(markers) {
+    const regions = new Map();
     markers.forEach((marker) => {
-      const key = `${Math.floor(marker.position.x / cellSize)},${Math.floor(marker.position.y / cellSize)}`;
-      if (!cells.has(key)) cells.set(key, []);
-      cells.get(key).push(marker);
+      const key = marker.region || "Unassigned";
+      if (!regions.has(key)) regions.set(key, []);
+      regions.get(key).push(marker);
     });
-    return this.clustersFromGroups(cells.values());
+    const groups = [];
+    regions.forEach((regionMarkers) => {
+      const xValues = regionMarkers.map((marker) => marker.position.x);
+      const yValues = regionMarkers.map((marker) => marker.position.y);
+      const minimumX = Math.min(...xValues);
+      const minimumY = Math.min(...yValues);
+      const width = Math.max(1, Math.max(...xValues) - minimumX + 1);
+      const height = Math.max(1, Math.max(...yValues) - minimumY + 1);
+      const cells = new Map();
+      regionMarkers.forEach((marker) => {
+        const column = Math.min(2, Math.floor(((marker.position.x - minimumX) / width) * 3));
+        const row = Math.min(1, Math.floor(((marker.position.y - minimumY) / height) * 2));
+        const key = `${column},${row}`;
+        if (!cells.has(key)) cells.set(key, []);
+        cells.get(key).push(marker);
+      });
+      groups.push(...cells.values());
+    });
+    return this.clustersFromGroups(groups);
   }
 
   clustersFromGroups(groups) {
