@@ -17,10 +17,11 @@ export class MapTileRenderer {
     }
 
     const tileSize = this.tileSet.logicalTileSize;
-    const left = Math.max(0, Math.floor((-camera.x / camera.zoom) / tileSize));
-    const top = Math.max(0, Math.floor((-camera.y / camera.zoom) / tileSize));
-    const right = Math.min(this.tileSet.columns - 1, Math.floor(((viewport.width - camera.x) / camera.zoom) / tileSize));
-    const bottom = Math.min(this.tileSet.rows - 1, Math.floor(((viewport.height - camera.y) / camera.zoom) / tileSize));
+    const buffer = 2;
+    const left = Math.max(0, Math.floor((-camera.x / camera.zoom) / tileSize) - buffer);
+    const top = Math.max(0, Math.floor((-camera.y / camera.zoom) / tileSize) - buffer);
+    const right = Math.min(this.tileSet.columns - 1, Math.floor(((viewport.width - camera.x) / camera.zoom) / tileSize) + buffer);
+    const bottom = Math.min(this.tileSet.rows - 1, Math.floor(((viewport.height - camera.y) / camera.zoom) / tileSize) + buffer);
     const visible = new Set();
 
     for (let y = top; y <= bottom; y += 1) {

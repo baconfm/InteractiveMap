@@ -148,6 +148,7 @@ export class MapMarkerLayer {
   }
 
   nearbyGroups(markers, radius, matches = () => true) {
+    const radiusSquared = radius * radius;
     const cellKey = (marker) => `${Math.floor(marker.position.x / radius)},${Math.floor(marker.position.y / radius)}`;
     const cells = new Map();
     markers.forEach((marker) => {
@@ -172,7 +173,9 @@ export class MapMarkerLayer {
         const y = Math.floor(current.position.y / radius);
         for (let row = y - 1; row <= y + 1; row += 1) for (let column = x - 1; column <= x + 1; column += 1) {
           for (const candidate of [...(cells.get(`${column},${row}`) ?? [])]) {
-            if (!matches(seed, candidate) || Math.hypot(candidate.position.x - current.position.x, candidate.position.y - current.position.y) > radius) continue;
+            const xDistance = candidate.position.x - current.position.x;
+            const yDistance = candidate.position.y - current.position.y;
+            if (!matches(seed, candidate) || xDistance * xDistance + yDistance * yDistance > radiusSquared) continue;
             remove(candidate);
             members.push(candidate);
             queue.push(candidate);
@@ -194,7 +197,11 @@ export class MapMarkerLayer {
 
       for (let attempt = 0; attempt < 32; attempt += 1) {
         const candidate = { x: origin.x + offset.x, y: origin.y + offset.y };
-        const overlaps = placed.some((point) => Math.hypot(point.x - candidate.x, point.y - candidate.y) < minimumSpacing);
+        const overlaps = placed.some((point) => {
+          const xDistance = point.x - candidate.x;
+          const yDistance = point.y - candidate.y;
+          return xDistance * xDistance + yDistance * yDistance < minimumSpacing * minimumSpacing;
+        });
         if (!overlaps) break;
         const ring = Math.floor(attempt / 7) + 1;
         const angle = attempt * 2.4;
