@@ -85,6 +85,14 @@ export class MapEngine {
       this.requestRender();
     }, { passive: false });
     this.viewport.addEventListener("pointerdown", (event) => {
+      if (event.pointerType !== "touch" || !event.target.closest?.(".map-marker")) return;
+      this.activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+      if (this.activePointers.size === 2) {
+        this.startPinch();
+        this.dragStart = null;
+      }
+    }, { capture: true });
+    this.viewport.addEventListener("pointerdown", (event) => {
       this.viewport.setPointerCapture(event.pointerId);
       this.activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
       if (this.activePointers.size === 2) {
