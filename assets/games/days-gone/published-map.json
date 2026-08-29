@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-29T16:11:07.874Z",
+  "savedAt": "2026-08-29T16:29:06.287Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -467,6 +467,18 @@
       "position": {
         "x": 1978.5612524450146,
         "y": 4155.779429310624
+      },
+      "region": "Crater Lake"
+    },
+    {
+      "id": "map-location-1788020276711",
+      "title": "Snare Trap",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2441.102848184664,
+        "y": 4160.26733766802
       },
       "region": "Crater Lake"
     }
@@ -56202,6 +56214,758 @@
         "x": 1616.9391328307004,
         "y": 3567.064048395218
       }
+    },
+    {
+      "id": "manual-loot-1788020002614",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2397.3611915677097,
+        "y": 4219.544424613018
+      }
+    },
+    {
+      "id": "manual-loot-1788020084858",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2446.942492334883,
+        "y": 4149.185347037825
+      }
+    },
+    {
+      "id": "manual-loot-1788020095523",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2439.563683001412,
+        "y": 4157.179057149085
+      }
+    },
+    {
+      "id": "manual-loot-1788020106612",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.6133522607092,
+        "y": 4172.961510445675
+      }
+    },
+    {
+      "id": "manual-loot-1788020114390",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.6070623719697,
+        "y": 4178.290650519849
+      }
+    },
+    {
+      "id": "manual-loot-1788020244312",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.102848184664,
+        "y": 4162.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020295508",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2492.302848184664,
+        "y": 4161.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020309182",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.002848184664,
+        "y": 4158.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020325650",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4159.067337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020340248",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.2028481846637,
+        "y": 4166.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020346651",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4167.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020354258",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.2028481846637,
+        "y": 4164.567337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020363616",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2509.002848184664,
+        "y": 4177.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020463013",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.8666663157555,
+        "y": 4174.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020465443",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.4499996490886,
+        "y": 4175.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020473824",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2520.783332982422,
+        "y": 4175.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020491564",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2521.9499996490886,
+        "y": 4178.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020501171",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.866666315755,
+        "y": 4172.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020505109",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.1999996490886,
+        "y": 4169.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020537468",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2540.6999996490886,
+        "y": 4166.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020540516",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2543.616666315755,
+        "y": 4165.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020545490",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2541.866666315755,
+        "y": 4168.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020556712",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2536.616666315755,
+        "y": 4159.962736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020561282",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2538.866666315755,
+        "y": 4160.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020563535",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2539.616666315755,
+        "y": 4162.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020571840",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2534.033332982422,
+        "y": 4166.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020576335",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2536.4499996490886,
+        "y": 4169.046069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020679735",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2661.283332982422,
+        "y": 4095.1294031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020692637",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2675.116666315755,
+        "y": 4098.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020697430",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.9499996490886,
+        "y": 4098.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020722063",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.533332982422,
+        "y": 4089.8794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020742383",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2716.033332982422,
+        "y": 4052.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020750841",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.866666315755,
+        "y": 4048.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020756822",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2727.033332982422,
+        "y": 4038.3794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020760590",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2720.116666315755,
+        "y": 4035.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020802326",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.283332982422,
+        "y": 4067.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020809417",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4078.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020812080",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4084.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020833831",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.783332982422,
+        "y": 4085.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020847263",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2728.6999996490886,
+        "y": 4097.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020874272",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2725.6999996490886,
+        "y": 4090.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020896830",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2695.866666315755,
+        "y": 4113.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020899770",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.9499996490886,
+        "y": 4117.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020904183",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.783332982422,
+        "y": 4115.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020914899",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.033332982422,
+        "y": 4112.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020920787",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2705.033332982422,
+        "y": 4113.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020924106",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2707.783332982422,
+        "y": 4111.879403166492
+      }
     }
   ],
   "lootMarkers": [
@@ -110304,6 +111068,758 @@
       "position": {
         "x": 1616.9391328307004,
         "y": 3567.064048395218
+      }
+    },
+    {
+      "id": "manual-loot-1788020002614",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2397.3611915677097,
+        "y": 4219.544424613018
+      }
+    },
+    {
+      "id": "manual-loot-1788020084858",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2446.942492334883,
+        "y": 4149.185347037825
+      }
+    },
+    {
+      "id": "manual-loot-1788020095523",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2439.563683001412,
+        "y": 4157.179057149085
+      }
+    },
+    {
+      "id": "manual-loot-1788020106612",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.6133522607092,
+        "y": 4172.961510445675
+      }
+    },
+    {
+      "id": "manual-loot-1788020114390",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.6070623719697,
+        "y": 4178.290650519849
+      }
+    },
+    {
+      "id": "manual-loot-1788020244312",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.102848184664,
+        "y": 4162.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020295508",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2492.302848184664,
+        "y": 4161.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020309182",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.002848184664,
+        "y": 4158.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020325650",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4159.067337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020340248",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.2028481846637,
+        "y": 4166.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020346651",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4167.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020354258",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.2028481846637,
+        "y": 4164.567337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020363616",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2509.002848184664,
+        "y": 4177.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020463013",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.8666663157555,
+        "y": 4174.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020465443",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.4499996490886,
+        "y": 4175.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020473824",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2520.783332982422,
+        "y": 4175.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020491564",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2521.9499996490886,
+        "y": 4178.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020501171",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.866666315755,
+        "y": 4172.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020505109",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.1999996490886,
+        "y": 4169.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020537468",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2540.6999996490886,
+        "y": 4166.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020540516",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2543.616666315755,
+        "y": 4165.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020545490",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2541.866666315755,
+        "y": 4168.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020556712",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2536.616666315755,
+        "y": 4159.962736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020561282",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2538.866666315755,
+        "y": 4160.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020563535",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2539.616666315755,
+        "y": 4162.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020571840",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2534.033332982422,
+        "y": 4166.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020576335",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2536.4499996490886,
+        "y": 4169.046069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020679735",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2661.283332982422,
+        "y": 4095.1294031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020692637",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2675.116666315755,
+        "y": 4098.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020697430",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.9499996490886,
+        "y": 4098.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020722063",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.533332982422,
+        "y": 4089.8794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020742383",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2716.033332982422,
+        "y": 4052.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020750841",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.866666315755,
+        "y": 4048.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020756822",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2727.033332982422,
+        "y": 4038.3794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020760590",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2720.116666315755,
+        "y": 4035.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020802326",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.283332982422,
+        "y": 4067.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020809417",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4078.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020812080",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4084.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020833831",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.783332982422,
+        "y": 4085.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020847263",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2728.6999996490886,
+        "y": 4097.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020874272",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2725.6999996490886,
+        "y": 4090.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020896830",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2695.866666315755,
+        "y": 4113.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020899770",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.9499996490886,
+        "y": 4117.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020904183",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.783332982422,
+        "y": 4115.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020914899",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.033332982422,
+        "y": 4112.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020920787",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2705.033332982422,
+        "y": 4113.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020924106",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2707.783332982422,
+        "y": 4111.879403166492
       }
     }
   ],
@@ -164408,7 +165924,759 @@
         "x": 1616.9391328307004,
         "y": 3567.064048395218
       }
+    },
+    {
+      "id": "manual-loot-1788020002614",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2397.3611915677097,
+        "y": 4219.544424613018
+      }
+    },
+    {
+      "id": "manual-loot-1788020084858",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2446.942492334883,
+        "y": 4149.185347037825
+      }
+    },
+    {
+      "id": "manual-loot-1788020095523",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2439.563683001412,
+        "y": 4157.179057149085
+      }
+    },
+    {
+      "id": "manual-loot-1788020106612",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2441.6133522607092,
+        "y": 4172.961510445675
+      }
+    },
+    {
+      "id": "manual-loot-1788020114390",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.6070623719697,
+        "y": 4178.290650519849
+      }
+    },
+    {
+      "id": "manual-loot-1788020244312",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2449.102848184664,
+        "y": 4162.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020295508",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2492.302848184664,
+        "y": 4161.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020309182",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.002848184664,
+        "y": 4158.867337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020325650",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4159.067337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020340248",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.2028481846637,
+        "y": 4166.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020346651",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2502.302848184664,
+        "y": 4167.667337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020354258",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2506.2028481846637,
+        "y": 4164.567337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020363616",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2509.002848184664,
+        "y": 4177.367337668021
+      }
+    },
+    {
+      "id": "manual-loot-1788020463013",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.8666663157555,
+        "y": 4174.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020465443",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2511.4499996490886,
+        "y": 4175.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020473824",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2520.783332982422,
+        "y": 4175.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020491564",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2521.9499996490886,
+        "y": 4178.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020501171",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.866666315755,
+        "y": 4172.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020505109",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2522.1999996490886,
+        "y": 4169.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020537468",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2540.6999996490886,
+        "y": 4166.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020540516",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2543.616666315755,
+        "y": 4165.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020545490",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2541.866666315755,
+        "y": 4168.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020556712",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2536.616666315755,
+        "y": 4159.962736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020561282",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2538.866666315755,
+        "y": 4160.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020563535",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2539.616666315755,
+        "y": 4162.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020571840",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2534.033332982422,
+        "y": 4166.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020576335",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2536.4499996490886,
+        "y": 4169.046069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020679735",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2661.283332982422,
+        "y": 4095.1294031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020692637",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2675.116666315755,
+        "y": 4098.796069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020697430",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.9499996490886,
+        "y": 4098.129403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020722063",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2679.533332982422,
+        "y": 4089.8794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020742383",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2716.033332982422,
+        "y": 4052.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020750841",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.866666315755,
+        "y": 4048.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020756822",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2727.033332982422,
+        "y": 4038.3794031664916
+      }
+    },
+    {
+      "id": "manual-loot-1788020760590",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2720.116666315755,
+        "y": 4035.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020802326",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.283332982422,
+        "y": 4067.0460698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020809417",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4078.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020812080",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2694.4499996490886,
+        "y": 4084.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020833831",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2723.783332982422,
+        "y": 4085.7960698331585
+      }
+    },
+    {
+      "id": "manual-loot-1788020847263",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2728.6999996490886,
+        "y": 4097.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020874272",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2725.6999996490886,
+        "y": 4090.462736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020896830",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2695.866666315755,
+        "y": 4113.879403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020899770",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2696.9499996490886,
+        "y": 4117.212736499825
+      }
+    },
+    {
+      "id": "manual-loot-1788020904183",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.783332982422,
+        "y": 4115.546069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020914899",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2700.033332982422,
+        "y": 4112.379403166492
+      }
+    },
+    {
+      "id": "manual-loot-1788020920787",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2705.033332982422,
+        "y": 4113.296069833158
+      }
+    },
+    {
+      "id": "manual-loot-1788020924106",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2707.783332982422,
+        "y": 4111.879403166492
+      }
     }
   ],
-  "generatedAt": "2026-08-29T16:11:08.331Z"
+  "generatedAt": "2026-08-29T16:29:06.742Z"
 }
