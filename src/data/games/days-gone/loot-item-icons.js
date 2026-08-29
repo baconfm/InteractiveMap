@@ -166,7 +166,7 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Can") {
-    return '<span class="loot-item-icon"><img src="/assets/icons/Can.webp" alt="" aria-hidden="true"></span>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/Can.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Dog Toy") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#e28b5a" stroke="#182018" stroke-width="2"/><path d="m8 11 3 3m6 0 3-3M8 17l3-3m6 0 3 3M10 11h8v6h-8z" fill="#f7e4bb" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>';
@@ -191,7 +191,7 @@ export function renderLootItemIcon(itemName, quantity = 1) {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#73ae68" stroke="#182018" stroke-width="2"/><path d="M14 22V7M14 16c-6 0-7-5-7-8 5 0 7 3 7 8Zm0-4c5 0 7-4 7-7-5 0-7 3-7 7Z" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
   if (itemName === "Kerosene") {
-    return '<span class="loot-item-icon"><img src="/assets/icons/kerosene.webp" alt="" aria-hidden="true"></span>';
+    return '<span class="loot-item-icon"><img src="/assets/icons/kerosene.svg" alt="" aria-hidden="true"></span>';
   }
   if (itemName === "Sterilizer") {
     return '<span class="loot-item-icon"><img src="/assets/icons/sterilizer.svg" alt="" aria-hidden="true"></span>';
