@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T11:18:51.657Z",
+  "generatedAt": "2026-08-29T13:21:31.480Z",
   "regions": [
     {
       "id": "cascades",
@@ -34,7 +34,7 @@
       "id": "crater-lake",
       "label": "Crater Lake",
       "path": "assets/games/days-gone/regions/crater-lake.json",
-      "markerCount": 106,
+      "markerCount": 177,
       "locationCount": 1
     },
     {
