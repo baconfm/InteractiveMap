@@ -3,6 +3,38 @@
   "region": "Crater Lake",
   "markers": [
     {
+      "id": "manual-loot-1788015907785",
+      "type": "loot_item",
+      "title": "Superior Axe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1998.4730907068092,
+        "y": 4202.6834653235965
+      }
+    },
+    {
+      "id": "manual-loot-1788015938443",
+      "type": "loot_item",
+      "title": "Superior Mace",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2000.4730907068094,
+        "y": 4167.1834653235965
+      }
+    },
+    {
       "id": "manual-loot-1787948035750",
       "type": "loot_item",
       "title": "Poison",
@@ -7003,22 +7035,6 @@
       }
     },
     {
-      "id": "manual-loot-1788015907785",
-      "type": "loot_item",
-      "title": "Superior Axe",
-      "location": "Manual placement",
-      "region": "Crater Lake",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1998.4730907068092,
-        "y": 4202.6834653235965
-      }
-    },
-    {
       "id": "manual-loot-1788015920826",
       "type": "loot_item",
       "title": "Bottle",
@@ -7030,8 +7046,8 @@
       "quantity": 1,
       "oneTimeSpawn": false,
       "position": {
-        "x": 2001.4730907068092,
-        "y": 4202.1834653235965
+        "x": 2002.7279191116813,
+        "y": 4203.279429310624
       }
     },
     {
@@ -7048,22 +7064,6 @@
       "position": {
         "x": 2008.5564240401427,
         "y": 4199.1834653235965
-      }
-    },
-    {
-      "id": "manual-loot-1788015938443",
-      "type": "loot_item",
-      "title": "Superior Mace",
-      "location": "Manual placement",
-      "region": "Crater Lake",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 2000.4730907068094,
-        "y": 4167.1834653235965
       }
     },
     {
@@ -7498,6 +7498,984 @@
         "x": 2150.894585778348,
         "y": 4184.4460959772905
       }
+    },
+    {
+      "id": "manual-loot-1788016785686",
+      "type": "loot_item",
+      "title": "Medkit",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2138,
+        "y": 4217
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788016797217",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2126.561252445015,
+        "y": 4214.1127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788016805960",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2099.394585778348,
+        "y": 4220.3627626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788016808896",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2097.9779191116813,
+        "y": 4216.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788016817622",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2087.9779191116813,
+        "y": 4207.029429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017067285",
+      "type": "loot_item",
+      "title": "Superior Axe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2001.644585778348,
+        "y": 4168.1960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017087074",
+      "type": "loot_item",
+      "title": "Superior Mace",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1998.8945857783478,
+        "y": 4201.9460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017225650",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1705.644585778348,
+        "y": 4455.779429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017229033",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1702.644585778348,
+        "y": 4457.1960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017241561",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1699.0453174486768,
+        "y": 4457.725995034017
+      }
+    },
+    {
+      "id": "manual-loot-1788017275466",
+      "type": "loot_item",
+      "title": "Sledgehammer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1604.4779191116813,
+        "y": 4454.279429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017285744",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1606.894585778348,
+        "y": 4448.9460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017308314",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1580.2279191116813,
+        "y": 4468.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017324011",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1523.4779191116813,
+        "y": 4512.1127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017326049",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1527.5612524450146,
+        "y": 4508.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017369384",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1472.2279191116813,
+        "y": 4467.529429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017372472",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1475.5612524450146,
+        "y": 4468.6960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017375424",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1478.2279191116813,
+        "y": 4470.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017382943",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1483.2279191116813,
+        "y": 4469.4460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017388788",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1485.144585778348,
+        "y": 4470.3627626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017392267",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1485.3112524450146,
+        "y": 4472.029429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017399737",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1487.144585778348,
+        "y": 4464.779429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017406210",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1490.894585778348,
+        "y": 4465.1960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017414130",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1505.3112524450146,
+        "y": 4461.4460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017418468",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1505.2279191116813,
+        "y": 4459.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017429311",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1509.8112524450146,
+        "y": 4457.279429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017433582",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1510.9779191116813,
+        "y": 4460.029429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017437084",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1509.3112524450146,
+        "y": 4456.4460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017455324",
+      "type": "loot_item",
+      "title": "Saw Blade",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1481.894585778348,
+        "y": 4452.529429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017460194",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1481.9779191116813,
+        "y": 4452.8627626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017486025",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1485.3112524450146,
+        "y": 4458.3627626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017502135",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1499.394585778348,
+        "y": 4441.6960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017517447",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1502.5612524450146,
+        "y": 4417.279429310624
+      }
+    },
+    {
+      "id": "manual-loot-1788017550574",
+      "type": "loot_item",
+      "title": "Machete",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1530.2279191116813,
+        "y": 4398.9460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017564025",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1545.394585778348,
+        "y": 4414.1960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017575351",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1503.9779191116813,
+        "y": 4395.1127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017604678",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1444.894585778348,
+        "y": 4472.6127626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017708138",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1389.7279191116813,
+        "y": 4399.1960959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017719107",
+      "type": "loot_item",
+      "title": "Hatchet",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1393.3112524450146,
+        "y": 4394.9460959772905
+      }
+    },
+    {
+      "id": "manual-loot-1788017722128",
+      "type": "loot_item",
+      "title": "Fire Axe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1389.0612524450146,
+        "y": 4395.3627626439575
+      }
+    },
+    {
+      "id": "manual-loot-1788017759373",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1363.4587111142846,
+        "y": 4412.38227491967
+      }
+    },
+    {
+      "id": "manual-loot-1788017768289",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1352.5259983119415,
+        "y": 4432.8811114240625
+      }
+    },
+    {
+      "id": "manual-loot-1788017964967",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2111.6536764945417,
+        "y": 4928.951690507359
+      }
+    },
+    {
+      "id": "manual-loot-1788017972409",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2109.3203431612083,
+        "y": 4916.618357174025
+      }
+    },
+    {
+      "id": "manual-loot-1788017995288",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2101.1536764945417,
+        "y": 4913.785023840692
+      }
+    },
+    {
+      "id": "manual-loot-1788017998840",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2092.4036764945417,
+        "y": 4918.785023840692
+      }
+    },
+    {
+      "id": "manual-loot-1788018028705",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2127.1536764945417,
+        "y": 4959.201690507359
+      }
+    },
+    {
+      "id": "manual-loot-1788018032689",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2121.1536764945417,
+        "y": 4961.118357174025
+      }
+    },
+    {
+      "id": "manual-loot-1788018307656",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2010.32902608857,
+        "y": 4379.81062790446
+      }
+    },
+    {
+      "id": "manual-loot-1788018312560",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2009.0291752435874,
+        "y": 4377.180870131816
+      }
+    },
+    {
+      "id": "manual-loot-1788018323745",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2019.620959229633,
+        "y": 4380.391373725776
+      }
+    },
+    {
+      "id": "manual-loot-1788018330869",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2022.6408375004785,
+        "y": 4387.3603235815735
+      }
+    },
+    {
+      "id": "manual-loot-1788018341892",
+      "type": "collectible_mushroom",
+      "title": "Mushroom",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2031.0035773274356,
+        "y": 4377.952241276247
+      }
+    },
+    {
+      "id": "manual-loot-1788018355313",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2059.4601225719416,
+        "y": 4396.884555051163
+      }
+    },
+    {
+      "id": "manual-loot-1788018369755",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2094.072573522402,
+        "y": 4397.81374836527
+      }
+    },
+    {
+      "id": "manual-loot-1788018380833",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2088.6135628020274,
+        "y": 4422.205072860561
+      }
+    },
+    {
+      "id": "manual-loot-1788018396838",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2098.95083842146,
+        "y": 4432.890795972783
+      }
+    },
+    {
+      "id": "manual-loot-1788018405697",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2097,
+        "y": 4429
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788018553937",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2359.727827041033,
+        "y": 4878.01398643426
+      }
+    },
+    {
+      "id": "manual-loot-1788018564105",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2383.439337240795,
+        "y": 4922.580198375981
+      }
+    },
+    {
+      "id": "manual-loot-1788018589284",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2380.0111670914316,
+        "y": 4986.287026984981
+      }
     }
   ],
   "locations": [
@@ -7522,6 +8500,18 @@
       "position": {
         "x": 2036.1874354808476,
         "y": 4021.2677201424267
+      },
+      "region": "Crater Lake"
+    },
+    {
+      "id": "map-location-1788016897788",
+      "title": "Sniper ambush",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1978.5612524450146,
+        "y": 4155.779429310624
       },
       "region": "Crater Lake"
     }
