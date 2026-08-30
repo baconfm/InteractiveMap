@@ -9255,6 +9255,30 @@
         "y": 575.5518787997354
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1788088548472",
+      "title": "Clothesline Trap",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1290.6653056727716,
+        "y": 1569.4488472415112
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1788088555134",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1247.0819723394384,
+        "y": 1549.5321805748445
+      },
+      "region": "Belknap"
     }
   ]
 }

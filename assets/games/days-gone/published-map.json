@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-30T10:18:42.673Z",
+  "savedAt": "2026-08-30T11:17:17.012Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -543,6 +543,42 @@
         "y": 4146.2533625908045
       },
       "region": "Highway 97"
+    },
+    {
+      "id": "map-location-1788087568709",
+      "title": "Clothesline Trap",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2993.0589967388164,
+        "y": 5484.178886251945
+      },
+      "region": "Highway 97"
+    },
+    {
+      "id": "map-location-1788088548472",
+      "title": "Clothesline Trap",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1290.6653056727716,
+        "y": 1569.4488472415112
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1788088555134",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1247.0819723394384,
+        "y": 1549.5321805748445
+      },
+      "region": "Belknap"
     }
   ],
   "mapLines": [
@@ -200691,5 +200727,5 @@
       }
     }
   ],
-  "generatedAt": "2026-08-30T10:18:43.169Z"
+  "generatedAt": "2026-08-30T11:17:17.159Z"
 }
