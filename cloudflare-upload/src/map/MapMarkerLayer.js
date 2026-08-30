@@ -134,6 +134,7 @@ export class MapMarkerLayer {
         y: total.y + marker.position.y / members.length,
       }), { x: 0, y: 0 });
       const pickups = members.filter((marker) => marker.type !== "random_encounter");
+      const randomEncounters = members.length - pickups.length;
       if (!pickups.length) {
         clusters.push(...members);
         return;
@@ -149,6 +150,7 @@ export class MapMarkerLayer {
         title: `${pickups.length} nearby pickups`,
         items,
         craftable: craftableRecipesForItems(items).map(({ name }) => name),
+        randomEncounters,
         position,
         type: "loot_cluster",
         clusterCount: pickups.length,

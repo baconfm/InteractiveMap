@@ -42,6 +42,7 @@ const ITEM_BADGES = {
   "Remote Bomb": ["RB", "#9b74ba"],
   "Ripper Axe": ["RX", "#a9554b"],
   SAF: ["SAF", "#6f8fa8"],
+  SAP9: ["S9", "#6f8090"],
   "Saw Blade": ["SB", "#afb5ba"],
   "Sawed Off": ["SO", "#7f695b"],
   Scrap: ["SC", "#c69058"],
@@ -134,6 +135,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "SAF") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#6f8fa8" stroke="#182018" stroke-width="2"/><path d="M7 16h11l4-3 1 2-4 4H7v-3Zm4-3h6v3h-6z" fill="#edf3f0" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/></svg>';
+  }
+  if (itemName === "SAP9") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#6f8090" stroke="#182018" stroke-width="2"/><path d="M8 13h12l-2 5h-3l-1 4h-3l1-4H8v-5Zm4 0 2-3h5l1 3" fill="#edf3f0" stroke="#182018" stroke-linejoin="round" stroke-width="1.4"/></svg>';
   }
   if (itemName === "M40") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#6d8791" stroke="#182018" stroke-width="2"/><path d="M6 16h14l3-2 1 2-4 4H6v-4Zm7-4h6v3h-6zm-3 8 2 3m5-3 2 3" fill="#edf3f0" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/></svg>';

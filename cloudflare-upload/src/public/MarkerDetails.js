@@ -22,12 +22,13 @@ export function createMarkerDetails({ layer }) {
 
   close?.addEventListener("click", () => { panel.hidden = true; });
 
-  const summarySection = (label, entries) => {
+  const summarySection = (label, entries, className = "") => {
     const section = document.createElement("section");
     const heading = document.createElement("span");
     heading.textContent = label;
     const list = document.createElement("div");
     list.className = "marker-details__chips";
+    if (className) list.classList.add(className);
     list.replaceChildren(...entries.map((entry) => Object.assign(document.createElement("span"), { textContent: entry })));
     section.append(heading, list);
     return section;
@@ -46,6 +47,7 @@ export function createMarkerDetails({ layer }) {
       if (marker.type === "loot_cluster") {
         description.append(summarySection("Nearby loot", marker.items.map(({ title: itemTitle, count }) => `${itemTitle} ×${count}`)));
         if (marker.craftable?.length) description.append(summarySection("Craftable here", marker.craftable));
+        if (marker.randomEncounters) description.append(summarySection("Random encounters", [`Random encounter ×${marker.randomEncounters}`], "marker-details__chips--encounters"));
       } else {
         description.textContent = marker.note || marker.grid || "No additional location notes yet.";
       }

@@ -183,6 +183,7 @@ button, output { font: inherit; }
 .marker-details__chips { display: flex; flex-wrap: wrap; gap: 5px; }
 .marker-details__chips span { padding: 3px 6px; color: #e7ecdf; background: #202b22; border: 1px solid #3c493e; border-radius: 3px; font-weight: 700; }
 .marker-details__description section + section .marker-details__chips span { color: #f5d77f; border-color: #79632b; background: #332b17; }
+.marker-details__chips--encounters span, .marker-details__description section + section .marker-details__chips--encounters span { color: #d9efff; border-color: #367fae; background: #16354a; }
 .marker-details__close { align-self: start; width: 23px; height: 23px; padding: 0; color: #dce3d6; background: #202b22; border: 1px solid #3d4a3e; border-radius: 2px; font: 1rem/1 Arial, sans-serif; cursor: pointer; }
 .marker-details__close:hover, .marker-details__close:focus-visible { border-color: #d4a83e; outline: none; }
 .hide-deek-panel { position: absolute; z-index: 6; top: 312px; left: 32px; display: grid; gap: 10px; width: min(310px, calc(100vw - 64px)); padding: 13px; color: #edf0de; background: rgb(10 15 12 / 96%); border: 1px solid rgb(227 183 70 / 40%); border-radius: 3px; box-shadow: 0 18px 48px rgb(0 0 0 / 50%); backdrop-filter: blur(10px); }
