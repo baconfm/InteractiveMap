@@ -133,7 +133,12 @@ export class MapMarkerLayer {
         x: total.x + marker.position.x / members.length,
         y: total.y + marker.position.y / members.length,
       }), { x: 0, y: 0 });
-      const items = Object.entries(members.reduce((counts, marker) => {
+      const pickups = members.filter((marker) => marker.type !== "random_encounter");
+      if (!pickups.length) {
+        clusters.push(...members);
+        return;
+      }
+      const items = Object.entries(pickups.reduce((counts, marker) => {
         counts[marker.title] = (counts[marker.title] ?? 0) + (Number(marker.quantity) || 1);
         return counts;
       }, {}))
@@ -141,12 +146,12 @@ export class MapMarkerLayer {
         .map(([title, count]) => ({ title, count }));
       clusters.push({
         id: `loot-cluster-${members.map((marker) => marker.id).sort().join("-")}`,
-        title: `${members.length} nearby pickups`,
+        title: `${pickups.length} nearby pickups`,
         items,
         craftable: craftableRecipesForItems(items).map(({ name }) => name),
         position,
         type: "loot_cluster",
-        clusterCount: members.length,
+        clusterCount: pickups.length,
       });
     });
     return clusters;
