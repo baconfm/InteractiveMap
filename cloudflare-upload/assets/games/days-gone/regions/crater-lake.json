@@ -11151,6 +11151,54 @@
         "x": 2492.535972285249,
         "y": 5817.794317281242
       }
+    },
+    {
+      "id": "manual-loot-1788075286215",
+      "type": "loot_item",
+      "title": "SAP9",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2189.540823437221,
+        "y": 5621.423616403393
+      }
+    },
+    {
+      "id": "manual-loot-1788082934448",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2499.16273111041,
+        "y": 4346.586507003548
+      }
+    },
+    {
+      "id": "manual-loot-1788082937089",
+      "type": "loot_item",
+      "title": "Ammo Tin",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 2504.102397815839,
+        "y": 4350.114840364569
+      }
     }
   ],
   "locations": [

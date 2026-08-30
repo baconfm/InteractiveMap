@@ -23521,6 +23521,30 @@
         "y": 5200.790764230019
       },
       "region": "Cascades"
+    },
+    {
+      "id": "map-location-1788069134232",
+      "title": "O'Leary",
+      "type": "camp",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2854.628998913433,
+        "y": 1360.6462969596469
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "fast-travel-arrival-1788069138056",
+      "parentId": "map-location-1788069134232",
+      "title": "O'Leary arrival",
+      "type": "fast_travel_arrival",
+      "note": "Fast travel arrival for O'Leary.",
+      "position": {
+        "x": 2891.378998913433,
+        "y": 1355.6462969596469
+      },
+      "region": "Cascades"
     }
   ]
 }
