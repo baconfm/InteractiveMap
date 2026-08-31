@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-31T16:06:21.383Z",
+  "savedAt": "2026-08-31T18:23:26.576Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -68675,6 +68675,150 @@
         "x": 2658.5001927103394,
         "y": 5844.467673296078
       }
+    },
+    {
+      "id": "manual-loot-1788193565140",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2823.5349354402115,
+        "y": 5391.142148305967
+      }
+    },
+    {
+      "id": "manual-loot-1788193567281",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2826.1106902416436,
+        "y": 5389.399724294736
+      }
+    },
+    {
+      "id": "manual-loot-1788193575291",
+      "type": "loot_item",
+      "title": "Nest Residue",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2838.3076608633887,
+        "y": 5391.217908193662
+      }
+    },
+    {
+      "id": "manual-loot-1788193589757",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2830.428866511175,
+        "y": 5395.536089549456
+      }
+    },
+    {
+      "id": "manual-loot-1788193592384",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2832.4743275300552,
+        "y": 5394.6269988715585
+      }
+    },
+    {
+      "id": "manual-loot-1788193612471",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2846.6409941967217,
+        "y": 5393.566396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193652646",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2876.11070041417,
+        "y": 5411.066396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193658213",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.3834258373467,
+        "y": 5412.127003957822
+      }
+    },
+    {
+      "id": "manual-loot-1788193664913",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875.428886856227,
+        "y": 5413.717910736793
+      }
     }
   ],
   "lootMarkers": [
@@ -134895,6 +135039,150 @@
       "position": {
         "x": 2658.5001927103394,
         "y": 5844.467673296078
+      }
+    },
+    {
+      "id": "manual-loot-1788193565140",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2823.5349354402115,
+        "y": 5391.142148305967
+      }
+    },
+    {
+      "id": "manual-loot-1788193567281",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2826.1106902416436,
+        "y": 5389.399724294736
+      }
+    },
+    {
+      "id": "manual-loot-1788193575291",
+      "type": "loot_item",
+      "title": "Nest Residue",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2838.3076608633887,
+        "y": 5391.217908193662
+      }
+    },
+    {
+      "id": "manual-loot-1788193589757",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2830.428866511175,
+        "y": 5395.536089549456
+      }
+    },
+    {
+      "id": "manual-loot-1788193592384",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2832.4743275300552,
+        "y": 5394.6269988715585
+      }
+    },
+    {
+      "id": "manual-loot-1788193612471",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2846.6409941967217,
+        "y": 5393.566396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193652646",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2876.11070041417,
+        "y": 5411.066396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193658213",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.3834258373467,
+        "y": 5412.127003957822
+      }
+    },
+    {
+      "id": "manual-loot-1788193664913",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875.428886856227,
+        "y": 5413.717910736793
       }
     }
   ],
@@ -201117,7 +201405,151 @@
         "x": 2658.5001927103394,
         "y": 5844.467673296078
       }
+    },
+    {
+      "id": "manual-loot-1788193565140",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2823.5349354402115,
+        "y": 5391.142148305967
+      }
+    },
+    {
+      "id": "manual-loot-1788193567281",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2826.1106902416436,
+        "y": 5389.399724294736
+      }
+    },
+    {
+      "id": "manual-loot-1788193575291",
+      "type": "loot_item",
+      "title": "Nest Residue",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2838.3076608633887,
+        "y": 5391.217908193662
+      }
+    },
+    {
+      "id": "manual-loot-1788193589757",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2830.428866511175,
+        "y": 5395.536089549456
+      }
+    },
+    {
+      "id": "manual-loot-1788193592384",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2832.4743275300552,
+        "y": 5394.6269988715585
+      }
+    },
+    {
+      "id": "manual-loot-1788193612471",
+      "type": "collectible_plant",
+      "title": "Cedar Sapling",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2846.6409941967217,
+        "y": 5393.566396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193652646",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2876.11070041417,
+        "y": 5411.066396047666
+      }
+    },
+    {
+      "id": "manual-loot-1788193658213",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2878.3834258373467,
+        "y": 5412.127003957822
+      }
+    },
+    {
+      "id": "manual-loot-1788193664913",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2875.428886856227,
+        "y": 5413.717910736793
+      }
     }
   ],
-  "generatedAt": "2026-08-31T16:06:21.828Z"
+  "generatedAt": "2026-08-31T18:23:26.751Z"
 }
