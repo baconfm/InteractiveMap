@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-31T15:44:36.931Z",
+  "savedAt": "2026-08-31T16:00:01.679Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -68397,6 +68397,39 @@
         "x": 2545.5142113041315,
         "y": 5765.5666664983255
       }
+    },
+    {
+      "id": "manual-loot-1788191275667",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2852,
+        "y": 5804
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788191509307",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2658.5001927103394,
+        "y": 5844.467673296078
+      }
     }
   ],
   "lootMarkers": [
@@ -134584,6 +134617,39 @@
       "position": {
         "x": 2545.5142113041315,
         "y": 5765.5666664983255
+      }
+    },
+    {
+      "id": "manual-loot-1788191275667",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2852,
+        "y": 5804
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788191509307",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2658.5001927103394,
+        "y": 5844.467673296078
       }
     }
   ],
@@ -200773,7 +200839,40 @@
         "x": 2545.5142113041315,
         "y": 5765.5666664983255
       }
+    },
+    {
+      "id": "manual-loot-1788191275667",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2852,
+        "y": 5804
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788191509307",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2658.5001927103394,
+        "y": 5844.467673296078
+      }
     }
   ],
-  "generatedAt": "2026-08-31T15:44:37.386Z"
+  "generatedAt": "2026-08-31T16:00:02.163Z"
 }
