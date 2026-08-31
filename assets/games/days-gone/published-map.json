@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-08-30T11:17:17.012Z",
+  "savedAt": "2026-08-31T15:44:36.931Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -68381,6 +68381,22 @@
         "x": 3083.001949266896,
         "y": 4393.327407021662
       }
+    },
+    {
+      "id": "manual-loot-1788191075695",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2545.5142113041315,
+        "y": 5765.5666664983255
+      }
     }
   ],
   "lootMarkers": [
@@ -134552,6 +134568,22 @@
       "position": {
         "x": 3083.001949266896,
         "y": 4393.327407021662
+      }
+    },
+    {
+      "id": "manual-loot-1788191075695",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2545.5142113041315,
+        "y": 5765.5666664983255
       }
     }
   ],
@@ -200725,7 +200757,23 @@
         "x": 3083.001949266896,
         "y": 4393.327407021662
       }
+    },
+    {
+      "id": "manual-loot-1788191075695",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2545.5142113041315,
+        "y": 5765.5666664983255
+      }
     }
   ],
-  "generatedAt": "2026-08-30T11:17:17.159Z"
+  "generatedAt": "2026-08-31T15:44:37.386Z"
 }

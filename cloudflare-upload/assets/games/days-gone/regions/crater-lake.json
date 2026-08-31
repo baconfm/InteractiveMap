@@ -11199,6 +11199,22 @@
         "x": 2504.102397815839,
         "y": 4350.114840364569
       }
+    },
+    {
+      "id": "manual-loot-1788191075695",
+      "type": "loot_item",
+      "title": "Bandage",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2545.5142113041315,
+        "y": 5765.5666664983255
+      }
     }
   ],
   "locations": [
