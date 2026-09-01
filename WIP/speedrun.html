@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Days Gone Speedrun Mode — WIP</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="speedrun-page">
+    <main class="speedrun-mode">
+      <header class="top-bar"><a class="brand" href="../editor-local.html"><span class="brand__eyebrow">Private editor</span><span class="brand__title">Speedrun Mode</span></a><span id="speedrun-status" class="save-state">Loading All Storylines…</span><a class="editor-toggle" href="../editor-local.html">Back to map editor</a></header>
+      <section class="speedrun-layout">
+        <aside class="speedrun-panel speedrun-panel--list">
+          <label class="editor-field">Route<select id="speedrun-route"><option value="all-storylines">Days Gone — All Storylines</option></select></label>
+          <div id="speedrun-totals" class="speedrun-totals"></div>
+          <label class="editor-field">Find objective<input id="speedrun-search" type="search" placeholder="Search route" /></label>
+          <label class="editor-field">Route status<select id="speedrun-status-filter"><option value="all">All stops</option><option value="completed">Completed</option><option value="current">Current</option><option value="upcoming">Upcoming</option><option value="missing">Missing location</option></select></label>
+          <div id="speedrun-filters" class="speedrun-filters"></div>
+          <div class="speedrun-actions"><button id="fit-route" type="button">Fit entire route</button><button id="fit-region" type="button">Fit current region</button><button id="jump-current" type="button">Jump to selected</button><button id="route-lines" type="button" aria-pressed="true">Route lines</button><button id="missing-only" type="button" aria-pressed="false">Missing coordinates</button></div>
+          <p class="speedrun-help">Drag a route stop to reorder it. This changes only the local override, never the Router source files.</p>
+          <ol id="speedrun-list" class="speedrun-list"></ol>
+        </aside>
+        <section id="speedrun-map-shell" class="map-shell speedrun-map-shell"><div id="map-viewport" class="map-viewport" tabindex="0"><div id="map-canvas" class="map-canvas"></div><div id="map-empty-state" class="map-empty-state">Loading map…</div></div><nav class="map-controls"><button id="zoom-in" class="map-control" type="button">+</button><button id="zoom-out" class="map-control" type="button">−</button><button id="reset-view" class="map-control map-control--reset" type="button">⌖</button></nav></section>
+        <aside class="speedrun-panel speedrun-panel--details"><span class="map-hud__label">Selected route stop</span><h1 id="objective-title">Select an objective</h1><div id="objective-details" class="speedrun-details"></div><label class="editor-field">X coordinate<input id="objective-x" type="number" step="1" /></label><label class="editor-field">Y coordinate<input id="objective-y" type="number" step="1" /></label><div class="speedrun-actions"><button id="set-coordinate" type="button">Set on map</button><button id="clear-coordinate" type="button">Clear coordinate</button><button id="reset-route-edits" type="button">Reset unsaved edits</button></div><span class="map-hud__label">Mission transition</span><p id="transition-summary" class="speedrun-help">No separate mission start or end set.</p><div class="speedrun-actions"><button id="set-mission-start" type="button">Set mission start</button><button id="set-mission-end" type="button">Set mission end</button><button id="teleport-after" type="button" aria-pressed="false">Teleport after</button></div><hr /><span class="map-hud__label">Mission path editor</span><p id="route-line-status" class="editor-panel__placement">Click a yellow mission line, then add waypoints to reshape that exact route leg.</p><div class="speedrun-actions"><button id="route-line-start" type="button">Add waypoints</button><button id="route-line-finish" type="button" disabled>Save path</button><button id="route-line-cancel" type="button" disabled>Cancel</button><button id="route-line-delete" type="button" disabled>Clear waypoints</button></div><label class="editor-field">Change preview<textarea id="route-preview" rows="10" readonly></textarea></label><button id="save-route" class="speedrun-save" type="button">Save route changes</button></aside>
+      </section>
+    </main>
+    <script type="module" src="../src/speedrun-mode.js"></script>
+  </body>
+</html>

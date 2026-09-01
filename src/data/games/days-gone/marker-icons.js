@@ -1,6 +1,7 @@
 import { DAYS_GONE_TRACED_ICON_BODIES } from "./overlay-icons.js";
 import { canonicalLootItemName, renderLootItemIcon } from "./loot-item-icons.js";
 import { isOneTimeSpawn } from "./loot-rules.js";
+import { randomEncounterKind } from "./random-encounters.js";
 
 const ICON_COLORS = {
   collectibles: "#d9d6bd",
@@ -47,7 +48,15 @@ function withOneTimeSpawnBadge(marker, icon) {
 export function renderDaysGoneMarkerIcon(marker) {
   const title = canonicalLootItemName(marker.title);
   if (marker.type === "random_encounter") {
-    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#4d91d0" stroke="#182018" stroke-width="2"/><path d="M10.5 11.5a3.5 3.5 0 1 1 5.2 3l-1.7 1v1.5m0 4h.01" fill="none" stroke="#f4f1e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+    const kind = randomEncounterKind(marker);
+    const icons = {
+      survivor: '<circle cx="14" cy="14" r="12" fill="#4d91d0" stroke="#182018" stroke-width="2"/><circle cx="14" cy="9.5" r="3" fill="#f4f1e7"/><path d="M8.5 21c.8-4 2.8-6 5.5-6s4.7 2 5.5 6" fill="none" stroke="#f4f1e7" stroke-linecap="round" stroke-width="2.5"/>',
+      hostage: '<circle cx="14" cy="14" r="12" fill="#9b79b8" stroke="#182018" stroke-width="2"/><circle cx="14" cy="9" r="2.5" fill="#f4f1e7"/><path d="M9 20c1-3 2.7-4.5 5-4.5s4 1.5 5 4.5M8 14h12M10 12v4m8-4v4" fill="none" stroke="#f4f1e7" stroke-linecap="round" stroke-width="1.8"/>',
+      sniper: '<circle cx="14" cy="14" r="12" fill="#bd5b56" stroke="#182018" stroke-width="2"/><circle cx="14" cy="14" r="4" fill="none" stroke="#f4f1e7" stroke-width="2"/><path d="M14 6v4m0 8v4M6 14h4m8 0h4" stroke="#f4f1e7" stroke-linecap="round" stroke-width="2"/>',
+      "exploding-car": '<circle cx="14" cy="14" r="12" fill="#df8c3f" stroke="#182018" stroke-width="2"/><path d="m14 5-2 5h3l-1 5 4-6h-3l2-4Z" fill="#fff1b6"/><path d="M7 17h14v4H7zM9 21a2 2 0 1 0 0 .01M19 21a2 2 0 1 0 0 .01" fill="none" stroke="#182018" stroke-linejoin="round" stroke-width="1.5"/>',
+      other: '<circle cx="14" cy="14" r="12" fill="#718078" stroke="#182018" stroke-width="2"/><path d="M10.5 11.5a3.5 3.5 0 1 1 5.2 3l-1.7 1v1.5m0 4h.01" fill="none" stroke="#f4f1e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>',
+    };
+    return `<svg viewBox="0 0 28 28" aria-hidden="true">${icons[kind]}</svg>`;
   }
   if (marker.type === "fast_travel_arrival") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7bc8e8" stroke="#182018" stroke-width="2"/><path d="M14 6v12m0 0-4-4m4 4 4-4M8 20h12" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';

@@ -1,5 +1,6 @@
 const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
 const STYLES = {
+  mission: { color: "#f6c453", dash: "" },
   passable: { color: "#69d9ef", dash: "" },
   blocked: { color: "#ed6b62", dash: "22 13" },
   boundary: { color: "#e3b746", dash: "10 8" },

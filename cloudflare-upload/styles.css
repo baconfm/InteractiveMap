@@ -166,6 +166,7 @@ button, output { font: inherit; }
 .map-legend__spawn-button[aria-pressed="true"] { color: #182018; background: #e3b746; border-color: #f3d375; }
 .map-legend__item { display: grid; grid-template-columns: 14px 28px 1fr auto; align-items: center; gap: 7px; min-height: 30px; padding: 3px 4px; color: #dce3d6; font-size: 0.72rem; cursor: pointer; border-radius: 2px; }
 .map-legend__item:hover { background: rgb(237 240 222 / 8%); }
+.map-legend__item--subfilter { margin-left: 12px; }
 .map-legend__item input { width: 13px; height: 13px; margin: 0; accent-color: #d4a83e; }
 .map-legend__icon { display: grid; width: 24px; height: 24px; place-items: center; }
 .map-legend__icon svg, .map-legend__icon img { width: 24px; height: 24px; }
@@ -214,6 +215,28 @@ button, output { font: inherit; }
 .hide-deek-game-panel strong { font-size: .98rem; }
 .hide-deek-game-panel p { margin: 0; color: #cfd7c5; font-size: .73rem; line-height: 1.4; }
 .editor-toggle, .editor-panel button { border: 1px solid rgb(237 240 222 / 18%); border-radius: 3px; background: #222d25; color: #f1f2eb; cursor: pointer; }
+.editor-toggle { display: inline-grid; align-items: center; text-decoration: none; }
+.speedrun-page { overflow: hidden; background: #111914; }
+.speedrun-layout { display: grid; grid-template-columns: minmax(250px, 320px) minmax(420px, 1fr) minmax(250px, 320px); grid-template-rows: minmax(0, 1fr); height: calc(100dvh - 72px); min-height: 0; overflow: hidden; }
+.speedrun-panel { z-index: 7; min-height: 0; padding: 15px; overflow: auto; color: #edf0de; background: #0a0f0c; border-color: rgb(237 240 222 / 14%); border-style: solid; border-width: 0 1px; }
+.speedrun-panel h1 { margin: 3px 0 12px; font-size: 1.1rem; }
+.speedrun-map-shell { height: 100%; min-height: 0; padding-top: 0; }
+.speedrun-map-shell .map-viewport { inset: 0; }
+.speedrun-totals { display: grid; gap: 5px; margin: 10px 0; }
+.speedrun-totals span { padding: 5px 7px; border-left: 4px solid var(--route-color); background: #172018; font-size: .7rem; font-weight: 800; }
+.speedrun-filters, .speedrun-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 8px 0; }
+.speedrun-filter, .speedrun-actions button, .speedrun-save { min-height: 33px; padding: 6px; color: #c7cec0; background: #202b22; border: 1px solid #3d4a3e; border-radius: 3px; font: inherit; font-size: .69rem; font-weight: 800; cursor: pointer; }
+.speedrun-filter.is-active { border-color: var(--route-color); box-shadow: inset 0 0 0 1px var(--route-color); color: #fff; }
+.speedrun-help { color: #aeb8a8; font-size: .69rem; line-height: 1.35; }
+.speedrun-list { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.speedrun-stop { display: grid; grid-template-columns: 28px 1fr; gap: 7px; padding: 7px; border: 1px solid #314033; background: #172018; cursor: grab; }
+.speedrun-stop b { display: grid; width: 24px; height: 24px; place-items: center; color: #142019; background: #f0be5d; border-radius: 50%; font-size: .67rem; }
+.speedrun-stop strong, .speedrun-stop small { display: block; }
+.speedrun-stop strong { font-size: .75rem; }.speedrun-stop small { margin-top: 2px; color: #bfc8b8; font-size: .62rem; }.speedrun-stop.is-selected { outline: 2px solid #e3b746; }.speedrun-stop.is-missing { border-left: 3px solid #ef6b63; }
+.speedrun-details { color: #c7cec0; font-size: .77rem; line-height: 1.42; }.speedrun-details p { margin: 0 0 10px; }.speedrun-panel textarea { font: .64rem/1.25 ui-monospace, monospace; }
+.speedrun-save { width: 100%; color: #172018; background: #e3b746; border-color: #f3d375; }
+.speedrun-route-lines { width: 100%; height: 100%; overflow: visible; }.speedrun-route-lines polyline { fill: none; stroke: #f6c453; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: .72; }
+@media (max-width: 900px) { .speedrun-page { overflow: auto; }.speedrun-layout { grid-template-columns: 1fr; height: auto; }.speedrun-panel { border-width: 1px 0; }.speedrun-map-shell { min-height: 60vh; }.speedrun-panel--details { min-height: 420px; } }
 .top-bar__actions { display: flex; gap: 8px; }
 .save-state { color: #a8caa4; font-size: 0.68rem; white-space: nowrap; }
 .editor-toggle { padding: 9px 12px; font-size: 0.75rem; font-weight: 700; }

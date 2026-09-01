@@ -8,6 +8,8 @@ const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const newsPath = join(projectRoot, "news/posts.json");
 const regionStatusPath = join(projectRoot, "news/project-status.json");
 const locationPhotosPath = join(projectRoot, "assets/photos");
+const speedrunSourcePath = "C:\\Users\\Bacon\\Documents\\Codex\\PlatinumRouter-main\\PlatinumRouter-main\\data\\days-gone";
+const speedrunOverridesPath = join(projectRoot, "assets/games/days-gone/speedrun-route-overrides.json");
 const regionNames = ["Cascades", "Belknap", "Lost Lake", "Iron Butte", "Crater Lake", "Highway 97"];
 const dedupeMarkers = (markers) => {
   const markerIds = new Set();
@@ -17,7 +19,7 @@ const dedupeMarkers = (markers) => {
     return true;
   });
 };
-const port = 8173;
+const port = Number(process.env.PORT) || 8173;
 const contentTypes = {
   ".css": "text/css; charset=utf-8", ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
@@ -147,12 +149,37 @@ async function publishRegionStatus(request, response) {
   }
 }
 
+async function speedrunRoute(request, response) {
+  const routePath = join(speedrunSourcePath, "routes/all-storylines");
+  try {
+    if (request.method === "GET") {
+      const names = ["meta.json", "counters.json", "phases.json", "quotas.json", "completion-titles.json"];
+      const [meta, ...routeFiles] = await Promise.all([
+        readFile(join(speedrunSourcePath, names[0]), "utf8"),
+        ...names.slice(1).map((name) => readFile(join(routePath, name), "utf8")),
+        readFile(join(routePath, "default-splits.json"), "utf8"),
+        readFile(speedrunOverridesPath, "utf8").catch(() => "{}"),
+      ]);
+      const [counters, phases, quotas, completionTitles, defaultSplits, overrides] = routeFiles.map(JSON.parse);
+      return send(response, 200, JSON.stringify({ meta: JSON.parse(meta), counters, phases, quotas, completionTitles, defaultSplits, overrides }));
+    }
+    let raw = "";
+    for await (const chunk of request) { raw += chunk; if (raw.length > 500_000) return send(response, 413, JSON.stringify({ error: "Route override is too large." })); }
+    const overrides = JSON.parse(raw);
+    if (overrides.routeId !== "all-storylines" || !Array.isArray(overrides.order) || typeof overrides.coordinates !== "object") throw new Error("Invalid All Storylines route override.");
+    await mkdir(dirname(speedrunOverridesPath), { recursive: true });
+    await writeFile(speedrunOverridesPath, `${JSON.stringify(overrides, null, 2)}\n`);
+    send(response, 200, JSON.stringify({ saved: true }));
+  } catch (error) { send(response, 400, JSON.stringify({ error: error.message || "Could not load speedrun route." })); }
+}
+
 createServer(async (request, response) => {
   const url = new URL(request.url, `http://${request.headers.host}`);
   if (request.method === "POST" && url.pathname === "/api/publish") return publish(request, response);
   if (request.method === "POST" && url.pathname === "/api/upload-location-image") return uploadLocationImage(request, response);
   if (request.method === "POST" && url.pathname === "/api/publish-news") return publishNews(request, response);
   if (request.method === "POST" && url.pathname === "/api/publish-region-status") return publishRegionStatus(request, response);
+  if (url.pathname === "/api/speedrun-route" && (request.method === "GET" || request.method === "POST")) return speedrunRoute(request, response);
   if (request.method !== "GET" && request.method !== "HEAD") return send(response, 405, "Method not allowed", "text/plain; charset=utf-8");
   const relativePath = url.pathname === "/" ? "editor-local.html" : decodeURIComponent(url.pathname).replace(/^\/+/, "");
   const filePath = resolve(projectRoot, normalize(relativePath));

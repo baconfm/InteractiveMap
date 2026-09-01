@@ -1,6 +1,7 @@
 import { APP_CONFIG } from "../core/config.js";
 import { daysGoneMap } from "../data/games/days-gone/map.js";
 import { renderDaysGoneMarkerIcon } from "../data/games/days-gone/marker-icons.js";
+import { RANDOM_ENCOUNTER_KINDS, randomEncounterKind } from "../data/games/days-gone/random-encounters.js";
 import { MapEngine } from "../map/MapEngine.js";
 import { MapMarkerLayer } from "../map/MapMarkerLayer.js";
 import { bindControls } from "../ui/Controls.js";
@@ -58,6 +59,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const randomEncountersFilter = document.querySelector("#map-legend-location-filters");
   const randomEncountersIcon = document.querySelector("#random-encounters-icon");
   const randomEncountersCount = document.querySelector("#random-encounters-count");
+  const randomEncounterKindsRoot = document.querySelector("#random-encounter-kind-filters");
   const sharedState = sharedMapState();
   const isMobile = window.matchMedia("(max-width: 640px)").matches;
   const savedSplit = Number.parseFloat(localStorage.getItem("days-gone-public-cluster-split-percent-v3"));
@@ -66,6 +68,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   let publishedMarkers = [];
   let locationMarkers = [];
   let visibleLootMarkers = [];
+  let visibleEncounterKinds = new Set(RANDOM_ENCOUNTER_KINDS.map(([kind]) => kind));
   mobileFiltersToggle?.addEventListener("click", () => {
     const open = !mapLegend.classList.contains("is-mobile-open");
     mapLegend.classList.toggle("is-mobile-open", open);
@@ -111,7 +114,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     },
   });
   const activeRandomEncounters = () => !showLocations && showRandomEncounters && randomEncountersToggle?.checked
-    ? locationMarkers.filter((marker) => marker.type === "random_encounter")
+    ? locationMarkers.filter((marker) => marker.type === "random_encounter" && visibleEncounterKinds.has(randomEncounterKind(marker)))
     : [];
   const renderLootMarkers = () => lootLayer.render([...visibleLootMarkers, ...activeRandomEncounters()]);
   const renderLocationMarkers = () => locationLayer.render(showLocations
@@ -128,6 +131,23 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     renderLootMarkers();
     renderLocationMarkers();
   });
+
+  const renderRandomEncounterFilters = (randomEncounters) => {
+    if (!randomEncounterKindsRoot) return;
+    randomEncounterKindsRoot.replaceChildren(...RANDOM_ENCOUNTER_KINDS.map(([kind, label]) => {
+      const count = randomEncounters.filter((marker) => randomEncounterKind(marker) === kind).length;
+      const item = document.createElement("label");
+      item.className = "map-legend__item map-legend__item--subfilter";
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox"; checkbox.checked = visibleEncounterKinds.has(kind);
+      checkbox.addEventListener("change", () => { checkbox.checked ? visibleEncounterKinds.add(kind) : visibleEncounterKinds.delete(kind); renderLootMarkers(); });
+      const icon = document.createElement("span"); icon.className = "map-legend__icon"; icon.innerHTML = renderDaysGoneMarkerIcon({ type: "random_encounter", title: label });
+      const text = document.createElement("span"); text.textContent = label;
+      const badge = document.createElement("span"); badge.className = "map-legend__count"; badge.textContent = String(count);
+      item.append(checkbox, icon, text, badge);
+      return item;
+    }));
+  };
 
   clusterZoomInput.value = String(Math.round(splitPercent * 100));
   clusterZoomValue.textContent = `${clusterZoomInput.value}%`;
@@ -185,6 +205,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
     if (randomEncountersFilter) randomEncountersFilter.hidden = !showRandomEncounters || !randomEncounters.length;
     if (randomEncountersIcon && randomEncounters[0]) randomEncountersIcon.innerHTML = renderDaysGoneMarkerIcon(randomEncounters[0]);
     if (randomEncountersCount) randomEncountersCount.textContent = String(randomEncounters.length);
+    renderRandomEncounterFilters(randomEncounters);
     renderLocationMarkers();
     status.textContent = `Published map · ${lootMarkers.length} reviewed loot markers`;
     onReady?.({ engine, map, markers: lootMarkers, locationMarkers, lootLayer, locationLayer, overlayLayer, details, setMapClickHandler });
