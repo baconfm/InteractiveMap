@@ -7984,6 +7984,40 @@
         "x": 3799.4531888267193,
         "y": 2450.979527839402
       }
+    },
+    {
+      "id": "manual-loot-1788597804677",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "This loot is Inaccessible in the Remastered - In the older versions of the game, it was available through the Frog Jump Glitch - More info in this video:  https://youtu.be/TMvFgVmDFLs",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3441,
+        "y": 2579
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788597807709",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "This loot is Inaccessible in the Remastered - In the older versions of the game, it was available through the Frog Jump Glitch - More info in this video:  https://youtu.be/TMvFgVmDFLs",
+      "quantity": 1,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3444,
+        "y": 2578
+      },
+      "photos": []
     }
   ],
   "locations": [
@@ -8031,6 +8065,30 @@
       "position": {
         "x": 3448.7256711020186,
         "y": 2558.9597225988555
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788597345358",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3214.4371936018224,
+        "y": 2873.7386323428373
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788597361859",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3212.8686598258305,
+        "y": 2870.950122001652
       },
       "region": "Lost Lake"
     }
