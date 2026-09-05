@@ -4511,6 +4511,24 @@
         "x": 1792.6861566797047,
         "y": 2291.026107282247
       }
+    },
+    {
+      "id": "manual-loot-1788627091151",
+      "type": "loot_item",
+      "title": "Prox Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1662,
+        "y": 3012
+      },
+      "photos": []
     }
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-09-05T09:46:08.008Z",
+  "savedAt": "2026-09-05T16:51:36.557Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -68937,6 +68937,24 @@
         "y": 2578
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1788627091151",
+      "type": "loot_item",
+      "title": "Prox Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1662,
+        "y": 3012
+      },
+      "photos": []
     }
   ],
   "lootMarkers": [
@@ -135334,6 +135352,24 @@
       "position": {
         "x": 3444,
         "y": 2578
+      },
+      "photos": []
+    },
+    {
+      "id": "manual-loot-1788627091151",
+      "type": "loot_item",
+      "title": "Prox Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1662,
+        "y": 3012
       },
       "photos": []
     }
@@ -201735,7 +201771,25 @@
         "y": 2578
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1788627091151",
+      "type": "loot_item",
+      "title": "Prox Bomb",
+      "location": "Manual placement",
+      "region": "Iron Butte",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": true,
+      "position": {
+        "x": 1662,
+        "y": 3012
+      },
+      "photos": []
     }
   ],
-  "generatedAt": "2026-09-05T09:46:08.482Z"
+  "generatedAt": "2026-09-05T16:51:37.064Z"
 }

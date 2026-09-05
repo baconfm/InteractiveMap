@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T09:46:08.482Z",
+  "generatedAt": "2026-09-05T16:51:37.064Z",
   "regions": [
     {
       "id": "cascades",
@@ -27,7 +27,7 @@
       "id": "iron-butte",
       "label": "Iron Butte",
       "path": "assets/games/days-gone/regions/iron-butte.json",
-      "markerCount": 279,
+      "markerCount": 280,
       "locationCount": 8
     },
     {
