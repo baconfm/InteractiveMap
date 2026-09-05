@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-09-05T08:52:00.768Z",
+  "savedAt": "2026-09-05T09:46:08.008Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -601,6 +601,66 @@
       "position": {
         "x": 3212.8686598258305,
         "y": 2870.950122001652
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788601485330",
+      "title": "Shermans Camp Town Hall",
+      "type": "frog_jump",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3459.2901991065755,
+        "y": 2569.756265922438
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788601503969",
+      "title": "Shermans Camp",
+      "type": "frog_jump",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3424.744738087695,
+        "y": 2518.922935132236
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788601509340",
+      "title": "Shermans Camp",
+      "type": "frog_jump",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3514.593228484831,
+        "y": 2510.741113944899
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788601532535",
+      "title": "Lost Lake Gas Station",
+      "type": "frog_jump",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3234.638943295873,
+        "y": 2523.293991779364
+      },
+      "region": "Lost Lake"
+    },
+    {
+      "id": "map-location-1788601556454",
+      "title": "Sawmill",
+      "type": "frog_jump",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 3149.564418932005,
+        "y": 3334.640675923656
       },
       "region": "Lost Lake"
     }
@@ -201677,5 +201737,5 @@
       "photos": []
     }
   ],
-  "generatedAt": "2026-09-05T08:52:01.255Z"
+  "generatedAt": "2026-09-05T09:46:08.482Z"
 }

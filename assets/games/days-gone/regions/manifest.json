@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T08:52:01.255Z",
+  "generatedAt": "2026-09-05T09:46:08.482Z",
   "regions": [
     {
       "id": "cascades",
@@ -21,7 +21,7 @@
       "label": "Lost Lake",
       "path": "assets/games/days-gone/regions/lost-lake.json",
       "markerCount": 500,
-      "locationCount": 6
+      "locationCount": 11
     },
     {
       "id": "iron-butte",
