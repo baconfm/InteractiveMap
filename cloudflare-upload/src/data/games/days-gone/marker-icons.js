@@ -46,6 +46,9 @@ function withOneTimeSpawnBadge(marker, icon) {
 }
 
 export function renderDaysGoneMarkerIcon(marker) {
+  if (marker.inaccessible === true) {
+    return `<span class="inaccessible-loot-icon">${renderDaysGoneMarkerIcon({ ...marker, inaccessible: false })}<b class="inaccessible-loot-icon__badge" aria-label="Inaccessible loot">!</b></span>`;
+  }
   const title = canonicalLootItemName(marker.title);
   if (marker.type === "random_encounter") {
     const kind = randomEncounterKind(marker);
@@ -60,6 +63,9 @@ export function renderDaysGoneMarkerIcon(marker) {
   }
   if (marker.type === "fast_travel_arrival") {
     return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7bc8e8" stroke="#182018" stroke-width="2"/><path d="M14 6v12m0 0-4-4m4 4 4-4M8 20h12" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+  }
+  if (marker.type === "frog_jump") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#7bbf62" stroke="#182018" stroke-width="2"/><path d="M8 16c1.5-3 3.5-4.5 6-4.5s4.5 1.5 6 4.5M9 18h3m7 0h-3M11 12 9 9m8 3 2-3M11.5 16h.01m5 0h.01" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
   }
   if (marker.type === "loot_cluster") {
     return `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#f0be5d" stroke="#182018" stroke-width="2.5"/><path d="m9 12 7-4 7 4-7 4-7-4Zm0 5 7 4 7-4m-14 5 7 4 7-4" fill="none" stroke="#182018" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><text x="16" y="20" fill="#182018" font-family="Arial,sans-serif" font-size="9" font-weight="800" text-anchor="middle">${marker.clusterCount}</text></svg>`;

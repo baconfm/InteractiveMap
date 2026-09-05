@@ -74,6 +74,8 @@ export class MapMarkerLayer {
   }
 
   displayMarkers(markers) {
+    const inaccessible = markers.filter((marker) => marker.inaccessible === true);
+    if (inaccessible.length) return [...this.displayMarkers(markers.filter((marker) => marker.inaccessible !== true)), ...this.visibleMarkers(inaccessible)];
     if (this.isClustering(this.zoom)) return this.clusterSingletons ? this.overviewRegionClusters(markers) : this.clusterMarkers(markers);
     const visible = this.visibleMarkers(markers);
     if (this.isCombiningMatching(this.zoom)) return this.combineMatchingMarkers(visible);

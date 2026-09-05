@@ -2,8 +2,29 @@ const LOCATION_TYPES = [
   ["camp", "Camp"],
   ["ambush_camp", "Ambush camp"],
   ["nero_checkpoint", "NERO checkpoint"],
-  ["random_encounter", "Random encounter"],
+  ["frog_jump", "Frog Jump"],
+  ["encounter:sniper", "Sniper"],
+  ["encounter:survivor", "Survivor"],
+  ["encounter:clothesline", "Clothesline Trap"],
+  ["encounter:marauders-freaks", "Marauders and Freaks"],
+  ["encounter:snare", "Snare Trap"],
+  ["encounter:other", "Other"],
 ];
+
+function locationOption(marker) {
+  if (marker.type !== "random_encounter") return marker.type;
+  const title = (marker.title ?? "").toLowerCase();
+  if (title.includes("sniper")) return "encounter:sniper";
+  if (title.includes("survivor")) return "encounter:survivor";
+  if (title.includes("clothesline")) return "encounter:clothesline";
+  if (title.includes("marauder") && title.includes("freak")) return "encounter:marauders-freaks";
+  if (title.includes("snare")) return "encounter:snare";
+  return "encounter:other";
+}
+
+function storedLocationType(value) {
+  return value.startsWith("encounter:") ? "random_encounter" : value;
+}
 
 export class MapLocationEditor {
   constructor({ store, elements, regionForPosition }) {
@@ -20,6 +41,14 @@ export class MapLocationEditor {
   }
 
   bindEvents() {
+    this.elements.type.addEventListener("change", () => {
+      const value = this.elements.type.value;
+      if (value.startsWith("encounter:")) {
+        this.elements.title.value = value === "encounter:other"
+          ? "Random Encounter"
+          : LOCATION_TYPES.find(([type]) => type === value)[1];
+      }
+    });
     this.elements.place.addEventListener("click", () => this.begin());
     this.elements.cancel.addEventListener("click", () => this.reset());
     this.elements.save.addEventListener("click", () => this.save());
@@ -44,7 +73,7 @@ export class MapLocationEditor {
     if (!this.stage) return false;
     if (this.stage === "location") {
       const title = this.elements.title.value.trim();
-      const type = this.elements.type.value;
+      const type = storedLocationType(this.elements.type.value);
       const parent = this.store.add({
         id: `map-location-${Date.now()}`,
         title,
@@ -93,7 +122,7 @@ export class MapLocationEditor {
     this.elements.title.value = marker.title;
     this.elements.note.value = marker.note ?? "";
     this.elements.photos.value = (marker.photos ?? []).join("\n");
-    this.elements.type.value = isArrival ? "" : marker.type;
+    this.elements.type.value = isArrival ? "" : locationOption(marker);
     this.elements.type.disabled = isArrival;
     this.elements.arrival.checked = !isArrival && this.store.getAll().some((item) => item.parentId === marker.id);
     this.elements.arrival.disabled = true;
@@ -118,7 +147,7 @@ export class MapLocationEditor {
       note: this.elements.note.value.trim(),
       photos: this.elements.photos.value.split(/\r?\n/).map((value) => value.trim()).filter(Boolean),
     };
-    if (marker.type !== "fast_travel_arrival") patch.type = this.elements.type.value;
+    if (marker.type !== "fast_travel_arrival") patch.type = storedLocationType(this.elements.type.value);
     this.store.update(marker.id, patch);
     if (marker.type !== "fast_travel_arrival") {
       this.store.getAll()

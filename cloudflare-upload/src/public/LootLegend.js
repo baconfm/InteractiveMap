@@ -18,7 +18,7 @@ export function createLootLegend({ onChange }) {
 
   function filteredMarkers() {
     return markers.filter((marker) => visibleTitles.has(marker.title)
-      && (spawnFilter === "all" || (spawnFilter === "respawnable" ? !isOneTimeSpawn(marker) : isOneTimeSpawn(marker))));
+      && (spawnFilter === "all" || (spawnFilter === "inaccessible" ? marker.inaccessible === true : marker.inaccessible !== true && (spawnFilter === "respawnable" ? !isOneTimeSpawn(marker) : isOneTimeSpawn(marker)))));
   }
 
   function notify() { onChange(filteredMarkers(), { total: markers.length, spawnFilter }); }
@@ -34,7 +34,7 @@ export function createLootLegend({ onChange }) {
     const spawnControls = document.createElement("section");
     spawnControls.className = "map-legend__spawn-filter";
     spawnControls.innerHTML = "<h2>Spawn type</h2>";
-    [["all", "All items"], ["respawnable", "Respawnable"], ["one-time", "One-time only"]].forEach(([value, label]) => {
+    [["all", "All items"], ["respawnable", "Respawnable"], ["one-time", "One-time only"], ["inaccessible", "Inaccessible loot"]].forEach(([value, label]) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "map-legend__spawn-button";
@@ -90,7 +90,7 @@ export function createLootLegend({ onChange }) {
     setMarkers(nextMarkers) { markers = nextMarkers; visibleTitles = new Set(markers.map((marker) => marker.title)); render(); notify(); },
     setState({ titles, spawn } = {}) {
       visibleTitles = Array.isArray(titles) ? new Set(titles) : new Set(markers.map((marker) => marker.title));
-      spawnFilter = ["all", "respawnable", "one-time"].includes(spawn) ? spawn : "all";
+      spawnFilter = ["all", "respawnable", "one-time", "inaccessible"].includes(spawn) ? spawn : "all";
       render();
       notify();
     },

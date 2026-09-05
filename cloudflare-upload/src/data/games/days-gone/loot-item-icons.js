@@ -20,6 +20,7 @@ const ITEM_BADGES = {
   "Gas Can": ["GC", "#d9684d"],
   Grenade: ["GR", "#77966e"],
   Growler: ["GW", "#7c9c6a"],
+  "Growler Minigun": ["MG", "#70836b"],
   "Gun Powder": ["GP", "#8a8177"],
   "Health Cocktail": ["HC", "#d97883"],
   Hatchet: ["HA", "#b9c2bd"],
@@ -168,6 +169,9 @@ export function renderLootItemIcon(itemName, quantity = 1) {
   }
   if (itemName === "Growler") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Growler.svg" alt="" aria-hidden="true"></span>';
+  }
+  if (itemName === "Growler Minigun") {
+    return '<svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#70836b" stroke="#182018" stroke-width="2"/><path d="m7 17 12-4 2 3-11 4H7v-3Zm6-3 5-4 2 2-4 4m-4 2 2 4m2-5 2 4m-6-3 2 4" fill="none" stroke="#edf3e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/></svg>';
   }
   if (itemName === "Can") {
     return '<span class="loot-item-icon"><img src="/assets/icons/Can.svg" alt="" aria-hidden="true"></span>';

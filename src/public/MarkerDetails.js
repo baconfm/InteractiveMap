@@ -1,5 +1,5 @@
 import { renderDaysGoneMarkerIcon } from "../data/games/days-gone/marker-icons.js";
-import { isOneTimeSpawn } from "../data/games/days-gone/loot-rules.js";
+import { isNewGamePlusOnly, isOneTimeSpawn } from "../data/games/days-gone/loot-rules.js";
 import { LOOT_LEGEND_GROUPS } from "../data/games/days-gone/loot-legend.js";
 
 function isYouTubeUrl(value) {
@@ -19,6 +19,13 @@ export function createMarkerDetails({ layer }) {
   const title = document.querySelector("#marker-details-title");
   const description = document.querySelector("#marker-details-description");
   const photos = document.querySelector("#marker-details-photos");
+  const locationLabels = {
+    camp: "Camp",
+    ambush_camp: "Ambush camp",
+    nero_checkpoint: "NERO checkpoint",
+    frog_jump: "Frog Jump",
+    random_encounter: "Random encounter",
+  };
 
   close?.addEventListener("click", () => { panel.hidden = true; });
 
@@ -37,9 +44,11 @@ export function createMarkerDetails({ layer }) {
   return {
     show(marker) {
       const group = LOOT_LEGEND_GROUPS.find((entry) => entry.items.includes(marker.title));
-      const spawnLabel = marker.type === "loot_cluster" ? "Area summary"
+      const spawnLabel = locationLabels[marker.type] ?? (isNewGamePlusOnly(marker) ? "New Game+ only"
+        : marker.inaccessible === true ? "Inaccessible loot · see access notes"
+        : marker.type === "loot_cluster" ? "Area summary"
         : marker.type === "loot_stack" ? "Nearby matching pickups"
-          : isOneTimeSpawn(marker) ? "One-time spawn" : "Respawnable item";
+          : isOneTimeSpawn(marker) ? "One-time spawn" : "Respawnable item");
       icon.innerHTML = renderDaysGoneMarkerIcon(marker);
       type.textContent = group ? `${group.label} · ${spawnLabel}` : spawnLabel;
       title.textContent = marker.title;

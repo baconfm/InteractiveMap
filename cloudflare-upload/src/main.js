@@ -50,6 +50,7 @@ const lootEditor = {
   upload: document.querySelector("#loot-editor-photo-upload"),
   region: document.querySelector("#loot-editor-region"),
   oneTime: document.querySelector("#loot-editor-one-time"),
+  inaccessible: document.querySelector("#loot-editor-inaccessible"),
   save: document.querySelector("#save-loot-position"),
   reset: document.querySelector("#reset-loot-position"),
   export: document.querySelector("#export-loot-markers"),
@@ -162,7 +163,7 @@ document.querySelector("#marker-icon").replaceChildren(...[
 const TOOLBOX_GROUPS = ["All", "Loot", "Explosives", "Collectibles", "Melee", "Firearms"];
 const COLLECTIBLE_TOOLS = new Set(["Collectible Plant", "Cedar Sapling", "Mushroom", "Cairn"]);
 const MELEE_TOOLS = new Set(["2x4", "Hatchet", "Machete", "Pipe", "Baseball Bat", "Fire Axe", "Ripper Axe", "Superior Axe", "Sledgehammer", "Pickaxe"]);
-const FIREARM_TOOLS = new Set([".22 Repeater", "M40", "SAF", "Sawed Off", "US556"]);
+const FIREARM_TOOLS = new Set([".22 Repeater", "M40", "SAF", "Sawed Off", "US556", "Growler Minigun"]);
 const EXPLOSIVE_TOOLS = new Set(["Attractor", "Attractor Bomb", "Flashbang", "Grenade", "Molotov", "Pipe Bomb", "Prox Mine", "Prox Bomb", "Remote Bomb", "Smoke Bomb"]);
 const TOOLBOX_ITEMS = LOOT_ITEM_NAMES.flatMap((title) => title === "Scrap"
   ? [
@@ -429,6 +430,8 @@ function refreshLootEditor() {
   lootEditor.notes.value = marker.note ?? "";
   lootEditor.photos.value = (marker.photos ?? []).join("\n");
   lootEditor.region.value = MAP_REGIONS.includes(marker.region) ? marker.region : "Cascades";
+  lootEditor.inaccessible.checked = marker.inaccessible === true;
+  lootEditor.inaccessible.disabled = false;
   lootEditor.oneTime.checked = isOneTimeSpawn(marker);
   lootEditor.oneTime.disabled = false;
   lootEditor.notes.disabled = false;
@@ -452,6 +455,8 @@ function clearLootEditor() {
   lootEditor.notes.value = "";
   lootEditor.photos.value = "";
   lootEditor.region.value = "Cascades";
+  lootEditor.inaccessible.checked = false;
+  lootEditor.inaccessible.disabled = true;
   lootEditor.oneTime.checked = false;
   lootEditor.oneTime.disabled = true;
   lootEditor.notes.disabled = true;
@@ -489,6 +494,7 @@ function setManualPlacement(active) {
   placingManualLoot = active;
   lootEditor.place.disabled = active;
   lootEditor.cancel.disabled = !active;
+  lootEditor.inaccessible.disabled = !active && !selectedLootId;
   lootEditor.oneTime.disabled = !active && !selectedLootId;
   addHotbar.querySelectorAll(".add-hotbar__slot").forEach((button) => {
     button.classList.toggle("is-active", active && button.dataset.tool === selectedToolboxToolId);
@@ -517,6 +523,7 @@ function placeManualLoot(position) {
     category: "Manual placement",
     note: lootEditor.notes.value.trim() || "Added manually",
     quantity: Number(lootEditor.quantity.value),
+    inaccessible: lootEditor.inaccessible.checked,
     oneTimeSpawn: lootEditor.oneTime.checked,
     position,
   };
@@ -534,6 +541,7 @@ lootEditor.save.addEventListener("click", () => {
   lootStore.update(selectedLootId, {
     position: engine.coordinates.clamp({ x: Number(lootEditor.x.value), y: Number(lootEditor.y.value) }),
     quantity: Number(lootEditor.quantity.value),
+    inaccessible: lootEditor.inaccessible.checked,
     oneTimeSpawn: lootEditor.oneTime.checked,
     note: lootEditor.notes.value.trim() || "Added manually",
     photos: parsePhotoLinks(lootEditor.photos.value),
