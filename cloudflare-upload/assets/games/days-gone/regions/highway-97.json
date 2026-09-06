@@ -10164,6 +10164,142 @@
         "x": 2875.428886856227,
         "y": 5413.717910736793
       }
+    },
+    {
+      "id": "manual-loot-1788711040230",
+      "type": "loot_item",
+      "title": "Alarm Clock",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3071.862311516977,
+        "y": 4216.835653569494
+      }
+    },
+    {
+      "id": "manual-loot-1788711041866",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3071.180492872771,
+        "y": 4213.956869389806
+      }
+    },
+    {
+      "id": "manual-loot-1788711046549",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3072.31685558436,
+        "y": 4220.623536056472
+      }
+    },
+    {
+      "id": "manual-loot-1788711054760",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3067.4683702734874,
+        "y": 4220.926565434728
+      }
+    },
+    {
+      "id": "manual-loot-1788711057016",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3066.332007561899,
+        "y": 4217.517472213699
+      }
+    },
+    {
+      "id": "manual-loot-1788711068471",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3069.81685558436,
+        "y": 4220.926565434728
+      }
+    },
+    {
+      "id": "manual-loot-1788711080769",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3079.7411007829273,
+        "y": 4220.926560348465
+      }
+    },
+    {
+      "id": "manual-loot-1788711082605",
+      "type": "loot_item",
+      "title": "Machete",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3079.665345981495,
+        "y": 4224.790197636877
+      }
     }
   ],
   "locations": [

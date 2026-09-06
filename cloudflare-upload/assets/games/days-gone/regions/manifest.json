@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T16:51:37.064Z",
+  "generatedAt": "2026-09-06T16:12:18.492Z",
   "regions": [
     {
       "id": "cascades",
@@ -41,7 +41,7 @@
       "id": "highway-97",
       "label": "Highway 97",
       "path": "assets/games/days-gone/regions/highway-97.json",
-      "markerCount": 633,
+      "markerCount": 641,
       "locationCount": 4
     }
   ]
