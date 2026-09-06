@@ -10352,6 +10352,18 @@
         "y": 5484.178886251945
       },
       "region": "Highway 97"
+    },
+    {
+      "id": "map-location-1788711223939",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2841.203732447629,
+        "y": 3937.4948853687492
+      },
+      "region": "Highway 97"
     }
   ]
 }
