@@ -10300,6 +10300,295 @@
         "x": 3079.665345981495,
         "y": 4224.790197636877
       }
+    },
+    {
+      "id": "manual-loot-1788712045109",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3178.8764948611765,
+        "y": 4502.001510179588
+      }
+    },
+    {
+      "id": "manual-loot-1788712049517",
+      "type": "loot_item",
+      "title": "Poison",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3180.0886174604602,
+        "y": 4497.910603400616
+      }
+    },
+    {
+      "id": "manual-loot-1788712051976",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3178.043161527843,
+        "y": 4497.60757147923
+      }
+    },
+    {
+      "id": "manual-loot-1788712080519",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3170.770436104666,
+        "y": 4499.653027411847
+      }
+    },
+    {
+      "id": "manual-loot-1788712094093",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3172.5886174604602,
+        "y": 4506.546966112205
+      }
+    },
+    {
+      "id": "manual-loot-1788712099792",
+      "type": "loot_item",
+      "title": "Gas Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3175.770436104666,
+        "y": 4505.4106008574845
+      }
+    },
+    {
+      "id": "manual-loot-1788712109129",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3164.4067988162546,
+        "y": 4503.668176846254
+      }
+    },
+    {
+      "id": "manual-loot-1788712114502",
+      "type": "loot_item",
+      "title": "Polystyrene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3169.48255870395,
+        "y": 4499.274238145897
+      }
+    },
+    {
+      "id": "manual-loot-1788712138760",
+      "type": "loot_item",
+      "title": "Gun Powder",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3182.815892037283,
+        "y": 4497.910603400616
+      }
+    },
+    {
+      "id": "manual-loot-1788712188055",
+      "type": "collectible_plant",
+      "title": "Collectible Plant",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3153.4219507937937,
+        "y": 4510.562118089744
+      }
+    },
+    {
+      "id": "manual-loot-1788712212885",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3203.4219558800564,
+        "y": 4492.683331366925
+      }
+    },
+    {
+      "id": "manual-loot-1788712215095",
+      "type": "loot_item",
+      "title": "Nails",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3205.6946813032337,
+        "y": 4495.6378779774395
+      }
+    },
+    {
+      "id": "manual-loot-1788712228102",
+      "type": "loot_item",
+      "title": "Airbag",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3215.2401321495877,
+        "y": 4497.683331366925
+      }
+    },
+    {
+      "id": "manual-loot-1788712245759",
+      "type": "loot_item",
+      "title": "Bottle",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3214.7098281945096,
+        "y": 4501.016664700258
+      }
+    },
+    {
+      "id": "manual-loot-1788712270440",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3206.300734973481,
+        "y": 4504.728787299542
+      }
+    },
+    {
+      "id": "manual-loot-1788712273650",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3208.270436104666,
+        "y": 4504.956056790102
+      }
+    },
+    {
+      "id": "manual-loot-1788712276085",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Highway 97",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3206.8310389285593,
+        "y": 4508.365150011131
+      }
     }
   ],
   "locations": [

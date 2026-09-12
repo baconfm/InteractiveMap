@@ -3257,23 +3257,6 @@
       }
     },
     {
-      "id": "manual-loot-1787933971297",
-      "type": "loot_item",
-      "title": "Suppressor",
-      "location": "Manual placement",
-      "region": "Lost Lake",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 3140,
-        "y": 3331
-      },
-      "photos": []
-    },
-    {
       "id": "manual-loot-1787933985846",
       "type": "loot_item",
       "title": "Nails",
@@ -8018,6 +8001,23 @@
         "y": 2578
       },
       "photos": []
+    },
+    {
+      "id": "manual-loot-1789207945764",
+      "type": "loot_item",
+      "title": "Special Suppressor",
+      "location": "Manual placement",
+      "region": "Lost Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 3140.083602063918,
+        "y": 3334.1582961162026
+      }
     }
   ],
   "locations": [

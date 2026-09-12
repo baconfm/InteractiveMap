@@ -8139,22 +8139,6 @@
       }
     },
     {
-      "id": "manual-loot-1786803962098",
-      "type": "loot_item",
-      "title": "Suppressor",
-      "location": "Manual placement",
-      "region": "Cascades",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1939,
-        "y": 1569
-      }
-    },
-    {
       "id": "manual-loot-1786804021428",
       "type": "loot_item",
       "title": "Alarm Clock",

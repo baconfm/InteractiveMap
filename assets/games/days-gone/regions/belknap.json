@@ -5854,22 +5854,6 @@
       }
     },
     {
-      "id": "manual-loot-1786997605574",
-      "type": "loot_item",
-      "title": "Suppressor",
-      "location": "Manual placement",
-      "region": "Belknap",
-      "grid": "Manual",
-      "category": "Manual placement",
-      "note": "Added manually",
-      "quantity": 1,
-      "oneTimeSpawn": false,
-      "position": {
-        "x": 1879.4304072365348,
-        "y": 763.2736794500908
-      }
-    },
-    {
       "id": "manual-loot-1786997626894",
       "type": "loot_item",
       "title": "Scrap",
@@ -9159,6 +9143,41 @@
         "x": 1397.2021776340691,
         "y": 690.7489082310409
       }
+    },
+    {
+      "id": "manual-loot-1789207253422",
+      "type": "loot_item",
+      "title": "Sidearm Suppressor",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1939.2245510732612,
+        "y": 1569.2578733384862
+      }
+    },
+    {
+      "id": "manual-loot-1789207329652",
+      "type": "loot_item",
+      "title": "Primary Suppressor",
+      "location": "Manual placement",
+      "region": "Belknap",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 1878,
+        "y": 765
+      },
+      "photos": []
     }
   ],
   "locations": [

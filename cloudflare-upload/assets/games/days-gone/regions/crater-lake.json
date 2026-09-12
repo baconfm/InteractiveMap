@@ -11215,6 +11215,176 @@
         "x": 2545.5142113041315,
         "y": 5765.5666664983255
       }
+    },
+    {
+      "id": "manual-loot-1788716152896",
+      "type": "loot_item",
+      "title": "Dog Toy",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2491.0677743059387,
+        "y": 4714.189402914538
+      }
+    },
+    {
+      "id": "manual-loot-1788718896820",
+      "type": "loot_item",
+      "title": "Superior Mace",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2488.3147308063976,
+        "y": 4933.8745981295315
+      }
+    },
+    {
+      "id": "manual-loot-1788718900620",
+      "type": "loot_item",
+      "title": "Kerosene",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2491.117760184653,
+        "y": 4933.798838241836
+      }
+    },
+    {
+      "id": "manual-loot-1788718903848",
+      "type": "loot_item",
+      "title": "Sterilizer",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2491.799573742596,
+        "y": 4936.90490208461
+      }
+    },
+    {
+      "id": "manual-loot-1788718914776",
+      "type": "loot_item",
+      "title": "Can",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2488.9965443643405,
+        "y": 4938.344299260717
+      }
+    },
+    {
+      "id": "manual-loot-1788718921885",
+      "type": "loot_item",
+      "title": "Pipe",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2495.5116963418795,
+        "y": 4934.480661972305
+      }
+    },
+    {
+      "id": "manual-loot-1788718924080",
+      "type": "loot_item",
+      "title": "Scrap",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2493.7692748737804,
+        "y": 4932.7382354179435
+      }
+    },
+    {
+      "id": "manual-loot-1788718931000",
+      "type": "loot_item",
+      "title": "Rag",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2494.375333630291,
+        "y": 4939.783691350561
+      }
+    },
+    {
+      "id": "manual-loot-1788718932572",
+      "type": "loot_item",
+      "title": "Growler",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2490.66321611727,
+        "y": 4940.692784571589
+      }
+    },
+    {
+      "id": "manual-loot-1788718935320",
+      "type": "loot_item",
+      "title": "Baseball Bat",
+      "location": "Manual placement",
+      "region": "Crater Lake",
+      "grid": "Manual",
+      "category": "Manual placement",
+      "note": "Added manually",
+      "quantity": 1,
+      "inaccessible": false,
+      "oneTimeSpawn": false,
+      "position": {
+        "x": 2486.0420002969577,
+        "y": 4936.980661972305
+      }
     }
   ],
   "locations": [
