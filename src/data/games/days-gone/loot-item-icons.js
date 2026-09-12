@@ -104,6 +104,9 @@ export function canonicalLootItemName(itemName) {
 
 export function renderLootItemIcon(itemName, quantity = 1) {
   itemName = canonicalLootItemName(itemName);
+  if (itemName === "Suppressor / Scrap") {
+    return `<svg viewBox="0 0 28 28" aria-hidden="true"><path d="M14 2a12 12 0 0 0 0 24Z" fill="#555f64"/><path d="M14 2a12 12 0 0 1 0 24Z" fill="#c69058"/><svg x="0" y="0" width="14" height="28" viewBox="0 0 14 28" overflow="hidden">${SHEET_GLYPHS.Suppressor[1]}</svg><svg x="14" y="0" width="14" height="28" viewBox="14 0 14 28" overflow="hidden">${SHEET_GLYPHS.Scrap[1]}</svg><path d="M14 2v24" stroke="#182018" stroke-width="1"/><circle cx="14" cy="14" r="12" fill="none" stroke="#182018" stroke-width="2"/></svg>`;
+  }
   if (itemName === "Airbag") {
     return '<span class="loot-item-icon"><img src="/assets/icons/airbag.svg" alt="" aria-hidden="true"></span>';
   }

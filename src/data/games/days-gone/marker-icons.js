@@ -50,6 +50,7 @@ export function renderDaysGoneMarkerIcon(marker) {
     return `<span class="inaccessible-loot-icon">${renderDaysGoneMarkerIcon({ ...marker, inaccessible: false })}<b class="inaccessible-loot-icon__badge" aria-label="Inaccessible loot">!</b></span>`;
   }
   const title = canonicalLootItemName(marker.title);
+  const iconTitle = title === "Suppressor" && isOneTimeSpawn(marker) ? "Suppressor / Scrap" : title;
   if (marker.type === "random_encounter") {
     const kind = randomEncounterKind(marker);
     const icons = {
@@ -73,9 +74,9 @@ export function renderDaysGoneMarkerIcon(marker) {
   if (marker.type === "loot_stack") {
     const hasBuiltInCount = title === "Bottle";
     const countBadge = hasBuiltInCount ? "" : `<b class="loot-stack-icon__count">${marker.stackCount}</b>`;
-    return withOneTimeSpawnBadge(marker, `<span class="loot-stack-icon">${renderLootItemIcon(title, marker.stackCount)}${countBadge}</span>`);
+    return withOneTimeSpawnBadge(marker, `<span class="loot-stack-icon">${renderLootItemIcon(iconTitle, marker.stackCount)}${countBadge}</span>`);
   }
-  if (title === "Cedar Sapling") return withOneTimeSpawnBadge(marker, renderLootItemIcon(title, marker.quantity));
+  if (title === "Cedar Sapling") return withOneTimeSpawnBadge(marker, renderLootItemIcon(iconTitle, marker.quantity));
   if (marker.icon === "mushroom") return mushroomIcon();
   if (marker.icon === "plant") return plantIcon();
   if (!marker.icon && marker.type === "collectible_mushroom") return mushroomIcon();
@@ -83,7 +84,7 @@ export function renderDaysGoneMarkerIcon(marker) {
   if (!marker.icon && (/mushroom/i.test(`${marker.type} ${marker.title} ${marker.note}`))) return mushroomIcon();
   if (!marker.icon && isPlantMarker(marker)) return plantIcon();
   if (marker.type === "loot_item") {
-    return withOneTimeSpawnBadge(marker, renderLootItemIcon(title, marker.quantity));
+    return withOneTimeSpawnBadge(marker, renderLootItemIcon(iconTitle, marker.quantity));
   }
   if (marker.type === "loot_location") {
     return '<svg viewBox="0 0 24 24" aria-hidden="true" style="color:#f0be5d"><path fill="currentColor" d="M4 8h16v12H4zM6 4h12v3H6zM10.75 11h2.5v3h-2.5z"/></svg>';
