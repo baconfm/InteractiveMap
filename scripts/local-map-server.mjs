@@ -166,7 +166,8 @@ async function speedrunRoute(request, response) {
     let raw = "";
     for await (const chunk of request) { raw += chunk; if (raw.length > 500_000) return send(response, 413, JSON.stringify({ error: "Route override is too large." })); }
     const overrides = JSON.parse(raw);
-    if (overrides.routeId !== "all-storylines" || !Array.isArray(overrides.order) || typeof overrides.coordinates !== "object") throw new Error("Invalid All Storylines route override.");
+    if (overrides.routeId !== "all-storylines" || !Array.isArray(overrides.order) || typeof overrides.coordinates !== "object" || (overrides.customMissions !== undefined && !Array.isArray(overrides.customMissions))) throw new Error("Invalid All Storylines route override.");
+    if ((overrides.customMissions || []).some((mission) => !mission || typeof mission.id !== "string" || typeof mission.label !== "string" || typeof mission.type !== "string" || typeof mission.region !== "string")) throw new Error("Invalid custom mission.");
     await mkdir(dirname(speedrunOverridesPath), { recursive: true });
     await writeFile(speedrunOverridesPath, `${JSON.stringify(overrides, null, 2)}\n`);
     send(response, 200, JSON.stringify({ saved: true }));

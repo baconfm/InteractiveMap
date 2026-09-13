@@ -6,6 +6,15 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>Days Gone Speedrun Mode — WIP</title>
     <link rel="stylesheet" href="../styles.css" />
+    <style>
+      #map-viewport.is-placing-mission { cursor: crosshair; }
+      #map-viewport.is-placing-mission .map-line, #map-viewport.is-placing-mission .map-line__handle { pointer-events: none; }
+      .speedrun-page .map-line--teleport { stroke: #c89cf4; stroke-dasharray: 18 14; }
+      #mission-points > li { padding: 10px 0; border-top: 1px solid #314033; }
+      #mission-points input { box-sizing: border-box; width: 100%; color: #edf0de; background: #172018; border: 1px solid #3d4a3e; padding: 6px; }
+      .speedrun-panel--details > details { margin-top: 14px; }
+      .speedrun-panel--details button:disabled { opacity: .45; cursor: default; }
+    </style>
   </head>
   <body class="speedrun-page">
     <main class="speedrun-mode">
@@ -15,14 +24,38 @@
           <label class="editor-field">Route<select id="speedrun-route"><option value="all-storylines">Days Gone — All Storylines</option></select></label>
           <div id="speedrun-totals" class="speedrun-totals"></div>
           <label class="editor-field">Find objective<input id="speedrun-search" type="search" placeholder="Search route" /></label>
-          <label class="editor-field">Route status<select id="speedrun-status-filter"><option value="all">All stops</option><option value="completed">Completed</option><option value="current">Current</option><option value="upcoming">Upcoming</option><option value="missing">Missing location</option></select></label>
+          <label class="editor-field">Route status<select id="speedrun-status-filter"><option value="all">All stops</option><option value="completed">Completed</option><option value="current">Current</option><option value="upcoming">Upcoming</option><option value="missing">Missing start/end</option></select></label>
           <div id="speedrun-filters" class="speedrun-filters"></div>
-          <div class="speedrun-actions"><button id="fit-route" type="button">Fit entire route</button><button id="fit-region" type="button">Fit current region</button><button id="jump-current" type="button">Jump to selected</button><button id="route-lines" type="button" aria-pressed="true">Route lines</button><button id="missing-only" type="button" aria-pressed="false">Missing coordinates</button></div>
+          <div class="speedrun-actions"><button id="fit-route" type="button">Fit entire route</button><button id="fit-region" type="button">Fit current region</button><button id="jump-current" type="button">Jump to selected</button><button id="route-lines" type="button" aria-pressed="true">Route lines</button><button id="missing-only" type="button" aria-pressed="false">Missing start/end</button></div>
           <p class="speedrun-help">Drag a route stop to reorder it. This changes only the local override, never the Router source files.</p>
           <ol id="speedrun-list" class="speedrun-list"></ol>
         </aside>
         <section id="speedrun-map-shell" class="map-shell speedrun-map-shell"><div id="map-viewport" class="map-viewport" tabindex="0"><div id="map-canvas" class="map-canvas"></div><div id="map-empty-state" class="map-empty-state">Loading map…</div></div><nav class="map-controls"><button id="zoom-in" class="map-control" type="button">+</button><button id="zoom-out" class="map-control" type="button">−</button><button id="reset-view" class="map-control map-control--reset" type="button">⌖</button></nav></section>
-        <aside class="speedrun-panel speedrun-panel--details"><span class="map-hud__label">Selected route stop</span><h1 id="objective-title">Select an objective</h1><div id="objective-details" class="speedrun-details"></div><label class="editor-field">X coordinate<input id="objective-x" type="number" step="1" /></label><label class="editor-field">Y coordinate<input id="objective-y" type="number" step="1" /></label><div class="speedrun-actions"><button id="set-coordinate" type="button">Set on map</button><button id="clear-coordinate" type="button">Clear coordinate</button><button id="reset-route-edits" type="button">Reset unsaved edits</button></div><span class="map-hud__label">Mission transition</span><p id="transition-summary" class="speedrun-help">No separate mission start or end set.</p><div class="speedrun-actions"><button id="set-mission-start" type="button">Set mission start</button><button id="set-mission-end" type="button">Set mission end</button><button id="teleport-after" type="button" aria-pressed="false">Teleport after</button></div><hr /><span class="map-hud__label">Mission path editor</span><p id="route-line-status" class="editor-panel__placement">Click a yellow mission line, then add waypoints to reshape that exact route leg.</p><div class="speedrun-actions"><button id="route-line-start" type="button">Add waypoints</button><button id="route-line-finish" type="button" disabled>Save path</button><button id="route-line-cancel" type="button" disabled>Cancel</button><button id="route-line-delete" type="button" disabled>Clear waypoints</button></div><label class="editor-field">Change preview<textarea id="route-preview" rows="10" readonly></textarea></label><button id="save-route" class="speedrun-save" type="button">Save route changes</button></aside>
+        <aside class="speedrun-panel speedrun-panel--details">
+          <span class="map-hud__label">Selected mission</span><h1 id="objective-title">Select a mission</h1>
+          <p class="speedrun-help">Select a mission, mark its start and end, then add the key points you must pass through in order. S = start, E = end.</p>
+          <div class="speedrun-actions"><button id="set-mission-start" type="button" disabled>Mark start</button><button id="set-mission-end" type="button" disabled>Mark end</button><button id="add-mission-point" type="button" disabled>Add key point</button><button id="cancel-mission-point" type="button" disabled>Cancel placement</button></div>
+          <p id="mission-placement-status" class="speedrun-help" role="status">Select a mission to begin.</p>
+          <label class="speedrun-help"><input id="mission-loot-toggle" type="checkbox" disabled /> Show loot in mission area</label>
+          <p id="mission-loot-status" class="speedrun-help" role="status"></p>
+          <p id="transition-summary" class="speedrun-help"></p><div class="speedrun-actions"><button id="teleport-after" type="button" aria-pressed="false" disabled>Teleport to next mission</button></div><p id="teleport-summary" class="speedrun-help" role="status"></p>
+          <ol id="mission-points" class="speedrun-list" aria-label="Mission points in order"></ol>
+          <hr />
+          <span class="map-hud__label">Insert mission</span>
+          <p class="speedrun-help">Adds a custom mission immediately after the selected stop. It does not change the Router totals.</p>
+          <label class="editor-field">Mission name<input id="custom-mission-title" type="text" maxlength="160" placeholder="e.g. Visit O'Leary Mountain" /></label>
+          <label class="editor-field">Category<select id="custom-mission-type"><option value="storymissions">Story mission</option><option value="encampmentjobs">Camp job</option><option value="nerosites">NERO checkpoint</option><option value="ambushcamps">Ambush camp</option><option value="infestations">Infestation zone</option><option value="hordes">Horde</option></select></label>
+          <div class="speedrun-actions"><button id="insert-mission" type="button" disabled>Insert after selected</button><button id="delete-custom-mission" type="button" disabled>Remove selected custom mission</button></div>
+          <button id="save-route" class="speedrun-save" type="button">Save route changes</button>
+          <details><summary>Mission information</summary><div id="objective-details" class="speedrun-details"></div></details>
+          <details><summary>Advanced route options</summary>
+            <label class="editor-field">Objective X<input id="objective-x" type="number" step="1" /></label><label class="editor-field">Objective Y<input id="objective-y" type="number" step="1" /></label>
+            <div class="speedrun-actions"><button id="set-coordinate" type="button">Set objective on map</button><button id="clear-coordinate" type="button">Clear objective</button><button id="reset-route-edits" type="button">Reset unsaved edits</button></div>
+            <span class="map-hud__label">Travel between missions</span><p id="route-line-status" class="editor-panel__placement">Select a yellow travel line to edit the journey between missions.</p>
+            <div class="speedrun-actions"><button id="route-line-start" type="button">Add travel waypoints</button><button id="route-line-finish" type="button" disabled>Save travel path</button><button id="route-line-cancel" type="button" disabled>Cancel</button><button id="route-line-delete" type="button" disabled>Clear travel waypoints</button></div>
+            <label class="editor-field">Change preview<textarea id="route-preview" rows="10" readonly></textarea></label>
+          </details>
+        </aside>
       </section>
     </main>
     <script type="module" src="../src/speedrun-mode.js"></script>
