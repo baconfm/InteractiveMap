@@ -331,3 +331,19 @@ Thanks to the Days Gone community, speedrunners, guide makers, researchers, modd
 Every correction makes the map better.
 
 See you on the Broken Road.
+
+## License
+
+The original source code in this repository is licensed under the
+[MIT License](LICENSE), unless otherwise noted.
+
+This license applies only to code and other original material created
+for this project.
+
+It does **not** grant any rights to Days Gone, its game assets, artwork,
+maps, screenshots, names, trademarks, or other intellectual property
+owned by Sony Interactive Entertainment, Bend Studio, or other third
+parties.
+
+Community contributions submitted to this repository are accepted under
+the same license unless otherwise stated.
