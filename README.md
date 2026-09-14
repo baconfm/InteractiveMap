@@ -1,61 +1,60 @@
-Days Gone Interactive Loot Map
+# Days Gone Interactive Loot Map
 
-Days Gone information, without digging through ten guides.
+> **Days Gone information, without digging through ten guides.**
 
-A free, fan-made interactive map for loot, resources, weapons, encounters, and useful locations throughout Days Gone.
+A free, fan-made interactive map for loot, resources, weapons, encounters, and useful locations throughout **Days Gone**.
 
-4,000+ mapped records across all six regions.
+**4,000+ mapped records across all six regions.**
 
-🗺️ Open the Interactive Map
+### 🗺️ [Open the Interactive Map](https://interactivemap.baconfmspeedruns.workers.dev/readonly/)
 
+![Days Gone Interactive Loot Map](https://github.com/baconfm/InteractiveMap/blob/main/Screenshot%202026-09-14%20085520.png?raw=true)
 
+## Features
 
-Features
-
-Searchable loot and resources
-
-Weapons, throwables, plants, and encounters
-
-Respawn information and item quantities
-
-Filters, clustering, and location details
-
-Mobile support
-
-Shareable map views
+- Searchable loot and resources
+- Weapons, throwables, plants, and encounters
+- Respawn information and item quantities
+- Filters, clustering, and location details
+- Mobile support
+- Shareable map views
 
 Built from Days Gone research, testing, speedrunning, and community discoveries.
 
-No paywalls. No fake deadlines. Just a fan project getting better.
+**No paywalls. No fake deadlines. Just a fan project getting better.**
 
-Development
+## Development
 
-Built with HTML, CSS, JavaScript, Native ES Modules, and Node.js.
+Built with **HTML, CSS, JavaScript, Native ES Modules, and Node.js**.
 
+```bash
 node scripts/local-map-server.mjs
+```
 
-Public map: http://localhost:8173/readonly/
+Public map: `http://localhost:8173/readonly/`
 
-Local editor: http://localhost:8173/editor-local.html
+Local editor: `http://localhost:8173/editor-local.html`
 
-See TERRA_GUIDE.md for detailed project documentation.
+See [TERRA_GUIDE.md](TERRA_GUIDE.md) for detailed project documentation.
 
-Contributing
+## Contributing
 
 Found something wrong or missing?
 
-Open an issue or join the Discord.
+[Open an issue](https://github.com/baconfm/InteractiveMap/issues) or join the [Discord](https://discord.gg/V8sqdVemgM).
 
-Bacon FM
+## Bacon FM
 
-YouTube · Speedrun.com
+[YouTube](https://www.youtube.com/@bacon-fm/) · [Speedrun.com](https://www.speedrun.com/users/BaconFM)
 
-License
+## License
 
-Original project code is licensed under the MIT License.
+Original project code is licensed under the [MIT License](LICENSE).
 
 Days Gone assets, artwork, screenshots, trademarks, and other third-party intellectual property are not covered by that license.
 
+---
+
 Unofficial fan project. Not affiliated with Bend Studio or Sony Interactive Entertainment.
 
-See you on the Broken Road.
+**See you on the Broken Road.**
