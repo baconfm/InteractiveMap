@@ -1,14 +1,19 @@
-Days Gone Interactive Loot Map
 
-Days Gone information, without digging through ten guides.
+# Days Gone Interactive Loot Map
 
-A free, fan-made interactive map for finding loot, crafting materials, weapons, throwables, plants, encounters, and other useful locations across the world of Days Gone.
+> **Days Gone information, without digging through ten guides.**
 
-No paywalls. No fake deadlines. Just a fan project getting better.
+A free, fan-made interactive map documenting loot, resources, weapons,
+encounters, and useful locations throughout **Days Gone**.
 
-🗺️ Open the Interactive Map
+**No paywalls. No fake deadlines. Just a fan project getting better.**
 
-Project News · About the Project · Discord · Bacon FM on YouTube · Speedrun.com
+### 🗺️ [Open the Interactive Map](https://interactivemap.baconfmspeedruns.workers.dev/readonly/)
+
+![Days Gone Interactive Loot Map](https://github.com/baconfm/InteractiveMap/blob/main/Screenshot%202026-09-14%20085520.png?raw=true)
+
+The project currently contains **4,000+ mapped records across all six major regions**, with searchable items, spawn information, filtering, exact locations, reference material, and more.
+
 
 
 What is this?
