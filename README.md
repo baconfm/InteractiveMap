@@ -10,7 +10,6 @@ No paywalls. No fake deadlines. Just a fan project getting better.
 
 Project News · About the Project · Discord · Bacon FM on YouTube · Speedrun.com
 
-<!-- README HERO IMAGE Add a screenshot or short GIF of the public map here. Recommended: - Show the map with several loot categories enabled. - Keep the legend visible. - Use a wide image around 16:9. - Store it somewhere like docs/images/map-preview.webp. Example once added: ![Days Gone Interactive Loot Map](docs/images/map-preview.webp) -->
 
 What is this?
 
