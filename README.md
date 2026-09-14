@@ -14,7 +14,15 @@ encounters, and useful locations throughout **Days Gone**.
 
 The project currently contains **4,000+ mapped records across all six major regions**, with searchable items, spawn information, filtering, exact locations, reference material, and more.
 
+## Contents
 
+- [What is this?](#what-is-this)
+- [Current coverage](#current-coverage)
+- [Related tools](#related-tools)
+- [How it works](#how-it-works)
+- [Running locally](#running-the-project-locally)
+- [Contributing](#contributing-and-corrections)
+- [Why is it free?](#why-is-it-free)
 
 What is this?
 
