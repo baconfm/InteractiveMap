@@ -270,19 +270,15 @@ Code contributions are also welcome, but please check the existing architecture 
 
 Why is it free?
 
-Because this is a fan project.
+This is a fan project, not a commercial product.
 
-Days Gone isn't my IP, and this project exists because I enjoy researching the game and wanted a resource that I wished already existed.
+Days Gone isn't my IP, and this project exists because I enjoy researching the game and wanted to build a resource I wished already existed.
 
-AI-assisted development tools are also used for parts of the project's infrastructure and implementation. They make it possible for one person to build and maintain more than would otherwise be practical.
+AI-assisted development tools are used in parts of the implementation and infrastructure, alongside my own research, testing and project work.
 
-Charging people for access to information about somebody else's game—especially while using tools that reduce some of the implementation cost—doesn't feel right for this project.
+The map will remain freely accessible. No paywalls.
 
-So the map has no paywall.
-
-That does not mean development takes no work. Researching locations, testing game behavior, maintaining data, fixing bugs, taking reference material, and building new tools all require time.
-
-Updates happen when time allows.
+That doesn't mean maintaining it takes no work. Researching locations, verifying game behavior, maintaining thousands of records, fixing bugs and building new tools all take time, so updates happen when time allows.
 
 There are no fake deadlines and no obligation to turn a hobby into a second job.
 
