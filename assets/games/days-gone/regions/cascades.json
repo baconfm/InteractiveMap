@@ -23529,6 +23529,18 @@
         "y": 1355.6462969596469
       },
       "region": "Cascades"
+    },
+    {
+      "id": "map-location-1789487485162",
+      "title": "Survivor",
+      "type": "random_encounter",
+      "note": "2x survivors fighting marauders.",
+      "photos": [],
+      "position": {
+        "x": 3676.626294181583,
+        "y": 2217.9843054834155
+      },
+      "region": "Cascades"
     }
   ]
 }

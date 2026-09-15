@@ -9298,6 +9298,18 @@
         "y": 1549.5321805748445
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1789208594059",
+      "title": "Marauders and Freaks",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1656.3620888276475,
+        "y": 1639.9846380370982
+      },
+      "region": "Belknap"
     }
   ]
 }
