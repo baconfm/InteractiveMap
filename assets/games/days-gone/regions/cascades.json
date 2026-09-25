@@ -23541,6 +23541,18 @@
         "y": 2217.9843054834155
       },
       "region": "Cascades"
+    },
+    {
+      "id": "map-location-1790360306614",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2710.9915165526922,
+        "y": 2040.0519350129448
+      },
+      "region": "Cascades"
     }
   ]
 }

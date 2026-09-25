@@ -8305,9 +8305,10 @@
       "inaccessible": false,
       "oneTimeSpawn": false,
       "position": {
-        "x": 3848.7877062897355,
-        "y": 2365.4833310348595
-      }
+        "x": 3849,
+        "y": 2365
+      },
+      "photos": []
     }
   ],
   "locations": [

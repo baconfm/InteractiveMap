@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-09-15T15:51:29.188Z",
+  "savedAt": "2026-09-25T18:18:31.344Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -697,6 +697,18 @@
       "position": {
         "x": 3676.626294181583,
         "y": 2217.9843054834155
+      },
+      "region": "Cascades"
+    },
+    {
+      "id": "map-location-1790360306614",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2710.9915165526922,
+        "y": 2040.0519350129448
       },
       "region": "Cascades"
     }
@@ -69876,9 +69888,10 @@
       "inaccessible": false,
       "oneTimeSpawn": false,
       "position": {
-        "x": 3848.7877062897355,
-        "y": 2365.4833310348595
-      }
+        "x": 3849,
+        "y": 2365
+      },
+      "photos": []
     }
   ],
   "lootMarkers": [
@@ -137181,9 +137194,10 @@
       "inaccessible": false,
       "oneTimeSpawn": false,
       "position": {
-        "x": 3848.7877062897355,
-        "y": 2365.4833310348595
-      }
+        "x": 3849,
+        "y": 2365
+      },
+      "photos": []
     }
   ],
   "allLootMarkers": [
@@ -204486,10 +204500,11 @@
       "inaccessible": false,
       "oneTimeSpawn": false,
       "position": {
-        "x": 3848.7877062897355,
-        "y": 2365.4833310348595
-      }
+        "x": 3849,
+        "y": 2365
+      },
+      "photos": []
     }
   ],
-  "generatedAt": "2026-09-15T15:51:29.346Z"
+  "generatedAt": "2026-09-25T18:18:31.517Z"
 }
