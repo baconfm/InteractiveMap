@@ -9310,6 +9310,30 @@
         "y": 1639.9846380370982
       },
       "region": "Belknap"
+    },
+    {
+      "id": "map-location-1790360426875",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1945.3544785485904,
+        "y": 1610.976435877528
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1790360498896",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1459.403389545264,
+        "y": 1600.1122649466333
+      },
+      "region": "Belknap"
     }
   ]
 }

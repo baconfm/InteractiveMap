@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T18:18:31.517Z",
+  "generatedAt": "2026-09-27T07:42:37.191Z",
   "regions": [
     {
       "id": "cascades",
@@ -14,7 +14,7 @@
       "label": "Belknap",
       "path": "assets/games/days-gone/regions/belknap.json",
       "markerCount": 568,
-      "locationCount": 11
+      "locationCount": 13
     },
     {
       "id": "lost-lake",
@@ -42,7 +42,7 @@
       "label": "Highway 97",
       "path": "assets/games/days-gone/regions/highway-97.json",
       "markerCount": 658,
-      "locationCount": 5
+      "locationCount": 6
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "savedAt": "2026-09-25T18:18:31.344Z",
+  "savedAt": "2026-09-27T07:42:37.007Z",
   "routeMarkers": [],
   "mapLocations": [
     {
@@ -711,6 +711,42 @@
         "y": 2040.0519350129448
       },
       "region": "Cascades"
+    },
+    {
+      "id": "map-location-1790360426875",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1945.3544785485904,
+        "y": 1610.976435877528
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1790360498896",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 1459.403389545264,
+        "y": 1600.1122649466333
+      },
+      "region": "Belknap"
+    },
+    {
+      "id": "map-location-1790494953390",
+      "title": "Sniper",
+      "type": "random_encounter",
+      "note": "",
+      "photos": [],
+      "position": {
+        "x": 2930.177104346594,
+        "y": 4656.215779841142
+      },
+      "region": "Highway 97"
     }
   ],
   "mapLines": [
@@ -204506,5 +204542,5 @@
       "photos": []
     }
   ],
-  "generatedAt": "2026-09-25T18:18:31.517Z"
+  "generatedAt": "2026-09-27T07:42:37.191Z"
 }
