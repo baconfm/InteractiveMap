@@ -63,7 +63,7 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   };
   if (filterTextSize) {
     const savedSize = Number(localStorage.getItem("days-gone-filter-text-size-v1"));
-    filterTextSize.value = String(savedSize >= 80 && savedSize <= 160 ? savedSize : 100);
+    filterTextSize.value = String(savedSize >= 80 && savedSize <= 250 ? savedSize : 100);
     applyFilterTextSize();
     filterTextSize.addEventListener("input", () => {
       applyFilterTextSize();
