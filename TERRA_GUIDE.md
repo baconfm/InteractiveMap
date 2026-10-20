@@ -100,6 +100,8 @@ The six regions are Cascades, Belknap, Lost Lake, Iron Butte, Crater Lake, Highw
 
 Relevant storage keys include `days-gone-loot-item-overrides-v2` and its `:manual` companion, `days-gone-map-locations-v1`, `days-gone-route-markers-v1`, `days-gone-map-lines-v1`, and `days-gone-speedrun-all-storylines-autosave-v1`. Preserve keys or migrate deliberately. `localhost`, `127.0.0.1`, and different ports have separate browser storage: switching origin can look like lost work. Export before clearing storage or changing origins.
 
+The public Filters gear includes Filter text size (80–160%, default 100%). It scales filter labels, headings, counts, search, actions, and panel width through `--filter-text-scale`, and remembers the preference in `days-gone-filter-text-size-v1`. Panel width stays within the viewport; the item list scrolls within the remaining panel height.
+
 The local editor baseline is `assets/games/days-gone/published-map.json`; it prefers `allLootMarkers`, falling back to `publishedLootMarkers`. The public loader normally reads the regional manifest and six region files. Editing only one regional output is temporary: rebuilding from the snapshot overwrites it.
 
 ## 6. Running locally and checking safely

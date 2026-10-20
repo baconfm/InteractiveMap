@@ -91,11 +91,13 @@
               <strong>Legend</strong>
             </div>
             <div class="map-legend__buttons">
-              <button id="cluster-settings-toggle" class="map-legend__collapse" type="button" aria-expanded="false" aria-controls="cluster-settings" aria-label="Cluster settings">⚙</button>
+              <button id="cluster-settings-toggle" class="map-legend__collapse" type="button" aria-expanded="false" aria-controls="cluster-settings" aria-label="Filter settings" title="Filter settings">⚙</button>
               <button id="legend-toggle" class="map-legend__collapse" type="button" aria-expanded="true" aria-controls="map-legend-search map-legend-items">Hide</button>
             </div>
           </div>
           <div id="cluster-settings" class="cluster-settings" hidden>
+            <label for="filter-text-size">Filter text size <output id="filter-text-size-value">100%</output></label>
+            <input id="filter-text-size" type="range" min="80" max="160" step="10" value="100" />
             <label for="cluster-zoom">Split item pins at <output id="cluster-zoom-value">95%</output> of maximum zoom</label>
             <input id="cluster-zoom" type="range" min="15" max="100" step="1" value="95" />
           </div>

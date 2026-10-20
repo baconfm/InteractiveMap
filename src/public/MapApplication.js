@@ -55,6 +55,21 @@ export function initMapApplication({ onReady, onMapClick, showLocations = false,
   const mobileMenuToggle = document.querySelector("#mobile-menu-toggle");
   const topBarLinks = document.querySelector("#top-bar-links");
   const mapLegend = document.querySelector(".map-legend");
+  const filterTextSize = document.querySelector("#filter-text-size");
+  const filterTextSizeValue = document.querySelector("#filter-text-size-value");
+  const applyFilterTextSize = () => {
+    mapLegend.style.setProperty("--filter-text-scale", Number(filterTextSize.value) / 100);
+    filterTextSizeValue.textContent = `${filterTextSize.value}%`;
+  };
+  if (filterTextSize) {
+    const savedSize = Number(localStorage.getItem("days-gone-filter-text-size-v1"));
+    filterTextSize.value = String(savedSize >= 80 && savedSize <= 160 ? savedSize : 100);
+    applyFilterTextSize();
+    filterTextSize.addEventListener("input", () => {
+      applyFilterTextSize();
+      localStorage.setItem("days-gone-filter-text-size-v1", filterTextSize.value);
+    });
+  }
   const randomEncountersToggle = document.querySelector("#random-encounters-toggle");
   const randomEncountersFilter = document.querySelector("#map-legend-location-filters");
   const randomEncountersIcon = document.querySelector("#random-encounters-icon");
