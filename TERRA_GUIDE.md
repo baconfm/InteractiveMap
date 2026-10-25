@@ -102,6 +102,8 @@ Relevant storage keys include `days-gone-loot-item-overrides-v2` and its `:manua
 
 The public Filters gear includes Item text size (80–250%, default 100%). It scales only item names through `--filter-text-scale`, and remembers the preference in `days-gone-filter-text-size-v1`. Menu width, headings, counts, settings, search, and buttons keep their normal sizes. Item names wrap as needed; the item list scrolls within the remaining panel height.
 
+Area summaries have their own Item list settings disclosure: Item text size (80–250%) scales nearby loot, craftable items, and encounter chips, using `days-gone-summary-text-size-v1`. This preference is independent of the filter list; the summary scrolls when its contents exceed the screen height.
+
 The local editor baseline is `assets/games/days-gone/published-map.json`; it prefers `allLootMarkers`, falling back to `publishedLootMarkers`. The public loader normally reads the regional manifest and six region files. Editing only one regional output is temporary: rebuilding from the snapshot overwrites it.
 
 ## 6. Running locally and checking safely

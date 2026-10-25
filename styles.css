@@ -191,7 +191,13 @@ button, output { font: inherit; }
 .marker-details__description { grid-column: 1 / -1; margin: 2px 0 0; color: #cfd7c5; font-size: 0.7rem; line-height: 1.35; }
 .marker-details__description section + section { margin-top: 10px; }
 .marker-details__description section > span { display: block; margin-bottom: 5px; color: #9faa9c; font-size: 0.61rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
-.marker-details__chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.marker-details__chips { display: flex; flex-wrap: wrap; gap: 5px; font-size: calc(0.7rem * var(--summary-text-scale, 1)); overflow-wrap: anywhere; }
+.marker-details__settings { margin-bottom: 10px; }
+.marker-details__settings summary { width: fit-content; padding: 5px 8px; border: 1px solid #3d4a3e; border-radius: 3px; background: #202b22; color: #e5e9dc; cursor: pointer; }
+.marker-details__settings label { display: block; margin-top: 8px; }
+.marker-details__settings input { display: block; width: 100%; accent-color: #d4a83e; }
+.marker-details__settings output { color: #f0be5d; font-weight: 800; }
+.marker-details { max-height: calc(100dvh - 150px); overflow-y: auto; }
 .marker-details__chips span { padding: 3px 6px; color: #e7ecdf; background: #202b22; border: 1px solid #3c493e; border-radius: 3px; font-weight: 700; }
 .marker-details__description section + section .marker-details__chips span { color: #f5d77f; border-color: #79632b; background: #332b17; }
 .marker-details__chips--encounters span, .marker-details__description section + section .marker-details__chips--encounters span { color: #d9efff; border-color: #367fae; background: #16354a; }

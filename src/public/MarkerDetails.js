@@ -19,6 +19,21 @@ export function createMarkerDetails({ layer }) {
   const title = document.querySelector("#marker-details-title");
   const description = document.querySelector("#marker-details-description");
   const photos = document.querySelector("#marker-details-photos");
+  const listSettings = document.createElement("details");
+  listSettings.className = "marker-details__settings";
+  listSettings.innerHTML = `<summary>⚙ Item list settings</summary><label>Item text size <output>100%</output><input type="range" min="80" max="250" step="10" value="100" /></label>`;
+  const listSize = listSettings.querySelector("input");
+  const savedSize = Number(localStorage.getItem("days-gone-summary-text-size-v1"));
+  listSize.value = String(savedSize >= 80 && savedSize <= 250 ? savedSize : 100);
+  const applyListSize = () => {
+    panel.style.setProperty("--summary-text-scale", Number(listSize.value) / 100);
+    listSettings.querySelector("output").textContent = `${listSize.value}%`;
+  };
+  applyListSize();
+  listSize.addEventListener("input", () => {
+    applyListSize();
+    localStorage.setItem("days-gone-summary-text-size-v1", listSize.value);
+  });
   const locationLabels = {
     camp: "Camp",
     ambush_camp: "Ambush camp",
@@ -54,6 +69,7 @@ export function createMarkerDetails({ layer }) {
       title.textContent = marker.title;
       description.replaceChildren();
       if (marker.type === "loot_cluster") {
+        description.append(listSettings);
         description.append(summarySection("Nearby loot", marker.items.map(({ title: itemTitle, count }) => `${itemTitle} ×${count}`)));
         if (marker.craftable?.length) description.append(summarySection("Craftable here", marker.craftable));
         if (marker.randomEncounters) description.append(summarySection("Random encounters", [`Random encounter ×${marker.randomEncounters}`], "marker-details__chips--encounters"));
